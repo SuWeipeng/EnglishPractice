@@ -1,6 +1,8 @@
 import os
-   
+
 targetFile     = "L_01.txt"
+mode           = 1
+
 targetFullPath = None
 outputFileName = targetFile.split(".")[0]+"_P.prc"
 
@@ -19,10 +21,10 @@ def generate_prc():
     output.close()
 
 import re
-errorFile      = "L_01_Err.txt"
-outputFileName = targetFile.split(".")[0]+"_E.prc"
+errorFile       = "L_01_Err.txt"
+outputFileName2 = targetFile.split(".")[0]+"_E.prc"
 def generate_from_err():
-    output         = open(outputFileName,"w",encoding='utf-8')
+    output         = open(outputFileName2,"w",encoding='utf-8')
     for dirName, subdirList, fileList in os.walk(os.getcwd()):
         for fname in fileList:
             if fname == errorFile:
@@ -35,7 +37,10 @@ def generate_from_err():
     output.close()       
 
 def main():
-    generate_from_err()
+    if mode == 1:
+        generate_prc()
+    else:
+        generate_from_err()
     
 if __name__ == '__main__':
     main()
