@@ -8,11 +8,11 @@ You only live once.
 人生只有一次
 Don't get on my nerve!
 别把我惹毛了/别惹我心烦
-You got (the) wrong person.
+You got the wrong person.
 你认错人了
-(It) doesn't go with your (dress).
+It doesn't go with your dress.
 它跟你的衣服不配。
-I am racking my brains.
+I am racking (my) brains.
 我正绞尽脑汁的思考。
 There's no doubt about that.
 那是不容置疑的
@@ -34,15 +34,15 @@ I don't know him well.
 我跟他不熟
 Doesn't matter what you say.
 你说什么也没用
-This is in (way) over my head.
+This is in way over my head.
 对我而言这实在太难了
-Drop (by) when you have time.
+Drop by when you have time.
 你有空时，就顺道来坐坐嘛。
-(That's) wishful thinking.
+That's wishful thinking.
 一厢情愿的想法/痴心妄想。
 Look before you leap.
 三思而后行。
-As long as you like it.
+As long as (you) like it.
 你喜欢就好。
 What a big hassle.
 真是个麻烦事。
@@ -52,15 +52,15 @@ I don't know what to do with you.
 真拿你没办法/不知道该拿你怎么办
 Keep your work on track.
 保持工作在正轨上/按进度工作
-There's no need to hurry.
+There's no need to (hurry).
 不需要急/没必要这么着急
 Do we have anything to eat?
 有什么要吃的吗？
 I'll meet you at the hotel.
 我会在饭店与你碰面。
-How about seconds?
+How about (seconds)?
 再来一份如何？
-I can't eat (another) bite.
+I can't eat another bite.
 我已吃不下了
 You don't have the right.
 你没有这个权利。
@@ -68,27 +68,27 @@ That is a bit of an exaggeration.
 这多少是有点夸张的说法/这有点夸张。
 He often complains about his life.
 他时常抱怨他人生。
-I would like to extend my thanks.
+I would (like) to extend my thanks.
 我想要表达我的谢意
-Can't be picky about food.
+Can't be picky (about) food.
 不可以偏食。
 Practice makes perfect.
 熟能生巧。
 Don't you get it?
 难到你不明白吗？
-Let's (get) a bite.
+Let's get a bite.
 走去吃点东西吧
 What a crummy day.
 多倒霉的一天
 Don't stand on ceremony.
 别拘谨礼俗
-Cut it out, you two. (Quit) fighting.
+Cut it out, you two. Quit fighting.
 住嘴，你们两个。别再吵了
 For here or to go?
 这里吃还是带走？
-Honesty is the best policy.
+Honesty is the (best) policy.
 诚实是上策
-Now I (am) on my way home.
+(Now) I am on my way home.
 现在我正在回家的路上。
 I just bumped into Cristina.
 我刚刚巧遇了克里斯蒂娜
@@ -98,21 +98,21 @@ A man can do no more than he can.
 凡事应量力而行
 She is such a brown-noser.
 她真是个马屁精
-Tell my when it's enough.
+Tell me when it's enough.
 够了就告诉我
 Can you stay for dinner?
 你能留下来吃晚餐吗？
 Quiet! I'm trying to study.
 安静！我要读书。
-Let's change the subject.
+Let's (change) (the) subject.
 （我们）说点别的吧
-We (have) still (got) a few minutes left.
+We have still got a few minutes left.
 （不必匆忙）我们还有几分钟时间呢
 Don't get uptight! Take it easy.
 别紧张，慢慢来。
 Bob is always in a rush.
 鲍伯总是匆匆忙忙的
-Did you (come up with) any ideas?
+Did you come up with any ideas?
 有没有想到什么新的意见/想法
 I know my way around.
 我知道周围的路
@@ -120,7 +120,7 @@ I'm a stranger here.
 我初来乍到/我对这里不熟。
 No need to tell you.
 没必要对你说（有必要告诉你吗）
-How could you do this?
+How could you (do) this?
 你怎么可以这样（做/处理事等）
 I'll be right with you.
 我马上就到你那儿
@@ -128,7 +128,7 @@ Take whichever you want.
 你要哪个就拿哪个
 That sounds refreshing. Thanks!
 光听精神就来了，谢谢！
-I (understand) (how) you feel.
+I understand how you feel.
 我了解你的感受。
 You have my sympathy.
 我很同情你
@@ -140,13 +140,13 @@ Don't tell anyone that I did it.
 别说是我做的
 Don't eat between meals.
 别在正餐之间吃东西。
-Be careful of that speeding car!
+(Be) careful of that speeding car(!)
 小心那辆超速车
 Who drank the last cola?
 谁喝了最后一罐可乐
 Let's talk about this matter later.
 这件事我们以后再谈/我们待会再讨论此事。
-There's no (need) to (rush).
+(There's no need to rush.)
 不需要急/没必要这么着急。
 Don't let him fool you.
 别让他骗了你。
@@ -156,11 +156,11 @@ I borrowed a pen from Jenny.
 我向珍妮借了一支笔。
 How can I live without her?
 没有她，我怎么活下去呢？
-Are you available tomorrow?
+Are (you) available tomorrow?
 你明天有空吗？
 Let's take a rest.
 咱们休息一会儿
-(Get) off on the wrong foot.
+Get off on the wrong foot.
 出师不利。
 Let me take you to his office.
 我带你去他办公室。
@@ -170,27 +170,27 @@ You be the judge.
 你来评评理（争论等）/你来当裁判（比赛等）
 I'm afraid that it's going to rain.
 恐怕要下雨了（我觉得）
-It's almost 6:00. I'd better (be) going.
+It's almost 6:00(.) I'd better be going.
 快 6 点钟了。我该走了。
 Is anyone sitting here?
 这儿有人坐吗？
 Excuse me. Is this seat taken?
 请问一下。这位子有人坐吗？
-I (have) three meals a day.
+I have three meals a day.
 我一天吃三餐
-I (had) a similar problem, too.
+I had a similar problem, too.
 我也遇到过类似的问题
 I wish I could stay longer.
 我真希望能再待久一点
-I'd like you to meet (Mr.) Weller.
+I'd like you to meet Mr. Weller.
 我想让你见见威勒先生/我想介绍威勒先生给你认识。
-There's a hole in the (sidewalk).
+There's a hole in the sidewalk.
 人行道上有个坑。
 I'm so sorry about your brother.
 （听到）有关你兄弟的事情我很遗憾（难过）
-Did you pass the (test)?
+Did you pass the test?
 你考试过关了吗
-You're overdoing (it).
+You're overdoing it.
 你做得夸张/你做得太过分了
 If you need any help, just let me know.
 如果你需要任何帮助，尽管告诉我。
