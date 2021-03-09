@@ -3,7 +3,7 @@ import os
 targetFile     = "L_01.txt"
 
 targetFullPath = None
-outputFileName = targetFile.split(".")[0]+"_P.txt"
+outputFileName = targetFile.split(".")[0]+"_P.prc"
 lineNo         = 1
 output         = open(outputFileName,"w",encoding='utf-8')
 
