@@ -12,13 +12,13 @@ I hear nothing.
 我什么也没听见
 How disappointing.
 真叫人扫兴/失望
-Great minds think alike.
+Great (minds) think alike.
 英雄所见略同
-Don't worry! It's nothing.
+Don't worry! it's nothing.
 别担心，这没什么大不了的
 Is that right?
 (事)是那样吗
-I owe you an apology.
+I owe you an (apology).
 我欠你一个道歉
 It's going too far.
 太过分子/太离谱了
@@ -28,7 +28,7 @@ We're all ok with it.
 我们都没有意见/都同意
 Keep me informed.
 随时通知我
-She is always so chic.
+She is always so (chic).
 她总是那么时髦。
 Don't drive so fast.
 不要(把车)开得这样快
@@ -40,7 +40,7 @@ The choice is yours.
 选择权在你/由你选择
 Could you just leave?
 （能请）你能离开吗？
-Your hand feels cold.
+(Your) hand feels cold.
 你的手摸起来很冷
 Time goes by so quickly.
 时光飞逝。
@@ -58,9 +58,9 @@ Use your head.
 动动脑子
 I'll be back soon.
 我马上就回来/我很快就回来
-Lucky you!
+Lucky you(!)
 你真幸运
-Maybe, but probably not.
+Maybe(,) but probably not.
 也许是，也许不是
 How to download it?
 这如何下载
@@ -86,7 +86,7 @@ You must obey orders.
 你必需服从命令
 Please obey traffic rules.
 请遵守交通规则
-Don't leave without me!
+Don't leave without me(!)
 不要丢下我
 Don't let me down.
 不要让我失望
@@ -100,7 +100,7 @@ You're not worth my time.
 你不值得我浪费时间（我才懒得理你）
 Are you from here?
 你是本地人吗
-Don't be jealousy.
+Don't be (jealousy).
 不要嫉妒
 I didn't do it on purpose.
 我不是故意的
@@ -112,19 +112,19 @@ Haven't we met before?
 我们曾经见过面吗？
 I feel the same way.
 我有同感
-Wanna bet?
+Wanna (bet)?
 要不要来赌
 I was caught in traffic.
 我遇上了交通堵塞
-I missed my bus.
+I (missed) my bus.
 我没赶上公共汽车。
-What an adorable baby!
+What an (adorable) baby!
 多么可爱的宝宝啊
-You ask for it!
+You ask for it(!)
 活该
-Fresh paint!
+Fresh paint(!)
 油漆未干
-Are you still up?
+Are (you) still up?
 你还没睡吗？
 Can I have this?
 我可以要这个吗
@@ -136,9 +136,9 @@ One night stand.
 一夜情
 I'll pick you up.
 我来（去）接你
-That isn't necessary.
+That (isn't) necessary.
 没必要/不需要
-She sounds upset.
+She sounds (upset).
 她听起来沮丧
 What did you bring?
 你带了什么来
@@ -146,9 +146,9 @@ Which would you prefer?
 你要选哪个/你想要哪个
 I have the right to know.
 我有权知道
-Brilliant idea!
+Brilliant idea(!)
 这主意真棒/这主意真高明
-Look what I found.
+Look what I found(.)
 看，我发现了什么
 I began to feel dizzy.
 我开始感到头晕目眩
@@ -156,29 +156,29 @@ I lost my wallet yesterday.
 我钱包昨天丢了
 It's just my cup of tea.
 这正合我的口味
-The place is packed.
+The place is (packed).
 人满为患/地方非常拥挤
-I lose my appetite.
+I lose my (appetite).
 我没有了食欲/我没胃口了
-It's locked in a drawer.
+It's locked in (a) (drawer).
 它被锁在抽屉里
 I'm always feeling hungry.
 我总是感到饿
 I'd better not.
 我还是不要了吧
-Let us discuss it later.
+Let us (discuss) it later.
 我们以后再讨论吧
-We gotta get outta here.
+We gotta (get) outta here.
 我们得离开这里
 Is he not yet come?
 他还没有来吗
-How do you pass the time?
+How do you pass the time(?)
 你是怎么打发时间的
 What took you so long.
 怎么那么久（你在等人时）
-Close your eyes and no peeking!
+Close your eyes and no (peeking)!
 闭上眼睛，不能偷看
-It don't seem to fit.
+It don't (seem) to fit.
 不怎么合身 
 I got up late.
 我起（床）晚了
@@ -186,15 +186,15 @@ No doubt about it.
 勿庸置疑/毫无疑问
 Is it too far to walk?
 走着去很远吗
-Let's eat out, shall we?
+Let's eat out(,) shall we?
 我们出去吃，怎么样
-When exactly?
+(When exactly)?
 具体什么时候
-You looks terrific!
+You looks (terrific)!
 你看起来棒极了
 You two make a lovely couple.
 你们真是天生的一对
-Let's arm wrestle!
+Let's (arm) (wrestle)!
 咱们来比腕力吧
 An eye for an eye.
 以眼还眼

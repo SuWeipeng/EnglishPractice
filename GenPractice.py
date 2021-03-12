@@ -1,6 +1,6 @@
 import os
 
-targetFile     = "L_01.txt"
+targetFile     = "L_02.txt"
 mode           = 1
 
 targetFullPath = None
