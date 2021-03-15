@@ -1,8 +1,9 @@
 import os
 
-targetFile     = "L_02.txt"
+fileName       = "L_02"
 mode           = 1
 
+targetFile     = fileName+".txt"
 targetFullPath = None
 outputFileName = targetFile.split(".")[0]+"_P.prc"
 
@@ -21,7 +22,7 @@ def generate_prc():
     output.close()
 
 import re
-errorFile       = "L_01_Err.txt"
+errorFile       = fileName+"_Err.txt"
 outputFileName2 = targetFile.split(".")[0]+"_E.prc"
 def generate_from_err():
     output         = open(outputFileName2,"w",encoding='utf-8')
