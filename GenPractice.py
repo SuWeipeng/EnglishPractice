@@ -1,7 +1,7 @@
 import os
 
-fileName       = "L_02"
-mode           = 1
+fileName       = "L_03"
+mode           = 2
 
 targetFile     = fileName+".txt"
 targetFullPath = None
