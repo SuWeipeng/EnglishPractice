@@ -5,6 +5,8 @@ L_10 带例句，源于《单字库》 APP 的 IELTS 词汇
 '''
 fileName       = "L_10"
 
+row_alignment  = False
+
 '''
 mode 的取值如下：
 1:生成默写文件
@@ -58,11 +60,15 @@ def generate_prc2():
         for i, line in enumerate(file):
             if IGNORE_LINES > 0:
                 IGNORE_LINES -= 1
+                if row_alignment:
+                    output.write("\n")
                 continue
             if i % 4 == 0: # 单词行
                 # 在记住的单词行前加 @ 会在生成的文件中去除该词（用于消除记住的词）
                 if line[0] == '@':
                     IGNORE_LINES = 3
+                    if row_alignment:
+                        output.write("\n")
                     continue
                 else:
                     output.write("\n")
