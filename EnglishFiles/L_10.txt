@@ -22,7 +22,7 @@ marshal
 /ˈmɑːr.ʃəl/ n. 统领，集结，管理
 The (marshal) rode at the head of the parade.
 统领骑马走在队伍的最前面。
-perceive
+@perceive
 /pəˈsiːv/ v. 看待，认为；察觉
 They still (perceive) women as inferior.
 他们仍然认为女性低人一等。
@@ -54,7 +54,7 @@ The government took new measure to (combat) terrorism.
 /ɪnˈʃʊr/ v. 确保
 We must (ensure) the continuity of fuel supplies.
 我们必须确保燃料供应的连续性。
-glacier
+@glacier
 /ˈɡleɪ.ʃɚ/ n. 冰河，冰川
 The (glacier) calved a large iceberg.
 冰川崩解了一座大冰山。
@@ -78,7 +78,7 @@ Inflation has been whittling away their (savings).
 /trænˈzæk.ʃən/ n. 交易
 All the details of the (transaction) are on file.
 那项交易的所有细节都已归档。
-2aspect
+@aspect
 /ˈæs.pekt/ n. 方面，层面
 Climate change has affected every (aspect) of our lives.
 气候变化已经影响到我们生活的各个层面。
@@ -86,11 +86,11 @@ Climate change has affected every (aspect) of our lives.
 /kənˈfɝːm/ v. 确认
 He hopes that further research will (confirm) his hypothesis.
 他希望进一步的研究将会证明他的假设。
-differentiation
+@differentiation
 /ˌdɪf.ə.ren.ʃiˈeɪ.ʃən/ n. 区别；差异化
 There is seemingly no genetic (differetiation) between them.
 他们之间似乎没有基因上的差异。
-excursion
+@excursion
 /ɪkˈskɝː.ʃən/ n. （结伴）远足，短程旅行
 Included in the tour is an (excursion) to the Grand Canyon.
 旅游行程包括浏览大峡谷。
@@ -98,7 +98,7 @@ Included in the tour is an (excursion) to the Grand Canyon.
 /ˈɪl.ə.streɪt/ v. （以例子）阐明，解释；画插图
 The foregoing examples (illustrate) this point.
 前面的例子说明了这一点。
-maintenance
+@maintenance
 /ˈmeɪn.tən.əns/ n. 维持；维护
 This type of garden requires minimal (maintenance).
 这种类型的花园只需最少的维护。
@@ -110,7 +110,7 @@ Some of his magic tricks call for audience (participation).
 /reɪndʒ/ n. 范围 v. 涉及 ... 范围；排列
 The university offers a wide (range) of sporting activities.
 那所大学提供了范围广泛的体育活动。
-solitary
+@solitary
 /ˈsɒl.ɪ.tər.i/ adj. 单独的，独自的；独居的 n. 独居者
 Writing is a (solitary) pastime.
 写作是一种孤独的消遣。
@@ -118,11 +118,11 @@ Writing is a (solitary) pastime.
 /ˈven.juː/ n. （公共事件的）会场，举办地点
 The (venue) for the World Cup remains undecided.
 世界杯的举办地点仍未确定。
-assign
+@assign
 /əˈsaɪn/ v. 分配，分派
-The boss (assinged) each of his employees a different task.
+The boss (assigned) each of his employees a different task.
 那位老板给每个员工指派了不同任务。
-#congestion
+@congestion
 /kənˈdʒes.tʃən/ n. （交通，鼻腔）堵塞
 Traffic (congestion) in the city remains an insoluble problem.
 都市里的壅塞交通仍是无法解决的问题。
@@ -258,7 +258,7 @@ Voters were against the (enforcement) of immigration laws.
 /ˌdʒen.əˈreɪ.ʃən/ n. 世代；产生
 She ranks above any other musician of her (generation).
 她的地位高于她这一代的其他音乐家。
-invoke
+@invoke
 /ɪnˈvoʊk/ v. 援引；唤起，引起
 He (invoked) eminent scholars to back up his argument.
 他援引著名学者来支持他的论点。
@@ -282,7 +282,7 @@ The receding (tide) stranded the whale.
 /əˈkjuːz/ v. 指控，指责
 The mayoral candidate was (accused) of plagiarising.
 那位市长候选人被指控抄袭。
-capacity
+@capacity
 /kəˈpæs.ə.t̬i/ n. 容纳量；能力
 The national stadium has a seating (capacity) of 30,000.
 那间国家体育馆坐等下 30,000 人。
@@ -294,7 +294,7 @@ It proved to be a (costly) mistake.
 /dʌl/ dj. 乏味的
 Robots can relieve people of (dull) and repetitive work.
 机器人能让人们免于从事枯燥重复的工作。
-fluctuation
+@fluctuation
 /ˌflʌk.tʃuˈeɪ.ʃən/ n. 波动
 Prices are subject to (fluctuation).
 价格可能会波动。
@@ -374,7 +374,7 @@ Many people (derive) their self-worth from their work.
 /ɪˈsteɪt/ n. 庄园；地产；遗产
 He was the sole heir to a vast (estate).
 他是巨大庄园的唯一继承人。
-hibernation
+@hibernation
 /ˌhaɪ.bɚˈneɪ.ʃən/ n. 冬眠
 The tortoise spends the winter months in (hibernation).
 乌龟冬天好几个月会处于冬眠。
