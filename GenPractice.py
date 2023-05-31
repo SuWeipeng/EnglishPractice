@@ -5,6 +5,7 @@ L_10 带例句，源于《单字库》 APP 的 IELTS 词汇
 '''
 fileName       = "L_10"
 
+#row_alignment  = True
 row_alignment  = False
 
 '''
