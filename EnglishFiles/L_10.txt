@@ -199,102 +199,202 @@ vision
 He suffered from dizziness and blurred (vision).
 他为头晕目眩、视力模糊所苦。
 annual
-adj. 一年一次的
+/ˈæn.ju.əl/ adj. 一年一次的，每年的
+The fitness club charges an (annual) membership fee.
+这间健身俱乐部会收取年度会员费。
 communal
-adj. 公共的
+/kəˈmjuː.nəl/ adj. 公共的，集体的；不同群体间的
+We had separate bedrooms but shared a (communal) kitchen.
+我们有各自独立的卧室，但共用厨房。
 dementia
-n. 失智症
+/dɪˈmen.ʃə/ n. 失智症
+The most common form of (dementia) is Alzheimer's disease.
+最常见的失智症形式是阿兹海默症。
 equation
-n. 方程式
+/ɪˈkweɪ.ʒən/ n. 方程式，等同，等式
+One side of an (equation) must balance the other.
+方程式的一边必须等于另一边。
 function
-n. 功能
+/ˈfʌŋk.ʃən/ n. 功能，运作 v. 动作，起作用
+The (function) of the veins is to carry blood to the heart.
+静脉的功能是将血液输送到心脏。
 keen
-adj. 敏锐的
+/kiːn/ adj. 敏锐的；热切的，渴望的；强烈的
+Eagles have very (keen) eyesight.
+老鹰的视力非常敏锐。
 ordinary
-adj. 平常的
+/ˈɔːr.dən.er.i/ adj. 平常的
+Her paintings are of (ordinary) everyday objects.
+她的画作都是画普通的日常物品。
 proper
-adj. 适当的
+/ˈprɒp.ər/ adj. 适当的，适合的
+We need to carry out a (proper) evaluation of the new system.
+我们需要对新系统进行适当的评估。
 scope
-n. 范围
+/skəʊp/ n. 范围，领域
+The (scope) of the exhibition is disappointingly narrow.
+这项展览的范围狭隘得令人失望。
 tremendous
-adj. 区大的
+/trɪˈmen.dəs/ adj. 巨大的；极好的
+The building makes a (tremendous) visual impact.
+这栋建筑物有惊人的视觉冲击效果。
 aim
-n. 目标
+/eɪm/ n. 目标 v. 瞄准，打算
+The team's (aim) is to provide affordable healthcare.
+该团队的主要目标是提供负担得起的医疗保健。
 coincide
-v. 同时发生
+/ˌkoʊ.ɪnˈsaɪd/ v. （几乎）同时发生；与 ... 一致，相符
+The strike was timed to coincide with the ceremonial.
+那场罢工的时间与典礼同时进行。
 deduction
-n. 推断
+/dɪˈdʌk.ʃən/ n. （根据已知）推断，推论；减法，扣除
+We arrived at this conclusion by logical (deduction).
+我们经由逻辑推导，得出了这项结论。
 enforcement
-n. (法规)执行
+/ɪnˈfɔːrs.mənt/ n. (法规)执行，强制
+Voters were against the (enforcement) of immigration laws.
+选民反对执行移民法。
 generation
-n. 世代
+/ˌdʒen.əˈreɪ.ʃən/ n. 世代；产生
+She ranks above any other musician of her (generation).
+她的地位高于她这一代的其他音乐家。
 invoke
-v. 援引
+/ɪnˈvoʊk/ v. 援引；唤起，引起
+He (invoked) eminent scholars to back up his argument.
+他援引著名学者来支持他的论点。
 mutual
-adj. 相互的
+/ˈmjuː.tʃu.əl/ adj. 相互的；共同的
+(Mutual) respect is necessary for any partnership to work.
+互相尊重对于任何伙伴关系都是必要的。
 probe
-n. 探测器
+/proʊb/ n. 探测器；探测，探查 v. 探测，探查
+Both (probes) detected these radioactive gases.
+两个探测器都检测到这些放射性气体。
 rodent
-n. 啮齿动物
+/ˈroʊ.dənt/ n. 啮齿动物
+Rats and squirrels are (rodents).
+老鼠和松鼠是啮齿动物。
 tide
-n. 潮汐
+n. 潮汐，潮水
+The receding (tide) stranded the whale.
+退潮害那条鲸鱼搁浅。
 accuse
-v. 指控
+/əˈkjuːz/ v. 指控，指责
+The mayoral candidate was (accused) of plagiarising.
+那位市长候选人被指控抄袭。
 capacity
-n. 容纳量
+/kəˈpæs.ə.t̬i/ n. 容纳量；能力
+The national stadium has a seating (capacity) of 30,000.
+那间国家体育馆坐等下 30,000 人。
 costly
-adj. 代价高昂的
+/ˈkɒst.li/ adj. 代价高昂的；昂贵的
+It proved to be a (costly) mistake.
+这证明了是一个代价高昂的错误。
 dull
-adj. 乏味的
+/dʌl/ dj. 乏味的
+Robots can relieve people of (dull) and repetitive work.
+机器人能让人们免于从事枯燥重复的工作。
 fluctuation
-n. 波动
+/ˌflʌk.tʃuˈeɪ.ʃən/ n. 波动
+Prices are subject to (fluctuation).
+价格可能会波动。
 insulation
-n. 隔绝
+/ˌɪn.səˈleɪ.ʃən/ n. 隔绝（热，声音，寒意等），绝缘
+Blankets provided (insulation) against the cold.
+那些毯子抵御了寒冷。
 occur
-v. 存在
+/əˈkɝː/ v. 存在；发生
+Rainforests (occur) around the equator.
+热带雨林存在于赤道附近。
 possess
-v. 拥有
+/pəˈzes/ v. 拥有；控制
+They (possess) property all over the world.
+他们在世界各地拥有资产。
 represent
-v. 代表
+/ˌrep.rɪˈzent/ v. 代表；象征；展现
+The figures (represent) a general decline in empolyment.
+这些数字代表就业普遍下降。
 suspend
-v. 使中止
+/səˈspend/ v. 使中止，暂时取消
+Both sides finally agreed to (suspend) hostilities.
+双方最终同意停战。
 ancestor
-n. 祖先
+/ˈæn.ses.tɚ/ n. 祖先，祖宗
+These species actually share a common (ancestor).
+这些物种的祖先其实一样。
 common
-adj. 普遍的
+/ˈkɒm.ən/ adj. 普遍的；共同的
+There are (common) spelling mistakes in your essay.
+你的报告有常见的拼字错误。
 demanding
-adj. 苛求的
+/dɪˈmæn.dɪŋ/ adj. 苛求的，吃力的
+Police work is physically (demanding) and stressful.
+警察的工作很要求体力，压力也很大。
 environment
-n. 环境
+/ɪnˈvaɪ.rən.mənt/ n. 环境
+The care of (environment) is of prime importance.
+保护环境是最重要的。
 halt
-n. 停止
+/hɒlt/ n. & v. 停止，中止
+He called for a (halt) to the recent wave of emigration.
+他呼吁停止最近的移民潮。
 justify
-v. 证明...正当
+/ˈdʒʌs.tɪ.faɪ/ v. 证明...正当；为...辩护
+No argument can (justify) a war.
+任何论点都无法为战争辩护。
 option
-n. 选项
+/ˈɒp.ʃən/ n. 选项，选择
+This (option) is preferable to any other.
+此选项优于任何其他选项。
 publish
-v. 出版
+/ˈpʌb.lɪʃ/ v. 出版；发行；公布
+They can't (publish) your name without your consent.
+未经你的同意，他们不能公布你的姓名。
 scholarship
-n. 奖学金
+/ˈskɒl.ə.ʃɪp/ n. 奖学金
+That (scholarship) is designed for foreign students.
+这项奖学金是为外国学生而设置。
 trap
-v. 困住
+/træp/ v. 困住；设陷阱 n. 陷阱，圈套
+Nets should have fine meshes to (trap) small particles.
+网子应该要有精细的网眼，来留住细小颗粒。
 appointment
-n. 预约
-comprehesive
-adj. 广泛的
+/əˈpɔɪnt.mənt/ n. 预约；任命
+She called to arrange an (appointment) for a blood test.
+她打电话预约血检。
+comprehensive
+/ˌkɒm.prɪˈhen.sɪv/ adj. 广泛的，综合的，详尽的
+The applicant has a (comprehensive) grasp of the subject.
+申请人对该主题具备广泛的了解。
 derive
-v. 从中获得
+/dɪˈraɪv/ v. 从中获得；衍生于
+Many people (derive) their self-worth from their work.
+许多人从工作中获得自我价值。
 estate
-n. 庄园
+/ɪˈsteɪt/ n. 庄园；地产；遗产
+He was the sole heir to a vast (estate).
+他是巨大庄园的唯一继承人。
 hibernation
-n. 冬眠
+/ˌhaɪ.bɚˈneɪ.ʃən/ n. 冬眠
+The tortoise spends the winter months in (hibernation).
+乌龟冬天好几个月会处于冬眠。
 levy
-v.  征收
+/ˈlev.i/ v.  征收 n. 征收额，税款
+He wants to impose a (levy) on landfill waste.
+他想对垃圾掩埋进行征税。
 outrageous
-adj. 离谱的
+/ˌaʊtˈreɪ.dʒəs/ adj. 离谱的；令人吃惊的
+The (outrageous) book created a sensation.
+这本离谱的书引起了轰动。
 proof
-n. 证据
+/pruːf/ n. 证据；证明
+Can you provide any (proof) of identity?
+你能提供任何身份证明码？
 sensitive
-adj.  敏感的
+/ˈsen.sə.t̬ɪv/ adj.  敏感的；灵敏的
+A (sensitive) nerve in a tooth can cause great pain.
+牙齿的敏感神经可能会引起极大疼痛。
 underlying
-adj. 暗含的
+/ˌʌn.dɚˈlaɪ.ɪŋ/ adj. 暗含的；以...为基础的
+The (underlying) assumption is women are inferior athletes.
+潜在的假设是女性属于较劣等的运动选手。
