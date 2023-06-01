@@ -8,6 +8,9 @@ fileName       = "L_10"
 groupInFile    = 50
 groupLines     = 4
 
+row_alignment  = True
+#row_alignment  = False
+
 boundaryNo     = groupLines * groupInFile - 1
 
 targetFile     = fileName+".txt"
@@ -17,7 +20,10 @@ outputFileName = targetFile.split(".")[0]+"_"+str(outputFileNo)+"_P.prc"
 
 IGNORE_LINES   = 0
 def process_line(i,line):
-    ret = ""
+    if row_alignment:
+        ret = "\n"
+    else:
+        ret = ""
     global IGNORE_LINES
     if i % 4 == 0: # 单词行
         # 在记住的单词行前加 @ 会在生成的文件中去除该词（用于消除记住的词）
