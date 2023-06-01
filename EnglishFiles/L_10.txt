@@ -1,176 +1,176 @@
-@athlete
+athlete
 /ˈæθ.liːt/ n. 运动员，体育家
 She became a professional (athlete) at the age of 18.
 她 18 岁时成为职业动动员。
-@consistent
+consistent
 /kənˈsɪs.tənt/ adj. 始终如一的，一贯的
 These results are not (consistent) with our earlier research.
 这些结果跟我们早先的研究不一致。
-@disorder
+disorder
 /dɪˈsɔːr.dɚ/ n. 失调；混乱
 Alzheimer's disease is a neurological (disorder).
 阿兹海默症是一种神经系统疾病。
-@explore
+explore
 /ɪkˈsplɔːr/ v. 探索，控测
 Colonists went to America to (explore) a new world.
 殖民者去到美洲探索新世界。
-@incidence
+incidence
 /ˈɪn.sɪ.dəns/ n. （事件）发生率；事件
 The (incidence) of breast cancer increases with age.
 乳癌的发病率随着年龄增长而增加。
-@marshal
+marshal
 /ˈmɑːr.ʃəl/ n. 统领，集结，管理
 The (marshal) rode at the head of the parade.
 统领骑马走在队伍的最前面。
-@perceive
+perceive
 /pəˈsiːv/ v. 看待，认为；察觉
 They still (perceive) women as inferior.
 他们仍然认为女性低人一等。
-@reasoning
+reasoning
 /ˈriː.zən.ɪŋ/ n. 推理，推断，推论
 His argument is based on fallacious (reasoning).
 他的论点基于错误的推理。
-@status
+status
 /ˈsteɪ.t̬əs/ n. 身份；地位；（社群媒体）状态，近况
 As an ambassador, she enjoys a very privileged (status).
 身为大使，她享有颇具特权的地位。
-@virtually
+virtually
 /ˈvɝː.tʃu.ə.li/ adv. 几乎；实质止
 She found his accent (virtually) incomprehensible.
 她觉得几乎听不懂他的口音。
-@alter
+alter
 /ˈɑːl.tɚ/ v. 修改，改变
 Fame and fortune did not (alter) the young entrepreneur.
 名利并未改变这位年轻的创业家。
-@combat
+combat
 /ˈkɑːm.bæt/ v. n.  战斗，搏斗；抗争
 The government took new measure to (combat) terrorism.
 政府采取了新措施打击恐怖主义。
-@deforestation
+deforestation
 /diːˌfɔːr.əˈsteɪ.ʃən/ n. 森林砍伐
 (Deforestation) has been shown to cause floods and drought.
 森林砍伐已被证明会导致洪水和干旱。
-@ensure
+ensure
 /ɪnˈʃʊr/ v. 确保
 We must (ensure) the continuity of fuel supplies.
 我们必须确保燃料供应的连续性。
-@glacier
+glacier
 /ˈɡleɪ.ʃɚ/ n. 冰河，冰川
 The (glacier) calved a large iceberg.
 冰川崩解了一座大冰山。
-@irritation
+irritation
 /ˌɪr.əˈteɪ.ʃən/ n. 发炎；恼怒，恼人的事物
 The astringent can casue (irritation) to sensitive skin.
 止血药会刺激敏感肌肤。
-@offset
+offset
 /ˌɑːfˈset/ v. 抵消，补偿，弥补
 Prices rose to (offset) the increased cost of materials.
 价格上涨来抵消材料的成本上升。
-@proficiency
+proficiency
 /prəˈfɪʃ.ən.si/ n. 精通，熟练
 He taught himeself to carve to a high degree of (proficiency).
 他自学雕刻，技艺高超。
-@savings
+savings
 /ˈseɪ·vɪŋz/ n. 积蓄；存款
 Inflation has been whittling away their (savings).
 通货膨胀一直在消耗他们的积蓄。
-@transaction
+transaction
 /trænˈzæk.ʃən/ n. 交易
 All the details of the (transaction) are on file.
 那项交易的所有细节都已归档。
-@aspect
+aspect
 /ˈæs.pekt/ n. 方面，层面
 Climate change has affected every (aspect) of our lives.
 气候变化已经影响到我们生活的各个层面。
-@confirm
+confirm
 /kənˈfɝːm/ v. 确认
 He hopes that further research will (confirm) his hypothesis.
 他希望进一步的研究将会证明他的假设。
-@differentiation
+differentiation
 /ˌdɪf.ə.ren.ʃiˈeɪ.ʃən/ n. 区别；差异化
 There is seemingly no genetic (differetiation) between them.
 他们之间似乎没有基因上的差异。
-@excursion
+excursion
 /ɪkˈskɝː.ʃən/ n. （结伴）远足，短程旅行
 Included in the tour is an (excursion) to the Grand Canyon.
 旅游行程包括浏览大峡谷。
-@illustrate
+illustrate
 /ˈɪl.ə.streɪt/ v. （以例子）阐明，解释；画插图
 The foregoing examples (illustrate) this point.
 前面的例子说明了这一点。
-@maintenance
+maintenance
 /ˈmeɪn.tən.əns/ n. 维持；维护
 This type of garden requires minimal (maintenance).
 这种类型的花园只需最少的维护。
-@participation
+participation
 /pɑːrˌtɪs.əˈpeɪ.ʃən/ n. 参加
 Some of his magic tricks call for audience (participation).
 他的一些魔术需要观众参与。
-@range
+range
 /reɪndʒ/ n. 范围 v. 涉及 ... 范围；排列
 The university offers a wide (range) of sporting activities.
 那所大学提供了范围广泛的体育活动。
-@solitary
+solitary
 /ˈsɒl.ɪ.tər.i/ adj. 单独的，独自的；独居的 n. 独居者
 Writing is a (solitary) pastime.
 写作是一种孤独的消遣。
-@venue
+venue
 /ˈven.juː/ n. （公共事件的）会场，举办地点
 The (venue) for the World Cup remains undecided.
 世界杯的举办地点仍未确定。
-@assign
+assign
 /əˈsaɪn/ v. 分配，分派
 The boss (assigned) each of his employees a different task.
 那位老板给每个员工指派了不同任务。
-@congestion
+congestion
 /kənˈdʒes.tʃən/ n. （交通，鼻腔）堵塞
 Traffic (congestion) in the city remains an insoluble problem.
 都市里的壅塞交通仍是无法解决的问题。
-@diminish
+diminish
 /dɪˈmɪn.ɪʃ/ v. 缩减，减少，减小
 Later on in life the sex drive tends to (diminish).
 人生后期性欲容易减低。
-@existence
+existence
 /ɪɡˈzɪs.təns/ n. 存在
 This is the oldest Hebrew manuscript in (existence).
 这是现存最古老的希伯来文手搞。
-@immunity
+immunity
 /ɪˈmjuː.nə.t̬i/ n. 免疫；豁免
 The vaccine provides longer (immunity) against the flu.
 该疫苗可提供更长时间的流感免疫力。
-@mammal
+mammal
 /ˈmæm.əl/ n. 哺乳动物
 Which (mammal) has the shortest lifespan in the wild?
 哪种哺乳动物在野外寿命最短？
-@party
+party
 /ˈpɑːr.t̬i/ n. 一批人；当事人；派对
 In 1863 Cook led his first (party) of tourists to Switzerland.
 1863 年 Cook 率领第一批访客前往瑞士。
-@ratio
+ratio
 /ˈreɪ.ʃi.oʊ/ n. 比例，比率
 The (ratio) of pupils to teachers was 30 to 1.
 学生与教师的比例为 30 比 1。
-@source
+source
 /sɔːrs/ n. 来源；源头
 Fruit is a convenient (source) of vitamins and energy.
 水果是方便获取维他命和能量的来源。
-@vertical
+vertical
 /ˈvɝː.t̬ə.kəl/ adj. 垂直的 n. 垂直线，垂直面
 The cliff was almost (vertical).
 那片悬崖几乎是垂直的。
-@atmosphere
+atmosphere
 /ˈæt.mə.sfɪr/ n. 大气层；空气；气氛
 Pesticides can pollute the (atmosphere).
 杀虫剂会污染大气层。
-@consolidate
+consolidate
 /kənˈsɒl.ɪ.deɪt/ v. （使）巩固，（使）加强；合并（尤指企业）
 She aims to (consolidate) her position as the part leader.
 她的目标是巩固身为党主席的地位。
-@disparity
+disparity
 /dɪˈsper.ə.t̬i/ n. （不公平的）差异
 The (disparity) between their salaries was noticeable.
 他们薪水的差距很明显。
-@explosive
+explosive
 /ɪkˈsploʊ.sɪv/ adj. 爆炸性的，激增的；爆炸（般）的 n. 爆炸物，炸药
 The terrorists charged the bomb with (explosive) substance.
 恐怖分子在炸弹里加入了爆炸性物质。
@@ -178,235 +178,235 @@ inclination
 /ˌɪn.kləˈneɪ.ʃən/ n. 倾向，意向
 He has no (inclination) towards mysticism.
 他对神秘主义没有兴趣。
-@materialistic
+materialistic
 /məˌtɪr.i.əˈlɪs.tɪk/ adj. 物质主义的，唯物主议的
 Christmas has become (materialistic) and commercial.
 圣诞节已经变得物质主义与商业化。
-@perception
+perception
 /pəˈsep.ʃən/ n. 看法；感知；洞察力
 His (perception) of the problem is quite different.
 他对这个问题的看法完全不同。
-@recession
+recession
 /rɪˈseʃ.ən/ n. 经济衰退期；衰退
 Small businesses have been worst hit by the (recession).
 小型企业在经济衰退受到的打击最严重。
-@steeply
+steeply
 /ˈstiːp.li/ adv. 陡峭地，急遽地
 A narrow track wound (steeply) up through the dense forest.
 一条狭窄小径陡峭蜿蜒地穿过茂密的森林。
-@vision
+vision
 /ˈvɪʒ.ən/ n. 视力；视觉；幻象；远见
 He suffered from dizziness and blurred (vision).
 他为头晕目眩、视力模糊所苦。
-@annual
+annual
 /ˈæn.ju.əl/ adj. 一年一次的，每年的
 The fitness club charges an (annual) membership fee.
 这间健身俱乐部会收取年度会员费。
-@communal
+communal
 /kəˈmjuː.nəl/ adj. 公共的，集体的；不同群体间的
 We had separate bedrooms but shared a (communal) kitchen.
 我们有各自独立的卧室，但共用厨房。
-@dementia
+dementia
 /dɪˈmen.ʃə/ n. 失智症
 The most common form of (dementia) is Alzheimer's disease.
 最常见的失智症形式是阿兹海默症。
-@equation
+equation
 /ɪˈkweɪ.ʒən/ n. 方程式，等同，等式
 One side of an (equation) must balance the other.
 方程式的一边必须等于另一边。
-@function
+function
 /ˈfʌŋk.ʃən/ n. 功能，运作 v. 动作，起作用
 The (function) of the veins is to carry blood to the heart.
 静脉的功能是将血液输送到心脏。
-@keen
+keen
 /kiːn/ adj. 敏锐的；热切的，渴望的；强烈的
 Eagles have very (keen) eyesight.
 老鹰的视力非常敏锐。
-@ordinary
+ordinary
 /ˈɔːr.dən.er.i/ adj. 平常的
 Her paintings are of (ordinary) everyday objects.
 她的画作都是画普通的日常物品。
-@proper
+proper
 /ˈprɒp.ər/ adj. 适当的，适合的
 We need to carry out a (proper) evaluation of the new system.
 我们需要对新系统进行适当的评估。
-@scope
+scope
 /skəʊp/ n. 范围，领域
 The (scope) of the exhibition is disappointingly narrow.
 这项展览的范围狭隘得令人失望。
-@tremendous
+tremendous
 /trɪˈmen.dəs/ adj. 巨大的；极好的
 The building makes a (tremendous) visual impact.
 这栋建筑物有惊人的视觉冲击效果。
-@aim
+aim
 /eɪm/ n. 目标 v. 瞄准，打算
 The team's (aim) is to provide affordable healthcare.
 该团队的主要目标是提供负担得起的医疗保健。
-@coincide
+coincide
 /ˌkoʊ.ɪnˈsaɪd/ v. （几乎）同时发生；与 ... 一致，相符
 The strike was timed to (coincide) with the ceremonial.
 那场罢工的时间与典礼同时进行。
-@deduction
+deduction
 /dɪˈdʌk.ʃən/ n. （根据已知）推断，推论；减法，扣除
 We arrived at this conclusion by logical (deduction).
 我们经由逻辑推导，得出了这项结论。
-@enforcement
+enforcement
 /ɪnˈfɔːrs.mənt/ n. (法规)执行，强制
 Voters were against the (enforcement) of immigration laws.
 选民反对执行移民法。
-@generation
+generation
 /ˌdʒen.əˈreɪ.ʃən/ n. 世代；产生
 She ranks above any other musician of her (generation).
 她的地位高于她这一代的其他音乐家。
-@invoke
+invoke
 /ɪnˈvoʊk/ v. 援引；唤起，引起
 He (invoked) eminent scholars to back up his argument.
 他援引著名学者来支持他的论点。
-@mutual
+mutual
 /ˈmjuː.tʃu.əl/ adj. 相互的；共同的
 (Mutual) respect is necessary for any partnership to work.
 互相尊重对于任何伙伴关系都是必要的。
-@probe
+probe
 /proʊb/ n. 探测器；探测，探查 v. 探测，探查
 Both (probes) detected these radioactive gases.
 两个探测器都检测到这些放射性气体。
-@rodent
+rodent
 /ˈroʊ.dənt/ n. 啮齿动物
 Rats and squirrels are (rodents).
 老鼠和松鼠是啮齿动物。
-@tide
+tide
 n. 潮汐，潮水
 The receding (tide) stranded the whale.
 退潮害那条鲸鱼搁浅。
-@accuse
+accuse
 /əˈkjuːz/ v. 指控，指责
 The mayoral candidate was (accused) of plagiarising.
 那位市长候选人被指控抄袭。
-@capacity
+capacity
 /kəˈpæs.ə.t̬i/ n. 容纳量；能力
 The national stadium has a seating (capacity) of 30,000.
 那间国家体育馆坐等下 30,000 人。
-@costly
+costly
 /ˈkɒst.li/ adj. 代价高昂的；昂贵的
 It proved to be a (costly) mistake.
 这证明了是一个代价高昂的错误。
-@dull
+dull
 /dʌl/ dj. 乏味的
 Robots can relieve people of (dull) and repetitive work.
 机器人能让人们免于从事枯燥重复的工作。
-@fluctuation
+fluctuation
 /ˌflʌk.tʃuˈeɪ.ʃən/ n. 波动
 Prices are subject to (fluctuation).
 价格可能会波动。
-@insulation
+insulation
 /ˌɪn.səˈleɪ.ʃən/ n. 隔绝（热，声音，寒意等），绝缘
 Blankets provided (insulation) against the cold.
 那些毯子抵御了寒冷。
-@occur
+occur
 /əˈkɝː/ v. 存在；发生
 Rainforests (occur) around the equator.
 热带雨林存在于赤道附近。
-@possess
+possess
 /pəˈzes/ v. 拥有；控制
 They (possess) property all over the world.
 他们在世界各地拥有资产。
-@represent
+represent
 /ˌrep.rɪˈzent/ v. 代表；象征；展现
 The figures (represent) a general decline in empolyment.
 这些数字代表就业普遍下降。
-@suspend
+suspend
 /səˈspend/ v. 使中止，暂时取消
 Both sides finally agreed to (suspend) hostilities.
 双方最终同意停战。
-@ancestor
+ancestor
 /ˈæn.ses.tɚ/ n. 祖先，祖宗
 These species actually share a common (ancestor).
 这些物种的祖先其实一样。
-@common
+common
 /ˈkɒm.ən/ adj. 普遍的；共同的
 There are (common) spelling mistakes in your essay.
 你的报告有常见的拼字错误。
-@demanding
+demanding
 /dɪˈmæn.dɪŋ/ adj. 苛求的，吃力的
 Police work is physically (demanding) and stressful.
 警察的工作很要求体力，压力也很大。
-@environment
+environment
 /ɪnˈvaɪ.rən.mənt/ n. 环境
 The care of (environment) is of prime importance.
 保护环境是最重要的。
-@halt
+halt
 /hɒlt/ n. & v. 停止，中止
 He called for a (halt) to the recent wave of emigration.
 他呼吁停止最近的移民潮。
-@justify
+justify
 /ˈdʒʌs.tɪ.faɪ/ v. 证明...正当；为...辩护
 No argument can (justify) a war.
 任何论点都无法为战争辩护。
-@option
+option
 /ˈɒp.ʃən/ n. 选项，选择
 This (option) is preferable to any other.
 此选项优于任何其他选项。
-@publish
+publish
 /ˈpʌb.lɪʃ/ v. 出版；发行；公布
 They can't (publish) your name without your consent.
 未经你的同意，他们不能公布你的姓名。
-@scholarship
+scholarship
 /ˈskɒl.ə.ʃɪp/ n. 奖学金
 That (scholarship) is designed for foreign students.
 这项奖学金是为外国学生而设置。
-@trap
+trap
 /træp/ v. 困住；设陷阱 n. 陷阱，圈套
 Nets should have fine meshes to (trap) small particles.
 网子应该要有精细的网眼，来留住细小颗粒。
-@appointment
+appointment
 /əˈpɔɪnt.mənt/ n. 预约；任命
 She called to arrange an (appointment) for a blood test.
 她打电话预约血检。
-@comprehensive
+comprehensive
 /ˌkɒm.prɪˈhen.sɪv/ adj. 广泛的，综合的，详尽的
 The applicant has a (comprehensive) grasp of the subject.
 申请人对该主题具备广泛的了解。
-@derive
+derive
 /dɪˈraɪv/ v. 从中获得；衍生于
 Many people (derive) their self-worth from their work.
 许多人从工作中获得自我价值。
-@estate
+estate
 /ɪˈsteɪt/ n. 庄园；地产；遗产
 He was the sole heir to a vast (estate).
 他是巨大庄园的唯一继承人。
-@hibernation
+hibernation
 /ˌhaɪ.bɚˈneɪ.ʃən/ n. 冬眠
 The tortoise spends the winter months in (hibernation).
 乌龟冬天好几个月会处于冬眠。
-@levy
+levy
 /ˈlev.i/ v.  征收 n. 征收额，税款
 He wants to impose a (levy) on landfill waste.
 他想对垃圾掩埋进行征税。
-@outrageous
+outrageous
 /ˌaʊtˈreɪ.dʒəs/ adj. 离谱的；令人吃惊的
 The (outrageous) book created a sensation.
 这本离谱的书引起了轰动。
-@proof
+proof
 /pruːf/ n. 证据；证明
 Can you provide any (proof) of identity?
 你能提供任何身份证明码？
-@sensitive
+sensitive
 /ˈsen.sə.t̬ɪv/ adj.  敏感的；灵敏的
 A (sensitive) nerve in a tooth can cause great pain.
 牙齿的敏感神经可能会引起极大疼痛。
-@underlying
+underlying
 /ˌʌn.dɚˈlaɪ.ɪŋ/ adj. 暗含的；以...为基础的
 The (underlying) assumption is women are inferior athletes.
 潜在的假设是女性属于较劣等的运动选手。
-@apparent
+apparent
 /əˈpær.ənt/ adj. 明显的，显而易见的
 It soon became (apparent) to us that he lacked enthusiasm.
 我们很快就明显看出他缺乏热情。
-@compile
+compile
 /kəmˈpaɪl/ v. 汇编；编译程式
 This book tool approximately three years to (compile).
 这本书耗时约 3 年汇编。
-@depletion
+depletion
 /dɪˈpliː.ʃən/ n. 枯竭，减少
 They hosted an international conference on ozone (depletion).
 他们举办了一场关于臭氧层损耗的国际会议。
@@ -414,35 +414,35 @@ eruption
 /ɪˈrʌp.ʃən/ n. 爆发，喷发
 Volcanic ash showered down on the town after the (eruption).
 火山爆发后，火山灰洒落在小镇上。
-@hence
+hence
 /hens/ adv. 因此；从此
 They reduce uncertainty and (hence) anxiety about the future.
 他们减少了不确定性，从而减少了对未来的焦虑。
-@legislation
+legislation
 /ˌledʒ.ɪˈsleɪ.ʃən/ n. 立法，法律
 The (legislation) had been ambiguously worded.
 该项立法用字遣词含糊不清。
-@otherwise
+otherwise
 /ˈʌð.ɚ.waɪz/ adv. 否则；以其他方式；除此以外
 Her heels gave her the height she (otherwise) lacked.
 她的高跟鞋给了她原本缺乏的高度。
-@provision
+provision
 /prəˈvɪʒ.ən/ n. 提供，准备；条款
 Educational (provision) in the country is haphazard.
 这国家的教育施行毫无章法可言。
-@seek
+seek
 /siːk/ v. 寻求；试图
 Do you think the President will (seek) re-election?
 你认为总统会寻求连任吗？
-@ultrasonic
+ultrasonic
 /ˌʌl.trəˈsɒn.ɪk/ adj. 超音波的
 (Ultrasonic) waves travel at around 300 metres per second.
 超音波以每秒约 300 公尺的速度传递。
-@address
+address
 /əˈdres/ v. 处理，应付；演说
 The mayor's new policies don not (address) the real issues.
 那位市长的新政策并未解决真正的问题。
-@channel
+channel
 /ˈtʃæn.əl/ v. 把...导向 n. 频道；管道
 He managed to (channel) all that energy into something useful.
 他设法把所有精力都投入在有用的事情。
@@ -450,11 +450,11 @@ criteria
 /kraɪˈtɪə.ri.ə/ n. 标准，准则
 The other researchers have agreed to adopt our (criteria).
 其他研究人员同意采用我们的标准。
-@eligible
+eligible
 /ˈel.ɪ.dʒə.bəl/ adj. 有资格的，合格的
 Only 40% of (eligible) voters cast their ballots.
 只有 40% 的合格选民投下了他们的一票。
-@found
+found
 /faʊnd/ v. 创建，创立
 The university was (founded) more than 200 years ago.
 这所大学成立于 200 多年前。
@@ -462,7 +462,7 @@ The university was (founded) more than 200 years ago.
 /ɪnˈten.sə.t̬i/ n. 强列；强度
 Her headaches started to increase in (intensity).
 她的头痛开始加剧。
-@nonetheless
+nonetheless
 /ˌnʌn.ðəˈles/ adv. 尽管如此；然而
 His face is serious but (nonetheless) very friendly.
 他的脸很严肃，尽管如此，他的态度很友好。
@@ -470,7 +470,7 @@ His face is serious but (nonetheless) very friendly.
 /ˈpred.ə.t̬ɚ/ n. 掠食动物；尾随作案者
 On top of the food chain, humans have no natural (predators).
 在食物链的顶端，人类没有天敌。
-@resistant
+resistant
 /rɪˈzɪs.tənt/ adj. 抵抗的；防...的
 Mosquitoes are becoming (resistant) to insecticides.
 蚊子对杀虫剂产生了抗药性。
@@ -478,47 +478,47 @@ Mosquitoes are becoming (resistant) to insecticides.
 /ˈtæn.dʒə.bəl/ adj. 实在的；可触摸的，可感知的
 The policy has not yet brought any (tangible) benefits.
 这项政策尚未带来任何实际好处。
-@anthropology
+anthropology
 /ˌæn.θrəˈpɒl.ə.dʒi/ n. 人类学
 Social (anthropology) has been his enthusiasm for years.
 多年来，社会人类学一直是他的热情所在。
-@communication
+communication
 /kəˌmjuː.nɪˈkeɪ.ʃən/ n. 沟通，交流
 It is vital to keep open the channels of (communication).
 保持沟通管道畅通极为重要。
-@democratic
+democratic
 /ˌdem.əˈkræt̬.ɪk/ adj. 民主的
 They can't choose their own leaders in (democratic) elections.
 他们无法在民主选举选择自己的领导人。
-@equipment
+equipment
 /ɪˈkwɪp.mənt/ n. 配备，装备，设备
 Sailors had special (equipment) to help them navigate.
 水手有特殊的设备帮他们导航。
-@harsh
+harsh
 /hɑːrʃ/ adj. 严厉的；过强烈的
 Expulsion from school is a (harsh) form of punishment.
 开除学籍是一种严厉的惩罚形式。
-@last
+last
 /lɑːst/ v. 持续 det. 最后的；最近一次的
 The storm (lasted) for hours.
 暴风雨持续了数小时。
-@organ
+organ
 /ˈɔː.ɡən/ n. 器官
 The human brain is an incredibly complicated (organ).
 人脑是一个极其复杂的器官。
-@property
+property
 /ˈprɒp.ə.ti/ n. 资产，房地产；属性
 She rlinquished her claim to the (property).
 她放弃了声讨那资产。
-@sculpture
+sculpture
 /ˈskʌlp.tʃɚ/ n. 雕刻（品），雕塑（品）
 (Sculpture) is a tangible art form.
 雕塑是一种有形的艺术形式。
-@trend
+trend
 /trend/ n. 趋势，倾向；时尚
 There is a growing (trend) towards earlier retirement.
 提早退休的趋势越来越流行。
-@assemble
+assemble
 /əˈsem.bəl/ v. 集合；组装
 All of them were requested to (assemble) in the lobby.
 他们都被要求在大厅集合。
@@ -526,75 +526,75 @@ conflict
 /ˈkɒn.flɪkt/ n. 冲突；战争 v. 相抵触；冲突
 There seem to be serious (conflicts) within the ruling part.
 执政党内部似乎存在严重的矛盾。
-@dilute
+dilute
 /daɪˈluːt/ v. 稀释；减缓 adj. 经过稀释的
 The researcher added water to (dilute) the solution.
 研究人员加水稀释溶液。
-@exempt
+exempt
 /ɪɡˈzempt/ adj. 被豁免的，被免除的 v. 豁免，免除
 Certain charities are (exempt) from VAT registration.
 某些慈善机构免缴增值税。
-@immense
+immense
 /ɪˈmens/ adj. 巨大的，广大的
 The sun is an (immense) globe.
 大阳是一个巨大的球体。
-@major
+major
 /ˈmeɪ.dʒɚ/ adj. 主要的，重大的 v. 主修 n. 主修；主修学生
 The interval between (major) earthquakes might be 200 years.
 大地震之间的间隔可能是 200 年。
-@particle
+particle
 /ˈpɑːr.t̬ə.kəl/ n. 微粒
 The kid chocked on a (particle) of food.
 孩子被食物的颗粒噎到。
-@rate
+rate
 /reɪt/ n. 比率，速度；价格 v. 评价；评估
 Fish normally have a high metabolic (rate).
 鱼通常有很高的新陈代谢率。
-@sophisticated
+sophisticated
 /səˈfɪs.tə.keɪ.t̬ɪd/ adj. 精密的，复杂的；老练的；见识广的
 The museum is equipped with (sophisticated) humidity controls.
 这间博物馆配备了精密的湿度控制器。
-@verbal
+verbal
 /ˈvɝː.bəl/ adj. 语言的，口头的
 The test measures (verbal) and mathematical ability.
 这项测验衡量文字和数学能力。
-@assistance
+assistance
 /əˈsɪs.təns/ n. 协助
 The foundation rendered financial (assistance) to the family.
 这个基金会为这个家庭提供了经济援助。
-@conscious
+conscious
 /ˈkɒn.ʃəs/ adj. 神智清醒的
 The drivers is still (conscious) although he is badly injured.
 驾驶人虽然身受重伤，但神智依然清醒。
-@disabled
+disabled
 /dɪˈseɪ.bəld/ adj. 残疾的，丧失能力的；残疾人士的
 Does the theatre have (disabled) access?
 那间剧院有身障人士用的通道吗？
-@exotic
+exotic
 /ɪɡˈzɒt.ɪk/ adj. 异国风情的
 (Exotic) plants grew there in great abundance.
 那里生长着大量的外来植物。
-@impact
+impact
 /ˈɪm.pækt/ n. 影响；冲击，撞击 v. 影响
 Technology has had an irreversible (impact) on society.
 科技对社会产生了无法逆转的影响。
-@manage
+manage
 /ˈmæn.ɪdʒ/ v. 设法做到；成功做到；管理，经营
 The doctors (manage) to keep the pain at a tolerable level.
 医生设法将疼痛控制在能够忍受的程度。
-@passive
+passive
 /ˈpæs.ɪv/ adj. 被动的，消极的 n. 被动语态
 He had a (passive) expression on his face.
 他脸上一副消极的表情。
-@rational
+rational
 /ˈræʃ.ən.əl/ adj. 理性的；合理的
 Man is a (rational) being.
 人是理性的存在。
-@specific
+specific
 /spəˈsɪf.ɪk/ adj. 特定的；明确的
 The money is to be used for (specific) purposes.
 这笔钱将用于特定的目的。
-@vessel
+vessel
 /ˈves.əl/ n. 器皿；血管；船，舰
 A pot is a (vessel) for holding food.
 锅是盛放食物的容器。
