@@ -18,7 +18,7 @@ Colonists went to America to (explore) a new world.
 /ˈɪn.sɪ.dəns/ n. （事件）发生率；事件
 The (incidence) of breast cancer increases with age.
 乳癌的发病率随着年龄增长而增加。
-marshal
+@marshal
 /ˈmɑːr.ʃəl/ n. 统领，集结，管理
 The (marshal) rode at the head of the parade.
 统领骑马走在队伍的最前面。
@@ -166,7 +166,7 @@ Pesticides can pollute the (atmosphere).
 /kənˈsɒl.ɪ.deɪt/ v. （使）巩固，（使）加强；合并（尤指企业）
 She aims to (consolidate) her position as the part leader.
 她的目标是巩固身为党主席的地位。
-disparity
+@disparity
 /dɪˈsper.ə.t̬i/ n. （不公平的）差异
 The (disparity) between their salaries was noticeable.
 他们薪水的差距很明显。
@@ -186,7 +186,7 @@ Christmas has become (materialistic) and commercial.
 /pəˈsep.ʃən/ n. 看法；感知；洞察力
 His (perception) of the problem is quite different.
 他对这个问题的看法完全不同。
-recession
+@recession
 /rɪˈseʃ.ən/ n. 经济衰退期；衰退
 Small businesses have been worst hit by the (recession).
 小型企业在经济衰退受到的打击最严重。
@@ -206,7 +206,7 @@ The fitness club charges an (annual) membership fee.
 /kəˈmjuː.nəl/ adj. 公共的，集体的；不同群体间的
 We had separate bedrooms but shared a (communal) kitchen.
 我们有各自独立的卧室，但共用厨房。
-dementia
+@dementia
 /dɪˈmen.ʃə/ n. 失智症
 The most common form of (dementia) is Alzheimer's disease.
 最常见的失智症形式是阿兹海默症。
@@ -298,7 +298,7 @@ Robots can relieve people of (dull) and repetitive work.
 /ˌflʌk.tʃuˈeɪ.ʃən/ n. 波动
 Prices are subject to (fluctuation).
 价格可能会波动。
-insulation
+@insulation
 /ˌɪn.səˈleɪ.ʃən/ n. 隔绝（热，声音，寒意等），绝缘
 Blankets provided (insulation) against the cold.
 那些毯子抵御了寒冷。
@@ -398,3 +398,203 @@ A (sensitive) nerve in a tooth can cause great pain.
 /ˌʌn.dɚˈlaɪ.ɪŋ/ adj. 暗含的；以...为基础的
 The (underlying) assumption is women are inferior athletes.
 潜在的假设是女性属于较劣等的运动选手。
+@apparent
+/əˈpær.ənt/ adj. 明显的，显而易见的
+It soon became (apparent) to us that he lacked enthusiasm.
+我们很快就明显看出他缺乏热情。
+@compile
+/kəmˈpaɪl/ v. 汇编；编译程式
+This book tool approximately three years to (compile).
+这本书耗时约 3 年汇编。
+@depletion
+/dɪˈpliː.ʃən/ n. 枯竭，减少
+They hosted an international conference on ozone (depletion).
+他们举办了一场关于臭氧层损耗的国际会议。
+eruption
+/ɪˈrʌp.ʃən/ n. 爆发，喷发
+Volcanic ash showered down on the town after the (eruption).
+火山爆发后，火山灰洒落在小镇上。
+@hence
+/hens/ adv. 因此；从此
+They reduce uncertainty and (hence) anxiety about the future.
+他们减少了不确定性，从而减少了对未来的焦虑。
+@legislation
+/ˌledʒ.ɪˈsleɪ.ʃən/ n. 立法，法律
+The (legislation) had been ambiguously worded.
+该项立法用字遣词含糊不清。
+@otherwise
+/ˈʌð.ɚ.waɪz/ adv. 否则；以其他方式；除此以外
+Her heels gave her the height she (otherwise) lacked.
+她的高跟鞋给了她原本缺乏的高度。
+@provision
+/prəˈvɪʒ.ən/ n. 提供，准备；条款
+Educational (provision) in the country is haphazard.
+这国家的教育施行毫无章法可言。
+@seek
+/siːk/ v. 寻求；试图
+Do you think the President will (seek) re-election?
+你认为总统会寻求连任吗？
+@ultrasonic
+/ˌʌl.trəˈsɒn.ɪk/ adj. 超音波的
+(Ultrasonic) waves travel at around 300 metres per second.
+超音波以每秒约 300 公尺的速度传递。
+@address
+/əˈdres/ v. 处理，应付；演说
+The mayor's new policies don not (address) the real issues.
+那位市长的新政策并未解决真正的问题。
+@channel
+/ˈtʃæn.əl/ v. 把...导向 n. 频道；管道
+He managed to (channel) all that energy into something useful.
+他设法把所有精力都投入在有用的事情。
+criteria
+/kraɪˈtɪə.ri.ə/ n. 标准，准则
+The other researchers have agreed to adopt our (criteria).
+其他研究人员同意采用我们的标准。
+@eligible
+/ˈel.ɪ.dʒə.bəl/ adj. 有资格的，合格的
+Only 40% of (eligible) voters cast their ballots.
+只有 40% 的合格选民投下了他们的一票。
+@found
+/faʊnd/ v. 创建，创立
+The university was (founded) more than 200 years ago.
+这所大学成立于 200 多年前。
+#intensity
+/ɪnˈten.sə.t̬i/ n. 强列；强度
+Her headaches started to increase in (intensity).
+她的头痛开始加剧。
+@nonetheless
+/ˌnʌn.ðəˈles/ adv. 尽管如此；然而
+His face is serious but (nonetheless) very friendly.
+他的脸很严肃，尽管如此，他的态度很友好。
+#predator
+/ˈpred.ə.t̬ɚ/ n. 掠食动物；尾随作案者
+On top of the food chain, humans have no natural (predators).
+在食物链的顶端，人类没有天敌。
+@resistant
+/rɪˈzɪs.tənt/ adj. 抵抗的；防...的
+Mosquitoes are becoming (resistant) to insecticides.
+蚊子对杀虫剂产生了抗药性。
+#tangible
+/ˈtæn.dʒə.bəl/ adj. 实在的；可触摸的，可感知的
+The policy has not yet brought any (tangible) benefits.
+这项政策尚未带来任何实际好处。
+@anthropology
+/ˌæn.θrəˈpɒl.ə.dʒi/ n. 人类学
+Social (anthropology) has been his enthusiasm for years.
+多年来，社会人类学一直是他的热情所在。
+@communication
+/kəˌmjuː.nɪˈkeɪ.ʃən/ n. 沟通，交流
+It is vital to keep open the channels of (communication).
+保持沟通管道畅通极为重要。
+@democratic
+/ˌdem.əˈkræt̬.ɪk/ adj. 民主的
+They can't choose their own leaders in (democratic) elections.
+他们无法在民主选举选择自己的领导人。
+@equipment
+/ɪˈkwɪp.mənt/ n. 配备，装备，设备
+Sailors had special (equipment) to help them navigate.
+水手有特殊的设备帮他们导航。
+@harsh
+/hɑːrʃ/ adj. 严厉的；过强烈的
+Expulsion from school is a (harsh) form of punishment.
+开除学籍是一种严厉的惩罚形式。
+@last
+/lɑːst/ v. 持续 det. 最后的；最近一次的
+The storm (lasted) for hours.
+暴风雨持续了数小时。
+@organ
+/ˈɔː.ɡən/ n. 器官
+The human brain is an incredibly complicated (organ).
+人脑是一个极其复杂的器官。
+@property
+/ˈprɒp.ə.ti/ n. 资产，房地产；属性
+She rlinquished her claim to the (property).
+她放弃了声讨那资产。
+@sculpture
+/ˈskʌlp.tʃɚ/ n. 雕刻（品），雕塑（品）
+(Sculpture) is a tangible art form.
+雕塑是一种有形的艺术形式。
+@trend
+/trend/ n. 趋势，倾向；时尚
+There is a growing (trend) towards earlier retirement.
+提早退休的趋势越来越流行。
+@assemble
+/əˈsem.bəl/ v. 集合；组装
+All of them were requested to (assemble) in the lobby.
+他们都被要求在大厅集合。
+conflict
+/ˈkɒn.flɪkt/ n. 冲突；战争 v. 相抵触；冲突
+There seem to be serious (conflicts) within the ruling part.
+执政党内部似乎存在严重的矛盾。
+@dilute
+/daɪˈluːt/ v. 稀释；减缓 adj. 经过稀释的
+The researcher added water to (dilute) the solution.
+研究人员加水稀释溶液。
+@exempt
+/ɪɡˈzempt/ adj. 被豁免的，被免除的 v. 豁免，免除
+Certain charities are (exempt) from VAT registration.
+某些慈善机构免缴增值税。
+@immense
+/ɪˈmens/ adj. 巨大的，广大的
+The sun is an (immense) globe.
+大阳是一个巨大的球体。
+@major
+/ˈmeɪ.dʒɚ/ adj. 主要的，重大的 v. 主修 n. 主修；主修学生
+The interval between (major) earthquakes might be 200 years.
+大地震之间的间隔可能是 200 年。
+@particle
+/ˈpɑːr.t̬ə.kəl/ n. 微粒
+The kid chocked on a (particle) of food.
+孩子被食物的颗粒噎到。
+@rate
+/reɪt/ n. 比率，速度；价格 v. 评价；评估
+Fish normally have a high metabolic (rate).
+鱼通常有很高的新陈代谢率。
+@sophisticated
+/səˈfɪs.tə.keɪ.t̬ɪd/ adj. 精密的，复杂的；老练的；见识广的
+The museum is equipped with (sophisticated) humidity controls.
+这间博物馆配备了精密的湿度控制器。
+@verbal
+/ˈvɝː.bəl/ adj. 语言的，口头的
+The test measures (verbal) and mathematical ability.
+这项测验衡量文字和数学能力。
+@assistance
+/əˈsɪs.təns/ n. 协助
+The foundation rendered financial (assistance) to the family.
+这个基金会为这个家庭提供了经济援助。
+@conscious
+/ˈkɒn.ʃəs/ adj. 神智清醒的
+The drivers is still (conscious) although he is badly injured.
+驾驶人虽然身受重伤，但神智依然清醒。
+@disabled
+/dɪˈseɪ.bəld/ adj. 残疾的，丧失能力的；残疾人士的
+Does the theatre have (disabled) access?
+那间剧院有身障人士用的通道吗？
+@exotic
+/ɪɡˈzɒt.ɪk/ adj. 异国风情的
+(Exotic) plants grew there in great abundance.
+那里生长着大量的外来植物。
+@impact
+/ˈɪm.pækt/ n. 影响；冲击，撞击 v. 影响
+Technology has had an irreversible (impact) on society.
+科技对社会产生了无法逆转的影响。
+@manage
+/ˈmæn.ɪdʒ/ v. 设法做到；成功做到；管理，经营
+The doctors (manage) to keep the pain at a tolerable level.
+医生设法将疼痛控制在能够忍受的程度。
+@passive
+/ˈpæs.ɪv/ adj. 被动的，消极的 n. 被动语态
+He had a (passive) expression on his face.
+他脸上一副消极的表情。
+@rational
+/ˈræʃ.ən.əl/ adj. 理性的；合理的
+Man is a (rational) being.
+人是理性的存在。
+@specific
+/spəˈsɪf.ɪk/ adj. 特定的；明确的
+The money is to be used for (specific) purposes.
+这笔钱将用于特定的目的。
+@vessel
+/ˈves.əl/ n. 器皿；血管；船，舰
+A pot is a (vessel) for holding food.
+锅是盛放食物的容器。
