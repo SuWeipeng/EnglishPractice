@@ -598,3 +598,203 @@ vessel
 /ˈves.əl/ n. 器皿；血管；船，舰
 A pot is a (vessel) for holding food.
 锅是盛放食物的容器。
+analysis
+/əˈnæl.ə.sɪs/ n. 分析
+Further (analysis) of the data will be needed immediately.
+需要立刻进一步分析那些数据。
+commodity
+/kəˈmɒd.ə.ti/ n. 商品
+(Commodity) prices have been rising significantly.
+商品的价格一直在大幅上涨。
+demand
+/dɪˈmænd/ v. 强烈要求；需要 n. 强烈的要求；需求
+They (demanded) the release of those political prisoners.
+他们要求释放那些政治犯。
+entrepreneur
+/ˌɑːn.trə.prəˈnɝː/ n. 创业家，企业家
+She was married off to an aspiring (entrepreneur).
+她被嫁给了一个有抱负的创业家。
+habitat
+/ˈhæb.ɪ.tæt/ n. 栖息地，生长地
+The marshes provide a rich (habitat) for water plants.
+沼泽地为水生植物提供了丰富的栖息地。
+judge
+/dʒʌdʒ/ v. 评判；裁判 n. 法官；裁判
+You cannot (judge) a tree by its bark.
+勿仅凭外表判断。
+optimistic
+/ˌɒp.tɪˈmɪs.tɪk/ adj. 乐观的
+He is known for his (optimistic), can-do attitude.
+他以乐观进取的态度闻名。
+prompt
+/prɒmpt/ v. 促使，引发 adj. 迅速的；即时的；敏捷的
+The goal was to (prompt) solutions to potential problems.
+这个目标是促使找出解决潜在问题的方法。
+scheme
+/skiːm/ n. 方案，计划；阴谋 v. 策划，密谋
+The (scheme) is criticised as idealistic and impracticable.
+这项计划被批评为理想主义和不切实际。
+transport
+/ˈtræn.spɔːt/ v. n. 运输，运送
+The museum is easily accessible by public (transport).
+乘坐公共交通工具即可轻松抵达博物馆。
+accommodataion
+/əˌkɒm.əˈdeɪ.ʃən/ n. 住处，停留处
+Those hotels provided temporary (accommodation) for refugees.
+这些旅馆为难民提供了临时住处。
+brief
+/briːf/ adj. 内容简短的；时间短暂的 v. 说明 n. 指示
+A (brief) summary was given on a spearate sheet.
+在另一张纸上提供了简短的摘要。
+corporate
+/ˈkɔː.pər.ət/ adj. 大公司的；全体的
+The number of (corporate) bankruptcies rose during COVID-19.
+COVID-19 期间大公司破产间数上升。
+drain
+/dreɪn/ n. 下水道，排水管 v. 排干液体；消耗
+Fallen leaves clogged the grating over the (drain).
+落叶堵塞了下水道的格栅。
+fine
+/faɪn/ adj. 精确的，精密的
+We still have to work out the (finer) details.
+我们仍然需要解决更精细的细节。
+insight
+/ˈɪn.saɪt/ n. 洞见，洞察力，深刻见解
+His work offers an (insight) into an alien culture.
+他的作品提供了对异国文化的洞见。
+mortal
+/ˈmɔː.təl/ adj. 终有一死的；致命的 n. 凡人，普通人
+His mother's death reminded him that he was (mortal).
+他母亲的死提醒了他，自己终将一死。
+pollutant
+/pəˈluː.tənt/ n. 污染物，污染物质
+Sulphur dioxide is (pollutant) that causes acid rain.
+二氧化硫是导致致雨的污染物。
+remove
+/rɪˈmuːv/ v. 去除；移开；免职
+Oil is refined to (remove) naturally occuring impurities.
+油经过精炼去除天然杂质。
+surplus
+/ˈsɜː.pləs/ adj. 剩余的；过剩的 n. 盈余；过剩
+(Surplus) grain was sold for export.
+剩余的谷物用于出口销售。
+abate
+/əˈbeɪt/ v. 减轻，减弱
+The customers waited in the store for the rain to (abate).
+顾客在店里等候雨势减弱。
+ban
+/bæn/ v. 官方禁止 n. 官方禁令
+The proposed new law would (ban) smoking in all public places.
+拟议的新法律将在所有公共场所禁烟。
+controversy
+/ˈkɒn.trə.vɜː.si/ n. 争议
+What he said has provoked considerable (controversy).
+他的言论引发了相当大的争议。
+diversity
+/daɪˈvɜː.sə.ti/ n. 多样化；差异
+The essay is on racial and ethnic (diversity).
+这篇论文的主题是种族和民族多样性。
+fatigue
+/fəˈtiːɡ/ n. 疲惫 v. 使疲惫
+Common symptoms of diabetes are weight loss and (fatigue).
+糖尿病的常见症状是体重减轻和疲倦。
+infection
+/ɪnˈfek.ʃən/ n. 感染
+Antibiotics are effective to cure throat (infections).
+抗生素对治疗喉咙感染有效。
+military
+/ˈmɪl.ɪ.tər.i/ adj. 军事的 n. 军队
+He was exempted from (military) service for illness.
+他因病免服兵役。
+physics
+/ˈfɪz.ɪks/ n. 物理
+(Physics) deals with the forces acting on concrete objects.
+物理学探讨实质物体的作用力。
+reliable
+/rɪˈlaɪ.ə.bəl/ adj. 可靠的，可信赖的
+Their information came from a (reliable) source.
+他们的资讯来自可靠的来源。
+substantially
+adv. 很大程度，可观地；基本上
+The population in this area has increased (substantially).
+该地区的人口大幅增加。
+analogous
+/əˈnæl.ə.ɡəs/ adj. 类似的
+Their present crisis is (analogous) to the previous one.
+他们目前的危机与上次相似。
+commit
+/kəˈmɪt/ v. 犯罪；承诺
+There are unconfirmed reports she tried to (commit) suicide.
+有未经证实的报导说她未遂。
+deliver
+/dɪˈlɪv.ər/ v. 递送；发表演说；分娩
+Ho got  his food (delivered) from his favourite restaurant.
+他从最喜欢的餐厅叫外送。
+entity
+/ˈen.tɪ.ti/ n. 实体，独立存在体
+A company is a separate legal (entity).
+公司是一个独立的法人实体。
+guarantee
+/ˌɡær.ənˈtiː/ v. 保证，保固；但保 n. 保证，保证书；担保（品）
+The vigorous pursuit of policies is no (guarantee) of success.
+大力推行政策不能保证成功。
+jargon
+/ˌɡær.ənˈtiː/ n. 行话，行业术语
+He always speaks in obscure legal (jargon).
+他说话总是使用晦涩难懂的法律术语。
+optical
+/ˈɒp.tɪ.kəl/ adj. 光学的，视觉的，视力的
+Telescopes and microscopes are (optical) instruments.
+望远镜和显微镜都是光学仪器。
+promote
+/prəˈməʊt/ v. 促进；晋升；促销
+Is it ethical to (promote) cigarettes through advertising?
+用广告推销香烟是否合乎道德？
+sceptical
+/ˈskep.tɪ.kəl/ adj. 多疑的，怀疑的
+Other archaeologists are (sceptical) about his findings.
+其他考古学家对他的发现抱持怀疑态度。
+transmission
+/trænzˈmɪʃ.ən/ n. （节目，广播）传送；传播；传递
+The virus's usual (transmission) route is by sneezing.
+这种病毒通常的传播途径是打喷嚔。
+apparatus
+/ˌæp.əˈreɪ.təs/ n. 设备，仪器，装置；（政治）机构；机制
+The brand-new lab (apparatus) is automatically controlled.
+那崭新的实验室设备是全自动控制的。
+competitive
+/kəmˈpet.ɪ.tɪv/ adj. 竞争的，竞赛的；好竞争的
+This gives the firm a (competitive) advantage over its rivals.
+这让事务所比竞争对手更具竞争优势。
+deny
+/dɪˈnaɪ/ v. 否认，否定
+The spokesman refused to either confirm or (deny) the reports.
+发言人拒绝证实或否认这些报导。
+erosion
+/ɪˈrəʊ.ʒən/ n. 侵蚀，腐蚀；削弱
+Crop rotation helps prevent soil (erosion).
+作物轮耕有助于防止水土流失。
+heighten
+/ˈhaɪ.tən/ v. 增强，加强
+There are fears that the march will (heighten) racial tension.
+人们担心游行会加剧种族紧张局势。
+lecture
+/ˈlek.tʃɚ/ n. 讲课；训斥 v. 授课；训斥
+We went to a (lecture) on Baroque architecture.
+我们去听了一场关于巴洛克式建筑的讲座。
+originate
+/əˈrɪdʒ.ən.eɪt/ v. 源于，来自
+Darwin stated that the species (originate) by descent.
+达尔文指出物种起源于血缘。
+prove
+/pruːv/v. 证明，证实
+Philosophers use logic to (prove) their arguments.
+哲学家运用逻辑来证明他们的论点。
+sediment
+/ˈsed.ɪ.mənt/ n. 沉淀物
+There is black (sediment) at the bottom of the bottle.
+瓶底有黑色沉淀物。
+ultimate
+/ˈʌl.tɪ.mət/ adj. 最终的；最重要的；极限的 n. 极致
+His (ultimate) goal was to set up his own business.
+他的最终目标是建立自己的企业。
