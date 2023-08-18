@@ -275,7 +275,7 @@ rodent
 Rats and squirrels are (rodents).
 老鼠和松鼠是啮齿动物。
 tide
-n. 潮汐，潮水
+/taɪd/ n. 潮汐，潮水
 The receding (tide) stranded the whale.
 退潮害那条鲸鱼搁浅。
 accuse
@@ -739,7 +739,7 @@ guarantee
 The vigorous pursuit of policies is no (guarantee) of success.
 大力推行政策不能保证成功。
 jargon
-/ˌɡær.ənˈtiː/ n. 行话，行业术语
+/ˈdʒɑːr.ɡən/ n. 行话，行业术语
 He always speaks in obscure legal (jargon).
 他说话总是使用晦涩难懂的法律术语。
 optical
@@ -835,8 +835,8 @@ simultaneously
 The game will be broadcast (simultaneously) on TV and radio.
 比赛将在电视和电台同步播出。
 vanish
-v. 消失
-/ˈvæn.ɪʃ/ The magician made the pigeon (vanish).
+/ˈvæn.ɪʃ/ v. 消失
+The magician made the pigeon (vanish).
 魔术师把鸽子变不见了。
 advance
 /ədˈvɑːns/ n. v. 进展，发展
