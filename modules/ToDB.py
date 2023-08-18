@@ -1,6 +1,6 @@
 import sqlite3
 
-class SQLiteDB:
+class ToDB:
     def __init__(self,db_name):
         self.db_name   = "database/" + db_name
         # 创建数据库连接

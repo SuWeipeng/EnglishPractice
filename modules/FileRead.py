@@ -1,7 +1,7 @@
 import os
 import sys
 sys.path.append('./modules')
-from SQLiteDB import SQLiteDB
+from ToDB import ToDB
 
 class FileRead:
     debugReading = False
@@ -17,7 +17,7 @@ class FileRead:
         self.exampleSentence        = None
         self.sentenceTranslation    = None
         # 创建数据库对旬
-        self.db = SQLiteDB("English.db")
+        self.db = ToDB("English.db")
     def get_inputfile_fullpath(self):
         '''
         得到输入文件的完整路径，将之存入 self.fullPathOfInput 变量。
