@@ -19,7 +19,12 @@ class EnglishPractice:
         self.tipFormat = self.ui.textEdit_3.currentCharFormat()
         self.tipCursor = self.ui.textEdit_3.textCursor()
         self.currentWord = "abcde"
+
     def setWordFont(self):
+        '''
+        设置单词输入框和提示框的字体
+        被 onFontChanged() 和 onTextEditChanged() 调用
+        '''
         if self.selectFont is not None:
             # 设置单词输入框字体
             self.wordFormat.setFontFamily(self.selectFont)
@@ -30,7 +35,6 @@ class EnglishPractice:
             self.tipFormat.setFontFamilies(list(self.selectFont))
             self.ui.textEdit_3.setCurrentCharFormat(self.tipFormat)
         
-
     def onFontChanged(self, font):
         '''
         响应字体改变的 slot 函数
