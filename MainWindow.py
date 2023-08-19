@@ -9,6 +9,7 @@ class EnglishPractice:
         # 字体设置
         self.fontSize = 15
         self.ui.fontComboBox.currentFontChanged.connect(self.onFontChanged)
+        self.selectFont        = None
         # 单词 textEdit 相关变量
         self.ui.textEdit.textChanged.connect(self.onTextEditChanged)
         self.input_word = None
@@ -18,20 +19,32 @@ class EnglishPractice:
         self.tipFormat = self.ui.textEdit_3.currentCharFormat()
         self.tipCursor = self.ui.textEdit_3.textCursor()
         self.currentWord = "abcde"
+    def setWordFont(self):
+        if self.selectFont is not None:
+            # 设置单词输入框字体
+            self.wordFormat.setFontFamily(self.selectFont)
+            self.wordFormat.setFontFamilies(list(self.selectFont))
+            self.ui.textEdit.setCurrentCharFormat(self.wordFormat)
+            # 设置提示框字体
+            self.tipFormat.setFontFamily(self.selectFont)
+            self.tipFormat.setFontFamilies(list(self.selectFont))
+            self.ui.textEdit_3.setCurrentCharFormat(self.tipFormat)
+        
+
     def onFontChanged(self, font):
+        '''
+        响应字体改变的 slot 函数
+        '''
         # 设置汉语意思标签字体
         #self.ui.label.setFont(QFont(font.family(), self.fontSize))
-
-        # 设置单词输入框字体
-        textEdit = self.ui.textEdit
+        
+        self.selectFont = font.family()
         # 获取已有的输入内容存入 lineContent 变量
         self.wordCursor.select(QTextCursor.LineUnderCursor)
         lineContent = self.wordCursor.selectedText()
         # 删除输入内容
-        textEdit.clear()
-        # 设置字体
-        self.wordFormat.setFontFamily(font.family())
-        self.wordFormat.setFontFamilies(list(font.family()))
+        self.ui.textEdit.clear()
+        self.setWordFont()
         # 还原输入内容
         self.wordCursor.insertText(lineContent, self.wordFormat)
         
@@ -39,13 +52,12 @@ class EnglishPractice:
         '''
         输入单词发生变化时的回调函数。
         '''
-        textEdit = self.ui.textEdit
-
-        self.input_word = textEdit.toPlainText()
+        self.setWordFont() 
+        self.input_word = self.ui.textEdit.toPlainText()
         replace_pos, delete_pos, insert_pos = self.diffWord(self.input_word, self.currentWord)
 
         # 修改窗口的提示
-        self.tipFormat.setFontStrikeOut(False)
+        self.tipFormat.setFontStrikeOut(False) # 删除线
         self.ui.textEdit_3.clear()
         if not replace_pos and not delete_pos and not insert_pos:
             self.tipFormat.setForeground(QColor("green"))
@@ -57,7 +69,7 @@ class EnglishPractice:
             tipString = self.input_word
             # 需插入的地方用 _ 代替
             insert_pos.reverse()
-            print(insert_pos,tipString)
+            #print(insert_pos,tipString)
             for i in range(len(insert_pos)):
                 index = insert_pos[i][2]
                 times = insert_pos[i][1]-insert_pos[i][0]
@@ -70,7 +82,7 @@ class EnglishPractice:
             replace_pos, delete_pos, insert_pos = self.diffWord(tipString, self.currentWord)
             # 删除多余字母
             delete_pos.reverse()
-            print(delete_pos,tipString)
+            #print(delete_pos,tipString)
             for i in range(len(delete_pos)):
                 index = delete_pos[i][0]
                 times = delete_pos[i][1]-delete_pos[i][0]
@@ -81,7 +93,7 @@ class EnglishPractice:
             replace_pos, delete_pos, insert_pos = self.diffWord(tipString, self.currentWord)
             # 处理需替换的内容
             replace_pos.reverse()
-            print(replace_pos,tipString)
+            #print(replace_pos,tipString)
             self.tipFormat.setForeground(QColor("red"))
             #self.tipFormat.setFontStrikeOut(True) # 删除线
             for i in range(len(replace_pos)):
@@ -107,6 +119,9 @@ class EnglishPractice:
                     self.tipCursor.insertText(tipString)
 
     def diffWord(self, input_word, word):
+        '''
+        https://learnku.com/docs/pymotw/difflib-character-comparison/3363
+        '''
         import difflib
         matcher = difflib.SequenceMatcher(None, input_word, word)
         replace_positions = []

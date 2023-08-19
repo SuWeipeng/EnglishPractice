@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>688</width>
-    <height>369</height>
+    <width>711</width>
+    <height>416</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -28,7 +28,7 @@
         <attribute name="title">
          <string>Vocabulary</string>
         </attribute>
-        <layout class="QVBoxLayout" name="verticalLayout">
+        <layout class="QVBoxLayout" name="verticalLayout_2">
          <item>
           <layout class="QHBoxLayout" name="horizontalLayout_5">
            <item>
@@ -133,9 +133,15 @@
           </layout>
          </item>
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_6">
+          <layout class="QVBoxLayout" name="verticalLayout">
            <item>
             <widget class="QTextEdit" name="textEdit">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>2</verstretch>
+              </sizepolicy>
+             </property>
              <property name="minimumSize">
               <size>
                <width>0</width>
@@ -144,7 +150,10 @@
              </property>
              <property name="font">
               <font>
-               <pointsize>15</pointsize>
+               <family>Arial Rounded MT Bold</family>
+               <pointsize>25</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
               </font>
              </property>
              <property name="placeholderText">
@@ -154,6 +163,18 @@
            </item>
            <item>
             <widget class="QTextEdit" name="textEdit_3">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>1</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>30</height>
+              </size>
+             </property>
              <property name="font">
               <font>
                <pointsize>15</pointsize>
