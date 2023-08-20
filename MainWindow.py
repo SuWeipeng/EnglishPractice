@@ -14,6 +14,8 @@ class EnglishPractice:
         self.practiceMode     = EnglishPractice.practiceModeList[0] 
         self.wordsNum         = 10
         self.wordIndex        = 0
+        self.words_p_lines    = ''
+        self.p_list           = []
         # 从 UI 定义中动态 创建一个相应的窗口对象
         self.ui = uic.loadUi("ui/EnglishPractice.ui")
         # 字体设置
@@ -228,16 +230,18 @@ class EnglishPractice:
                 file.write('\n')
         with open("EnglishFiles/words_p.txt","w",encoding='utf-8') as file:
             for word in self.words:
-                #file.write(word)
-                file.write('\n')
-                file.write(self.pronunciations.get(word))
-                file.write('\n')
-                file.write(self.meanings.get(word))
-                file.write('\n')
-                #file.write(self.sentences.get(word))
-                file.write('\n')
-                file.write(self.translations.get(word))
-                file.write('\n')
+                self.p_list.append('\n')
+                self.p_list.append(self.pronunciations.get(word))
+                self.p_list.append('\n')
+                self.p_list.append(self.meanings.get(word))
+                self.p_list.append('\n')
+                self.p_list.append('\n')
+                self.p_list.append(self.translations.get(word))
+                self.p_list.append('\n')
+            for i in self.p_list:
+                self.words_p_lines += i
+            file.write(self.words_p_lines.rstrip())
+            print(self.words_p_lines)
 
 app = QApplication([])
 ep = EnglishPractice()
