@@ -4,6 +4,12 @@ from PyQt5 import uic
 from modules.ReadWordFromDB import ReadWordFromDB
 
 class EnglishPractice:
+    '''
+    01. 与 ui 相关的函数名以   ui_ 开头
+    02. 与数据库相关的函数名以 db_  开头
+    03. 与文件相关的函数名以   f_   开头
+    04. 功能相关的函数名以     fun_ 开头
+    '''
     practiceModeList = ['new','review']
     def __init__(self):
         self.words            = []
@@ -20,19 +26,19 @@ class EnglishPractice:
         self.ui = uic.loadUi("ui/EnglishPractice.ui")
         # 字体设置
         self.fontSize = 15
-        self.ui.fontComboBox.currentFontChanged.connect(self.onFontChanged)
+        self.ui.fontComboBox.currentFontChanged.connect(self.ui_onFontChanged)
         self.selectFont        = None
         # 单词 textEdit 相关变量
-        self.ui.textEdit.textChanged.connect(self.onTextEditChanged)
+        self.ui.textEdit.textChanged.connect(self.ui_onTextEditChanged)
         self.input_word = None
         self.wordFormat = self.ui.textEdit.currentCharFormat()
         self.wordCursor = self.ui.textEdit.textCursor()
         # 句子 textEdit_2 相关变量
-        self.ui.textEdit_2.textChanged.connect(self.onTextEdit_2Changed)
+        self.ui.textEdit_2.textChanged.connect(self.ui_onTextEdit_2Changed)
         self.input_sentence = None
         # 界面按钮的 signal-slot 连接
-        self.ui.pushButton.clicked.connect(self.onPrevClicked)
-        self.ui.pushButton_2.clicked.connect(self.onNextClicked)
+        self.ui.pushButton.clicked.connect(self.ui_onPrevClicked)
+        self.ui.pushButton_2.clicked.connect(self.ui_onNextClicked)
         # 进度条初始化
         self.ui.progressBar.setMinimum(1)
         self.ui.progressBar.setMaximum(self.wordsNum)
@@ -44,17 +50,17 @@ class EnglishPractice:
             self.db          = ReadWordFromDB("English.db")
             self.words       = self.db.get_randomly(self.wordsNum)            
             # 生成单词文件
-            self.getWordsFromDB()
-            self.generateWordFile()
+            self.db_getWords()
+            self.f_generateWords()
         elif self.practiceMode == EnglishPractice.practiceModeList[1]:
-            self.getWordsFromFile()
+            self.f_getWords()
         # 初始化界面上的文字信息
-        self.setWordFromIndex(self.wordIndex)
+        self.ui_setWordFromIndex(self.wordIndex)
 
-    def setWordFont(self):
+    def ui_setWordFont(self):
         '''
         设置单词输入框和提示框的字体
-        被 onFontChanged() 和 onTextEditChanged() 调用
+        被 ui_onFontChanged() 和 ui_onTextEditChanged() 调用
         '''
         if self.selectFont is not None:
             # 设置单词输入框字体
@@ -66,7 +72,7 @@ class EnglishPractice:
             self.tipFormat.setFontFamilies(list(self.selectFont))
             self.ui.textEdit_3.setCurrentCharFormat(self.tipFormat)
         
-    def onFontChanged(self, font):
+    def ui_onFontChanged(self, font):
         '''
         响应字体改变的 slot 函数
         '''
@@ -79,17 +85,17 @@ class EnglishPractice:
         lineContent = self.wordCursor.selectedText()
         # 删除输入内容
         self.ui.textEdit.clear()
-        self.setWordFont()
+        self.ui_setWordFont()
         # 还原输入内容
         self.wordCursor.insertText(lineContent, self.wordFormat)
         
-    def onTextEditChanged(self):
+    def ui_onTextEditChanged(self):
         '''
         输入单词发生变化时的回调函数。
         '''
-        self.setWordFont() 
+        self.ui_setWordFont() 
         self.input_word = self.ui.textEdit.toPlainText()
-        replace_pos, delete_pos, insert_pos = self.diffWord(self.input_word, self.currentWord)
+        replace_pos, delete_pos, insert_pos = self.fun_diffWord(self.input_word, self.currentWord)
 
         # 修改窗口的提示
         self.tipFormat.setFontStrikeOut(False) # 删除线
@@ -114,7 +120,7 @@ class EnglishPractice:
             # 修改 tipString 后重新对比
             self.ui.textEdit_3.clear()
             self.tipCursor.insertText(tipString)
-            replace_pos, delete_pos, insert_pos = self.diffWord(tipString, self.currentWord)
+            replace_pos, delete_pos, insert_pos = self.fun_diffWord(tipString, self.currentWord)
             # 删除多余字母
             delete_pos.reverse()
             #print(delete_pos,tipString)
@@ -125,7 +131,7 @@ class EnglishPractice:
             # 修改 tipString 后重新对比
             self.ui.textEdit_3.clear()
             self.tipCursor.insertText(tipString)
-            replace_pos, delete_pos, insert_pos = self.diffWord(tipString, self.currentWord)
+            replace_pos, delete_pos, insert_pos = self.fun_diffWord(tipString, self.currentWord)
             # 处理需替换的内容
             replace_pos.reverse()
             #print(replace_pos,tipString)
@@ -153,16 +159,16 @@ class EnglishPractice:
                     self.ui.textEdit_3.clear()
                     self.tipCursor.insertText(tipString)
         if '\n' in self.input_word:
-            #self.onNextClicked()
+            #self.ui_onNextClicked()
             self.ui.textEdit_2.setFocus()
-    def onTextEdit_2Changed(self):
+    def ui_onTextEdit_2Changed(self):
         '''
         输入句子发生变化时的回调函数。
         '''
         self.input_sentence = self.ui.textEdit_2.toPlainText()
         if '\n' in self.input_sentence:
-            self.onNextClicked()
-    def diffWord(self, input_word, word):
+            self.ui_onNextClicked()
+    def fun_diffWord(self, input_word, word):
         '''
         https://learnku.com/docs/pymotw/difflib-character-comparison/3363
         '''
@@ -182,49 +188,51 @@ class EnglishPractice:
 
         return replace_positions, delete_positions, insert_positions
 
-    def onPrevClicked(self):
+    def ui_onPrevClicked(self):
         if self.wordIndex > 0:
             self.wordIndex -= 1
-            self.setWordFromIndex(self.wordIndex)
+            self.ui_setWordFromIndex(self.wordIndex)
 
             # 恢复输入的单词
             self.ui.textEdit.clear()
             self.wordCursor.insertText(self.p_list[8*self.wordIndex].strip())
 
-    def onNextClicked(self):
+    def ui_onNextClicked(self):
         # 在 p_list 中保存输入内容
-        self.p_list[self.wordIndex*8] = self.input_word+'\n'
-        self.p_listToFile()
+        self.p_list[self.wordIndex*8] = self.input_word.rstrip()+'\n'
+        self.f_wordsToFile()
         if self.wordIndex < self.wordsNum - 1:
             self.wordIndex += 1
-            self.setWordFromIndex(self.wordIndex)
+            self.ui_setWordFromIndex(self.wordIndex)
 
             # 恢复输入的单词
             self.ui.textEdit.clear()
             self.wordCursor.insertText(self.p_list[8*self.wordIndex].strip())
 
-    def setWordFromIndex(self, index):
+            self.ui.textEdit.setFocus()
+
+    def ui_setWordFromIndex(self, index):
         self.currentWord = self.words[index]
-        self.setMeaning()
-        self.setPronun()
-        self.setTrans()
+        self.ui_setMeaning()
+        self.ui_setPronun()
+        self.ui_setTrans()
         self.ui.progressBar.setValue(index+1)
-    def setMeaning(self):
+    def ui_setMeaning(self):
         self.ui.label.setText(self.meanings.get(self.currentWord))
-    def setPronun(self):
+    def ui_setPronun(self):
         self.ui.label_2.setText(self.pronunciations.get(self.currentWord))
-    def setSentence(self):
+    def ui_setSentence(self):
         self.ui.textEdit_2.clear()
         self.ui.textEdit_2.textCursor().insertText(self.sentences.get(self.currentWord))
-    def setTrans(self):
+    def ui_setTrans(self):
         self.ui.textBrowser.setText(self.translations.get(self.currentWord))
-    def getWordsFromDB(self):
+    def db_getWords(self):
         for word in self.words:
             self.pronunciations[word] = self.db.pronun(word)
             self.meanings      [word] = self.db.mean(word)
             self.sentences     [word] = self.db.sentence(word)
             self.translations  [word] = self.db.trans(word)
-    def getWordsFromFile(self):
+    def f_getWords(self):
         with open("EnglishFiles/words.txt","r",encoding='utf-8') as file:
             word = None
             for i, line in enumerate(file):
@@ -240,13 +248,13 @@ class EnglishPractice:
                     self.sentences[word] = content
                 if i % 5 == 4:
                     self.translations[word] = content
-    def p_listToFile(self):
+    def f_wordsToFile(self):
         self.words_p_lines = ''
         with open("EnglishFiles/words_p.txt","w",encoding='utf-8') as file:
             for i in self.p_list:
                 self.words_p_lines += i
             file.write(self.words_p_lines.rstrip())
-    def generateWordFile(self):
+    def f_generateWords(self):
         self.words_p_lines = ''
         with open("EnglishFiles/words.txt","w",encoding='utf-8') as file:
             for word in self.words:
