@@ -155,7 +155,7 @@ class EnglishPractice:
         https://learnku.com/docs/pymotw/difflib-character-comparison/3363
         '''
         import difflib
-        matcher = difflib.SequenceMatcher(None, input_word, word)
+        matcher = difflib.SequenceMatcher(None, input_word.strip(), word.strip())
         replace_positions = []
         delete_positions  = []
         insert_positions  = []
@@ -174,10 +174,23 @@ class EnglishPractice:
         if self.wordIndex > 0:
             self.wordIndex -= 1
             self.setWordFromIndex(self.wordIndex)
+
+            # 恢复输入的单词
+            self.ui.textEdit.clear()
+            self.wordCursor.insertText(self.p_list[8*self.wordIndex].strip())
+
     def onNextClicked(self):
+        # 在 p_list 中保存输入内容
+        self.p_list[self.wordIndex*8] = self.input_word+'\n'
+        self.p_listToFile()
         if self.wordIndex < self.wordsNum - 1:
             self.wordIndex += 1
             self.setWordFromIndex(self.wordIndex)
+
+            # 恢复输入的单词
+            self.ui.textEdit.clear()
+            self.wordCursor.insertText(self.p_list[8*self.wordIndex].strip())
+
     def setWordFromIndex(self, index):
         self.currentWord = self.words[index]
         self.setMeaning()
@@ -215,19 +228,28 @@ class EnglishPractice:
                     self.sentences[word] = content
                 if i % 5 == 4:
                     self.translations[word] = content
+    def p_listToFile(self):
+        self.words_p_lines = ''
+        with open("EnglishFiles/words_p.txt","w",encoding='utf-8') as file:
+            for i in self.p_list:
+                self.words_p_lines += i
+            file.write(self.words_p_lines.rstrip())
     def generateWordFile(self):
+        self.words_p_lines = ''
         with open("EnglishFiles/words.txt","w",encoding='utf-8') as file:
             for word in self.words:
-                file.write(word)
-                file.write('\n')
-                file.write(self.pronunciations.get(word))
-                file.write('\n')
-                file.write(self.meanings.get(word))
-                file.write('\n')
-                file.write(self.sentences.get(word))
-                file.write('\n')
-                file.write(self.translations.get(word))
-                file.write('\n')
+                self.words_p_lines += word
+                self.words_p_lines += '\n'
+                self.words_p_lines += self.pronunciations.get(word)
+                self.words_p_lines += '\n'
+                self.words_p_lines += self.meanings.get(word)
+                self.words_p_lines += '\n'
+                self.words_p_lines += self.sentences.get(word)
+                self.words_p_lines += '\n'
+                self.words_p_lines += self.translations.get(word)
+                self.words_p_lines += '\n'
+            file.write(self.words_p_lines.rstrip())
+        self.words_p_lines = ''
         with open("EnglishFiles/words_p.txt","w",encoding='utf-8') as file:
             for word in self.words:
                 self.p_list.append('\n')
@@ -241,7 +263,6 @@ class EnglishPractice:
             for i in self.p_list:
                 self.words_p_lines += i
             file.write(self.words_p_lines.rstrip())
-            print(self.words_p_lines)
 
 app = QApplication([])
 ep = EnglishPractice()
