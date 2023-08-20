@@ -798,7 +798,7 @@ transport
 v. 运输，运送; n. 运输，运送
 The museum is easily accessible by public transport.
 乘坐公共交通工具即可轻松抵达博物馆。
-accommodataion
+accommodation
 /əˌkɒm.əˈdeɪ.ʃən/ 
 n. 住处，停留处
 Those hotels provided temporary accommodation for refugees.
