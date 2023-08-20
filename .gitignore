@@ -1,2 +1,4 @@
 *.prc
 modules/__pycache__/*
+EnglishFiles/words.txt
+EnglishFiles/words_p.txt

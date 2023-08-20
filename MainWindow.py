@@ -4,8 +4,16 @@ from PyQt5 import uic
 from modules.ReadWordFromDB import ReadWordFromDB
 
 class EnglishPractice:
+    practiceModeList = ['new','review']
     def __init__(self):
-        self.wordsNum    = 10
+        self.words            = []
+        self.pronunciations   = {}
+        self.meanings         = {}
+        self.sentences        = {}
+        self.translations     = {}
+        self.practiceMode     = EnglishPractice.practiceModeList[0] 
+        self.wordsNum         = 10
+        self.wordIndex        = 0
         # 从 UI 定义中动态 创建一个相应的窗口对象
         self.ui = uic.loadUi("ui/EnglishPractice.ui")
         # 字体设置
@@ -26,11 +34,16 @@ class EnglishPractice:
         # 单词错误提示 textEdit 相关变量
         self.tipFormat = self.ui.textEdit_3.currentCharFormat()
         self.tipCursor = self.ui.textEdit_3.textCursor()
-        # 从数据库中取数据
-        self.db          = ReadWordFromDB("English.db")
-        self.words       = self.db.get_randomly(self.wordsNum)
-        # 初始化窗体内容
-        self.wordIndex   = 0
+        if self.practiceMode == EnglishPractice.practiceModeList[0]:
+            # 从数据库中取数据
+            self.db          = ReadWordFromDB("English.db")
+            self.words       = self.db.get_randomly(self.wordsNum)            
+            # 生成单词文件
+            self.getWordsFromDB()
+            self.generateWordFile()
+        elif self.practiceMode == EnglishPractice.practiceModeList[1]:
+            self.getWordsFromFile()
+        # 初始化界面上的文字信息
         self.setWordFromIndex(self.wordIndex)
 
     def setWordFont(self):
@@ -170,14 +183,61 @@ class EnglishPractice:
         self.setTrans()
         self.ui.progressBar.setValue(index+1)
     def setMeaning(self):
-        self.ui.label.setText(self.db.mean(self.currentWord))
+        self.ui.label.setText(self.meanings.get(self.currentWord))
     def setPronun(self):
-        self.ui.label_2.setText(self.db.pronun(self.currentWord))
+        self.ui.label_2.setText(self.pronunciations.get(self.currentWord))
     def setSentence(self):
         self.ui.textEdit_2.clear()
-        self.ui.textEdit_2.textCursor().insertText(self.db.sentence(self.currentWord))
+        self.ui.textEdit_2.textCursor().insertText(self.sentences.get(self.currentWord))
     def setTrans(self):
-        self.ui.textBrowser.setText(self.db.trans(self.currentWord))
+        self.ui.textBrowser.setText(self.translations.get(self.currentWord))
+    def getWordsFromDB(self):
+        for word in self.words:
+            self.pronunciations[word] = self.db.pronun(word)
+            self.meanings      [word] = self.db.mean(word)
+            self.sentences     [word] = self.db.sentence(word)
+            self.translations  [word] = self.db.trans(word)
+    def getWordsFromFile(self):
+        with open("EnglishFiles/words.txt","r",encoding='utf-8') as file:
+            word = None
+            for i, line in enumerate(file):
+                content = line.strip()
+                if i % 5 == 0:
+                    word = content
+                    self.words.append(content)
+                if i % 5 == 1:
+                    self.pronunciations[word] = content
+                if i % 5 == 2:
+                    self.meanings[word] = content
+                if i % 5 == 3:
+                    self.sentences[word] = content
+                if i % 5 == 4:
+                    self.translations[word] = content
+    def generateWordFile(self):
+        with open("EnglishFiles/words.txt","w",encoding='utf-8') as file:
+            for word in self.words:
+                file.write(word)
+                file.write('\n')
+                file.write(self.pronunciations.get(word))
+                file.write('\n')
+                file.write(self.meanings.get(word))
+                file.write('\n')
+                file.write(self.sentences.get(word))
+                file.write('\n')
+                file.write(self.translations.get(word))
+                file.write('\n')
+        with open("EnglishFiles/words_p.txt","w",encoding='utf-8') as file:
+            for word in self.words:
+                #file.write(word)
+                file.write('\n')
+                file.write(self.pronunciations.get(word))
+                file.write('\n')
+                file.write(self.meanings.get(word))
+                file.write('\n')
+                #file.write(self.sentences.get(word))
+                file.write('\n')
+                file.write(self.translations.get(word))
+                file.write('\n')
 
 app = QApplication([])
 ep = EnglishPractice()
