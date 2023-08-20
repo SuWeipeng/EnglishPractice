@@ -27,6 +27,9 @@ class EnglishPractice:
         self.input_word = None
         self.wordFormat = self.ui.textEdit.currentCharFormat()
         self.wordCursor = self.ui.textEdit.textCursor()
+        # 句子 textEdit_2 相关变量
+        self.ui.textEdit_2.textChanged.connect(self.onTextEdit_2Changed)
+        self.input_sentence = None
         # 界面按钮的 signal-slot 连接
         self.ui.pushButton.clicked.connect(self.onPrevClicked)
         self.ui.pushButton_2.clicked.connect(self.onNextClicked)
@@ -149,7 +152,16 @@ class EnglishPractice:
                         tipString = tipString[:-1]+'_'*times_error
                     self.ui.textEdit_3.clear()
                     self.tipCursor.insertText(tipString)
-
+        if '\n' in self.input_word:
+            #self.onNextClicked()
+            self.ui.textEdit_2.setFocus()
+    def onTextEdit_2Changed(self):
+        '''
+        输入句子发生变化时的回调函数。
+        '''
+        self.input_sentence = self.ui.textEdit_2.toPlainText()
+        if '\n' in self.input_sentence:
+            self.onNextClicked()
     def diffWord(self, input_word, word):
         '''
         https://learnku.com/docs/pymotw/difflib-character-comparison/3363
