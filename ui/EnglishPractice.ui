@@ -113,7 +113,8 @@
              </property>
              <property name="font">
               <font>
-               <pointsize>15</pointsize>
+               <family>Times New Roman</family>
+               <pointsize>25</pointsize>
               </font>
              </property>
              <property name="styleSheet">

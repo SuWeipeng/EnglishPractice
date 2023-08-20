@@ -1,9 +1,11 @@
 from PyQt5.QtWidgets import QApplication
 from PyQt5.QtGui import QFont, QTextCursor, QColor
 from PyQt5 import uic
+from modules.ReadWordFromDB import ReadWordFromDB
 
 class EnglishPractice:
     def __init__(self):
+        self.wordsNum    = 10
         # 从 UI 定义中动态 创建一个相应的窗口对象
         self.ui = uic.loadUi("ui/EnglishPractice.ui")
         # 字体设置
@@ -15,10 +17,21 @@ class EnglishPractice:
         self.input_word = None
         self.wordFormat = self.ui.textEdit.currentCharFormat()
         self.wordCursor = self.ui.textEdit.textCursor()
+        # 界面按钮的 signal-slot 连接
+        self.ui.pushButton.clicked.connect(self.onPrevClicked)
+        self.ui.pushButton_2.clicked.connect(self.onNextClicked)
+        # 进度条初始化
+        self.ui.progressBar.setMinimum(1)
+        self.ui.progressBar.setMaximum(self.wordsNum)
         # 单词错误提示 textEdit 相关变量
         self.tipFormat = self.ui.textEdit_3.currentCharFormat()
         self.tipCursor = self.ui.textEdit_3.textCursor()
-        self.currentWord = "abcde"
+        # 从数据库中取数据
+        self.db          = ReadWordFromDB("English.db")
+        self.words       = self.db.get_randomly(self.wordsNum)
+        # 初始化窗体内容
+        self.wordIndex   = 0
+        self.setWordFromIndex(self.wordIndex)
 
     def setWordFont(self):
         '''
@@ -142,6 +155,29 @@ class EnglishPractice:
 
         return replace_positions, delete_positions, insert_positions
 
+    def onPrevClicked(self):
+        if self.wordIndex > 0:
+            self.wordIndex -= 1
+            self.setWordFromIndex(self.wordIndex)
+    def onNextClicked(self):
+        if self.wordIndex < self.wordsNum - 1:
+            self.wordIndex += 1
+            self.setWordFromIndex(self.wordIndex)
+    def setWordFromIndex(self, index):
+        self.currentWord = self.words[index]
+        self.setMeaning()
+        self.setPronun()
+        self.setTrans()
+        self.ui.progressBar.setValue(index+1)
+    def setMeaning(self):
+        self.ui.label.setText(self.db.mean(self.currentWord))
+    def setPronun(self):
+        self.ui.label_2.setText(self.db.pronun(self.currentWord))
+    def setSentence(self):
+        self.ui.textEdit_2.clear()
+        self.ui.textEdit_2.textCursor().insertText(self.db.sentence(self.currentWord))
+    def setTrans(self):
+        self.ui.textBrowser.setText(self.db.trans(self.currentWord))
 
 app = QApplication([])
 ep = EnglishPractice()
