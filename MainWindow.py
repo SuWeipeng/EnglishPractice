@@ -22,15 +22,15 @@ class EnglishPractice:
         self.sentences        = {}
         self.translations     = {}
         self.practiceMode     = EnglishPractice.practiceModeList[2] 
+        self.useSentenceScore = True
         self.wordsNum         = 10
         self.wordIndex        = 0
         self.words_p_lines    = ''
         self.p_list           = []
         self.writeEbbinghaus  = WriteEbbinghausDB("Ebbinghaus.db")
         self.ebdb             = ReadEbbinghausDB("Ebbinghaus.db")
-        self.score            = None
+        self.score            = 0
         self.ebbinghaus       = Ebbinghaus()
-        self.useSentenceScore = False
         self.sentenceCriteria = 0.9
         # 从 UI 定义中动态 创建一个相应的窗口对象
         self.ui = uic.loadUi("ui/EnglishPractice.ui")
@@ -360,12 +360,13 @@ class EnglishPractice:
         from datetime import datetime
         if len(input_word) > 0 and self.pronunciations.get(input_word) is not None:
             if self.useSentenceScore == False:
+                sentenceTimestamp = self.ebdb.sentenceTimestamp(input_word)
                 self.writeEbbinghaus.openAndInsert(input_word,
                                                    self.score,
                                                    word_cnt,
                                                    sentence_cnt,
                                                    datetime.now(),
-                                                   datetime.now())
+                                                   sentenceTimestamp)
             elif self.score > self.sentenceCriteria:
                 self.writeEbbinghaus.openAndInsert(input_word,
                                                    self.score,
