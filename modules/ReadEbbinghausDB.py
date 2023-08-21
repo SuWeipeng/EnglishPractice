@@ -17,6 +17,7 @@ class ReadEbbinghausDB:
         self.disk_conn.backup(self.mem_conn)
         self.getWords()
     def getWords(self):
+        self.words = []
         SQLITE_CMD = 'SELECT * FROM vacabulary'
         with self.mem_conn:
             cur = self.mem_conn.cursor()

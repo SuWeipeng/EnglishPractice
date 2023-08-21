@@ -4,22 +4,24 @@ from PyQt5 import uic
 from modules.ReadWordFromDB import ReadWordFromDB
 from modules.WriteEbbinghausDB import WriteEbbinghausDB
 from modules.ReadEbbinghausDB import ReadEbbinghausDB
+from modules.Ebbinghaus import Ebbinghaus
 
 class EnglishPractice:
     '''
-    01. 与 ui 相关的函数名以   ui_ 开头
-    02. 与数据库相关的函数名以 db_  开头
-    03. 与文件相关的函数名以   f_   开头
-    04. 功能相关的函数名以     fun_ 开头
+    01. 与 ui 相关的函数名以         ui_ 开头
+    02. 与数据库相关的函数名以       db_  开头
+    03. 与文件相关的函数名以         f_   开头
+    04. 功能相关的函数名以           fun_ 开头
+    05. 与 Ebbinghous 相关的函数名以 eb_  开头
     '''
-    practiceModeList = ['new','review']
+    practiceModeList = ['new','review','ebbinghaus']
     def __init__(self):
         self.words            = []
         self.pronunciations   = {}
         self.meanings         = {}
         self.sentences        = {}
         self.translations     = {}
-        self.practiceMode     = EnglishPractice.practiceModeList[1] 
+        self.practiceMode     = EnglishPractice.practiceModeList[2] 
         self.wordsNum         = 10
         self.wordIndex        = 0
         self.words_p_lines    = ''
@@ -27,6 +29,7 @@ class EnglishPractice:
         self.writeEbbinghaus  = WriteEbbinghausDB("Ebbinghaus.db")
         self.ebdb             = ReadEbbinghausDB("Ebbinghaus.db")
         self.score            = None
+        self.ebbinghaus       = Ebbinghaus()
         # 从 UI 定义中动态 创建一个相应的窗口对象
         self.ui = uic.loadUi("ui/EnglishPractice.ui")
         # 字体设置
@@ -52,18 +55,47 @@ class EnglishPractice:
         # 单词错误提示 textEdit 相关变量
         self.tipFormat = self.ui.textEdit_3.currentCharFormat()
         self.tipCursor = self.ui.textEdit_3.textCursor()
-        if self.practiceMode == EnglishPractice.practiceModeList[0]:
+        # 初始化词汇
+        res = self.fun_initWords()
+        if res == False:
+            self.fun_initWords(True)
+        # 初始化界面上的文字信息
+        self.ui_setWordFromIndex(self.wordIndex)
+
+    def fun_initWords(self, force_from_db = False):
+        res = False
+        # 打开单词数据库
+        self.db        = ReadWordFromDB("English.db")
+        if self.practiceMode == EnglishPractice.practiceModeList[0] or force_from_db:
             # 从数据库中取数据
-            self.db          = ReadWordFromDB("English.db")
             self.words       = self.db.get_randomly(self.wordsNum)            
             # 生成单词文件
             self.db_getWords()
             self.f_generateWords()
         elif self.practiceMode == EnglishPractice.practiceModeList[1]:
             self.f_getWords()
-        # 初始化界面上的文字信息
-        self.ui_setWordFromIndex(self.wordIndex)
+        elif self.practiceMode == EnglishPractice.practiceModeList[2]:
+            res = self.eb_getEbbinghausWords()
+        return res
 
+    def eb_getEbbinghausWords(self):
+        result = False
+        self.words = []
+        all = self.ebdb.getWords()
+        for word in all:
+            res = self.ebbinghaus.check(self.ebdb.wordCount(word), self.ebdb.wordTimestamp(word))
+            if res == True:
+                self.words.append(word)
+        if len(self.words) > 0:
+            result = True
+            self.db_getWords()
+            self.f_generateWords()
+            self.wordsNum = len(self.words)
+            # 进度条初始化
+            self.ui.progressBar.setMinimum(1)
+            self.ui.progressBar.setMaximum(self.wordsNum)
+        return result
+    
     def ui_setWordFont(self):
         '''
         设置单词输入框和提示框的字体
@@ -269,12 +301,14 @@ class EnglishPractice:
         self.ui.textEdit_2.textCursor().insertText(self.sentences.get(self.currentWord))
     def ui_setTrans(self):
         self.ui.textBrowser.setText(self.translations.get(self.currentWord))
+
     def db_getWords(self):
         for word in self.words:
             self.pronunciations[word] = self.db.pronun(word)
             self.meanings      [word] = self.db.mean(word)
             self.sentences     [word] = self.db.sentence(word)
             self.translations  [word] = self.db.trans(word)
+
     def f_getWords(self):
         self.p_list = []
         with open("EnglishFiles/words.txt","r",encoding='utf-8') as file:
@@ -307,23 +341,25 @@ class EnglishPractice:
         self.ui.progressBar.setMaximum(self.wordsNum)
 
     def db_writeEbbinghausDB(self):
-        word_cnt = self.ebdb.wordCount(self.input_word)
+        input_word = self.input_word.strip()
+        word_cnt = self.ebdb.wordCount(input_word)
         if word_cnt is None:
             word_cnt = 1
         else:
             word_cnt += 1
-        sentence_cnt = self.ebdb.sentenceCount(self.input_word)
+        sentence_cnt = self.ebdb.sentenceCount(input_word)
         if sentence_cnt is None:
             sentence_cnt = 1
         else:
             sentence_cnt += 1
         from datetime import datetime
-        self.writeEbbinghaus.openAndInsert(self.input_word,
-                                           self.score,
-                                           word_cnt,
-                                           sentence_cnt,
-                                           datetime.now(),
-                                           datetime.now())
+        if len(input_word) > 0:
+            self.writeEbbinghaus.openAndInsert(input_word,
+                                               self.score,
+                                               word_cnt,
+                                               sentence_cnt,
+                                               datetime.now(),
+                                               datetime.now())
     def f_wordsToFile(self):
         self.words_p_lines = ''
         with open("EnglishFiles/words_p.txt","w",encoding='utf-8') as file:
