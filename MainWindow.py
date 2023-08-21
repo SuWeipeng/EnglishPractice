@@ -36,6 +36,7 @@ class EnglishPractice:
         # 句子 textEdit_2 相关变量
         self.ui.textEdit_2.textChanged.connect(self.ui_onTextEdit_2Changed)
         self.input_sentence = None
+        self.sentenceFormat = self.ui.textEdit_2.currentCharFormat()
         self.sentenceCursor = self.ui.textEdit_2.textCursor()
         # 界面按钮的 signal-slot 连接
         self.ui.pushButton.clicked.connect(self.ui_onPrevClicked)
@@ -68,6 +69,10 @@ class EnglishPractice:
             self.wordFormat.setFontFamily(self.selectFont)
             self.wordFormat.setFontFamilies(list(self.selectFont))
             self.ui.textEdit.setCurrentCharFormat(self.wordFormat)
+            # 设置句子输入框字体
+            self.sentenceFormat.setFontFamily(self.selectFont)
+            self.sentenceFormat.setFontFamilies(list(self.selectFont))
+            self.ui.textEdit_2.setCurrentCharFormat(self.sentenceFormat)
             # 设置提示框字体
             self.tipFormat.setFontFamily(self.selectFont)
             self.tipFormat.setFontFamilies(list(self.selectFont))
@@ -81,7 +86,7 @@ class EnglishPractice:
         #self.ui.label.setFont(QFont(font.family(), self.fontSize))
         
         self.selectFont = font.family()
-        # 获取已有的输入内容存入 lineContent 变量
+        # 对单词框获取已有的输入内容存入 lineContent 变量
         self.wordCursor.select(QTextCursor.LineUnderCursor)
         lineContent = self.wordCursor.selectedText()
         # 删除输入内容
@@ -89,6 +94,15 @@ class EnglishPractice:
         self.ui_setWordFont()
         # 还原输入内容
         self.wordCursor.insertText(lineContent, self.wordFormat)
+
+        # 对句子框获取已有的输入内容存入 lineContent 变量
+        self.sentenceCursor.select(QTextCursor.Document)
+        lineContent = self.sentenceCursor.selectedText()
+        # 删除输入内容
+        self.ui.textEdit_2.clear()
+        self.ui_setWordFont()
+        # 还原输入内容
+        self.sentenceCursor.insertText(lineContent, self.sentenceFormat)
         
     def ui_onTextEditChanged(self):
         '''

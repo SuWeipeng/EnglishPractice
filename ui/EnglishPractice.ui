@@ -195,6 +195,7 @@
            </property>
            <property name="font">
             <font>
+             <family>Arial Rounded MT Bold</family>
              <pointsize>15</pointsize>
             </font>
            </property>
@@ -240,7 +241,7 @@
            <item>
             <widget class="QPushButton" name="pushButton_2">
              <property name="text">
-              <string>Next</string>
+              <string>[TAB] Next</string>
              </property>
             </widget>
            </item>
