@@ -93,7 +93,11 @@ class EnglishPractice:
             if self.useSentenceScore == False:
                 res = self.ebbinghaus.check(self.ebdb.wordCount(word), self.ebdb.wordTimestamp(word))
             else:
-                res = self.ebbinghaus.check(self.ebdb.sentenceCount(word), self.ebdb.sentenceTimestamp(word), self.ebdb.score(word))
+                sentenceTimestamp = self.ebdb.sentenceTimestamp(word)
+                if sentenceTimestamp is None:
+                    res = True
+                else:
+                    res = self.ebbinghaus.check(self.ebdb.sentenceCount(word), sentenceTimestamp, self.ebdb.score(word))
             if res == True:
                 selectedWords.append(word)
                 cnt += 1
