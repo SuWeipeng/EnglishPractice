@@ -85,10 +85,14 @@ class EnglishPractice:
         selectedWords = []
         all = self.ebdb.getWords(self.useSentenceScore)
         # 逐一检查是否满足 Ebbinghaus 标准
+        cnt = 0
         for word in all:
             res = self.ebbinghaus.check(self.ebdb.wordCount(word), self.ebdb.wordTimestamp(word))
             if res == True:
                 selectedWords.append(word)
+                cnt += 1
+                if cnt >= self.wordsNum:
+                    break
         self.words = selectedWords[:self.wordsNum]
         if len(self.words) > 0:
             result = True
