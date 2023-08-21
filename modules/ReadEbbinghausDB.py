@@ -16,9 +16,12 @@ class ReadEbbinghausDB:
         # 将本地数据库备份到内存数据库
         self.disk_conn.backup(self.mem_conn)
         self.getWords()
-    def getWords(self):
+    def getWords(self,order_by_sentence = False):
         self.words = []
-        SQLITE_CMD = 'SELECT * FROM vacabulary'
+        if order_by_sentence == False:
+            SQLITE_CMD = 'SELECT * FROM vacabulary ORDER BY word_base ASC'
+        else:
+            SQLITE_CMD = 'SELECT * FROM vacabulary ORDER BY sentence_base ASC'
         with self.mem_conn:
             cur = self.mem_conn.cursor()
             cur.execute(SQLITE_CMD)

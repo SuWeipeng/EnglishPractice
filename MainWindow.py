@@ -30,6 +30,7 @@ class EnglishPractice:
         self.ebdb             = ReadEbbinghausDB("Ebbinghaus.db")
         self.score            = None
         self.ebbinghaus       = Ebbinghaus()
+        self.useSentenceScore = False
         # 从 UI 定义中动态 创建一个相应的窗口对象
         self.ui = uic.loadUi("ui/EnglishPractice.ui")
         # 字体设置
@@ -80,20 +81,23 @@ class EnglishPractice:
 
     def eb_getEbbinghausWords(self):
         result = False
-        self.words = []
-        all = self.ebdb.getWords()
+        selectedWords = []
+        all = self.ebdb.getWords(self.useSentenceScore)
+        # 逐一检查是否满足 Ebbinghaus 标准
         for word in all:
             res = self.ebbinghaus.check(self.ebdb.wordCount(word), self.ebdb.wordTimestamp(word))
             if res == True:
-                self.words.append(word)
+                selectedWords.append(word)
+        self.words = selectedWords[:self.wordsNum]
         if len(self.words) > 0:
             result = True
             self.db_getWords()
             self.f_generateWords()
-            self.wordsNum = len(self.words)
-            # 进度条初始化
-            self.ui.progressBar.setMinimum(1)
-            self.ui.progressBar.setMaximum(self.wordsNum)
+            if len(self.words) < self.wordsNum:
+                self.wordsNum = len(self.words)
+                # 进度条初始化
+                self.ui.progressBar.setMinimum(1)
+                self.ui.progressBar.setMaximum(self.wordsNum)
         return result
     
     def ui_setWordFont(self):
@@ -353,7 +357,7 @@ class EnglishPractice:
         else:
             sentence_cnt += 1
         from datetime import datetime
-        if len(input_word) > 0:
+        if len(input_word) > 0 and self.pronunciations.get(input_word) is not None:
             self.writeEbbinghaus.openAndInsert(input_word,
                                                self.score,
                                                word_cnt,
