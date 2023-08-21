@@ -31,6 +31,7 @@ class EnglishPractice:
         self.score            = None
         self.ebbinghaus       = Ebbinghaus()
         self.useSentenceScore = False
+        self.sentenceCriteria = 0.9
         # 从 UI 定义中动态 创建一个相应的窗口对象
         self.ui = uic.loadUi("ui/EnglishPractice.ui")
         # 字体设置
@@ -354,16 +355,24 @@ class EnglishPractice:
         sentence_cnt = self.ebdb.sentenceCount(input_word)
         if sentence_cnt is None:
             sentence_cnt = 1
-        else:
+        elif self.score > self.sentenceCriteria:
             sentence_cnt += 1
         from datetime import datetime
         if len(input_word) > 0 and self.pronunciations.get(input_word) is not None:
-            self.writeEbbinghaus.openAndInsert(input_word,
-                                               self.score,
-                                               word_cnt,
-                                               sentence_cnt,
-                                               datetime.now(),
-                                               datetime.now())
+            if self.useSentenceScore == False:
+                self.writeEbbinghaus.openAndInsert(input_word,
+                                                   self.score,
+                                                   word_cnt,
+                                                   sentence_cnt,
+                                                   datetime.now(),
+                                                   datetime.now())
+            elif self.score > self.sentenceCriteria:
+                self.writeEbbinghaus.openAndInsert(input_word,
+                                                   self.score,
+                                                   word_cnt,
+                                                   sentence_cnt,
+                                                   datetime.now(),
+                                                   datetime.now())
     def f_wordsToFile(self):
         self.words_p_lines = ''
         with open("EnglishFiles/words_p.txt","w",encoding='utf-8') as file:
