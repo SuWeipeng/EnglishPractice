@@ -87,7 +87,10 @@ class EnglishPractice:
         # 逐一检查是否满足 Ebbinghaus 标准
         cnt = 0
         for word in all:
-            res = self.ebbinghaus.check(self.ebdb.wordCount(word), self.ebdb.wordTimestamp(word))
+            if self.useSentenceScore == False:
+                res = self.ebbinghaus.check(self.ebdb.wordCount(word), self.ebdb.wordTimestamp(word))
+            else:
+                res = self.ebbinghaus.check(self.ebdb.sentenceCount(word), self.ebdb.sentenceTimestamp(word), self.ebdb.score(word))
             if res == True:
                 selectedWords.append(word)
                 cnt += 1

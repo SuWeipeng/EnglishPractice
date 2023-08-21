@@ -3,6 +3,7 @@ import sqlite3
 class ReadEbbinghausDB:
     def __init__(self,db_name):
         self.words        = []
+        self.scores       = {}
         self.wordCnt      = {}
         self.sentenceCnt  = {}
         self.wordTime     = {}
@@ -28,11 +29,14 @@ class ReadEbbinghausDB:
             rows = cur.fetchall()
         for row in rows:
             self.words.append(row[0])
+            self.scores      [row[0]] = row[1]
             self.wordCnt     [row[0]] = row[2]
             self.sentenceCnt [row[0]] = row[3]
             self.wordTime    [row[0]] = row[4]
             self.sentenceTime[row[0]] = row[5]
         return self.words
+    def score(self,word):
+        return self.scores.get(word)
     def wordCount(self,word):
         return self.wordCnt.get(word)
     def sentenceCount(self,word):

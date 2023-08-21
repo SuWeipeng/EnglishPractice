@@ -9,7 +9,7 @@ class Ebbinghaus:
                          6:384}
     def setWords(self,words):
         self.allWords = words
-    def check(self,count,timestamp):
+    def check(self,count,timestamp,score=0):
         import datetime
         res = False
         criteria = None
@@ -18,6 +18,8 @@ class Ebbinghaus:
             criteria = self.criteria.get(count)
         elif count >= 6:
             criteria = self.criteria.get(6)
+        if score > 0:
+            criteria = int(criteria * score)
         # 按标准计算下一次的时间
         next_timestamp = timestamp+datetime.timedelta(hours=criteria)
         # 若当前已到达判定时间，则将返回值置为 True
