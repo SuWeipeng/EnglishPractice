@@ -183,6 +183,8 @@ class EnglishPractice:
             self.ui.textEdit.clear()
             self.wordCursor.insertText(tempWord.strip())
             self.ui.textEdit_2.setFocus()
+        if '\t' in self.input_word:
+            self.ui_onNextClicked()
     def ui_onTextEdit_2Changed(self):
         '''
         输入句子发生变化时的回调函数。
@@ -232,8 +234,10 @@ class EnglishPractice:
 
     def ui_onNextClicked(self):
         # 在 p_list 中保存输入内容
-        self.p_list[self.wordIndex*8] = self.input_word.rstrip()+'\n'
-        self.p_list[self.wordIndex*8+5] = self.input_sentence.rstrip()+'\n'
+        if self.input_word is not None:
+            self.p_list[self.wordIndex*8] = self.input_word.rstrip()+'\n'
+        if self.input_sentence is not None:
+            self.p_list[self.wordIndex*8+5] = self.input_sentence.rstrip()+'\n'
         # 写练习文件
         self.f_wordsToFile()
         # 写 Ebbinghaus 数据库
