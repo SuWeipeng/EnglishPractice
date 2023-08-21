@@ -3,6 +3,7 @@ from PyQt5.QtGui import QFont, QTextCursor, QColor
 from PyQt5 import uic
 from modules.ReadWordFromDB import ReadWordFromDB
 from modules.WriteEbbinghausDB import WriteEbbinghausDB
+from modules.ReadEbbinghausDB import ReadEbbinghausDB
 
 class EnglishPractice:
     '''
@@ -18,12 +19,13 @@ class EnglishPractice:
         self.meanings         = {}
         self.sentences        = {}
         self.translations     = {}
-        self.practiceMode     = EnglishPractice.practiceModeList[0] 
+        self.practiceMode     = EnglishPractice.practiceModeList[1] 
         self.wordsNum         = 10
         self.wordIndex        = 0
         self.words_p_lines    = ''
         self.p_list           = []
         self.writeEbbinghaus  = WriteEbbinghausDB("Ebbinghaus.db")
+        self.ebdb             = ReadEbbinghausDB("Ebbinghaus.db")
         self.score            = None
         # 从 UI 定义中动态 创建一个相应的窗口对象
         self.ui = uic.loadUi("ui/EnglishPractice.ui")
@@ -301,13 +303,23 @@ class EnglishPractice:
         self.ui.progressBar.setMaximum(self.wordsNum)
 
     def db_writeEbbinghausDB(self):
+        word_cnt = self.ebdb.wordCount(self.input_word)
+        if word_cnt is None:
+            word_cnt = 1
+        else:
+            word_cnt += 1
+        sentence_cnt = self.ebdb.sentenceCount(self.input_word)
+        if sentence_cnt is None:
+            sentence_cnt = 1
+        else:
+            sentence_cnt += 1
         from datetime import datetime
         self.writeEbbinghaus.openAndInsert(self.input_word,
                                            self.score,
-                                              1,
-                                              1,
-                                              datetime.now(),
-                                              datetime.now())
+                                           word_cnt,
+                                           sentence_cnt,
+                                           datetime.now(),
+                                           datetime.now())
     def f_wordsToFile(self):
         self.words_p_lines = ''
         with open("EnglishFiles/words_p.txt","w",encoding='utf-8') as file:

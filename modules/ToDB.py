@@ -31,8 +31,8 @@ class ToDB:
         self.disk_conn.close()
 
 def main():
-    db = SQLiteDB("English.db")
-    db.to_disk()
+    db = ToDB("English.db")
+    #db.to_disk()
     
 if __name__ == '__main__':
     main()
