@@ -17,7 +17,7 @@ class EnglishPractice:
         self.meanings         = {}
         self.sentences        = {}
         self.translations     = {}
-        self.practiceMode     = EnglishPractice.practiceModeList[0] 
+        self.practiceMode     = EnglishPractice.practiceModeList[1] 
         self.wordsNum         = 10
         self.wordIndex        = 0
         self.words_p_lines    = ''
@@ -264,6 +264,7 @@ class EnglishPractice:
             self.sentences     [word] = self.db.sentence(word)
             self.translations  [word] = self.db.trans(word)
     def f_getWords(self):
+        self.p_list = []
         with open("EnglishFiles/words.txt","r",encoding='utf-8') as file:
             word = None
             for i, line in enumerate(file):
@@ -271,14 +272,28 @@ class EnglishPractice:
                 if i % 5 == 0:
                     word = content
                     self.words.append(content)
+                    self.p_list.append('\n')
                 if i % 5 == 1:
                     self.pronunciations[word] = content
+                    self.p_list.append(content)
+                    self.p_list.append('\n')
                 if i % 5 == 2:
                     self.meanings[word] = content
+                    self.p_list.append(content)
+                    self.p_list.append('\n')
                 if i % 5 == 3:
                     self.sentences[word] = content
+                    self.p_list.append('\n')
                 if i % 5 == 4:
                     self.translations[word] = content
+                    self.p_list.append(content)
+                    self.p_list.append('\n')
+
+        self.wordsNum = int((i+1)/5)
+        # 进度条初始化
+        self.ui.progressBar.setMinimum(1)
+        self.ui.progressBar.setMaximum(self.wordsNum)
+
     def f_wordsToFile(self):
         self.words_p_lines = ''
         with open("EnglishFiles/words_p.txt","w",encoding='utf-8') as file:
