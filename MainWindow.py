@@ -169,6 +169,7 @@ class EnglishPractice:
         输入句子发生变化时的回调函数。
         '''
         self.input_sentence = self.ui.textEdit_2.toPlainText()
+        self.fun_diffSentence(self.input_sentence,self.sentences.get(self.currentWord))
         if '\n' in self.input_sentence:
             self.ui_onNextClicked()
     def fun_diffWord(self, input_word, word):
@@ -191,6 +192,14 @@ class EnglishPractice:
 
         return replace_positions, delete_positions, insert_positions
 
+    def fun_diffSentence(self, input_sentence, sentence):
+        import difflib
+        score = difflib.SequenceMatcher(None, input_sentence.strip(), sentence.strip()).quick_ratio()
+        self.ui_setScore('%.2f'%(score))
+
+    def ui_setScore(self,score):
+        self.ui.label_3.setText(score)
+
     def ui_onPrevClicked(self):
         if self.wordIndex > 0:
             self.wordIndex -= 1
@@ -206,7 +215,6 @@ class EnglishPractice:
         # 在 p_list 中保存输入内容
         self.p_list[self.wordIndex*8] = self.input_word.rstrip()+'\n'
         self.p_list[self.wordIndex*8+5] = self.input_sentence.rstrip()+'\n'
-        print(self.p_list)
         self.f_wordsToFile()
         if self.wordIndex < self.wordsNum - 1:
             self.wordIndex += 1
