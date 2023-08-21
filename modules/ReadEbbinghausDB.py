@@ -17,6 +17,17 @@ class ReadEbbinghausDB:
         # 将本地数据库备份到内存数据库
         self.disk_conn.backup(self.mem_conn)
         self.getWords()
+    def open(self):
+        # 创建数据库连接
+        self.mem_conn  = sqlite3.connect(":memory:", detect_types=sqlite3.PARSE_DECLTYPES |
+                                                                  sqlite3.PARSE_COLNAMES)
+        self.disk_conn = sqlite3.connect(self.db_name, detect_types=sqlite3.PARSE_DECLTYPES |
+                                                                    sqlite3.PARSE_COLNAMES)
+        # 将本地数据库备份到内存数据库
+        self.disk_conn.backup(self.mem_conn)
+    def close(self):
+        self.mem_conn.close()
+        self.disk_conn.close()
     def getWords(self,order_by_sentence = False):
         self.words = []
         if order_by_sentence == False:

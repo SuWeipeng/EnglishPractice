@@ -51,6 +51,7 @@ class EnglishPractice:
         # 界面按钮的 signal-slot 连接
         self.ui.pushButton.clicked.connect(self.ui_onPrevClicked)
         self.ui.pushButton_2.clicked.connect(self.ui_onNextClicked)
+        self.ui.pushButton_3.clicked.connect(self.ui_getReport)
         # 进度条初始化
         self.ui.progressBar.setMinimum(1)
         self.ui.progressBar.setMaximum(self.wordsNum)
@@ -69,12 +70,14 @@ class EnglishPractice:
         # 打开单词数据库
         self.db        = ReadWordFromDB("English.db")
         if self.practiceMode == EnglishPractice.practiceModeList[0] or force_from_db:
+            res = True
             # 从数据库中取数据
             self.words       = self.db.get_randomly(self.wordsNum)            
             # 生成单词文件
             self.db_getWords()
             self.f_generateWords()
         elif self.practiceMode == EnglishPractice.practiceModeList[1]:
+            res = True
             self.f_getWords()
         elif self.practiceMode == EnglishPractice.practiceModeList[2]:
             res = self.eb_getEbbinghausWords()
@@ -297,6 +300,15 @@ class EnglishPractice:
             self.sentenceCursor.insertText(self.p_list[8*self.wordIndex+5].strip())
 
             self.ui.textEdit.setFocus()
+
+    def ui_getReport(self):
+        self.ebdb.open()
+        words_report = self.ebdb.getWords(self.useSentenceScore)
+        from datetime import datetime
+        with open("reports/"+str(datetime.now()).replace(':','-')+".txt","w",encoding='utf-8') as file:
+            for word in words_report:
+                file.write(word+'\t'+str(self.ebdb.score(word))+'\t'+str(self.ebdb.wordCount(word))+'\t'+str(self.ebdb.sentenceCount(word))+'\n')
+        self.ebdb.close()
 
     def ui_setWordFromIndex(self, index):
         self.currentWord = self.words[index]
