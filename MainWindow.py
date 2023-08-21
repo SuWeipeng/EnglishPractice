@@ -170,7 +170,7 @@ class EnglishPractice:
         '''
         self.input_sentence = self.ui.textEdit_2.toPlainText()
         self.fun_diffSentence(self.input_sentence,self.sentences.get(self.currentWord))
-        if '\n' in self.input_sentence:
+        if '\t' in self.input_sentence:
             self.ui_onNextClicked()
     def fun_diffWord(self, input_word, word):
         '''
