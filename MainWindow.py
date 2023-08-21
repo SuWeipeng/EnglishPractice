@@ -17,12 +17,13 @@ class EnglishPractice:
     practiceModeList = ['new','review','ebbinghaus']
     def __init__(self):
         self.words            = []
+        self.ebWords          = []
         self.pronunciations   = {}
         self.meanings         = {}
         self.sentences        = {}
         self.translations     = {}
         self.practiceMode     = EnglishPractice.practiceModeList[2] 
-        self.useSentenceScore = True
+        self.useSentenceScore = False
         self.wordsNum         = 10
         self.wordIndex        = 0
         self.words_p_lines    = ''
@@ -69,10 +70,11 @@ class EnglishPractice:
         res = False
         # 打开单词数据库
         self.db        = ReadWordFromDB("English.db")
+        self.ebWords   = self.ebdb.getWords(self.useSentenceScore)
         if self.practiceMode == EnglishPractice.practiceModeList[0] or force_from_db:
             res = True
             # 从数据库中取数据
-            self.words       = self.db.get_randomly(self.wordsNum)            
+            self.words       = self.db.get_randomly(self.wordsNum,self.ebWords)            
             # 生成单词文件
             self.db_getWords()
             self.f_generateWords()
@@ -86,10 +88,9 @@ class EnglishPractice:
     def eb_getEbbinghausWords(self):
         result = False
         selectedWords = []
-        all = self.ebdb.getWords(self.useSentenceScore)
         # 逐一检查是否满足 Ebbinghaus 标准
         cnt = 0
-        for word in all:
+        for word in self.ebWords:
             if self.useSentenceScore == False:
                 res = self.ebbinghaus.check(self.ebdb.wordCount(word), self.ebdb.wordTimestamp(word))
             else:

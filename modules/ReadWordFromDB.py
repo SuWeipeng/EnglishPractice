@@ -42,9 +42,16 @@ class ReadWordFromDB:
         return self.sentences.get(word)
     def trans(self,word):
         return self.translations.get(word)
-    def get_randomly(self,N):
+    def get_randomly(self,N,expel=None):
         import random
-        return random.sample(self.words,N)
+        res = random.sample(self.words,N)
+        if expel is not None:
+            s1 = set(self.words)
+            s2 = set(expel)
+            sr = s1 - s2
+            res = list(sr)
+            res = random.sample(res,N)
+        return res
 
 def main():
     db = ReadWordFromDB("English.db")
