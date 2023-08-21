@@ -58,11 +58,11 @@ class FileRead:
                     if self.debugReading:
                         print("sentence translation: " + self.sentenceTranslation)
                     self.db.insertVocabulary(self.word,
-                                            self.pronunciation,
-                                            self.partOfSpeechAndMeaning,
-                                            self.exampleSentence,
-                                            self.sentenceTranslation,
-                                            replace)
+                                             self.pronunciation,
+                                             self.partOfSpeechAndMeaning,
+                                             self.exampleSentence,
+                                             self.sentenceTranslation,
+                                             replace)
         self.db.to_disk()
     def dbg(self):
         '''

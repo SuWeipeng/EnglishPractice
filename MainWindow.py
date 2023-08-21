@@ -2,6 +2,7 @@ from PyQt5.QtWidgets import QApplication
 from PyQt5.QtGui import QFont, QTextCursor, QColor
 from PyQt5 import uic
 from modules.ReadWordFromDB import ReadWordFromDB
+from modules.WriteEbbinghausDB import WriteEbbinghausDB
 
 class EnglishPractice:
     '''
@@ -17,11 +18,13 @@ class EnglishPractice:
         self.meanings         = {}
         self.sentences        = {}
         self.translations     = {}
-        self.practiceMode     = EnglishPractice.practiceModeList[1] 
+        self.practiceMode     = EnglishPractice.practiceModeList[0] 
         self.wordsNum         = 10
         self.wordIndex        = 0
         self.words_p_lines    = ''
         self.p_list           = []
+        self.writeEbbinghaus  = WriteEbbinghausDB("Ebbinghaus.db")
+        self.score            = None
         # 从 UI 定义中动态 创建一个相应的窗口对象
         self.ui = uic.loadUi("ui/EnglishPractice.ui")
         # 字体设置
@@ -208,8 +211,8 @@ class EnglishPractice:
 
     def fun_diffSentence(self, input_sentence, sentence):
         import difflib
-        score = difflib.SequenceMatcher(None, input_sentence.strip(), sentence.strip()).quick_ratio()
-        self.ui_setScore('%.2f'%(score))
+        self.score = difflib.SequenceMatcher(None, input_sentence.strip(), sentence.strip()).quick_ratio()
+        self.ui_setScore('%.2f'%(self.score))
 
     def ui_setScore(self,score):
         self.ui.label_3.setText(score)
@@ -229,7 +232,10 @@ class EnglishPractice:
         # 在 p_list 中保存输入内容
         self.p_list[self.wordIndex*8] = self.input_word.rstrip()+'\n'
         self.p_list[self.wordIndex*8+5] = self.input_sentence.rstrip()+'\n'
+        # 写练习文件
         self.f_wordsToFile()
+        # 写 Ebbinghaus 数据库
+        self.db_writeEbbinghausDB()
         if self.wordIndex < self.wordsNum - 1:
             self.wordIndex += 1
             self.ui_setWordFromIndex(self.wordIndex)
@@ -294,6 +300,14 @@ class EnglishPractice:
         self.ui.progressBar.setMinimum(1)
         self.ui.progressBar.setMaximum(self.wordsNum)
 
+    def db_writeEbbinghausDB(self):
+        from datetime import datetime
+        self.writeEbbinghaus.openAndInsert(self.input_word,
+                                           self.score,
+                                              1,
+                                              1,
+                                              datetime.now(),
+                                              datetime.now())
     def f_wordsToFile(self):
         self.words_p_lines = ''
         with open("EnglishFiles/words_p.txt","w",encoding='utf-8') as file:
