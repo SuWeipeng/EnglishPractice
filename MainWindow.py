@@ -36,6 +36,7 @@ class EnglishPractice:
         # 句子 textEdit_2 相关变量
         self.ui.textEdit_2.textChanged.connect(self.ui_onTextEdit_2Changed)
         self.input_sentence = None
+        self.sentenceCursor = self.ui.textEdit_2.textCursor()
         # 界面按钮的 signal-slot 连接
         self.ui.pushButton.clicked.connect(self.ui_onPrevClicked)
         self.ui.pushButton_2.clicked.connect(self.ui_onNextClicked)
@@ -159,7 +160,9 @@ class EnglishPractice:
                     self.ui.textEdit_3.clear()
                     self.tipCursor.insertText(tipString)
         if '\n' in self.input_word:
-            #self.ui_onNextClicked()
+            tempWord = self.input_word
+            self.ui.textEdit.clear()
+            self.wordCursor.insertText(tempWord.strip())
             self.ui.textEdit_2.setFocus()
     def ui_onTextEdit_2Changed(self):
         '''
@@ -193,21 +196,27 @@ class EnglishPractice:
             self.wordIndex -= 1
             self.ui_setWordFromIndex(self.wordIndex)
 
-            # 恢复输入的单词
+            # 恢复输入内容
             self.ui.textEdit.clear()
             self.wordCursor.insertText(self.p_list[8*self.wordIndex].strip())
+            self.ui.textEdit_2.clear()
+            self.sentenceCursor.insertText(self.p_list[8*self.wordIndex+5].strip())
 
     def ui_onNextClicked(self):
         # 在 p_list 中保存输入内容
         self.p_list[self.wordIndex*8] = self.input_word.rstrip()+'\n'
+        self.p_list[self.wordIndex*8+5] = self.input_sentence.rstrip()+'\n'
+        print(self.p_list)
         self.f_wordsToFile()
         if self.wordIndex < self.wordsNum - 1:
             self.wordIndex += 1
             self.ui_setWordFromIndex(self.wordIndex)
 
-            # 恢复输入的单词
+            # 恢复输入内容
             self.ui.textEdit.clear()
             self.wordCursor.insertText(self.p_list[8*self.wordIndex].strip())
+            self.ui.textEdit_2.clear()
+            self.sentenceCursor.insertText(self.p_list[8*self.wordIndex+5].strip())
 
             self.ui.textEdit.setFocus()
 
