@@ -1,12 +1,12 @@
 # 输入文件名
-fileName       = "vocabulary"
-inputFileName  = fileName+".txt"
+fileName       = "IELTS1000"
 
 from modules.FileRead import FileRead
 
+vocabulary = ["IELTS1000"]
 def main():
-    if fileName == "vocabulary":
-        fr = FileRead(inputFileName)
+    if fileName in vocabulary:
+        fr = FileRead(fileName)
         fr.readContentToDB()
     
 if __name__ == '__main__':

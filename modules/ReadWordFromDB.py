@@ -1,13 +1,14 @@
 import sqlite3
 
 class ReadWordFromDB:
-    def __init__(self,db_name):
+    def __init__(self,db_name,tableName):
         self.words            = []
         self.pronunciations   = {}
         self.meanings         = {}
         self.sentences        = {}
         self.translations     = {}
         self.db_name   = "database/" + db_name
+        self.tableName = tableName
         # 创建数据库连接
         self.mem_conn  = sqlite3.connect(":memory:")
         self.disk_conn = sqlite3.connect(self.db_name)
@@ -18,7 +19,7 @@ class ReadWordFromDB:
         '''
         从数据库的 vocabulary 表获取全部单词数据
         '''
-        SQLITE_CMD = 'SELECT * FROM vacabulary'
+        SQLITE_CMD = 'SELECT * FROM %s'%(self.tableName)
         with self.mem_conn:
             cur = self.mem_conn.cursor()
             cur.execute(SQLITE_CMD)
@@ -54,7 +55,7 @@ class ReadWordFromDB:
         return res
 
 def main():
-    db = ReadWordFromDB("English.db")
+    db = ReadWordFromDB("English.db","IELTS1000")
     print(db.get_randomly(10))
     
 if __name__ == '__main__':

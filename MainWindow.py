@@ -15,6 +15,7 @@ class EnglishPractice:
     05. 与 Ebbinghous 相关的函数名以 eb_  开头
     '''
     practiceModeList = ['new','review','ebbinghaus']
+    vocabulary_list  = ['IELTS1000']
     def __init__(self):
         self.words            = []
         self.ebWords          = []
@@ -69,7 +70,7 @@ class EnglishPractice:
     def fun_initWords(self, force_from_db = False):
         res = False
         # 打开单词数据库
-        self.db        = ReadWordFromDB("English.db")
+        self.db        = ReadWordFromDB("English.db",EnglishPractice.vocabulary_list[0])
         self.ebWords   = self.ebdb.getWords(self.useSentenceScore)
         if self.practiceMode == EnglishPractice.practiceModeList[0] or force_from_db:
             res = True

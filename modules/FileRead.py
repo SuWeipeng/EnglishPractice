@@ -7,7 +7,8 @@ class FileRead:
     debugReading = False
     def __init__(self,input_file):
         # 文件输入相关变量
-        self.input_file      = input_file
+        self.tableName       = input_file
+        self.input_file      = self.tableName + ".txt"
         self.fullPathOfInput = ""
         self.get_inputfile_fullpath()
         # 主体内容相关变量
@@ -18,6 +19,7 @@ class FileRead:
         self.sentenceTranslation    = None
         # 创建数据库对旬
         self.db = ToDB("English.db")
+        self.db.createTable(self.tableName)
     def get_inputfile_fullpath(self):
         '''
         得到输入文件的完整路径，将之存入 self.fullPathOfInput 变量。
