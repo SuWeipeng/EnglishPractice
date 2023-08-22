@@ -69,6 +69,8 @@ class EnglishPractice:
         # 听力页面相关
         self.ui.pushButton_5.clicked.connect(self.ui_onSentencePrevClicked)
         self.ui.pushButton_6.clicked.connect(self.ui_onSentenceNextClicked)
+        self.ui.lineEdit_2.textChanged.connect(self.fun_initListening)
+        self.ui.lineEdit_3.textChanged.connect(self.fun_initListening)
         self.ui.progressBar_2.setMinimum(int(self.ui.lineEdit_2.text().strip()))
         self.ui.progressBar_2.setMaximum(int(self.ui.lineEdit_3.text().strip()))
         self.listenPracticeCnt = int(self.ui.lineEdit_3.text().strip()) - int(self.ui.lineEdit_2.text().strip())
@@ -159,12 +161,13 @@ class EnglishPractice:
         self.ui.textBrowser_2.setText(self.db.getListenTranslation(self.idxListen))
 
     def fun_initListening(self):
-        self.idxListen = int(self.ui.lineEdit_2.text().strip()) - 1
-        self.currentListening = self.db.getListenSentence(self.idxListen)
-        self.ui.textBrowser_2.setText(self.db.getListenTranslation(self.idxListen))
-        self.user_inputs = []
-        for i in range(self.listenPracticeCnt+1):
-            self.user_inputs.append('')
+        if len(self.ui.lineEdit_2.text().strip()) > 0:
+            self.idxListen = int(self.ui.lineEdit_2.text().strip()) - 1
+            self.currentListening = self.db.getListenSentence(self.idxListen)
+            self.ui.textBrowser_2.setText(self.db.getListenTranslation(self.idxListen))
+            self.user_inputs = {}
+            for i in range(self.listenPracticeCnt+1):
+                self.user_inputs[i+self.idxListen] = ''
 
     def ui_onListeningPageChanged(self):
         '''
