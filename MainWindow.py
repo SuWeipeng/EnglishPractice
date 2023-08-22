@@ -139,6 +139,7 @@ class EnglishPractice:
             self.ui.tabWidget.setStyleSheet("color:saddlebrown;")
         elif self.wordMode == 0:
             self.ui.tabWidget.setStyleSheet("")
+        self.ui_selectReview()
 
     def ui_wordsNumChanged(self):
         if len(self.ui.lineEdit.text().strip()) > 0:
