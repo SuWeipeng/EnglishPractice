@@ -13,8 +13,17 @@ class ToDB:
         self.tableName = tableName
         # 在 mem_conn 创建 vacabulary 表
         self.createVacabularyTable(self.mem_conn)
+    def createTableListening(self,tableName):
+        self.tableName = tableName
+        # 在 mem_conn 创建 vacabulary 表
+        self.createListeningTable(self.mem_conn)
     def createVacabularyTable(self,conn):
         sql = "CREATE TABLE IF NOT EXISTS %s (word VARCHAR PRIMARY KEY, pronun VARCHAR, mean VARCHAR, example VARCHAR, trans VARCHAR)"%(self.tableName)
+        cursor = conn.cursor()
+        cursor.execute(sql)
+        conn.commit()
+    def createListeningTable(self,conn):
+        sql = "CREATE TABLE IF NOT EXISTS %s (link VARCHAR PRIMARY KEY, sentence VARCHAR, translation VARCHAR)"%(self.tableName)
         cursor = conn.cursor()
         cursor.execute(sql)
         conn.commit()
@@ -27,7 +36,15 @@ class ToDB:
         cursor = self.mem_conn.cursor()
         cursor.execute(sql)
         self.mem_conn.commit()
-
+    def insertListening(self,link,sentence,translation,replace = False):
+        cmd = "INTO %s VALUES(\'%s\',\'%s\',\'%s\')"%(self.tableName,link,sentence,translation)
+        if replace:
+            sql = "INSERT OR REPLACE " + cmd
+        else:
+            sql = "INSERT OR IGNORE " + cmd
+        cursor = self.mem_conn.cursor()
+        cursor.execute(sql)
+        self.mem_conn.commit()
     def to_disk(self):
         self.mem_conn.backup(self.disk_conn)
         self.mem_conn.close()

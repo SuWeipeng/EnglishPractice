@@ -5,21 +5,32 @@ from ToDB import ToDB
 
 class FileRead:
     debugReading = False
-    def __init__(self,input_file):
+    def __init__(self,input_file,file_type):
+        # file_type 值的意思如下
+        # 1 - 单词
+        # 2 - 听力句子
+        self.file_type       = file_type
         # 文件输入相关变量
         self.tableName       = input_file
         self.input_file      = self.tableName + ".txt"
         self.fullPathOfInput = ""
         self.get_inputfile_fullpath()
-        # 主体内容相关变量
+        # 单词内容相关变量
         self.word                   = None
         self.pronunciation          = None
         self.partOfSpeechAndMeaning = None
         self.exampleSentence        = None
         self.sentenceTranslation    = None
+        # 听力内容相关变量
+        self.link                   = None
+        self.sentence               = None
+        self.translation            = None
         # 创建数据库对旬
         self.db = ToDB("English.db")
-        self.db.createTable(self.tableName)
+        if self.file_type == 1:
+            self.db.createTable(self.tableName)
+        elif self.file_type == 2:
+            self.db.createTableListening(self.tableName)
     def get_inputfile_fullpath(self):
         '''
         得到输入文件的完整路径，将之存入 self.fullPathOfInput 变量。
@@ -65,6 +76,28 @@ class FileRead:
                                              self.exampleSentence,
                                              self.sentenceTranslation,
                                              replace)
+        self.db.to_disk()
+    def listeningContentToDB(self,replace = False):
+        '''
+        listeningContentToDB(True) 会对重复单词的内容进行替换。
+        默认是 False, 会忽略重复内容。
+        '''
+        with open(self.fullPathOfInput,"r",encoding='utf-8') as file:
+            for i, line in enumerate(file):
+                # https://blog.csdn.net/editkiller/article/details/8500123
+                # “I''m” 在数据库里存成 “I'm”，因此需替换 line 中的英文单引号。
+                if "'" in line:
+                    line = line.replace("'","''")
+                if i % 3 == 0:
+                    self.link = line.strip()
+                elif i % 3 == 1:
+                    self.sentence = line.strip()
+                elif i % 3 == 2:
+                    self.translation = line.strip()
+                    self.db.insertListening(self.link,
+                                            self.sentence,
+                                            self.translation,
+                                            replace)
         self.db.to_disk()
     def dbg(self):
         '''
