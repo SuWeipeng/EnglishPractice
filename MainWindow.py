@@ -415,6 +415,7 @@ class EnglishPractice:
         if len(input_word) > 0 and self.pronunciations.get(input_word) is not None:
             if self.useSentenceScore == False:
                 sentenceTimestamp = self.ebdb.sentenceTimestamp(input_word)
+                sentence_cnt = self.ebdb.sentenceCount(input_word)
                 self.writeEbbinghaus.openAndInsert(input_word,
                                                    self.score,
                                                    word_cnt,
