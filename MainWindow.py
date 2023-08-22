@@ -108,7 +108,10 @@ class EnglishPractice:
     def ui_selectReview(self):
         self.wordMode = 1
         self.practiceMode = EnglishPractice.practiceModeList[self.wordMode]
-        self.ui.tabWidget.setStyleSheet("color:saddlebrown;")
+        if self.updateInReview:
+            self.ui.tabWidget.setStyleSheet("color:orangered;")
+        else:
+            self.ui.tabWidget.setStyleSheet("color:saddlebrown;")
         self.wordIndex = 0
         self.p_list    = []
         self.ui_renewUI()
@@ -131,7 +134,7 @@ class EnglishPractice:
     def ui_updateInReview(self):
         self.updateInReview = self.ui.checkBox_2.isChecked()
         if self.updateInReview:
-            self.ui.tabWidget.setStyleSheet("color:darkgreen;")
+            self.ui.tabWidget.setStyleSheet("color:orangered;")
         elif self.wordMode == 1:
             self.ui.tabWidget.setStyleSheet("color:saddlebrown;")
         elif self.wordMode == 0:
