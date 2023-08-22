@@ -24,7 +24,7 @@ class EnglishPractice:
         self.sentences        = {}
         self.translations     = {}
         self.useSentenceScore = False
-        self.wordMode         = 2
+        self.wordMode         = 1
         self.practiceMode     = EnglishPractice.practiceModeList[self.wordMode] 
         self.wordsNum         = 10
         self.wordIndex        = 0
@@ -98,16 +98,25 @@ class EnglishPractice:
     def ui_selectEbbinghaus(self):
         self.wordMode = 2
         self.practiceMode = EnglishPractice.practiceModeList[self.wordMode]
+        self.ui.tabWidget.setStyleSheet("color:darkgreen;")
+        self.wordIndex = 0
+        self.p_list    = []
         self.ui_renewUI()
 
     def ui_selectReview(self):
         self.wordMode = 1
         self.practiceMode = EnglishPractice.practiceModeList[self.wordMode]
+        self.ui.tabWidget.setStyleSheet("color:saddlebrown;")
+        self.wordIndex = 0
+        self.p_list    = []
         self.ui_renewUI()
 
     def ui_selectNew(self):
         self.wordMode = 0
         self.practiceMode = EnglishPractice.practiceModeList[self.wordMode]
+        self.ui.tabWidget.setStyleSheet("")
+        self.wordIndex = 0
+        self.p_list    = []
         self.ui_renewUI()
 
     def ui_sentenceMode(self):
@@ -350,8 +359,9 @@ class EnglishPractice:
             self.p_list[self.wordIndex*8+5] = self.input_sentence.rstrip()+'\n'
         # 写练习文件
         self.f_wordsToFile()
-        # 写 Ebbinghaus 数据库
-        self.db_writeEbbinghausDB()
+        if self.wordMode == 2:
+            # 写 Ebbinghaus 数据库
+            self.db_writeEbbinghausDB()
         if self.wordIndex < self.wordsNum - 1:
             self.wordIndex += 1
             self.ui_setWordFromIndex(self.wordIndex)

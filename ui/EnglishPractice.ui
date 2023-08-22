@@ -18,6 +18,9 @@
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
       <widget class="QTabWidget" name="tabWidget">
+       <property name="styleSheet">
+        <string notr="true">color:saddlebrown;</string>
+       </property>
        <property name="currentIndex">
         <number>0</number>
        </property>
@@ -78,7 +81,7 @@
               </font>
              </property>
              <property name="styleSheet">
-              <string notr="true">background-color: CornflowerBlue</string>
+              <string notr="true">background-color: wheat</string>
              </property>
              <property name="text">
               <string>Meaning</string>
@@ -118,7 +121,7 @@
               </font>
              </property>
              <property name="styleSheet">
-              <string notr="true">background-color: DarkCyan</string>
+              <string notr="true">background-color: lightgoldenrodyellow</string>
              </property>
              <property name="text">
               <string>Pronunciation</string>
@@ -333,11 +336,14 @@
                       <layout class="QHBoxLayout" name="horizontalLayout_6">
                        <item>
                         <widget class="QRadioButton" name="radioButton">
+                         <property name="styleSheet">
+                          <string notr="true"/>
+                         </property>
                          <property name="text">
                           <string>Ebbinghaus</string>
                          </property>
                          <property name="checked">
-                          <bool>true</bool>
+                          <bool>false</bool>
                          </property>
                         </widget>
                        </item>
@@ -356,7 +362,7 @@
                         <string>Review</string>
                        </property>
                        <property name="checked">
-                        <bool>false</bool>
+                        <bool>true</bool>
                        </property>
                       </widget>
                      </item>
@@ -364,6 +370,9 @@
                       <widget class="QRadioButton" name="radioButton_3">
                        <property name="text">
                         <string>New</string>
+                       </property>
+                       <property name="checked">
+                        <bool>false</bool>
                        </property>
                       </widget>
                      </item>
