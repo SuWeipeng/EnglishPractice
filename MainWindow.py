@@ -24,6 +24,7 @@ class EnglishPractice:
         self.sentences        = {}
         self.translations     = {}
         self.useSentenceScore = False
+        self.updateInReview   = False
         self.wordMode         = 1
         self.practiceMode     = EnglishPractice.practiceModeList[self.wordMode] 
         self.wordsNum         = 10
@@ -49,6 +50,7 @@ class EnglishPractice:
         self.ui.radioButton_2.clicked.connect(self.ui_selectReview)
         self.ui.radioButton_3.clicked.connect(self.ui_selectNew)
         self.ui.checkBox.toggled.connect(self.ui_sentenceMode)
+        self.ui.checkBox_2.toggled.connect(self.ui_updateInReview)
         self.ui.lineEdit.textChanged.connect(self.ui_wordsNumChanged)
         # 字体设置
         self.fontSize = 15
@@ -125,6 +127,15 @@ class EnglishPractice:
             self.ui.label_3.setStyleSheet("color:red;")
         else:
             self.ui.label_3.setStyleSheet("color:black;")
+
+    def ui_updateInReview(self):
+        self.updateInReview = self.ui.checkBox_2.isChecked()
+        if self.updateInReview:
+            self.ui.tabWidget.setStyleSheet("color:darkgreen;")
+        elif self.wordMode == 1:
+            self.ui.tabWidget.setStyleSheet("color:saddlebrown;")
+        elif self.wordMode == 0:
+            self.ui.tabWidget.setStyleSheet("")
 
     def ui_wordsNumChanged(self):
         if len(self.ui.lineEdit.text().strip()) > 0:
@@ -304,6 +315,7 @@ class EnglishPractice:
             self.ui.textEdit_2.setFocus()
         if '\t' in self.input_word:
             self.ui_onNextClicked()
+
     def ui_onTextEdit_2Changed(self):
         '''
         输入句子发生变化时的回调函数。
@@ -312,6 +324,7 @@ class EnglishPractice:
         self.fun_diffSentence(self.input_sentence,self.sentences.get(self.currentWord))
         if '\t' in self.input_sentence:
             self.ui_onNextClicked()
+
     def fun_diffWord(self, input_word, word):
         '''
         https://learnku.com/docs/pymotw/difflib-character-comparison/3363
@@ -359,7 +372,7 @@ class EnglishPractice:
             self.p_list[self.wordIndex*8+5] = self.input_sentence.rstrip()+'\n'
         # 写练习文件
         self.f_wordsToFile()
-        if self.wordMode == 2:
+        if self.wordMode == 2 or (self.updateInReview and self.wordMode == 1):
             # 写 Ebbinghaus 数据库
             self.db_writeEbbinghausDB()
         if self.wordIndex < self.wordsNum - 1:
