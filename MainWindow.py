@@ -73,6 +73,7 @@ class EnglishPractice:
         self.ui.progressBar_2.setMaximum(int(self.ui.lineEdit_3.text().strip()))
         self.listenPracticeCnt = int(self.ui.lineEdit_3.text().strip()) - int(self.ui.lineEdit_2.text().strip())
         self.fun_initListening()
+        self.ui.textEdit_4.textChanged.connect(self.ui_onListeningPageChanged)
         # 字体设置
         self.fontSize = 15
         self.ui.fontComboBox.currentFontChanged.connect(self.ui_onFontChanged)
@@ -84,9 +85,11 @@ class EnglishPractice:
         self.wordCursor = self.ui.textEdit.textCursor()
         # 句子 textEdit_2 相关变量
         self.ui.textEdit_2.textChanged.connect(self.ui_onTextEdit_2Changed)
-        self.input_sentence = None
-        self.sentenceFormat = self.ui.textEdit_2.currentCharFormat()
-        self.sentenceCursor = self.ui.textEdit_2.textCursor()
+        self.input_sentence  = None
+        self.sentenceFormat  = self.ui.textEdit_2.currentCharFormat()
+        self.sentenceCursor  = self.ui.textEdit_2.textCursor()
+        self.tipListenFormat = self.ui.textEdit_5.currentCharFormat()
+        self.tipListenCursor = self.ui.textEdit_5.textCursor()
         # 界面按钮的 signal-slot 连接
         self.ui.pushButton.clicked.connect(self.ui_onPrevClicked)
         self.ui.pushButton_2.clicked.connect(self.ui_onNextClicked)
@@ -127,6 +130,8 @@ class EnglishPractice:
         self.ui_renewUI()
 
     def ui_onGoClicked(self):
+        import webbrowser
+        webbrowser.open(self.db.getListenLink(self.idxListen))
         self.ui.tabWidget.setCurrentIndex(1)
         self.ui.textEdit_4.setFocus()
 
@@ -134,19 +139,101 @@ class EnglishPractice:
         if self.listenIndex > 0:
             self.listenIndex -= 1
             self.idxListen   -= 1
+            self.currentListening = self.db.getListenSentence(self.idxListen)
         self.ui.progressBar_2.setValue(self.listenIndex+1)
         self.ui.textBrowser_2.setText(self.db.getListenTranslation(self.idxListen))
+        self.ui.textEdit_4.clear()
+        if len(self.user_inputs[self.idxListen]) > 0:
+            self.ui.textEdit_4.textCursor().insertText(self.user_inputs[self.idxListen])
 
     def ui_onSentenceNextClicked(self):
+        self.user_inputs[self.idxListen] = self.input_listening.strip()
         if self.listenIndex < self.listenPracticeCnt:
             self.listenIndex += 1
             self.idxListen   += 1
+            self.currentListening = self.db.getListenSentence(self.idxListen)
+            self.ui.textEdit_4.clear()
+            if len(self.user_inputs[self.idxListen]) > 0:
+                self.ui.textEdit_4.textCursor().insertText(self.user_inputs[self.idxListen])
         self.ui.progressBar_2.setValue(self.listenIndex+1)
         self.ui.textBrowser_2.setText(self.db.getListenTranslation(self.idxListen))
 
     def fun_initListening(self):
-        self.idxListen = int(self.ui.lineEdit_3.text().strip()) - 1
+        self.idxListen = int(self.ui.lineEdit_2.text().strip()) - 1
+        self.currentListening = self.db.getListenSentence(self.idxListen)
         self.ui.textBrowser_2.setText(self.db.getListenTranslation(self.idxListen))
+        self.user_inputs = []
+        for i in range(self.listenPracticeCnt+1):
+            self.user_inputs.append('')
+
+    def ui_onListeningPageChanged(self):
+        '''
+        输入听到的句子发生变化时的回调函数。
+        '''
+        self.input_listening = self.ui.textEdit_4.toPlainText()
+        replace_pos, delete_pos, insert_pos = self.fun_diffWord(self.input_listening, self.currentListening)
+
+        # 修改窗口的提示
+        self.ui.textEdit_5.clear()
+        if not replace_pos and not delete_pos and not insert_pos:
+            self.tipListenFormat.setForeground(QColor("green"))
+            self.tipListenCursor.insertText("Excellent!")
+            self.tipListenCursor.setPosition(0,QTextCursor.MoveAnchor)
+            self.tipListenCursor.setPosition(10,QTextCursor.KeepAnchor)
+            self.tipListenCursor.mergeCharFormat(self.tipListenFormat)
+        else:
+            tipString = self.input_listening
+            # 需插入的地方用 _ 代替
+            insert_pos.reverse()
+            #print(insert_pos,tipString)
+            for i in range(len(insert_pos)):
+                index = insert_pos[i][2]
+                times = insert_pos[i][1]-insert_pos[i][0]
+                tipString = list(tipString)
+                tipString.insert(index, '_'*times)
+                tipString = ''.join(tipString)
+            # 修改 tipString 后重新对比
+            self.ui.textEdit_5.clear()
+            self.tipListenCursor.insertText(tipString)
+            replace_pos, delete_pos, insert_pos = self.fun_diffWord(tipString, self.currentListening)
+            # 删除多余字母
+            delete_pos.reverse()
+            #print(delete_pos,tipString)
+            for i in range(len(delete_pos)):
+                index = delete_pos[i][0]
+                times = delete_pos[i][1]-delete_pos[i][0]
+                tipString = tipString[:index] + tipString[index+times:]
+            # 修改 tipString 后重新对比
+            self.ui.textEdit_5.clear()
+            self.tipListenCursor.insertText(tipString)
+            replace_pos, delete_pos, insert_pos = self.fun_diffWord(tipString, self.currentListening)
+            # 处理需替换的内容
+            replace_pos.reverse()
+            #print(replace_pos,tipString)
+            self.tipListenFormat.setForeground(QColor("red"))
+            for i in range(len(replace_pos)):
+                # 若替换内容与被替换内容个数相同，则用红字标示。
+                if replace_pos[i][3] - replace_pos[i][2] == replace_pos[i][1] - replace_pos[i][0]:
+                    self.tipListenCursor.setPosition(replace_pos[i][0],QTextCursor.MoveAnchor)
+                    self.tipListenCursor.setPosition(replace_pos[i][1],QTextCursor.KeepAnchor)
+                    self.tipListenCursor.mergeCharFormat(self.tipListenFormat)
+                else: # 若替换内容与被替换内容个数不同，则先从目标删除
+                    index = replace_pos[i][0]
+                    times1 = replace_pos[i][1]-replace_pos[i][0]
+                    tipString = tipString[:index] + tipString[index+times1:]
+                    # 再把需要替换的位置填上 _
+                    times2 = replace_pos[i][3]-replace_pos[i][2]
+                    tipString = list(tipString)
+                    tipString.insert(index, '_'*times2)
+                    tipString = ''.join(tipString)
+                    # 如果填的 _ 个数多于删除的个数，则多出几个就在末尾截出几个(用 _ 代替)
+                    if times2 > times1:
+                        times_error = times2 - times1
+                        tipString = tipString[:-1]+'_'*times_error
+                    self.ui.textEdit_5.clear()
+                    self.tipListenCursor.insertText(tipString)
+        if '\t' in self.input_listening:
+            self.ui_onSentenceNextClicked()
 
     def ui_selectReview(self):
         self.wordMode = 1

@@ -45,6 +45,9 @@ class ReadWordFromDB:
         self.listenCount = len(self.links)
         return self.listenCount
     
+    def getListenLink(self,index):
+        return self.links[index]
+
     def getListenSentence(self,index):
         return self.listenSentences[index]
     
