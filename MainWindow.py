@@ -112,6 +112,10 @@ class EnglishPractice:
 
     def ui_sentenceMode(self):
         self.useSentenceScore = self.ui.checkBox.isChecked()
+        if self.useSentenceScore:
+            self.ui.label_3.setStyleSheet("color:red;")
+        else:
+            self.ui.label_3.setStyleSheet("color:black;")
 
     def ui_wordsNumChanged(self):
         if len(self.ui.lineEdit.text().strip()) > 0:
