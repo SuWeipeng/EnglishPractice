@@ -23,7 +23,7 @@ class EnglishPractice:
         self.meanings         = {}
         self.sentences        = {}
         self.translations     = {}
-        self.practiceMode     = EnglishPractice.practiceModeList[2] 
+        self.practiceMode     = EnglishPractice.practiceModeList[1] 
         self.useSentenceScore = False
         self.wordsNum         = 10
         self.wordIndex        = 0
@@ -80,8 +80,7 @@ class EnglishPractice:
             self.db_getWords()
             self.f_generateWords()
         elif self.practiceMode == EnglishPractice.practiceModeList[1]:
-            res = True
-            self.f_getWords()
+            res = self.f_getWords()
         elif self.practiceMode == EnglishPractice.practiceModeList[2]:
             res = self.eb_getEbbinghausWords()
         return res
@@ -311,9 +310,34 @@ class EnglishPractice:
         self.ebdb.open()
         words_report = self.ebdb.getWords(self.useSentenceScore)
         from datetime import datetime
-        with open("reports/"+str(datetime.now()).replace(':','-')+".txt","w",encoding='utf-8') as file:
+        with open("reports/"+str(datetime.now()).replace(':','-')+".html","w",encoding='utf-8') as file:
+            file.write('<table>\n')
+            file.write('''    <tr align="left">
+        <th bgcolor="#F6F6F6"> Word</th>
+        <th bgcolor="#F6F6F6"> <font color="#FE642E"> Score</th>
+        <th bgcolor="#F6F6F6"> <font color="#04B431"> Word Count</th>
+        <th bgcolor="#F6F6F6"> <font color="#045FB4"> Sentence Count</th>
+    </tr>''')
+            index = 0
             for word in words_report:
-                file.write(word+'\t'+str(self.ebdb.score(word))+'\t'+str(self.ebdb.wordCount(word))+'\t'+str(self.ebdb.sentenceCount(word))+'\n')
+                if index % 2 == 0:
+                    file.write('''
+    <tr >
+        <td bgcolor="#FDFDFD"> %s</td>
+        <td bgcolor="#FDFDFD"> <font color="#FE642E">%s</td>
+        <td bgcolor="#FDFDFD"> <font color="#04B431">%s</td>
+        <td bgcolor="#FDFDFD"> <font color="#045FB4">%s</td>
+    </tr>'''%(word,str(self.ebdb.score(word)),str(self.ebdb.wordCount(word)), str(self.ebdb.sentenceCount(word))))
+                else:
+                    file.write('''
+    <tr >
+        <td bgcolor="#F6F6F6"> %s</td>
+        <td bgcolor="#F6F6F6"> <font color="#FE642E">%s</td>
+        <td bgcolor="#F6F6F6"> <font color="#04B431">%s</td>
+        <td bgcolor="#F6F6F6"> <font color="#045FB4">%s</td>
+    </tr>'''%(word,str(self.ebdb.score(word)),str(self.ebdb.wordCount(word)), str(self.ebdb.sentenceCount(word))))
+                index += 1
+            file.write('\n</table>\n')
         self.ebdb.close()
 
     def ui_setWordFromIndex(self, index):
@@ -341,34 +365,39 @@ class EnglishPractice:
 
     def f_getWords(self):
         self.p_list = []
-        with open("EnglishFiles/words.txt","r",encoding='utf-8') as file:
-            word = None
-            for i, line in enumerate(file):
-                content = line.strip()
-                if i % 5 == 0:
-                    word = content
-                    self.words.append(content)
-                    self.p_list.append('\n')
-                if i % 5 == 1:
-                    self.pronunciations[word] = content
-                    self.p_list.append(content)
-                    self.p_list.append('\n')
-                if i % 5 == 2:
-                    self.meanings[word] = content
-                    self.p_list.append(content)
-                    self.p_list.append('\n')
-                if i % 5 == 3:
-                    self.sentences[word] = content
-                    self.p_list.append('\n')
-                if i % 5 == 4:
-                    self.translations[word] = content
-                    self.p_list.append(content)
-                    self.p_list.append('\n')
+        res = True
+        try:
+            with open("EnglishFiles/words.txt","r",encoding='utf-8') as file:
+                word = None
+                for i, line in enumerate(file):
+                    content = line.strip()
+                    if i % 5 == 0:
+                        word = content
+                        self.words.append(content)
+                        self.p_list.append('\n')
+                    if i % 5 == 1:
+                        self.pronunciations[word] = content
+                        self.p_list.append(content)
+                        self.p_list.append('\n')
+                    if i % 5 == 2:
+                        self.meanings[word] = content
+                        self.p_list.append(content)
+                        self.p_list.append('\n')
+                    if i % 5 == 3:
+                        self.sentences[word] = content
+                        self.p_list.append('\n')
+                    if i % 5 == 4:
+                        self.translations[word] = content
+                        self.p_list.append(content)
+                        self.p_list.append('\n')
 
-        self.wordsNum = int((i+1)/5)
-        # 进度条初始化
-        self.ui.progressBar.setMinimum(1)
-        self.ui.progressBar.setMaximum(self.wordsNum)
+            self.wordsNum = int((i+1)/5)
+            # 进度条初始化
+            self.ui.progressBar.setMinimum(1)
+            self.ui.progressBar.setMaximum(self.wordsNum)
+        except:
+            res = False
+        return res
 
     def db_writeEbbinghausDB(self):
         input_word = self.input_word.strip()
