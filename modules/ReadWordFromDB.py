@@ -2,11 +2,6 @@ import sqlite3
 
 class ReadWordFromDB:
     def __init__(self,db_name,tableName):
-        self.words            = []
-        self.pronunciations   = {}
-        self.meanings         = {}
-        self.sentences        = {}
-        self.translations     = {}
         self.db_name   = "database/" + db_name
         self.tableName = tableName
         # 创建数据库连接
@@ -15,11 +10,33 @@ class ReadWordFromDB:
         # 将本地数据库备份到内存数据库
         self.disk_conn.backup(self.mem_conn)
         self.getWords()
-    def getWords(self):
+    def getTables(self):
+        '''
+        获取数据库里所有表的名字。
+        '''
+        tables = []
+        SQLITE_CMD = 'SELECT * FROM sqlite_master WHERE type=\'table\''
+        with self.mem_conn:
+            cur = self.mem_conn.cursor()
+            cur.execute(SQLITE_CMD)
+            rows = cur.fetchall()
+        for row in rows:
+            tables.append(row[1])
+        return tables
+    def getWords(self,table=None):
         '''
         从数据库的 vocabulary 表获取全部单词数据
         '''
-        SQLITE_CMD = 'SELECT * FROM %s'%(self.tableName)
+        self.words            = []
+        self.pronunciations   = {}
+        self.meanings         = {}
+        self.sentences        = {}
+        self.translations     = {}
+        targetTable = self.tableName
+        if table is not None:
+            self.tableName = table
+            targetTable    = self.tableName
+        SQLITE_CMD = 'SELECT * FROM %s'%(targetTable)
         with self.mem_conn:
             cur = self.mem_conn.cursor()
             cur.execute(SQLITE_CMD)

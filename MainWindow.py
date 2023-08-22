@@ -23,8 +23,9 @@ class EnglishPractice:
         self.meanings         = {}
         self.sentences        = {}
         self.translations     = {}
-        self.practiceMode     = EnglishPractice.practiceModeList[1] 
         self.useSentenceScore = False
+        self.wordMode         = 2
+        self.practiceMode     = EnglishPractice.practiceModeList[self.wordMode] 
         self.wordsNum         = 10
         self.wordIndex        = 0
         self.words_p_lines    = ''
@@ -34,8 +35,21 @@ class EnglishPractice:
         self.score            = 0
         self.ebbinghaus       = Ebbinghaus()
         self.sentenceCriteria = 0.9
+        # 打开单词数据库
+        self.db               = ReadWordFromDB("English.db",EnglishPractice.vocabulary_list[0])
+        self.dbTables         = self.db.getTables()
+        self.wordTables       = list(set(self.dbTables).intersection(set(EnglishPractice.vocabulary_list)))
         # 从 UI 定义中动态 创建一个相应的窗口对象
         self.ui = uic.loadUi("ui/EnglishPractice.ui")
+        # Settings 中的 Word 数据源选择
+        self.ui.comboBox.addItems(self.wordTables)
+        self.ui.comboBox.currentIndexChanged.connect(self.ui_wordSourceChanged)
+        # Settings 模式选择
+        self.ui.radioButton.clicked.connect(self.ui_selectEbbinghaus)
+        self.ui.radioButton_2.clicked.connect(self.ui_selectReview)
+        self.ui.radioButton_3.clicked.connect(self.ui_selectNew)
+        self.ui.checkBox.toggled.connect(self.ui_sentenceMode)
+        self.ui.lineEdit.textChanged.connect(self.ui_wordsNumChanged)
         # 字体设置
         self.fontSize = 15
         self.ui.fontComboBox.currentFontChanged.connect(self.ui_onFontChanged)
@@ -67,10 +81,47 @@ class EnglishPractice:
         # 初始化界面上的文字信息
         self.ui_setWordFromIndex(self.wordIndex)
 
+    def ui_renewUI(self):
+        self.ui.textEdit.clear()
+        self.ui.textEdit_2.clear()
+        self.ui.textEdit_3.clear()
+        self.wordIndex        = 0
+        self.words_p_lines    = ''
+        self.score            = 0
+        # 初始化词汇
+        res = self.fun_initWords()
+        if res == False:
+            self.fun_initWords(True)
+        # 初始化界面上的文字信息
+        self.ui_setWordFromIndex(self.wordIndex)
+        
+    def ui_selectEbbinghaus(self):
+        self.wordMode = 2
+        self.practiceMode = EnglishPractice.practiceModeList[self.wordMode]
+        self.ui_renewUI()
+
+    def ui_selectReview(self):
+        self.wordMode = 1
+        self.practiceMode = EnglishPractice.practiceModeList[self.wordMode]
+        self.ui_renewUI()
+
+    def ui_selectNew(self):
+        self.wordMode = 0
+        self.practiceMode = EnglishPractice.practiceModeList[self.wordMode]
+        self.ui_renewUI()
+
+    def ui_sentenceMode(self):
+        self.useSentenceScore = self.ui.checkBox.isChecked()
+
+    def ui_wordsNumChanged(self):
+        if len(self.ui.lineEdit.text().strip()) > 0:
+            self.wordsNum  = int(self.ui.lineEdit.text())
+            self.wordIndex = 0
+            self.p_list    = []
+            self.ui_renewUI()
+
     def fun_initWords(self, force_from_db = False):
         res = False
-        # 打开单词数据库
-        self.db        = ReadWordFromDB("English.db",EnglishPractice.vocabulary_list[0])
         self.ebWords   = self.ebdb.getWords(self.useSentenceScore)
         if self.practiceMode == EnglishPractice.practiceModeList[0] or force_from_db:
             res = True
@@ -115,7 +166,10 @@ class EnglishPractice:
                 self.ui.progressBar.setMinimum(1)
                 self.ui.progressBar.setMaximum(self.wordsNum)
         return result
-    
+
+    def ui_wordSourceChanged(self):
+        self.db.getWords(self.ui.comboBox.currentText())
+
     def ui_setWordFont(self):
         '''
         设置单词输入框和提示框的字体

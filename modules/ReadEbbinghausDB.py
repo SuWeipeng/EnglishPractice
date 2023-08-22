@@ -31,9 +31,9 @@ class ReadEbbinghausDB:
     def getWords(self,order_by_sentence = False):
         self.words = []
         if order_by_sentence == False:
-            SQLITE_CMD = 'SELECT * FROM vacabulary ORDER BY word_time ASC'
+            SQLITE_CMD = 'SELECT * FROM vacabulary ORDER BY word_base ASC'
         else:
-            SQLITE_CMD = 'SELECT * FROM vacabulary ORDER BY sentence_time ASC'
+            SQLITE_CMD = 'SELECT * FROM vacabulary ORDER BY sentence_base ASC'
         with self.mem_conn:
             cur = self.mem_conn.cursor()
             cur.execute(SQLITE_CMD)
