@@ -256,7 +256,7 @@
         <attribute name="title">
          <string>Listening</string>
         </attribute>
-        <layout class="QHBoxLayout" name="horizontalLayout_14">
+        <layout class="QVBoxLayout" name="verticalLayout_10">
          <item>
           <layout class="QVBoxLayout" name="verticalLayout_9">
            <item>
@@ -309,6 +309,31 @@
               <font>
                <pointsize>15</pointsize>
               </font>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_14">
+           <item>
+            <widget class="QPushButton" name="pushButton_5">
+             <property name="text">
+              <string>Prev</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QProgressBar" name="progressBar_2">
+             <property name="value">
+              <number>24</number>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_6">
+             <property name="text">
+              <string>[TAB] Next</string>
              </property>
             </widget>
            </item>
@@ -585,6 +610,9 @@
                       <verstretch>0</verstretch>
                      </sizepolicy>
                     </property>
+                    <property name="text">
+                     <string>1</string>
+                    </property>
                    </widget>
                   </item>
                   <item>
@@ -607,6 +635,9 @@
                       <horstretch>1</horstretch>
                       <verstretch>0</verstretch>
                      </sizepolicy>
+                    </property>
+                    <property name="text">
+                     <string>2</string>
                     </property>
                    </widget>
                   </item>

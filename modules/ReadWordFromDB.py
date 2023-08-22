@@ -1,9 +1,10 @@
 import sqlite3
 
 class ReadWordFromDB:
-    def __init__(self,db_name,tableName):
-        self.db_name   = "database/" + db_name
-        self.tableName = tableName
+    def __init__(self,db_name,tableName,listenTable):
+        self.db_name     = "database/" + db_name
+        self.tableName   = tableName
+        self.listenTable = listenTable
         # 创建数据库连接
         self.mem_conn  = sqlite3.connect(":memory:")
         self.disk_conn = sqlite3.connect(self.db_name)
@@ -23,6 +24,33 @@ class ReadWordFromDB:
         for row in rows:
             tables.append(row[1])
         return tables
+    def getListenContent(self,table=None):
+        self.links               = []
+        self.listenSentences     = []
+        self.listenTranslations  = []
+        self.listenCount         = 0
+        targetTable = self.listenTable
+        if table is not None:
+            self.listenTable = table
+            targetTable = self.listenTable
+        SQLITE_CMD = 'SELECT * FROM %s'%(targetTable)
+        with self.mem_conn:
+            cur = self.mem_conn.cursor()
+            cur.execute(SQLITE_CMD)
+            rows = cur.fetchall()
+        for row in rows:
+            self.links.append(row[0])
+            self.listenSentences.append(row[1])
+            self.listenTranslations.append(row[2])
+        self.listenCount = len(self.links)
+        return self.listenCount
+    
+    def getListenSentence(self,index):
+        return self.listenSentences[index]
+    
+    def getListenTranslation(self,index):
+        return self.listenTranslations[index]
+
     def getWords(self,table=None):
         '''
         从数据库的 vocabulary 表获取全部单词数据

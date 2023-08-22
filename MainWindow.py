@@ -16,7 +16,14 @@ class EnglishPractice:
     '''
     practiceModeList = ['new','review','ebbinghaus']
     vocabulary_list  = ['IELTS1000']
+    listening_list   = ['Coversation01']
     def __init__(self):
+        # 打开单词数据库
+        self.db               = ReadWordFromDB("English.db",EnglishPractice.vocabulary_list[0],EnglishPractice.listening_list[0])
+        self.dbTables         = self.db.getTables()
+        self.wordTables       = list(set(self.dbTables).intersection(set(EnglishPractice.vocabulary_list)))
+        self.listeningTables  = list(set(self.dbTables).intersection(set(EnglishPractice.listening_list)))
+        # 单词相关变量
         self.words            = []
         self.ebWords          = []
         self.pronunciations   = {}
@@ -36,15 +43,21 @@ class EnglishPractice:
         self.score            = 0
         self.ebbinghaus       = Ebbinghaus()
         self.sentenceCriteria = 0.9
-        # 打开单词数据库
-        self.db               = ReadWordFromDB("English.db",EnglishPractice.vocabulary_list[0])
-        self.dbTables         = self.db.getTables()
-        self.wordTables       = list(set(self.dbTables).intersection(set(EnglishPractice.vocabulary_list)))
+        # 听力相关变量
+        self.links                 = []
+        self.listeningSentences    = []
+        self.listeningTranslations = []
+        self.listenIndex           = 0
+        self.listenCount           = self.db.getListenContent()
         # 从 UI 定义中动态 创建一个相应的窗口对象
         self.ui = uic.loadUi("ui/EnglishPractice.ui")
+        # 听力设置相关
+        self.ui.label_10.setText(str(self.listenCount))
         # Settings 中的 Word 数据源选择
         self.ui.comboBox.addItems(self.wordTables)
         self.ui.comboBox.currentIndexChanged.connect(self.ui_wordSourceChanged)
+        # Settings 中的 Listening 数据源选择
+        self.ui.comboBox_2.addItems(self.listeningTables)
         # Settings 模式选择
         self.ui.radioButton.clicked.connect(self.ui_selectEbbinghaus)
         self.ui.radioButton_2.clicked.connect(self.ui_selectReview)
@@ -52,6 +65,14 @@ class EnglishPractice:
         self.ui.checkBox.toggled.connect(self.ui_sentenceMode)
         self.ui.checkBox_2.toggled.connect(self.ui_updateInReview)
         self.ui.lineEdit.textChanged.connect(self.ui_wordsNumChanged)
+        self.ui.pushButton_4.clicked.connect(self.ui_onGoClicked)
+        # 听力页面相关
+        self.ui.pushButton_5.clicked.connect(self.ui_onSentencePrevClicked)
+        self.ui.pushButton_6.clicked.connect(self.ui_onSentenceNextClicked)
+        self.ui.progressBar_2.setMinimum(int(self.ui.lineEdit_2.text().strip()))
+        self.ui.progressBar_2.setMaximum(int(self.ui.lineEdit_3.text().strip()))
+        self.listenPracticeCnt = int(self.ui.lineEdit_3.text().strip()) - int(self.ui.lineEdit_2.text().strip())
+        self.fun_initListening()
         # 字体设置
         self.fontSize = 15
         self.ui.fontComboBox.currentFontChanged.connect(self.ui_onFontChanged)
@@ -104,6 +125,28 @@ class EnglishPractice:
         self.wordIndex = 0
         self.p_list    = []
         self.ui_renewUI()
+
+    def ui_onGoClicked(self):
+        self.ui.tabWidget.setCurrentIndex(1)
+        self.ui.textEdit_4.setFocus()
+
+    def ui_onSentencePrevClicked(self):
+        if self.listenIndex > 0:
+            self.listenIndex -= 1
+            self.idxListen   -= 1
+        self.ui.progressBar_2.setValue(self.listenIndex+1)
+        self.ui.textBrowser_2.setText(self.db.getListenTranslation(self.idxListen))
+
+    def ui_onSentenceNextClicked(self):
+        if self.listenIndex < self.listenPracticeCnt:
+            self.listenIndex += 1
+            self.idxListen   += 1
+        self.ui.progressBar_2.setValue(self.listenIndex+1)
+        self.ui.textBrowser_2.setText(self.db.getListenTranslation(self.idxListen))
+
+    def fun_initListening(self):
+        self.idxListen = int(self.ui.lineEdit_3.text().strip()) - 1
+        self.ui.textBrowser_2.setText(self.db.getListenTranslation(self.idxListen))
 
     def ui_selectReview(self):
         self.wordMode = 1
