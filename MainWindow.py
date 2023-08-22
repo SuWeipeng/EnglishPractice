@@ -150,7 +150,12 @@ class EnglishPractice:
 
     def fun_initWords(self, force_from_db = False):
         res = False
-        self.ebWords   = self.ebdb.getWords(self.useSentenceScore)
+        try:
+            self.ebWords   = self.ebdb.getWords(self.useSentenceScore)
+        except:
+            self.ebdb.open()
+            self.ebWords   = self.ebdb.getWords(self.useSentenceScore)
+            self.ebdb.close()
         if self.practiceMode == EnglishPractice.practiceModeList[0] or force_from_db:
             res = True
             # 从数据库中取数据
