@@ -5,6 +5,7 @@ from modules.ReadWordFromDB import ReadWordFromDB
 from modules.WriteEbbinghausDB import WriteEbbinghausDB
 from modules.ReadEbbinghausDB import ReadEbbinghausDB
 from modules.Ebbinghaus import Ebbinghaus
+import json
 
 class EnglishPractice:
     '''
@@ -34,7 +35,7 @@ class EnglishPractice:
         self.useSentenceScore = False
         self.updateInReview   = False
         self.wordMode         = 1
-        self.practiceMode     = EnglishPractice.practiceModeList[self.wordMode] 
+        self.practiceMode     = EnglishPractice.practiceModeList[self.wordMode]
         self.wordsNum         = 10
         self.wordIndex        = 0
         self.words_p_lines    = ''
@@ -52,6 +53,7 @@ class EnglishPractice:
         self.listenCount           = self.db.getListenContent()
         # 从 UI 定义中动态 创建一个相应的窗口对象
         self.ui = uic.loadUi("ui/EnglishPractice.ui")
+        #self.ui.tabWidget.setStyleSheet("color:saddlebrown;")
         # 听力设置相关
         self.ui.label_10.setText(str(self.listenCount))
         # Settings 中的 Word 数据源选择
@@ -60,6 +62,7 @@ class EnglishPractice:
         # Settings 中的 Listening 数据源选择
         self.ui.comboBox_2.addItems(self.listeningTables)
         # Settings 模式选择
+        self.userChanged = 0
         self.ui.radioButton.clicked.connect(self.ui_selectEbbinghaus)
         self.ui.radioButton_2.clicked.connect(self.ui_selectReview)
         self.ui.radioButton_3.clicked.connect(self.ui_selectNew)
@@ -71,12 +74,14 @@ class EnglishPractice:
         self.ui.pushButton_5.clicked.connect(self.ui_onSentencePrevClicked)
         self.ui.pushButton_6.clicked.connect(self.ui_onSentenceNextClicked)
         self.ui.lineEdit_2.textChanged.connect(self.fun_initListening)
-        self.ui.lineEdit_3.textChanged.connect(self.fun_initListening)
+        self.ui.lineEdit_3.textChanged.connect(self.fun_initListening) 
+        self.ui.pushButton_7.clicked.connect(self.ui_saveClicked)  
+        self.ui.pushButton_8.clicked.connect(self.ui_loadClicked)
+        self.ui.textEdit_4.textChanged.connect(self.ui_onListeningPageChanged)
         self.ui.progressBar_2.setMinimum(int(self.ui.lineEdit_2.text().strip()))
         self.ui.progressBar_2.setMaximum(int(self.ui.lineEdit_3.text().strip()))
         self.listenPracticeCnt = int(self.ui.lineEdit_3.text().strip()) - int(self.ui.lineEdit_2.text().strip())
         self.fun_initListening()
-        self.ui.textEdit_4.textChanged.connect(self.ui_onListeningPageChanged)
         # 字体设置
         self.fontSize = 15
         self.ui.fontComboBox.currentFontChanged.connect(self.ui_onFontChanged)
@@ -109,6 +114,87 @@ class EnglishPractice:
             self.fun_initWords(True)
         # 初始化界面上的文字信息
         self.ui_setWordFromIndex(self.wordIndex)
+        import os
+        if os.path.exists("config/Settings.json"):
+            self.ui.tabWidget.setStyleSheet("")
+            self.ui_loadClicked()
+
+    def ui_loadClicked(self):
+        # 读取配置文件
+        self.noConfigFile = False
+        try:
+            with open("config/Settings.json","r",encoding='utf-8') as file:
+                self.configDict = json.load(file)
+                if len(self.configDict) > 0:
+                    self.fun_initWithConfig()
+        except (RuntimeError, IOError) as e:
+            self.noConfigFile = True
+            print(e)
+            #out, err = self._proc.communicate()
+            #raise IOError('Error saving animation to file (cause: {0}) '
+            #          'Stdout: {1} StdError: {2}. It may help to re-run '
+            #          'with --verbose-debug.'.format(e, out, err))
+
+    def ui_saveClicked(self):
+        self.f_writeConfigFile()
+
+    def fun_initWithConfig(self):
+        self.useSentenceScore = self.configDict.get("sentence")
+        self.ui.checkBox.setChecked(self.useSentenceScore)
+        # 设置模式
+        if self.configDict.get("Ebbinghaus"):
+            self.wordMode = 2
+        elif self.configDict.get("Review"):
+            self.wordMode = 1
+        elif self.configDict.get("New"):
+            self.wordMode = 0
+        # 设置颜色
+        self.updateInReview   = self.configDict.get("UpdateInReview")
+        self.ui.checkBox_2.setChecked(self.updateInReview)
+        if self.updateInReview:
+            self.ui.tabWidget.setStyleSheet("color:purple;")
+        elif self.wordMode == 2:
+            self.ui.tabWidget.setStyleSheet("color:darkgreen;")
+        elif self.wordMode == 1:
+            self.ui.tabWidget.setStyleSheet("color:saddlebrown;")
+        elif self.wordMode == 0:
+            self.ui.tabWidget.setStyleSheet("")
+        # 设置复选框，并使模式设置生效
+        if self.wordMode == 2:
+            self.ui.radioButton.setChecked(True)
+            self.ui_selectEbbinghaus()
+        elif self.wordMode == 1:
+            self.ui.radioButton_2.setChecked(True)
+            self.ui_selectReview()
+        elif self.wordMode == 0:
+            self.ui.radioButton_3.setChecked(True)
+            self.ui_selectNew()
+        self.practiceMode = EnglishPractice.practiceModeList[self.wordMode]
+        self.wordsNum     = self.configDict.get("Count")
+        self.ui.lineEdit.setText(str(self.wordsNum))
+        self.ui.comboBox.setCurrentIndex(EnglishPractice.vocabulary_list.index(self.configDict.get("Source")))
+        # 听力设置恢复
+        self.ui.comboBox_2.setCurrentIndex(EnglishPractice.listening_list.index(self.configDict.get("Source2")))
+        self.ui.lineEdit_2.setText(str(self.configDict.get("From")))
+        self.ui.lineEdit_3.setText(str(self.configDict.get("To")))
+        self.ui.progressBar_2.setMinimum(int(self.ui.lineEdit_2.text().strip()))
+        self.ui.progressBar_2.setMaximum(int(self.ui.lineEdit_3.text().strip()))
+        self.listenPracticeCnt = int(self.ui.lineEdit_3.text().strip()) - int(self.ui.lineEdit_2.text().strip())
+    
+    def f_writeConfigFile(self):
+        with open("config/Settings.json","w",encoding='utf-8') as file:
+            self.configDict = {"Source":self.ui.comboBox.currentText(),
+                                "Count":int(self.ui.lineEdit.text().strip()) if len(self.ui.lineEdit.text().strip()) > 0 else 1,
+                                "Ebbinghaus":self.ui.radioButton.isChecked(),
+                                "Review":self.ui.radioButton_2.isChecked(),
+                                "New":self.ui.radioButton_3.isChecked(),
+                                "sentence":self.ui.checkBox.isChecked(),
+                                "UpdateInReview":self.ui.checkBox_2.isChecked(),
+                                "Source2":self.ui.comboBox_2.currentText(),
+                                "From":int(self.ui.lineEdit_2.text().strip()) if len(self.ui.lineEdit_2.text().strip()) > 0 else 1,
+                                "To":int(self.ui.lineEdit_3.text().strip()) if len(self.ui.lineEdit_3.text().strip()) > 0 else 2
+                                }
+            json.dump(self.configDict,file)
 
     def ui_renewUI(self):
         self.ui.textEdit.clear()
@@ -125,9 +211,19 @@ class EnglishPractice:
         self.ui_setWordFromIndex(self.wordIndex)
         
     def ui_selectEbbinghaus(self):
+        self.userChanged += 1
         self.wordMode = 2
         self.practiceMode = EnglishPractice.practiceModeList[self.wordMode]
-        self.ui.tabWidget.setStyleSheet("color:darkgreen;")
+        self.ui.checkBox_2.setChecked(False)
+        self.ui.checkBox_2.setVisible(False)
+        if self.updateInReview:
+            self.ui.tabWidget.setStyleSheet("color:purple;")
+        elif self.wordMode == 2:
+            self.ui.tabWidget.setStyleSheet("color:darkgreen;")
+        elif self.wordMode == 1:
+            self.ui.tabWidget.setStyleSheet("color:saddlebrown;")
+        elif self.wordMode == 0:
+            self.ui.tabWidget.setStyleSheet("")
         self.wordIndex = 0
         self.p_list    = []
         self.ui_renewUI()
@@ -240,25 +336,41 @@ class EnglishPractice:
             self.ui_onSentenceNextClicked()
 
     def ui_selectReview(self):
+        self.userChanged += 1
         self.wordMode = 1
         self.practiceMode = EnglishPractice.practiceModeList[self.wordMode]
+        self.ui.checkBox_2.setVisible(True)
         if self.updateInReview:
             self.ui.tabWidget.setStyleSheet("color:purple;")
-        else:
+        elif self.wordMode == 2:
+            self.ui.tabWidget.setStyleSheet("color:darkgreen;")
+        elif self.wordMode == 1:
             self.ui.tabWidget.setStyleSheet("color:saddlebrown;")
+        elif self.wordMode == 0:
+            self.ui.tabWidget.setStyleSheet("")
         self.wordIndex = 0
         self.p_list    = []
         self.ui_renewUI()
 
     def ui_selectNew(self):
+        self.userChanged += 1
         self.wordMode = 0
         self.practiceMode = EnglishPractice.practiceModeList[self.wordMode]
-        self.ui.tabWidget.setStyleSheet("")
+        self.ui.checkBox_2.setVisible(True)
+        if self.updateInReview:
+            self.ui.tabWidget.setStyleSheet("color:purple;")
+        elif self.wordMode == 2:
+            self.ui.tabWidget.setStyleSheet("color:darkgreen;")
+        elif self.wordMode == 1:
+            self.ui.tabWidget.setStyleSheet("color:saddlebrown;")
+        elif self.wordMode == 0:
+            self.ui.tabWidget.setStyleSheet("")
         self.wordIndex = 0
         self.p_list    = []
         self.ui_renewUI()
 
     def ui_sentenceMode(self):
+        self.userChanged += 1
         self.useSentenceScore = self.ui.checkBox.isChecked()
         if self.useSentenceScore:
             self.ui.label_3.setStyleSheet("color:red;")
@@ -266,16 +378,19 @@ class EnglishPractice:
             self.ui.label_3.setStyleSheet("color:black;")
 
     def ui_updateInReview(self):
+        self.userChanged += 1
         self.updateInReview = self.ui.checkBox_2.isChecked()
         if self.updateInReview:
             self.ui.tabWidget.setStyleSheet("color:purple;")
+        elif self.wordMode == 2:
+            self.ui.tabWidget.setStyleSheet("color:darkgreen;")
         elif self.wordMode == 1:
             self.ui.tabWidget.setStyleSheet("color:saddlebrown;")
         elif self.wordMode == 0:
             self.ui.tabWidget.setStyleSheet("")
-        self.ui_selectReview()
 
     def ui_wordsNumChanged(self):
+        self.userChanged += 1
         if len(self.ui.lineEdit.text().strip()) > 0:
             self.wordsNum  = int(self.ui.lineEdit.text())
             self.wordIndex = 0
@@ -300,6 +415,7 @@ class EnglishPractice:
             res = self.f_getWords()
         elif self.practiceMode == EnglishPractice.practiceModeList[2]:
             res = self.eb_getEbbinghausWords()
+        self.currentWord = self.words[self.wordIndex]
         return res
 
     def eb_getEbbinghausWords(self):
@@ -334,6 +450,7 @@ class EnglishPractice:
         return result
 
     def ui_wordSourceChanged(self):
+        self.userChanged += 1
         self.db.getWords(self.ui.comboBox.currentText())
 
     def ui_setWordFont(self):
@@ -514,7 +631,7 @@ class EnglishPractice:
             self.p_list[self.wordIndex*8+5] = self.input_sentence.rstrip()+'\n'
         # 写练习文件
         self.f_wordsToFile()
-        if self.wordMode == 2 or (self.updateInReview and self.wordMode == 1):
+        if self.wordMode == 2 or self.updateInReview:
             # 写 Ebbinghaus 数据库
             self.db_writeEbbinghausDB()
         if self.wordIndex < self.wordsNum - 1:
