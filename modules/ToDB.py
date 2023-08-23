@@ -23,7 +23,7 @@ class ToDB:
         cursor.execute(sql)
         conn.commit()
     def createListeningTable(self,conn):
-        sql = "CREATE TABLE IF NOT EXISTS %s (link VARCHAR PRIMARY KEY, sentence VARCHAR, translation VARCHAR)"%(self.tableName)
+        sql = "CREATE TABLE IF NOT EXISTS %s (id INTEGER PRIMARY KEY, sentence VARCHAR, link VARCHAR, translation VARCHAR)"%(self.tableName)
         cursor = conn.cursor()
         cursor.execute(sql)
         conn.commit()
@@ -36,12 +36,17 @@ class ToDB:
         cursor = self.mem_conn.cursor()
         cursor.execute(sql)
         self.mem_conn.commit()
-    def insertListening(self,link,sentence,translation,replace = False):
-        cmd = "INTO %s VALUES(\'%s\',\'%s\',\'%s\')"%(self.tableName,link,sentence,translation)
+    def insertListening(self,count,link,sentence,translation,replace = False):
+        cmd = "INTO %s VALUES(%d,\'%s\',\'%s\',\'%s\')"%(self.tableName,count,sentence,link,translation)
         if replace:
             sql = "INSERT OR REPLACE " + cmd
         else:
             sql = "INSERT OR IGNORE " + cmd
+        cursor = self.mem_conn.cursor()
+        cursor.execute(sql)
+        self.mem_conn.commit()
+    def deleteTable(self,table):
+        sql = "DROP TABLE %s "%(table)
         cursor = self.mem_conn.cursor()
         cursor.execute(sql)
         self.mem_conn.commit()

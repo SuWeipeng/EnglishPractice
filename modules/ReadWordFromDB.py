@@ -39,9 +39,9 @@ class ReadWordFromDB:
             cur.execute(SQLITE_CMD)
             rows = cur.fetchall()
         for row in rows:
-            self.links.append(row[0])
+            self.links.append(row[2])
             self.listenSentences.append(row[1])
-            self.listenTranslations.append(row[2])
+            self.listenTranslations.append(row[3])
         self.listenCount = len(self.links)
         return self.listenCount
     

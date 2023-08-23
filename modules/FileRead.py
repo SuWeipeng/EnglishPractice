@@ -27,6 +27,8 @@ class FileRead:
         self.translation            = None
         # 创建数据库对旬
         self.db = ToDB("English.db")
+        # 删掉整个表，用以重新建立数据
+        # self.db.deleteTable(self.tableName)
         if self.file_type == 1:
             self.db.createTable(self.tableName)
         elif self.file_type == 2:
@@ -83,6 +85,7 @@ class FileRead:
         默认是 False, 会忽略重复内容。
         '''
         with open(self.fullPathOfInput,"r",encoding='utf-8') as file:
+            count = 0
             for i, line in enumerate(file):
                 # https://blog.csdn.net/editkiller/article/details/8500123
                 # “I''m” 在数据库里存成 “I'm”，因此需替换 line 中的英文单引号。
@@ -94,7 +97,9 @@ class FileRead:
                     self.sentence = line.strip()
                 elif i % 3 == 2:
                     self.translation = line.strip()
-                    self.db.insertListening(self.link,
+                    count += 1
+                    self.db.insertListening(count,
+                                            self.link,
                                             self.sentence,
                                             self.translation,
                                             replace)
