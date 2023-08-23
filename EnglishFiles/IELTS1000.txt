@@ -148,3 +148,103 @@ symptom
 n. 症状；征兆
 Fever is a symptom of many illnesses.
 发烧是许多疾病的症状。
+adequate
+
+adj. 足够的，合乎需要的
+Make sure they will have adequate supplies of raw materials.
+要确保他们有足够的原物料供应。
+charge
+/tʃɑːrdʒ/
+v. 索价；充电；控告; n. 收费；充电；控告；责任
+That technician did not charge me for the replacement.
+那位师傅没有向我收取更换的费用。
+critical
+/ˈkrɪt̬.ɪ.kəl/
+adj. 至关重要的，危急的；批判的
+This organ plays a critical role in overall health.
+这个器官在整体健康中扮演至关重要的角色。
+eliminate
+/iˈlɪm.ɪ.neɪt/
+v. 消除，淘汰
+This diet claims to eliminate toxins from the body.
+这种饮食法声称可以排毒。
+foundation
+/faʊnˈdeɪ.ʃən/
+n. 根基；基金会；创建
+Humility is the foundation of all virtue.
+谦虚是一切美德的基础。
+intensive
+/ɪnˈten.sɪv/
+adj. 密集的；加强的
+Intensive cultivation has impoverished the soil.
+密集耕作已使土壤变得贫瘠。
+normal
+/ˈnɔːr.məl/
+adj. 正常的，平常的
+The plane deviated from its normal flight path.
+飞机偏离了正常的飞行路线。
+predict
+/prɪˈdɪkt/
+v. 预测，预计
+Birth rates are notoriously difficult to predict.
+众所周知出生率很难预测。
+resolution
+/ˌrez.əˈluː.ʃən/
+n. 决议；决心；解决
+The resolution was unanimously rejected.
+该决议受到一致否决。
+target
+/ˈtɑːr.ɡɪt/
+v. 把...作为目标（或对象）; n. 目标
+Thieves often target unprotected vehicles.
+窃贼通常会锁定未上锁的车辆。
+allowance
+/əˈlaʊ.əns/
+n. 津贴；零用钱；限额
+She lives on a single parent's allowance of $100 a month.
+她靠每月 100 美元的单亲津贴过活。
+colloquial
+/kəˈloʊ.kwi.əl/
+adj. 口语的，非正式的
+Colloquial idioms should be avoided in essays.
+论文中应避免使用口语化的成语。
+definition
+/ˌdef.ɪˈnɪʃ.ən/
+n. 定义，解释
+This learner's dictionary provides precise definitions.
+这本学习词典提供了准确的定义。
+enormous
+/ɪˈnɔː.məs/
+adj. 极大的
+The problems confronting the new government are enormous.
+新政府面临了大量的问题。
+germination
+/ˌdʒɝː.məˈneɪ.ʃən/
+n. 发芽，萌芽
+Temperature is most important for seed germination.
+温度对种子发芽是最重要的。
+irrigation
+/ˌɪr.ɪˈɡeɪ.ʃən/
+n. 灌溉；冲洗（伤口）
+The land is dry and wholly dependent on irrigation.
+这块土地干燥，完全仰赖灌溉。
+off-limits
+/ˌɒfˈlɪm.ɪts/
+adj. 禁止入内的
+The site is off-limits to the general public.
+该处不开放给大众参观。
+professional
+/prəˈfeʃ.ən.əl/
+adj. 专业的，职业的; n. 专家，专业人员
+The doctor was found guilty of professional misconduct.
+这位医生被判失职。
+satellite
+/ˈsæt̬.əl.aɪt/
+n. 卫星
+The satellite orbits the earth every 48 hours.
+卫星每 48 小时绕地球一周。
+trait
+/treɪt/
+n. （个人的）特性，特征
+Awareness of class is a typically British trait.
+阶级意识是英国人的典型特征。
