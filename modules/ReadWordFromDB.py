@@ -101,6 +101,8 @@ class ReadWordFromDB:
             res = list(sr)
             res = random.sample(res,N)
         return res
+    def getAllWords(self):
+        return self.words
 
 def main():
     db = ReadWordFromDB("English.db","IELTS1000")

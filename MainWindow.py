@@ -18,6 +18,7 @@ class EnglishPractice:
     vocabulary_list  = ['IELTS1000']
     listening_list   = ['Coversation01']
     def __init__(self):
+        self.generateAllWords = False
         # 打开单词数据库
         self.db               = ReadWordFromDB("English.db",EnglishPractice.vocabulary_list[0],EnglishPractice.listening_list[0])
         self.dbTables         = self.db.getTables()
@@ -292,7 +293,9 @@ class EnglishPractice:
         if self.practiceMode == EnglishPractice.practiceModeList[0] or force_from_db:
             res = True
             # 从数据库中取数据
-            self.words       = self.db.get_randomly(self.wordsNum,self.ebWords)            
+            self.words       = self.db.get_randomly(self.wordsNum,self.ebWords)
+            if self.generateAllWords:
+                self.words   = self.db.getAllWords()
             # 生成单词文件
             self.db_getWords()
             self.f_generateWords()
