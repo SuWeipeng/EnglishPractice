@@ -53,7 +53,6 @@ class EnglishPractice:
         self.listenCount           = self.db.getListenContent()
         # 从 UI 定义中动态 创建一个相应的窗口对象
         self.ui = uic.loadUi("ui/EnglishPractice.ui")
-        #self.ui.tabWidget.setStyleSheet("color:saddlebrown;")
         # 听力设置相关
         self.ui.label_10.setText(str(self.listenCount))
         # Settings 中的 Word 数据源选择
@@ -116,8 +115,9 @@ class EnglishPractice:
         self.ui_setWordFromIndex(self.wordIndex)
         import os
         if os.path.exists("config/Settings.json"):
-            self.ui.tabWidget.setStyleSheet("")
             self.ui_loadClicked()
+        else:
+            self.ui.tabWidget.setStyleSheet("color:saddlebrown;")
 
     def ui_loadClicked(self):
         # 读取配置文件
