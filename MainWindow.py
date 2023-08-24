@@ -423,6 +423,8 @@ class EnglishPractice:
             self.ui.label_3.setStyleSheet("color:red;")
         else:
             self.ui.label_3.setStyleSheet("color:black;")
+        if self.wordMode == 2:
+            self.ui_renewUI()
         if self.checkBoxInitiated:
             self.f_writeConfigFile()
 
