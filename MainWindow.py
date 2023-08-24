@@ -64,7 +64,6 @@ class EnglishPractice:
         # Settings 中的 Listening 数据源选择
         self.ui.comboBox_2.addItems(self.listeningTables)
         # Settings 模式选择
-        self.userChanged = 0
         self.ui.radioButton.clicked.connect(self.ui_selectEbbinghaus)
         self.ui.radioButton_2.clicked.connect(self.ui_selectReview)
         self.ui.radioButton_3.clicked.connect(self.ui_selectNew)
@@ -223,9 +222,9 @@ class EnglishPractice:
         self.ui_setWordFromIndex(self.wordIndex)
         
     def ui_selectEbbinghaus(self):
+        self.ui.checkBox.setEnabled(True)
         if self.ui.radioButton.isChecked():
             self.radioButtonChanged = True
-        self.userChanged += 1
         self.wordMode = 2
         self.practiceMode = EnglishPractice.practiceModeList[self.wordMode]
         self.ui.checkBox_2.setChecked(False)
@@ -363,10 +362,17 @@ class EnglishPractice:
                 self.ui_onSentenceNextClicked()
 
     def ui_selectReview(self):
-        self.userChanged += 1
+        self.ui.checkBox_2.setVisible(True)
+        if self.ui.checkBox_2.isChecked():
+            if self.ui.checkBox.isChecked() == False:
+                self.ui.checkBox.setChecked(False)
+            else:
+                self.ui.checkBox.setEnabled(True)
+        else:
+            self.ui.checkBox.setChecked(False)
+            self.ui.checkBox.setEnabled(False)
         self.wordMode = 1
         self.practiceMode = EnglishPractice.practiceModeList[self.wordMode]
-        self.ui.checkBox_2.setVisible(True)
         if self.updateInReview:
             self.ui.tabWidget.setStyleSheet("color:purple;")
         elif self.wordMode == 2:
@@ -382,12 +388,19 @@ class EnglishPractice:
             self.f_writeConfigFile()
 
     def ui_selectNew(self):
+        self.ui.checkBox_2.setVisible(True)
+        if self.ui.checkBox_2.isChecked():
+            if self.ui.checkBox.isChecked() == False:
+                self.ui.checkBox.setChecked(False)
+            else:
+                self.ui.checkBox.setEnabled(True)
+        else:
+            self.ui.checkBox.setChecked(False)
+            self.ui.checkBox.setEnabled(False)
         if self.ui.radioButton_3.isChecked():
             self.radioButtonChanged = True
-        self.userChanged += 1
         self.wordMode = 0
         self.practiceMode = EnglishPractice.practiceModeList[self.wordMode]
-        self.ui.checkBox_2.setVisible(True)
         if self.updateInReview:
             self.ui.tabWidget.setStyleSheet("color:purple;")
         elif self.wordMode == 2:
@@ -405,7 +418,6 @@ class EnglishPractice:
     def ui_sentenceMode(self):
         if self.ui.checkBox.isChecked():
             self.checkBoxInitiated = True
-        self.userChanged += 1
         self.useSentenceScore = self.ui.checkBox.isChecked()
         if self.useSentenceScore:
             self.ui.label_3.setStyleSheet("color:red;")
@@ -417,7 +429,12 @@ class EnglishPractice:
     def ui_updateInReview(self):
         if self.ui.checkBox_2.isChecked():
             self.checkBox_2Initiated = True
-        self.userChanged += 1
+        if self.wordMode != 2:
+            if self.ui.checkBox_2.isChecked() == False:
+                self.ui.checkBox.setChecked(False)
+                self.ui.checkBox.setEnabled(False)
+            else:
+                self.ui.checkBox.setEnabled(True)
         self.updateInReview = self.ui.checkBox_2.isChecked()
         if self.updateInReview:
             self.ui.tabWidget.setStyleSheet("color:purple;")
@@ -431,7 +448,6 @@ class EnglishPractice:
             self.f_writeConfigFile()
 
     def ui_wordsNumChanged(self):
-        self.userChanged += 1
         if len(self.ui.lineEdit.text().strip()) > 0:
             self.wordsNum  = int(self.ui.lineEdit.text())
             self.wordIndex = 0
@@ -514,7 +530,6 @@ class EnglishPractice:
         return result
 
     def ui_wordSourceChanged(self):
-        self.userChanged += 1
         self.db.getWords(self.ui.comboBox.currentText())
 
     def ui_setWordFont(self):

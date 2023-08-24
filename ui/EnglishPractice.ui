@@ -456,8 +456,14 @@
                   <layout class="QVBoxLayout" name="verticalLayout_3">
                    <item>
                     <widget class="QCheckBox" name="checkBox">
+                     <property name="enabled">
+                      <bool>false</bool>
+                     </property>
                      <property name="text">
                       <string>sentence</string>
+                     </property>
+                     <property name="checkable">
+                      <bool>true</bool>
                      </property>
                     </widget>
                    </item>
