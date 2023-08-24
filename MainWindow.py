@@ -53,6 +53,9 @@ class EnglishPractice:
         self.listenCount           = self.db.getListenContent()
         # 从 UI 定义中动态 创建一个相应的窗口对象
         self.ui = uic.loadUi("ui/EnglishPractice.ui")
+        self.radioButtonChanged    =    False
+        self.ui.pushButton_7.setVisible(False)
+        self.ui.pushButton_8.setVisible(False)
         # 听力设置相关
         self.ui.label_10.setText(str(self.listenCount))
         # Settings 中的 Word 数据源选择
@@ -65,7 +68,9 @@ class EnglishPractice:
         self.ui.radioButton.clicked.connect(self.ui_selectEbbinghaus)
         self.ui.radioButton_2.clicked.connect(self.ui_selectReview)
         self.ui.radioButton_3.clicked.connect(self.ui_selectNew)
+        self.checkBoxInitiated = False
         self.ui.checkBox.toggled.connect(self.ui_sentenceMode)
+        self.checkBox_2Initicated = False
         self.ui.checkBox_2.toggled.connect(self.ui_updateInReview)
         self.ui.lineEdit.textChanged.connect(self.ui_wordsNumChanged)
         self.ui.lineEdit.returnPressed.connect(self.ui_wordsNumEnterPressed)
@@ -117,6 +122,7 @@ class EnglishPractice:
         # 初始化界面上的文字信息
         self.ui_setWordFromIndex(self.wordIndex)
         # 读取配置文件
+        self.noConfigFile = True
         import os
         if os.path.exists("config/Settings.json"):
             self.ui_loadClicked()
@@ -215,6 +221,8 @@ class EnglishPractice:
         self.ui_setWordFromIndex(self.wordIndex)
         
     def ui_selectEbbinghaus(self):
+        if self.ui.radioButton.isChecked():
+            self.radioButtonChanged = True
         self.userChanged += 1
         self.wordMode = 2
         self.practiceMode = EnglishPractice.practiceModeList[self.wordMode]
@@ -231,6 +239,8 @@ class EnglishPractice:
         self.wordIndex = 0
         self.p_list    = []
         self.ui_renewUI()
+        if self.ui.radioButton.isChecked():
+            self.f_writeConfigFile()
 
     def ui_onGoClicked(self):
         import webbrowser
@@ -366,8 +376,12 @@ class EnglishPractice:
         self.wordIndex = 0
         self.p_list    = []
         self.ui_renewUI()
+        if self.radioButtonChanged and self.ui.radioButton_2.isChecked():
+            self.f_writeConfigFile()
 
     def ui_selectNew(self):
+        if self.ui.radioButton_3.isChecked():
+            self.radioButtonChanged = True
         self.userChanged += 1
         self.wordMode = 0
         self.practiceMode = EnglishPractice.practiceModeList[self.wordMode]
@@ -383,16 +397,24 @@ class EnglishPractice:
         self.wordIndex = 0
         self.p_list    = []
         self.ui_renewUI()
+        if self.ui.radioButton_3.isChecked():
+            self.f_writeConfigFile()
 
     def ui_sentenceMode(self):
+        if self.ui.checkBox.isChecked():
+            self.checkBoxInitiated = True
         self.userChanged += 1
         self.useSentenceScore = self.ui.checkBox.isChecked()
         if self.useSentenceScore:
             self.ui.label_3.setStyleSheet("color:red;")
         else:
             self.ui.label_3.setStyleSheet("color:black;")
+        if self.checkBoxInitiated:
+            self.f_writeConfigFile()
 
     def ui_updateInReview(self):
+        if self.ui.checkBox_2.isChecked():
+            self.checkBox_2Initiated = True
         self.userChanged += 1
         self.updateInReview = self.ui.checkBox_2.isChecked()
         if self.updateInReview:
@@ -403,6 +425,8 @@ class EnglishPractice:
             self.ui.tabWidget.setStyleSheet("color:saddlebrown;")
         elif self.wordMode == 0:
             self.ui.tabWidget.setStyleSheet("")
+        if self.checkBox_2Initiated:
+            self.f_writeConfigFile()
 
     def ui_wordsNumChanged(self):
         self.userChanged += 1
