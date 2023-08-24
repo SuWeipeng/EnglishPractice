@@ -421,8 +421,14 @@ class EnglishPractice:
         self.useSentenceScore = self.ui.checkBox.isChecked()
         if self.useSentenceScore:
             self.ui.label_3.setStyleSheet("color:red;")
+            font = self.ui.label_3.font()
+            font.setPointSize(15)
+            self.ui.label_3.setFont(font)
         else:
             self.ui.label_3.setStyleSheet("color:black;")
+            font = self.ui.label_3.font()
+            font.setPointSize(9)
+            self.ui.label_3.setFont(font)
         if self.wordMode == 2:
             self.ui_renewUI()
         if self.checkBoxInitiated:
