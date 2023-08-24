@@ -113,6 +113,7 @@ class EnglishPractice:
             self.fun_initWords(True)
         # 初始化界面上的文字信息
         self.ui_setWordFromIndex(self.wordIndex)
+        # 读取配置文件
         import os
         if os.path.exists("config/Settings.json"):
             self.ui_loadClicked()
@@ -424,6 +425,11 @@ class EnglishPractice:
         selectedWords = []
         # 逐一检查是否满足 Ebbinghaus 标准
         cnt = 0
+        if self.noConfigFile == False:
+            self.wordsNum     = self.configDict.get("Count")
+            # 进度条初始化
+            self.ui.progressBar.setMinimum(1)
+            self.ui.progressBar.setMaximum(self.wordsNum)
         for word in self.ebWords:
             if self.useSentenceScore == False:
                 res = self.ebbinghaus.check(self.ebdb.wordCount(word), self.ebdb.wordTimestamp(word))
