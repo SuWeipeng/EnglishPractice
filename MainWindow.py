@@ -415,7 +415,8 @@ class EnglishPractice:
             res = self.f_getWords()
         elif self.practiceMode == EnglishPractice.practiceModeList[2]:
             res = self.eb_getEbbinghausWords()
-        self.currentWord = self.words[self.wordIndex]
+        if len(self.words) > 0:
+            self.currentWord = self.words[self.wordIndex]
         return res
 
     def eb_getEbbinghausWords(self):
