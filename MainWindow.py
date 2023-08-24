@@ -73,6 +73,7 @@ class EnglishPractice:
         self.checkBox_2Initicated = False
         self.ui.checkBox_2.toggled.connect(self.ui_updateInReview)
         self.ui.lineEdit.textChanged.connect(self.ui_wordsNumChanged)
+        self.wordsNumChanged = False
         self.ui.lineEdit.returnPressed.connect(self.ui_wordsNumEnterPressed)
         self.ui.pushButton_4.clicked.connect(self.ui_onGoClicked)
         # 听力页面相关
@@ -83,7 +84,7 @@ class EnglishPractice:
         self.ui.lineEdit_3.textChanged.connect(self.fun_initListening)
         self.ui.lineEdit_3.returnPressed.connect(self.ui_sentenceToEnterPressed)
         self.ui.pushButton_7.clicked.connect(self.ui_saveClicked)  
-        self.ui.pushButton_8.clicked.connect(self.ui_loadClicked)
+        self.ui.pushButton_8.clicked.connect(self.ui_loadConfig)
         self.ui.textEdit_4.textChanged.connect(self.ui_onListeningPageChanged)
         self.ui.progressBar_2.setMinimum(int(self.ui.lineEdit_2.text().strip()))
         self.ui.progressBar_2.setMaximum(int(self.ui.lineEdit_3.text().strip()))
@@ -125,11 +126,11 @@ class EnglishPractice:
         self.noConfigFile = True
         import os
         if os.path.exists("config/Settings.json"):
-            self.ui_loadClicked()
+            self.ui_loadConfig()
         else:
             self.ui.tabWidget.setStyleSheet("color:saddlebrown;")
 
-    def ui_loadClicked(self):
+    def ui_loadConfig(self):
         # 读取配置文件
         self.noConfigFile = False
         try:
@@ -152,12 +153,13 @@ class EnglishPractice:
         self.useSentenceScore = self.configDict.get("sentence")
         self.ui.checkBox.setChecked(self.useSentenceScore)
         # 设置模式
-        if self.configDict.get("Ebbinghaus"):
-            self.wordMode = 2
-        elif self.configDict.get("Review"):
-            self.wordMode = 1
-        elif self.configDict.get("New"):
-            self.wordMode = 0
+        #if self.configDict.get("Ebbinghaus"):
+        #    self.wordMode = 2
+        #elif self.configDict.get("Review"):
+        #    self.wordMode = 1
+        #elif self.configDict.get("New"):
+        #    self.wordMode = 0
+        self.wordMode = 1
         # 设置颜色
         self.updateInReview   = self.configDict.get("UpdateInReview")
         self.ui.checkBox_2.setChecked(self.updateInReview)
@@ -438,10 +440,9 @@ class EnglishPractice:
 
     def ui_wordsNumEnterPressed(self):
         if len(self.ui.lineEdit.text().strip()) > 0:
+            self.wordsNumChanged = True
             self.f_writeConfigFile()
-            res = self.fun_initWords()
-            if res == False:
-                self.fun_initWords(True)
+            self.ui_loadConfig()
             self.ui.tabWidget.setCurrentIndex(0)
             self.ui.textEdit.setFocus()
 
@@ -479,7 +480,10 @@ class EnglishPractice:
         # 逐一检查是否满足 Ebbinghaus 标准
         cnt = 0
         if self.noConfigFile == False:
-            self.wordsNum     = self.configDict.get("Count")
+            if self.wordsNumChanged or self.radioButtonChanged:
+                self.wordsNum     = int(self.ui.lineEdit.text())
+            else:
+                self.wordsNum     = self.configDict.get("Count")
             # 进度条初始化
             self.ui.progressBar.setMinimum(1)
             self.ui.progressBar.setMaximum(self.wordsNum)
