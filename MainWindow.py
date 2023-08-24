@@ -1,5 +1,5 @@
 from PyQt5.QtWidgets import QApplication
-from PyQt5.QtGui import QFont, QTextCursor, QColor
+from PyQt5.QtGui import QFont, QTextCursor, QColor, QIcon
 from PyQt5 import uic
 from modules.ReadWordFromDB import ReadWordFromDB
 from modules.WriteEbbinghausDB import WriteEbbinghausDB
@@ -893,6 +893,9 @@ class EnglishPractice:
             file.write(self.words_p_lines.rstrip())
 
 app = QApplication([])
+app.setWindowIcon(QIcon('config/icon.ico'))
+import ctypes
+ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID("starter")
 ep = EnglishPractice()
 ep.ui.show()
 app.exec_()
