@@ -289,7 +289,7 @@
              <property name="font">
               <font>
                <family>Arial Rounded MT Bold</family>
-               <pointsize>20</pointsize>
+               <pointsize>15</pointsize>
               </font>
              </property>
              <property name="placeholderText">

@@ -232,6 +232,13 @@ class EnglishPractice:
     def ui_onGoClicked(self):
         import webbrowser
         webbrowser.open(self.db.getListenLink(self.idxListen))
+        self.user_inputs = {}
+        self.listenIndex = 0
+        self.idxListen   = int(self.ui.lineEdit_2.text().strip()) - 1
+        self.ui.progressBar_2.setMinimum(int(self.ui.lineEdit_2.text().strip()))
+        self.ui.progressBar_2.setMaximum(int(self.ui.lineEdit_3.text().strip()))
+        self.listenPracticeCnt = int(self.ui.lineEdit_3.text().strip()) - int(self.ui.lineEdit_2.text().strip())
+        self.ui.textEdit_4.clear()
         self.ui.tabWidget.setCurrentIndex(1)
         self.ui.textEdit_4.setFocus()
 
