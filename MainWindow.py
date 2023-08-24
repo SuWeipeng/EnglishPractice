@@ -238,6 +238,8 @@ class EnglishPractice:
         self.ui.progressBar_2.setMinimum(int(self.ui.lineEdit_2.text().strip()))
         self.ui.progressBar_2.setMaximum(int(self.ui.lineEdit_3.text().strip()))
         self.listenPracticeCnt = int(self.ui.lineEdit_3.text().strip()) - int(self.ui.lineEdit_2.text().strip())
+        self.ui.progressBar_2.setValue(self.listenIndex+1)
+        self.ui.textBrowser_2.setText(self.db.getListenTranslation(self.idxListen))
         self.ui.textEdit_4.clear()
         self.ui.tabWidget.setCurrentIndex(1)
         self.ui.textEdit_4.setFocus()
@@ -341,8 +343,9 @@ class EnglishPractice:
                         tipString = tipString[:-1]+'_'*times_error
                     self.ui.textEdit_5.clear()
                     self.tipListenCursor.insertText(tipString)
-        if '\t' in self.input_listening:
-            self.ui_onSentenceNextClicked()
+        if len(self.input_listening) > 0:
+            if '\t' == self.input_listening[-1]:
+                self.ui_onSentenceNextClicked()
 
     def ui_selectReview(self):
         self.userChanged += 1
