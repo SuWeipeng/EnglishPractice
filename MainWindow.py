@@ -238,7 +238,7 @@ class EnglishPractice:
         self.ui.progressBar_2.setMinimum(int(self.ui.lineEdit_2.text().strip()))
         self.ui.progressBar_2.setMaximum(int(self.ui.lineEdit_3.text().strip()))
         self.listenPracticeCnt = int(self.ui.lineEdit_3.text().strip()) - int(self.ui.lineEdit_2.text().strip())
-        self.ui.progressBar_2.setValue(self.listenIndex+1)
+        self.ui.progressBar_2.setValue(self.idxListen+1)
         self.ui.textBrowser_2.setText(self.db.getListenTranslation(self.idxListen))
         self.ui.textEdit_4.clear()
         self.ui.tabWidget.setCurrentIndex(1)
@@ -249,7 +249,7 @@ class EnglishPractice:
             self.listenIndex -= 1
             self.idxListen   -= 1
             self.currentListening = self.db.getListenSentence(self.idxListen)
-        self.ui.progressBar_2.setValue(self.listenIndex+1)
+        self.ui.progressBar_2.setValue(self.idxListen+1)
         self.ui.textBrowser_2.setText(self.db.getListenTranslation(self.idxListen))
         self.ui.textEdit_4.clear()
         if len(self.user_inputs[self.idxListen]) > 0:
@@ -265,7 +265,7 @@ class EnglishPractice:
             if self.user_inputs.get(self.idxListen) is not None:
                 if len(self.user_inputs[self.idxListen]) > 0:
                     self.ui.textEdit_4.textCursor().insertText(self.user_inputs[self.idxListen])
-        self.ui.progressBar_2.setValue(self.listenIndex+1)
+        self.ui.progressBar_2.setValue(self.idxListen+1)
         self.ui.textBrowser_2.setText(self.db.getListenTranslation(self.idxListen))
 
     def fun_initListening(self):
