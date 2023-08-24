@@ -68,12 +68,15 @@ class EnglishPractice:
         self.ui.checkBox.toggled.connect(self.ui_sentenceMode)
         self.ui.checkBox_2.toggled.connect(self.ui_updateInReview)
         self.ui.lineEdit.textChanged.connect(self.ui_wordsNumChanged)
+        self.ui.lineEdit.returnPressed.connect(self.ui_wordsNumEnterPressed)
         self.ui.pushButton_4.clicked.connect(self.ui_onGoClicked)
         # 听力页面相关
         self.ui.pushButton_5.clicked.connect(self.ui_onSentencePrevClicked)
         self.ui.pushButton_6.clicked.connect(self.ui_onSentenceNextClicked)
         self.ui.lineEdit_2.textChanged.connect(self.fun_initListening)
-        self.ui.lineEdit_3.textChanged.connect(self.fun_initListening) 
+        self.ui.lineEdit_2.returnPressed.connect(self.ui_sentenceFromEnterPressed)
+        self.ui.lineEdit_3.textChanged.connect(self.fun_initListening)
+        self.ui.lineEdit_3.returnPressed.connect(self.ui_sentenceToEnterPressed)
         self.ui.pushButton_7.clicked.connect(self.ui_saveClicked)  
         self.ui.pushButton_8.clicked.connect(self.ui_loadClicked)
         self.ui.textEdit_4.textChanged.connect(self.ui_onListeningPageChanged)
@@ -408,6 +411,21 @@ class EnglishPractice:
             self.wordIndex = 0
             self.p_list    = []
             self.ui_renewUI()
+
+    def ui_wordsNumEnterPressed(self):
+        if len(self.ui.lineEdit.text().strip()) > 0:
+            self.f_writeConfigFile()
+            res = self.fun_initWords()
+            if res == False:
+                self.fun_initWords(True)
+            self.ui.tabWidget.setCurrentIndex(0)
+            self.ui.textEdit.setFocus()
+
+    def ui_sentenceFromEnterPressed(self):
+        self.f_writeConfigFile()
+
+    def ui_sentenceToEnterPressed(self):
+        self.f_writeConfigFile()
 
     def fun_initWords(self, force_from_db = False):
         res = False
