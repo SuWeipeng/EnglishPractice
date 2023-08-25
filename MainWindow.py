@@ -115,10 +115,7 @@ class EnglishPractice:
         # 单词错误提示 textEdit 相关变量
         self.tipFormat = self.ui.textEdit_3.currentCharFormat()
         self.tipCursor = self.ui.textEdit_3.textCursor()
-        # 初始化词汇
-        res = self.fun_initWords()
-        if res == False:
-            self.fun_initWords(True)
+        self.fun_getNewWords()
         # 初始化界面上的文字信息
         self.ui_setWordFromIndex(self.wordIndex)
         # 读取配置文件
@@ -207,17 +204,15 @@ class EnglishPractice:
                                 }
             json.dump(self.configDict,file)
 
-    def ui_renewUI(self):
+    def ui_renewUI(self,getNewWords = True):
         self.ui.textEdit.clear()
         self.ui.textEdit_2.clear()
         self.ui.textEdit_3.clear()
         self.wordIndex        = 0
         self.words_p_lines    = ''
         self.score            = 0
-        # 初始化词汇
-        res = self.fun_initWords()
-        if res == False:
-            self.fun_initWords(True)
+        if getNewWords:
+            self.fun_getNewWords()
         # 初始化界面上的文字信息
         self.ui_setWordFromIndex(self.wordIndex)
         
@@ -452,14 +447,7 @@ class EnglishPractice:
             self.ui.tabWidget.setStyleSheet("color:saddlebrown;")
         elif self.wordMode == 0:
             self.ui.tabWidget.setStyleSheet("")
-        self.ui.textEdit.clear()
-        self.ui.textEdit_2.clear()
-        self.ui.textEdit_3.clear()
-        self.wordIndex        = 0
-        self.words_p_lines    = ''
-        self.score            = 0
-        # 初始化界面上的文字信息
-        self.ui_setWordFromIndex(self.wordIndex)
+        self.ui_renewUI(False)
         if self.checkBox_2Initiated:
             self.f_writeConfigFile()
 
@@ -483,6 +471,12 @@ class EnglishPractice:
 
     def ui_sentenceToEnterPressed(self):
         self.f_writeConfigFile()
+
+    def fun_getNewWords(self):
+        # 获取新词汇
+        res = self.fun_initWords()
+        if res == False:
+            self.fun_initWords(True)
 
     def fun_initWords(self, force_from_db = False):
         res = False
