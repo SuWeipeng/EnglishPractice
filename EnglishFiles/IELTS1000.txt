@@ -348,3 +348,53 @@ successive
 adj. 连续的；接连的；历任的
 There has been low rainfall for two successive years.
 降雨量连续两年都很低。
+aggregate
+/ˈæɡ.rɪ.ɡət/
+n. 总数，合计；聚集体; adj. 合计的，总数的; v. 使聚集
+The big party gained an aggregate of 75 percent of the vote.
+那个大党总共获得了 75% 的选票。
+coherence
+/koʊˈhɪr.əns/
+n. 连贯性，一致性
+The book was widely criticised for its lack of coherence.
+这本书因内容不连贯而广受批评。
+decay
+/dɪˈkeɪ/
+v. 衰败；腐蚀；蛀牙; n. 衰败；腐蚀；蛀牙
+The wood was treated with preservatives to prevent decay.
+木材经过了防腐处理，以防止腐烂。
+endorse
+/ɪnˈdɔːrs/
+v. （公开）认可；广告宣传；签名背书
+I wholeheartedly endorse his remarks.
+我衷心赞同他的言论。
+govern
+/ˈɡʌv.ɚn/
+v. 统治，管理；支配
+They accused the government of being unfit to govern.
+他们指责政府不适合执政。
+investigation
+/ɪnˌves.tɪˈɡeɪ.ʃən/
+n. 调查，侦查
+The research has opened up new realms for investigation.
+这项研究开辟了新的研究领域。
+occasional
+/əˈkeɪʒ.nəl/
+adj. 偶尔的
+He made occasional visits to Paris.
+他偶尔会造访巴黎。
+principle
+/ˈprɪn.sə.pəl/
+n. 原则，准则
+We ought not to depart from that principle.
+我们不应该背离这个原则。
+revolution
+/ˌrev.əˈluː.ʃən/
+n. 革命，变革；旋转
+The revolution caused a radical reformation of the society.
+那场革命引起了社会彻底的改革。
+thesis
+/ˈθiː.sɪs/
+n. 学位论文；论点
+She wrote her doctoral thesis on German literature.
+她的博士论文主题是德国文学。
