@@ -248,3 +248,53 @@ trait
 n. （个人的）特性，特征
 Awareness of class is a typically British trait.
 阶级意识是英国人的典型特征。
+astonishing
+/əˈstɒn.ɪ.ʃɪŋ/
+adj. 令人惊讶的，惊人的
+Cheetahs can move with astonishing velocity.
+猎豹能够以惊人的速度移动。
+considerable
+/kənˈsɪd.ɚ.ə.bəl/
+adj. 可观的，相当大的，相当多的
+Their latest show has received considerable acclaim.
+他们最近一场表演饱受赞誉。
+disclose
+/dɪˈskloʊz/
+v. 揭露，公开
+They refused to disclose the identity of the politician.
+他们拒绝透露政客的身份。
+explicit
+/ɪkˈsplɪs.ɪt/
+adj. 清楚明确的；露骨的
+Films containing explicit sex are banned.
+含有露骨色情内容的电影受到禁止。
+impose
+/ɪmˈpoʊz/
+v. 加强，强制执行
+The government may impose tariffs on imports.
+政府可能对进口商品征收关税。
+marginal
+/ˈmɑːr.dʒɪ.nəl/
+adj. 边缘的；少量的
+Welsh was considered a marginal language.
+威尔斯语被认为是边缘的语言。
+peer
+/pɪər/
+n. 同侪
+Teenagers may find it difficult to resist peer pressure.
+青少年可能会觉得很难对抗同侪压力。
+rear
+/rɪər/
+v. 养育（小孩），饲养（动物）；举起; adj. 后面的，背后的; n. 后面，后部
+He describes how these birds rear their young.
+他描述这些鸟会如何养育雏鸟。
+stability
+/stəˈbɪl.ə.t̬i/
+n. 稳定性
+The conflict has become a threat to stability in the region.
+这冲突已经威胁了该地区的稳定。
+vigorous
+/ˈvɪɡ.ɚ.əs/
+adj. 活力充沛的；健壮的
+Vigorous exercise increases oxygen consumption.
+激烈的运动会增加耗氧量。
