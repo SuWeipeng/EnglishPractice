@@ -333,14 +333,20 @@
            <item>
             <widget class="QPushButton" name="pushButton_10">
              <property name="text">
-              <string>Skip Ads</string>
+              <string>[F2] Skip Ads</string>
+             </property>
+             <property name="shortcut">
+              <string>F2</string>
              </property>
             </widget>
            </item>
            <item>
             <widget class="QPushButton" name="pushButton_9">
              <property name="text">
-              <string>Space</string>
+              <string>[F1] Space</string>
+             </property>
+             <property name="shortcut">
+              <string>F1</string>
              </property>
             </widget>
            </item>
