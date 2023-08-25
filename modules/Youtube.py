@@ -11,6 +11,7 @@ class Youtube:
     def __init__(self):
         self.browser_type = 'MicrosoftEdge'
         self.video        = None
+        self.skipTrigger  = False
     def set_driver(self):
         if self.browser_type == 'MicrosoftEdge':
             from msedge.selenium_tools import Edge, EdgeOptions
@@ -42,6 +43,7 @@ class Youtube:
         t2 = Thread(target=Youtube.spaceToVideo, args=(self,))
         t2.start()
     def skipAd(self):
+        self.skipTrigger = True
         t3 = Thread(target=Youtube.skipAdProcess, args=(self,))
         t3.start()
     def open_youtube(self):
@@ -55,10 +57,15 @@ class Youtube:
     def skipAdProcess(self):
         while True:
             try:
-                skip_ad_button = self.driver.find_element(by=By.XPATH, value="//div[@class='ytp-ad-text ytp-ad-skip-button-text']")
-                skip_ad_button.click()
-                break
+                if self.skipTrigger:
+                    skip_ad_button = self.driver.find_element(by=By.XPATH, value="//div[@class='ytp-ad-text ytp-ad-skip-button-text']")
+                    skip_ad_button.click()
+                    self.skipTrigger = False
+                else:
+                    time.sleep(1)
+                    continue
             except NoSuchElementException:
+                time.sleep(1)
                 continue
             except Exception as e: 
                 if 'target window already closed' in repr(e):
