@@ -17,6 +17,5 @@ def main():
     elif fileName in listening:
         fr.listeningContentToDB()
 
-    
 if __name__ == '__main__':
     main()
