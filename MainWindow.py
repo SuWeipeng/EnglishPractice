@@ -200,7 +200,7 @@ class EnglishPractice:
                                 "Review":self.ui.radioButton_2.isChecked(),
                                 "New":self.ui.radioButton_3.isChecked(),
                                 "sentence":self.ui.checkBox.isChecked(),
-                                "UpdateInReview":self.ui.checkBox_2.isChecked(),
+                                "UpdateInReview":False,#self.ui.checkBox_2.isChecked(),
                                 "Source2":self.ui.comboBox_2.currentText(),
                                 "From":int(self.ui.lineEdit_2.text().strip()) if len(self.ui.lineEdit_2.text().strip()) > 0 else 1,
                                 "To":int(self.ui.lineEdit_3.text().strip()) if len(self.ui.lineEdit_3.text().strip()) > 0 else 2
@@ -452,6 +452,14 @@ class EnglishPractice:
             self.ui.tabWidget.setStyleSheet("color:saddlebrown;")
         elif self.wordMode == 0:
             self.ui.tabWidget.setStyleSheet("")
+        self.ui.textEdit.clear()
+        self.ui.textEdit_2.clear()
+        self.ui.textEdit_3.clear()
+        self.wordIndex        = 0
+        self.words_p_lines    = ''
+        self.score            = 0
+        # 初始化界面上的文字信息
+        self.ui_setWordFromIndex(self.wordIndex)
         if self.checkBox_2Initiated:
             self.f_writeConfigFile()
 
