@@ -5,6 +5,7 @@ from modules.ReadWordFromDB import ReadWordFromDB
 from modules.WriteEbbinghausDB import WriteEbbinghausDB
 from modules.ReadEbbinghausDB import ReadEbbinghausDB
 from modules.Ebbinghaus import Ebbinghaus
+from modules.Youtube import Youtube
 import json
 
 class EnglishPractice:
@@ -109,6 +110,9 @@ class EnglishPractice:
         self.ui.pushButton.clicked.connect(self.ui_onPrevClicked)
         self.ui.pushButton_2.clicked.connect(self.ui_onNextClicked)
         self.ui.pushButton_3.clicked.connect(self.ui_getReport)
+        self.ui.pushButton_9.clicked.connect(self.ui_vedioPausePaly)
+        self.ui.pushButton_10.clicked.connect(self.ui_skipAd)
+        self.ui.pushButton_11.clicked.connect(self.ui_openYoutube)
         # 进度条初始化
         self.ui.progressBar.setMinimum(1)
         self.ui.progressBar.setMaximum(self.wordsNum)
@@ -125,7 +129,8 @@ class EnglishPractice:
             self.ui_loadConfig()
         else:
             self.ui.tabWidget.setStyleSheet("color:saddlebrown;")
-
+        # Youtube 视频相关
+        self.ytb = Youtube()
     def ui_loadConfig(self):
         # 读取配置文件
         self.noConfigFile = False
@@ -239,8 +244,6 @@ class EnglishPractice:
             self.f_writeConfigFile()
 
     def ui_onGoClicked(self):
-        import webbrowser
-        webbrowser.open(self.db.getListenLink(self.idxListen))
         self.user_inputs = {}
         self.listenIndex = 0
         self.idxListen   = int(self.ui.lineEdit_2.text().strip()) - 1
@@ -252,6 +255,9 @@ class EnglishPractice:
         self.ui.textEdit_4.clear()
         self.ui.tabWidget.setCurrentIndex(1)
         self.ui.textEdit_4.setFocus()
+        
+        # Yutube 视频相关
+        self.ytb.open_link(self.db.getListenLink(self.idxListen))
 
     def ui_onSentencePrevClicked(self):
         if self.listenIndex > 0:
@@ -768,6 +774,15 @@ class EnglishPractice:
                 index += 1
             file.write('\n</table>\n')
         self.ebdb.close()
+
+    def ui_vedioPausePaly(self):
+        self.ytb.sendSpace()
+
+    def ui_skipAd(self):
+        self.ytb.skipAd()
+
+    def ui_openYoutube(self):
+        self.ytb.open_youtube()
 
     def ui_setWordFromIndex(self, index):
         self.currentWord = self.words[index]

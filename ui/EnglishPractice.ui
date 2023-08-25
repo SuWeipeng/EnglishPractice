@@ -331,6 +331,20 @@
             </widget>
            </item>
            <item>
+            <widget class="QPushButton" name="pushButton_10">
+             <property name="text">
+              <string>Skip Ads</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_9">
+             <property name="text">
+              <string>Space</string>
+             </property>
+            </widget>
+           </item>
+           <item>
             <widget class="QPushButton" name="pushButton_6">
              <property name="text">
               <string>[TAB] Next</string>
@@ -659,6 +673,13 @@
                </layout>
               </item>
              </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_11">
+             <property name="text">
+              <string>Use Edge open Youtube and auto skip ads.</string>
+             </property>
             </widget>
            </item>
            <item>
