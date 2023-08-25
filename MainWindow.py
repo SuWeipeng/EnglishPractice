@@ -151,7 +151,7 @@ class EnglishPractice:
         self.f_writeConfigFile()
 
     def fun_initWithConfig(self):
-        self.useSentenceScore = self.configDict.get("sentence")
+        self.useSentenceScore = False
         self.ui.checkBox.setChecked(self.useSentenceScore)
         # 设置模式
         #if self.configDict.get("Ebbinghaus"):
@@ -895,6 +895,7 @@ class EnglishPractice:
                 self.words_p_lines += '\n'
             file.write(self.words_p_lines.rstrip())
         self.words_p_lines = ''
+        self.p_list        = []
         with open("EnglishFiles/words_p.txt","w",encoding='utf-8') as file:
             for word in self.words:
                 self.p_list.append('\n')
