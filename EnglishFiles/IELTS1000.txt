@@ -298,3 +298,53 @@ vigorous
 adj. 活力充沛的；健壮的
 Vigorous exercise increases oxygen consumption.
 激烈的运动会增加耗氧量。
+absorb
+/əbˈzɔːrb/
+v. 吸收（液体，气体，光，声等）
+Plants absorb carbon dioxide from the air.
+植物会吸收空气中的二氧化碳。
+behalf
+/bɪˈhɑːf/
+n. 代表
+The photographer's wife will accept the award on his behalf.
+那位摄影师的妻子将代表他领奖。
+convert
+/kənˈvɝːt/
+v. 转变；改变信仰
+The warehouse will be converted into a luxury hotel.
+这间仓库将改建为奢华饭店。
+domain
+/doʊˈmeɪn/
+n. 领域；网域
+Military history is really outside my domain.
+军事史真的超出了我的领域。
+federal
+/ˈfed.ɚ.əl/
+adj. 联邦政府的；联邦（制）的
+Switzerland is a federal repulic.
+瑞士是一个联邦共和国。
+inhibit
+/ɪnˈhɪb.ɪt/
+v. 抑制
+An unhappy family life may inhibit children's learning.
+不愉快的家庭生活可能会抑制孩子的学习。
+minority
+/maɪˈnɔːr.ə.t̬i/
+n. 少数；少数民族
+They are members of a racial minority.
+他们是少数族裔的一分子。
+placebo
+/pləˈsiː.boʊ/
+n. 安慰剂
+Half of the subjects received a placebo.
+一半的受试者拿到安慰剂。
+remain
+/rɪˈmeɪn/
+v. 保持；剩余
+The details of his life remain obscure.
+他的生活细节仍然不清楚。
+successive
+/səkˈses.ɪv/
+adj. 连续的；接连的；历任的
+There has been low rainfall for two successive years.
+降雨量连续两年都很低。
