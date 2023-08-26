@@ -498,3 +498,103 @@ theme
 n. 主题
 Poverty is a recurrent theme in his novels.
 贫穷在他的小说里是反复出现的主题。
+aesthetic
+/esˈθet̬.ɪk/
+adj. 美学的，美的
+That new museum seems to have little aesthetic values.
+那间新博物馆似乎没多少美学价值。
+class
+/klɑːs/
+n. 阶级；班级；课堂
+Class differences may divide a country.
+阶级差异可能会开裂一个国家。
+cycle
+/ˈsaɪ.kəl/
+n. 周期，循环; v. 骑脚踏车
+The business cycle is a series of peaks and troughs.
+商业周期是一系列的高峰和低谷。
+empirical
+/emˈpɪr.ɪ.kəl/
+adj. 以实验为据，实证的；经验（主义）的
+His theory is inconsistent with the empirical evidence.
+他的理论与实验的证据不一致。
+fumes
+/fjuːmz/
+n. 烟雾，有害气体
+Exhaust fumes are bad for your health.
+废气对你的健康有害。
+intricate
+/ˈɪn.trɪ.kət/
+adj. 错综复杂的
+The farmers use an intricate system of drainage canals.
+农民使用复杂的排水系统。
+obscure
+/əbˈskjʊr/
+adj. 模糊的；鲜为人知的; v. 遮掩；使难理解
+Her poetry is full of obscure literary allusions.
+她的诗充满晦涩的文学典故。
+prevailing
+/prɪˈveɪ.lɪŋ/
+adj. 盛行的，占优势的
+This reflects attitudes and values prevailing in society.
+这反映了社会上普遍存在的态度和价值观。
+reveal
+/rɪˈviːl/
+v. 揭露，透露；显露出
+He is afraid of reveal his innermost self.
+他害怕显露内心深处的自我。
+terminal
+/ˈtɝː.mə.nəl/
+adj. 疾病末期的；极其的（负面）
+He is the terminal stage of cancer.
+他是癌症末期。
+application
+/ˌæp.ləˈkeɪ.ʃən/
+n. 应用；申请
+Their latest product is designed for general application.
+他们的最新产品专为一般应用而设计。
+component
+/kəmˈpoʊ.nənt/
+n. 组成部分；成分；零件
+Each component has to be carefully checked before assembly.
+组装前必须仔细检查每个组件。
+deprive
+/dɪˈpraɪv/
+v. 剥夺
+She cannot properly function when she is deprived of sleep.
+当她缺乏睡眠，根本无法正常打理生活。
+establish
+/ɪˈstæb.lɪʃ/
+v. 建立，设立
+The police are trying to establish the cause of the fire.
+警方正试图查明起火原因。
+heritage
+/ˈher.ɪ.t̬ɪdʒ/
+n. 遗产
+Rivers represent a cultural heritage as well.
+河流也是一种文化遗产。
+level
+/ˈlev.əl/
+n. 水平；等级，级别；楼层; adj. 水平的
+The village is 1,000 meters above sea level.
+那座村庄海拔 1000 公尺高。
+output
+/ˈaʊt.pʊt/
+n. 产量; v. 输出
+Few composers can match his prolific output.
+很少有作曲家能比得上他多产的作品。
+publicise
+/ˈpʌb.lə.saɪz/
+v. 宣传；公布
+The author appeared on TV to publicise her latest book.
+这作者出现在电视上宣传她的新书。
+sense
+/sens/
+v. 感觉到; n. 感官；理解；含义
+We sended a note of anger in her voice.
+我们从她的声音感觉到怒意。
+undergo
+/ˌʌn.dɚˈɡoʊ/
+v. 经历；接受（手术等）
+The planes have to undergo rigorous safety checks.
+这些飞机必须经过严格的安全检查。
