@@ -1,7 +1,7 @@
 import sqlite3
 
 class ReadEbbinghausDB:
-    def __init__(self,db_name):
+    def __init__(self,db_name,table):
         self.words        = []
         self.scores       = {}
         self.wordCnt      = {}
@@ -16,7 +16,7 @@ class ReadEbbinghausDB:
                                                                     sqlite3.PARSE_COLNAMES)
         # 将本地数据库备份到内存数据库
         self.disk_conn.backup(self.mem_conn)
-        self.getWords()
+        self.getWords(table)
     def open(self):
         # 创建数据库连接
         self.mem_conn  = sqlite3.connect(":memory:", detect_types=sqlite3.PARSE_DECLTYPES |
@@ -28,12 +28,12 @@ class ReadEbbinghausDB:
     def close(self):
         self.mem_conn.close()
         self.disk_conn.close()
-    def getWords(self,order_by_sentence = False):
+    def getWords(self,table,order_by_sentence = False):
         self.words = []
         if order_by_sentence == False:
-            SQLITE_CMD = 'SELECT * FROM vacabulary ORDER BY word_base ASC'
+            SQLITE_CMD = 'SELECT * FROM %s ORDER BY word_base ASC'%(table)
         else:
-            SQLITE_CMD = 'SELECT * FROM vacabulary ORDER BY sentence_base ASC'
+            SQLITE_CMD = 'SELECT * FROM %s ORDER BY sentence_base ASC'%(table)
         with self.mem_conn:
             cur = self.mem_conn.cursor()
             cur.execute(SQLITE_CMD)

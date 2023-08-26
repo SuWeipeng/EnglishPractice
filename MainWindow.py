@@ -41,8 +41,10 @@ class EnglishPractice:
         self.wordIndex        = 0
         self.words_p_lines    = ''
         self.p_list           = []
+        self.EbbinghausTable  = EnglishPractice.vocabulary_list[0]
         self.writeEbbinghaus  = WriteEbbinghausDB("Ebbinghaus.db")
-        self.ebdb             = ReadEbbinghausDB("Ebbinghaus.db")
+        self.writeEbbinghaus.createEbbinghausTable(self.EbbinghausTable)
+        self.ebdb             = ReadEbbinghausDB("Ebbinghaus.db",self.EbbinghausTable)
         self.score            = 0
         self.ebbinghaus       = Ebbinghaus()
         self.sentenceCriteria = 0.9
@@ -487,7 +489,7 @@ class EnglishPractice:
     def fun_initWords(self, force_from_db = False):
         res = False
         self.ebdb.open()
-        self.ebWords   = self.ebdb.getWords(self.useSentenceScore)
+        self.ebWords   = self.ebdb.getWords(self.EbbinghausTable,self.useSentenceScore)
         self.ebdb.close()
         if self.practiceMode == EnglishPractice.practiceModeList[0] or force_from_db:
             res = True
@@ -745,7 +747,7 @@ class EnglishPractice:
 
     def ui_getReport(self):
         self.ebdb.open()
-        words_report = self.ebdb.getWords(self.useSentenceScore)
+        words_report = self.ebdb.getWords(self.EbbinghausTable,self.useSentenceScore)
         from datetime import datetime
         with open("reports/"+str(datetime.now()).replace(':','-')+".html","w",encoding='utf-8') as file:
             file.write('<table>\n')
@@ -862,14 +864,16 @@ class EnglishPractice:
             if self.useSentenceScore == False:
                 sentenceTimestamp = self.ebdb.sentenceTimestamp(input_word)
                 sentence_cnt = self.ebdb.sentenceCount(input_word)
-                self.writeEbbinghaus.openAndInsert(input_word,
+                self.writeEbbinghaus.openAndInsert(self.EbbinghausTable,
+                                                   input_word,
                                                    self.score,
                                                    word_cnt,
                                                    sentence_cnt,
                                                    datetime.now(),
                                                    sentenceTimestamp)
             elif self.score > self.sentenceCriteria:
-                self.writeEbbinghaus.openAndInsert(input_word,
+                self.writeEbbinghaus.openAndInsert(self.EbbinghausTable,
+                                                   input_word,
                                                    self.score,
                                                    word_cnt,
                                                    sentence_cnt,
