@@ -648,3 +648,103 @@ visual
 adj. 视觉的; n. 视觉材料（影像，图像等）
 Artists translate their ideas into visual images.
 艺术家将他们的想法化为视觉图像。
+adjacent
+/əˈdʒeɪ.sənt/
+adj. 邻近的，相邻的
+Our hotel is adjacent to the biggest shopping mall in town.
+我们的旅馆邻近镇上最大的购物中心。
+chart
+/tʃɑːrt/
+n. 图表；唱片排行榜
+This chart shows their performance over the past decade.
+这张图表显示了他们在过去十年中的表现。
+criticise
+/ˈkrɪt̬.ɪ.saɪz/
+v. 评论；批评，指责
+We learnt how to criticise poems in this course.
+我们在这门课学到如何评价诗。
+elusive
+/iˈluː.sɪv/
+adj. 难以捉摸的；难记起的；难达到的
+The fox is a sly and elusive animal.
+狐狸是一种狡猾且难以捉摸的动物。
+fragile
+/ˈfrædʒ.əl/
+adj. 脆弱的；易碎的
+Human happiness is so fragile.
+人的幸福是如此脆弱。
+interact
+/ˌɪn.t̬ɚˈækt/
+v. 互动，交流，相互作用
+We are studying how these two chemicals interact.
+我们正在研究这两种化学物质如何相互作用。
+notion
+/ˈnoʊ.ʃən/
+n. 看法，观念
+I have only a vague notion of what she does for a living.
+我对她靠什么谋生只知道个大概。
+predominantly
+/prɪˈdɒm.ɪ.nənt.li/
+adv. 主要地，占优势地
+The city's population is predominantly Irish.
+这个城市的居民主要是爱尔兰人。
+resource
+/ˈriː.sɔːrs/
+n. 资源，财力
+Water is becoming an increasingly precious resource.
+水正成为越来越宝贵的资源。
+tackle
+/ˈtæk.əl/
+v. 处理，对付
+We have to tackle the fundamental causes of the problem.
+我们必须解决问题的根本原因。
+award
+/əˈwɔːrd/
+n. 奖项，奖金; v. 授予
+He has won the award for the fourth year in succession.
+他已连续第四年获得此奖。
+contradict
+/ˌkɒn.trəˈdɪkt/
+v. 反驳；与...矛盾，相抵触
+The findings have contradicted established theories.
+这些研究结果已经反驳了既有的理论。
+distressing
+/dɪˈstres.ɪŋ/
+adj. 令人苦恼的，使用痛苦的
+A suffering animal is a distressing sight.
+动物受苦的景象会令人不适。
+fade
+/feɪd/
+v. 褪去，褪色
+Hopes of a peace settlement are beginning to fade.
+和平解决的希望开始破灭。
+indulge
+/ɪnˈdʌldʒ/
+v. 沉迷于；纵容
+The inheritance enabled him to indulge his passion for art.
+继承的遗产带给他本钱沉浸于对艺术的热情。
+methodology
+/ˌmeθ.əˈdɒl.ə.dʒi/
+n. 方法（论）；教学法
+His work centres upon the study of methodology in teaching.
+他的工作集中在教学方法的研究上。
+phenomenon
+/fəˈnɒm.ɪ.nən/
+n. 现象
+An eclipse of the moon is a rare phenomenon.
+月蚀是罕见的现象。
+relative
+/ˈrel.ə.t̬ɪv/
+adj. 与...相关的；相对的; n. 亲戚
+Price is relative to demand.
+价格与需求有关。
+subsequent
+/ˈsʌb.sɪ.kwənt/
+adj. 随后的；接着发生的
+Her illness was subsequent to her son's death.
+她的疾病是在儿子死后开始的。
+witness
+/ˈwɪt.nəs/
+n. 目击者，证人; v. 目击，为...作证
+She was a witness to the incident.
+她是那起事件的目击者。
