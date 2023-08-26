@@ -610,6 +610,8 @@ class EnglishPractice:
             self.tipCursor.setPosition(0,QTextCursor.MoveAnchor)
             self.tipCursor.setPosition(10,QTextCursor.KeepAnchor)
             self.tipCursor.mergeCharFormat(self.tipFormat)
+            if self.wordIndex == self.wordsNum -1:
+                self.ui_onNextClicked()
         else:
             tipString = self.input_word
             # 需插入的地方用 _ 代替
