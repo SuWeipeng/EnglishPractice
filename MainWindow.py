@@ -17,7 +17,7 @@ class EnglishPractice:
     05. 与 Ebbinghous 相关的函数名以 eb_  开头
     '''
     practiceModeList = ['new','review','ebbinghaus']
-    vocabulary_list  = ['IELTS1000']
+    vocabulary_list  = ['IELTS1000','ORCHARD7']
     listening_list   = ['Coversation01']
     def __init__(self):
         self.generateAllWords = False
@@ -212,9 +212,6 @@ class EnglishPractice:
             json.dump(self.configDict,file)
 
     def ui_renewUI(self,getNewWords = True):
-        self.ui.textEdit.clear()
-        self.ui.textEdit_2.clear()
-        self.ui.textEdit_3.clear()
         self.wordIndex        = 0
         self.words_p_lines    = ''
         self.score            = 0
@@ -222,6 +219,9 @@ class EnglishPractice:
             self.fun_getNewWords()
         # 初始化界面上的文字信息
         self.ui_setWordFromIndex(self.wordIndex)
+        self.ui.textEdit.clear()
+        self.ui.textEdit_2.clear()
+        self.ui.textEdit_3.clear()
         
     def ui_selectEbbinghaus(self):
         self.ui.checkBox.setEnabled(True)
@@ -241,7 +241,7 @@ class EnglishPractice:
             self.ui.tabWidget.setStyleSheet("")
         self.wordIndex = 0
         self.p_list    = []
-        self.ui_renewUI()
+        self.ui_wordSourceChanged()
         if self.ui.radioButton.isChecked():
             self.f_writeConfigFile()
 
@@ -414,7 +414,7 @@ class EnglishPractice:
             self.ui.tabWidget.setStyleSheet("")
         self.wordIndex = 0
         self.p_list    = []
-        self.ui_renewUI()
+        self.ui_wordSourceChanged()
         if self.ui.radioButton_3.isChecked():
             self.f_writeConfigFile()
 
@@ -488,9 +488,9 @@ class EnglishPractice:
 
     def fun_initWords(self, force_from_db = False):
         res = False
-        self.ebdb.open()
+        if self.ebdb.tableExist(self.EbbinghausTable) == False:
+            self.writeEbbinghaus.createEbbinghausTable(self.EbbinghausTable)
         self.ebWords   = self.ebdb.getWords(self.EbbinghausTable,self.useSentenceScore)
-        self.ebdb.close()
         if self.practiceMode == EnglishPractice.practiceModeList[0] or force_from_db:
             res = True
             # 从数据库中取数据
@@ -548,7 +548,10 @@ class EnglishPractice:
         return result
 
     def ui_wordSourceChanged(self):
-        self.db.getWords(self.ui.comboBox.currentText())
+        self.EbbinghausTable = self.ui.comboBox.currentText()
+        self.db.getWords(self.EbbinghausTable)
+        self.ui_renewUI()
+        self.db_getWords()
 
     def ui_setWordFont(self):
         '''
@@ -816,7 +819,8 @@ class EnglishPractice:
         res = True
         try:
             with open("EnglishFiles/words.txt","r",encoding='utf-8') as file:
-                word = None
+                word       = None
+                self.words = []
                 for i, line in enumerate(file):
                     content = line.strip()
                     if i % 5 == 0:

@@ -9,13 +9,6 @@ class ReadEbbinghausDB:
         self.wordTime     = {}
         self.sentenceTime = {}
         self.db_name   = "database/" + db_name
-        # 创建数据库连接
-        self.mem_conn  = sqlite3.connect(":memory:", detect_types=sqlite3.PARSE_DECLTYPES |
-                                                                  sqlite3.PARSE_COLNAMES)
-        self.disk_conn = sqlite3.connect(self.db_name, detect_types=sqlite3.PARSE_DECLTYPES |
-                                                                    sqlite3.PARSE_COLNAMES)
-        # 将本地数据库备份到内存数据库
-        self.disk_conn.backup(self.mem_conn)
         self.getWords(table)
     def open(self):
         # 创建数据库连接
@@ -28,7 +21,22 @@ class ReadEbbinghausDB:
     def close(self):
         self.mem_conn.close()
         self.disk_conn.close()
+
+    def tableExist(self,table):
+        res = False
+        self.open()
+        SQLITE_CMD = 'SELECT count(*) FROM sqlite_master WHERE type="table" AND name = \"%s\"'%(table)
+        cur = self.mem_conn.cursor()
+        cur.execute(SQLITE_CMD)
+        rows = cur.fetchall()
+        self.close()
+        for row in rows:
+            if row[0] > 0:
+                res = True
+        return res
+
     def getWords(self,table,order_by_sentence = False):
+        self.open()
         self.words = []
         if order_by_sentence == False:
             SQLITE_CMD = 'SELECT * FROM %s ORDER BY word_base ASC'%(table)
@@ -38,6 +46,7 @@ class ReadEbbinghausDB:
             cur = self.mem_conn.cursor()
             cur.execute(SQLITE_CMD)
             rows = cur.fetchall()
+        self.close()
         for row in rows:
             self.words.append(row[0])
             self.scores      [row[0]] = row[1]
