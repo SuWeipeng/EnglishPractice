@@ -481,6 +481,7 @@ class EnglishPractice:
 
     def ui_sentenceToEnterPressed(self):
         self.f_writeConfigFile()
+        self.ui_onGoClicked()
 
     def fun_getNewWords(self):
         # 获取新词汇
