@@ -748,3 +748,253 @@ witness
 n. 目击者，证人; v. 目击，为...作证
 She was a witness to the incident.
 她是那起事件的目击者。
+accurate
+/ˈæk.jɚ.ət/
+adj. 准确的，精确的
+His predictions about the election results proved accurate.
+他对选举结果的预测证明是准确的。
+capable
+/ˈkeɪ.pə.bəl/
+adj. 有能力的，能干的
+The robot is capable of understanding spoken commands.
+那个机器人能够理解口令。
+cosmic
+/ˈkɒz.mɪk/
+adj. 宇宙的
+Physics is governed by cosmic laws.
+物理学受宇宙法则所支配。
+due
+/dʒuː/
+adj. 由于；到期的
+The failure is due to the inadequacy of preparations.
+失败是因为准备不够充分。
+flourish
+/ˈflɝː.ɪʃ/
+v. 繁荣，兴盛
+If left unchecked, weeds will flourish.
+如果放任不管，杂草就会繁衍丛生。
+instruction
+/ɪnˈstrʌk.ʃən/
+n. 指示；教导
+His father's instruction rained influence on his behaviour.
+他父亲的教导对他的行为产生了影响。
+municipal
+/mjuːˈnɪs.ə.pəl/
+adj. 市政的，市的
+The city is planning to build a municipal library.
+这座城市正在规划建造市立图书馆。
+positive
+/ˈpɒz.ə.tɪv/
+adj. 正极的；呈阳性的；确定的
+A proton has a positive charge.
+质子带正电荷。
+replicate
+/ˈrep.lɪ.keɪt/
+v. 制制，重复；自我复制
+The study tried to replicate real-life situations.
+这项研究试图复制现实生活中的情况。
+survive
+/sɚˈvaɪv/
+v. 生存；生活
+These birds only survive in temperate latitudes.
+这些鸟只能在温带地区生存。
+arise
+/əˈraɪz/
+v. 出现，产生
+The accident arose from the driver's carelessness.
+这起事故起图于驾驶员的粗心。
+concrete
+/ˈkɒŋ.kriːt/
+adj. 具体的，确实的
+There is no concrete evidence that he committed the crime.
+并没有具体的证据指出犯人就是他。
+deterrent
+/dɪˈter.ənt/
+n. 威慑力；遏制事物
+Nuclear weapons are the ultimate deterrent.
+核武是终极的威慑力量。
+evoke
+/ɪˈvoʊk/
+v. 引起，唤起（记忆，感情等）
+Smells and tastes often evoke memories from the past.
+气味和味道经常唤起对于过去的回忆。
+identify
+/aɪˈden.t̬ə.faɪ/
+v. 辨认，识别
+First we need to identify actual and potential problems.
+首先，我们需要辨识实际和潜在的问题。
+logic
+/ˈlɒdʒ.ɪk/
+n. 逻辑，逻辑学
+Socrates laid the foundations of logic.
+苏格拉底奠定了逻辑的基础。
+overtake
+/ˌoʊ.vɚˈteɪk/
+v. 超过，大于
+The car accelerated to overtake me.
+那辆车加速超过了我。
+query
+/ˈkwɪə.ri/
+v. 提问；质问; n. 疑问，问题
+I'm not in a position to query their decision.
+我无权质疑他们的决定。
+similar
+/ˈsɪm.ə.lɚ/
+adj. 相似的
+My significant other and I have similar views on politics.
+我的另一半和我对政治的看法相似。
+valid
+/ˈvæl.ɪd/
+adj. 有效力的；有根据的
+Your return ticket is valid for three months.
+你的回程机票有效期为三个月。
+aware
+/əˈweər/
+adj. 察觉的，知道的
+More and more people are aware of the hazards of smoking.
+越来越多的人意识到抽烟的危害。
+contrary
+/ˈkɒn.trə.ri/
+adj. 相反的
+Contrary to expectations, interest rates did not go down.
+跟预期相反的是，利息并未下降。
+distribution
+/ˌdɪs.trɪˈbjuː.ʃən/
+n. 分布；分配
+These plants have a wide geographical distribution.
+这些植物的地理分布广泛。
+famine
+/ˈfæm.ɪn/
+n. 饥荒；饥荒时期
+Another crop failure could result in widespread famine.
+作物若再次欠收可能会导致大范围的饥荒。
+inequality
+/ˌɪn.ɪˈkwɒl.ə.ti/
+n. 不平等
+Inequality and poverty breed class conflict.
+不平等和贫穷会滋生阶级冲突。
+migraine
+/ˈmaɪ.ɡreɪn/
+n. 偏头痛
+Her injuries have left her with chronic migraine headaches.
+她受伤的后遗症是有慢性偏头痛。
+philosophy
+/fɪˈlɒs.ə.fi/
+n. 哲学
+This question comes into the domain of philosophy.
+这个问题进入了哲学的领域。
+release
+/rɪˈliːs/
+n. 释放，排放；发行，发表; v. 释放，排放；发行，发表
+Crying can give some emotional release.
+哭泣可以释放一些情绪。
+subsidiary
+/səbˈsɪd.i.er.i/
+adj. 辅助的，次要的，附属的; n. 子公司，附属公司
+All other issues are subsidiary to this one.
+所有其他问题都是附属于这一个问题。
+workforce
+/ˈwɝːk.fɔːrs/
+n. 劳动力；劳动人口
+Women now represent almost 50% of the workforce.
+女性现在几乎占了劳动力的半数。
+attitude
+/ˈæt̬.ə.tuːd/
+n. 态度
+His girlfriend has a liberal attitude to open relationships.
+他的女朋友对开放式关系心态开放。
+consumer
+/kənˈsuː.mɚ/
+n. 消费者，消耗者
+Both businesses and consumers are cutting back on spending.
+企业与消费者两边都在削减支出。
+disposal
+/dɪˈspoʊ.zəl/
+n. 清除，抛弃
+The disposal of hazardous waste is a serious problem.
+危险废弃物的处理是个严重的问题。
+external
+/ɪkˈstɝː.nəl/
+adj. 外部的
+The external layer of skin is called the epidermis.
+皮肤的外层称为表皮。
+incorporate
+/ɪnˈkɔːr.pɚ.eɪt/
+v. 包含，纳入，合并
+The new model incorporated a number of major improvements.
+新机型有几项主要的改进。
+means
+/miːnz/
+n. 方法，手段；钱财
+They want a highly efficient means of communication.
+他们想要一种高效率的沟通方式。
+permanent
+/ˈpɝː.mə.nənt/
+adj. 永久的；长久的
+He entered the country and applied for permanent residence.
+他进入了那个国家并申请永久居留权。
+refine
+/rɪˈfaɪn/
+v. 精炼，提炼；改进
+Reading good books helps to refine one's speech.
+阅读好书有助于精炼自己的言论。
+strain
+/streɪn/
+n. 张力，压力，负担; v. （使）拉紧，（使）紧张
+The wall collapsed under the strain.
+那面墙承受不了压力而倒塌。
+voluntary
+/ˈvɒl.ən.tər.i/
+adj. 自愿的
+The agency is voluntary and not run for profit.
+该机构是志工性质，非营利目的。
+accompany
+/əˈkʌm.pə.ni/
+v. 伴随，陪同
+The witness chose to accompany her to the police station.
+目击者选择陪她去警局。
+budget
+/ˈbʌdʒ.ɪt/
+n. 预算；预算方案; v. 编预算
+The defence budget had been trimmed by $100,000
+国防预算削减了十万美元。
+correlation
+/ˌkɔːr.əˈleɪ.ʃən/
+n. 相关
+There's a high correlation between smoking and lung cancer.
+抽烟和肺癌高度相关。
+dramatic
+/drəˈmæt̬.ɪk/
+adj. 戏剧性的，引人注目的；戏剧的
+They are alarmed by the dramatic increase in pollution.
+他们对急剧增加的污染感到警觉。
+finite
+/ˈfaɪ.naɪt/
+adj. 有限的
+Fossil fuels are finite resources.
+化石燃料是有限的资源。
+inspection
+/ɪnˈspek.ʃən/
+n. 检查，审查
+This thesis does not stand up to close inspection.
+这篇论文经不起仔细检验。
+mortality
+/mɔːrˈtæl.ə.t̬i/
+n. 死亡率；必死性
+The nation's infant mortality rate has reached a record low.
+该国的婴儿死亡率已创历史新低。
+portion
+/ˈpɔːr.ʃən/
+n. 一部分；（食物）一份
+The central portion of the bridge collapsed.
+桥的中央部分倒塌了。
+remuneration
+/rɪˌmjuː.nəˈreɪ.ʃən/
+n. 酬劳
+They demanded adequate remuneration for their work.
+他们要求对自己的工作给予足够的报酬。
+surround
+/səˈraʊnd/
+v. 围绕；包围
+Mountains surround the village on three sides.
+群山三面环绕这座村庄。
