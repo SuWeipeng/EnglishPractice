@@ -18,7 +18,7 @@ class EnglishPractice:
     '''
     practiceModeList = ['new','review','ebbinghaus']
     vocabulary_list  = ['IELTS1000','ORCHARD7']
-    listening_list   = ['Coversation01']
+    listening_list   = ['Coversation01','SenteceStructure01']
     def __init__(self):
         self.generateAllWords = False
         # 打开单词数据库
@@ -54,6 +54,7 @@ class EnglishPractice:
         self.listeningTranslations = []
         self.listenIndex           = 0
         self.listenCount           = self.db.getListenContent()
+        self.listeningTable        = EnglishPractice.listening_list[0]
         # 从 UI 定义中动态 创建一个相应的窗口对象
         self.ui = uic.loadUi("ui/EnglishPractice.ui")
         self.radioButtonChanged    =    False
@@ -66,6 +67,7 @@ class EnglishPractice:
         self.ui.comboBox.currentIndexChanged.connect(self.ui_wordSourceChanged)
         # Settings 中的 Listening 数据源选择
         self.ui.comboBox_2.addItems(self.listeningTables)
+        self.ui.comboBox_2.currentIndexChanged.connect(self.ui_sentenceSourceChanged)
         # Settings 模式选择
         self.ui.radioButton.clicked.connect(self.ui_selectEbbinghaus)
         self.ui.radioButton_2.clicked.connect(self.ui_selectReview)
@@ -552,6 +554,13 @@ class EnglishPractice:
         self.db.getWords(self.EbbinghausTable)
         self.ui_renewUI()
         self.db_getWords()
+
+    def ui_sentenceSourceChanged(self):
+        self.listeningTable = self.ui.comboBox_2.currentText()
+        self.listenCount    = self.db.getListenContent(self.listeningTable)
+        self.ui.label_10.setText(str(self.listenCount))
+        self.ui.lineEdit_2.setText("1")
+        self.ui.lineEdit_3.setText(str(self.listenCount))
 
     def ui_setWordFont(self):
         '''
