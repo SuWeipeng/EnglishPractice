@@ -191,7 +191,10 @@ class EnglishPractice:
         self.ui.lineEdit.setText(str(self.wordsNum))
         self.ui.comboBox.setCurrentIndex(EnglishPractice.vocabulary_list.index(self.configDict.get("Source")))
         # 听力设置恢复
-        self.ui.comboBox_2.setCurrentIndex(EnglishPractice.listening_list.index(self.configDict.get("Source2")))
+        self.listeningTable = self.configDict.get("Source2")
+        self.listenCount    = self.db.getListenContent(self.listeningTable)
+        self.ui.label_10.setText(str(self.listenCount))
+        self.ui.comboBox_2.setCurrentIndex(EnglishPractice.listening_list.index(self.listeningTable))
         self.ui.lineEdit_2.setText(str(self.configDict.get("From")))
         self.ui.lineEdit_3.setText(str(self.configDict.get("To")))
         self.ui.progressBar_2.setMinimum(int(self.ui.lineEdit_2.text().strip()))
@@ -259,6 +262,7 @@ class EnglishPractice:
         self.ui.textEdit_4.clear()
         self.ui.tabWidget.setCurrentIndex(1)
         self.ui.textEdit_4.setFocus()
+        self.f_writeConfigFile()
         
         # Yutube 视频相关
         self.ytb.open_link(self.db.getListenLink(self.idxListen))
