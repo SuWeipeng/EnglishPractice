@@ -31,6 +31,8 @@ class Youtube:
                 continue
             except Exception as e: 
                 if 'target window already closed' in repr(e):
+                    print("driver.quit()")
+                    self.driver.quit()
                     break
     def open_link(self,link):
         self.link = link
@@ -67,6 +69,8 @@ class Youtube:
                 continue
             except Exception as e: 
                 if 'target window already closed' in repr(e):
+                    print("driver.quit()")
+                    self.driver.quit()
                     break
     def playVideo(self):
         self.set_driver()
@@ -81,7 +85,12 @@ class Youtube:
                 continue
             except Exception as e: 
                 if 'target window already closed' in repr(e):
+                    print("driver.quit()")
+                    self.driver.quit()
                     break
+    def again(self):
+        self.driver.get(self.link)
+
 def main():
     ytb = Youtube()
     ytb.youtube_skip_adds()

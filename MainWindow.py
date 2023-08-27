@@ -117,6 +117,7 @@ class EnglishPractice:
         self.ui.pushButton_9.clicked.connect(self.ui_vedioPausePaly)
         self.ui.pushButton_10.clicked.connect(self.ui_skipAd)
         self.ui.pushButton_11.clicked.connect(self.ui_openYoutube)
+        self.ui.pushButton_12.clicked.connect(self.ui_againClicked)
         # 进度条初始化
         self.ui.progressBar.setMinimum(1)
         self.ui.progressBar.setMaximum(self.wordsNum)
@@ -805,6 +806,9 @@ class EnglishPractice:
     def ui_openYoutube(self):
         self.ytb.open_youtube()
 
+    def ui_againClicked(self):
+        self.ytb.again()
+        
     def ui_setWordFromIndex(self, index):
         self.currentWord = self.words[index]
         self.ui_setMeaning()

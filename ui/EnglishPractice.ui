@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>547</width>
+    <width>549</width>
     <height>384</height>
    </rect>
   </property>
@@ -327,6 +327,16 @@
             <widget class="QProgressBar" name="progressBar_2">
              <property name="value">
               <number>24</number>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_12">
+             <property name="text">
+              <string>[F3] Again</string>
+             </property>
+             <property name="shortcut">
+              <string>F3</string>
              </property>
             </widget>
            </item>
