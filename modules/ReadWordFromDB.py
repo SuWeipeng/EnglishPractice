@@ -73,11 +73,11 @@ class ReadWordFromDB:
             cur.execute(SQLITE_CMD)
             rows = cur.fetchall()
         for row in rows:
-            self.words.append(row[0])
-            self.pronunciations [row[0]] = row[1]
-            self.meanings       [row[0]] = row[2]
-            self.sentences      [row[0]] = row[3]
-            self.translations   [row[0]] = row[4]
+            self.words.append(row[1])
+            self.pronunciations [row[1]] = row[2]
+            self.meanings       [row[1]] = row[3]
+            self.sentences      [row[1]] = row[4]
+            self.translations   [row[1]] = row[5]
     def word_exist(self,word):
         res = None
         if word in self.words:

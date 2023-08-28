@@ -18,7 +18,7 @@ class ToDB:
         # 在 mem_conn 创建 vacabulary 表
         self.createListeningTable(self.mem_conn)
     def createVacabularyTable(self,conn):
-        sql = "CREATE TABLE IF NOT EXISTS %s (word VARCHAR PRIMARY KEY, pronun VARCHAR, mean VARCHAR, example VARCHAR, trans VARCHAR)"%(self.tableName)
+        sql = "CREATE TABLE IF NOT EXISTS %s (id INTEGER PRIMARY KEY, word VARCHAR, pronun VARCHAR, mean VARCHAR, example VARCHAR, trans VARCHAR)"%(self.tableName)
         cursor = conn.cursor()
         cursor.execute(sql)
         conn.commit()
@@ -27,8 +27,8 @@ class ToDB:
         cursor = conn.cursor()
         cursor.execute(sql)
         conn.commit()
-    def insertVocabulary(self,word,pronun,mean,example,trans,replace = False):
-        cmd = "INTO %s VALUES(\'%s\',\'%s\',\'%s\',\'%s\',\'%s\')"%(self.tableName,word,pronun,mean,example,trans)
+    def insertVocabulary(self,count,word,pronun,mean,example,trans,replace = False):
+        cmd = "INTO %s VALUES(%d,\'%s\',\'%s\',\'%s\',\'%s\',\'%s\')"%(self.tableName,count,word,pronun,mean,example,trans)
         if replace:
             sql = "INSERT OR REPLACE " + cmd
         else:
