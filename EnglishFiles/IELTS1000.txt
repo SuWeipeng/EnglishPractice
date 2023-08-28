@@ -248,3 +248,253 @@ tension
 n. 紧张，张力
 The tension in the Far East is building up again.
 远东地区情势的紧张再次上升。
+arbitrary
+/ˈɑː.bɪ.trər.i/
+adj. 任意的，随意的；专断的，武断的
+The team leader makes unpredictable and arbitrary decisions.
+这名团队领导人总是做一些难预测的武断决定。
+concern
+/kənˈsɝːn/
+v. 与...相关; n. 使但心，担心，关心的事
+Pay attention because this information concerns all of us.
+请注意，因为这项资讯跟我们所有人相关。
+detergent
+/dɪˈtɝː.dʒənt/
+n. 清洁剂，洗衣粉
+Grease marks can be removed with liquid detergent.
+油渍可以用液体的清洁剂去除。
+eventually
+/ɪˈven.tʃu.ə.li/
+adv. 最终，终于
+Shortages eventually led to food riots.
+粮食短缺最终导致了暴动。
+hypothesis
+/haɪˈpɒθ.ə.sɪs/
+n. 假说，假设
+The researcher sets up experiments to test the hypothesis.
+研究人员安排了实验来测试这个假设。
+livestock
+/ˈlaɪv.stɒk/
+n. 牲畜，家畜（总称）
+The heavy rains and flooding killed scores of livestock.
+大雨和洪水导致数十头牲畜死亡。
+overlook
+/ˌoʊ.vɚˈlʊk/
+v. 忽视；宽恕；俯瞰
+It is easy to overlook a small detail like that.
+像那样的小细节很容易被忽视掉。
+qualification
+/ˌkwɒl.ɪ.fɪˈkeɪ.ʃən/
+n. 资格，条件
+This qualification is the equivalent of a degree.
+这项资格等同于学位。
+shortage
+/ˈʃɔːr.t̬ɪdʒ/
+n. 短缺，缺少
+The shortage of teachers was blamed on government cutbacks.
+教师短缺被归咎于政府削减开支。
+utility
+/juːˈtɪl.ə.t̬i/
+n. 实用性；公用事业
+This information is of the highest utility to a historian.
+这些资讯对历史学家来说是最有用的。
+avert
+/əˈvɝːt/
+v. 避免；转移
+Peace talks have been initiated in an attempt to avert war.
+为了避免战争，和平谈判已经开始。
+contract
+/ˈkɒn.trækt/
+v. 收缩；染病；订契约
+The metal contracted as it cooled.
+金属冷却时收缩了。
+distorted
+/dɪˈstɔːr.t̬ɪd/
+adj. 歪曲的；曲解的
+His original statement is completely distorted by the media.
+他原本的说法完全受到媒体曲解。
+faculty
+/ˈfæk.əl.t̬i/
+n. 能力；（大学的）全体教师，学院
+She had a great faculty for absorbing information.
+她吸收资讯的能力很强。
+induce
+/ɪnˈdjuːs/
+v. 诱使；导致
+The medicine will induce sleep.
+这项药物会令人嗜睡。
+metabolism
+/məˈtæb.əl.ɪ.zəm/
+n. 新陈代谢
+This drug speeds up your metabolism.
+这种药物会加速你的新陈代谢。
+phase
+/feɪz/
+n. 阶段; v. 分阶段实行
+Society has entered a technological phase of evolution.
+社会进入了科技演化的阶段。
+relate
+/rɪˈleɪt/
+v. 使有连结
+He told his students to relate theory with practice.
+他告诉学生要理论连结实务。
+subordinate
+/səˈbɔː.dɪ.nət/
+adj. 下级的，次要的，从属的; n. 下级，从属; v. 使从属于；使居于次要
+In some societies women are subordinate to men.
+在某些社会中，女性比男性次等。
+withdraw
+/wɪðˈdrɔː/
+v. 撤回；提取
+Both countries agreed to withdraw their troops.
+两国都同意撤军。
+appendix
+/əˈpen.dɪks/
+n. （书，杂志）附录；盲肠
+The survey results are given in section 1 of Appendix 2.
+调查结果收录于附录 2 的第 1 节。
+capture
+/ˈkæp.tʃɚ/
+v. 俘获；获得; n. 描绘，拍摄
+Allied troops captured more than 500 enemy soldiers.
+盟军俘虏了五百多名敌军。
+counterpart
+/ˈkaʊn.t̬ɚ.pɑːrt/
+n. 对应的人或物
+The Foreign Minister held talks with his French counterpart.
+外交部长跟法国外交部长举行了会谈。
+duration
+/duːˈreɪ.ʃən/
+n. 持续期间
+His insomnia continued for the duration of his depression.
+罹患忧郁症的期间他持续失眠。
+forage
+/ˈfɔːr.ɪdʒ/
+v. 觅食，搜寻; n. （家畜）草料，饲料
+Horses are able to forage for grass even under deep snow.
+即使有厚厚的积雪，马也有办法觅食。
+intact
+/ɪnˈtækt/
+adj. 完整无缺的；未受损伤的
+The bones had all been preserved intact.
+那些骨头都保存完好。
+myth
+/mɪθ/
+n. 神话；迷思
+The story has points of resemblance to a Hebrew myth.
+这个故事与希伯来神话有相似之处。
+potential
+/pəˈten.ʃəl/
+n. 潜力，潜能; adj. 潜在的，可能的
+His writing has potential but lacks polish.
+他的写作有潜力，但不精致。
+reproduce
+/ˌriː.prəˈdʒuːs/
+v. 繁殖，复制；重现
+These plants an reproduce sexually and asexually.
+这些植物可以进行有性和无性繁殖。
+sustainable
+/səˈsteɪ.nə.bəl/
+adj. 永续的；长期维持的
+Cycling is a totally sustainable form of transport.
+骑脚踏车是环保永续的运输方式。
+achieve
+/əˈtʃiːv/
+v. 达成，实现
+Teamwork is required to achieve these objectives.
+为了实现这些目标，需要团队合作。
+complement
+/ˈkɒm.plɪ.ment/
+v. 使完善，补充
+There was a written exam to complement the practical test.
+除了实务测验，还有笔试。
+deposit
+/dɪˈpɒz.ɪt/
+n. 沉淀物；押金；订金；存款; v. 放置，存放；堆积
+This used to be an area with large mineral deposits.
+这曾经是一个富含大量矿藏的地区。
+escape
+/ɪˈskeɪp/
+v. 逃脱; n. （对现实的）逃避
+They came to America to escape political tyranny.
+他们来到美国是为了逃避政治暴政。
+herd
+/hɝːd/
+n. 兽群，大众; v. 放牧
+A herd of goats was nibbling the turf.
+一群山羊正在啃草皮。
+legitimate
+/ləˈdʒɪt̬.ə.mət/
+adj. 合法的；合理的；合法婚生的; v. 使合法；使合理
+The army must give power back to the legitimate goverment.
+军队必须把权力归还给合法政府。
+outbreak
+/ˈaʊt.breɪk/
+n. 爆发；发作
+The flu outbreak has reached epidemic proportions.
+流感爆发已达流行病的地步。
+provoke
+/prəˈvoʊk/
+v. 激起，激怒
+Dairy products provoke allergic reactions in these people.
+乳制品会引起这些人的过敏反应。
+segregation
+/ˌseɡ.rəˈɡeɪ.ʃən/
+n. （种族）隔离，分离
+Racial segregation used to exist in South Africa.
+南非曾经存在种族隔离。
+unbiased
+/ʌnˈbaɪəst/
+adj. 无偏见的，公正的
+A fair game depends on an unbiased referee.
+公平的比赛取决于公正的裁判。
+advocate
+/ˈæd.və.keɪt/
+v. 拥护; n. 拥护者
+The group advocates the retention of nuclear power plants.
+那个团体主张保留核电厂。
+clarity
+/ˈklær.ə.ti/
+n. 清楚，明晰
+These journal articles are models of clarity and brevity.
+这些期刊文章是清晰简洁的典范。
+curtail
+/kɚˈteɪl/
+v. 制止；缩减；限制
+The President planned to curtail the number of immigrants.
+总统计划减少移民人数。
+emphasis
+/ˈem.fə.sɪs/
+n. 强调，重视
+There is a lot of emphasis on politeness in Japan.
+日本非常重视礼貌。
+frustration
+/frʌsˈtreɪ.ʃən/
+n. 挫折，沮丧；令人沮丧的事物
+Their frustration needs some form of expression.
+他们的沮丧需要某种形式的表达。
+intervene
+/ˌɪn.t̬ɚˈviːn/
+v. 干预，调停
+The police were obliged to intervene.
+警察不得不介入。
+obligation
+/ˌɒb.lɪˈɡeɪ.ʃən/
+n. 义务
+We have a moral obligation to protect the environment.
+我们有保护环境的道德义务。
+presume
+/prɪˈzjuːm/
+v. 推测，假设
+I presume that an agreement will eventually be reached.
+我认为最终会达成协议。
+shelter
+/ˈʃel.t̬ɚ/
+n. 避难所；遮蔽处; v. 遮蔽，避难
+They are in desperate need of food and shelter.
+他们迫切需要食物和住所。
+term
+/tɝːm/
+n. 术语；期间；学期
+The term 'mental illness' is difficult to define.
+“精神疾病”这个词很难定义。
