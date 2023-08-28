@@ -3748,3 +3748,253 @@ whereas
 conj. 但是
 Some praise him, whereas others condemn him.
 有人称许他，但也有人谴责他。
+abrupt
+/əˈbrʌpt/
+adj. 突然的，意外的
+The horrible accident brought her career to an abrupt end.
+那场可怕的事故使她的职涯戛然而止。
+beforehand
+/bɪˈfɔːr.hænd/
+adv. 事先，提前地
+She was informed of the diplomat's arrival time beforehand.
+她事先被告知了外交官的抵达时间。
+conversely
+/ˈkɒn.vɜːs.li/
+adv. 相反地
+Conversely, this reform may make things worse.
+相反的是，这项改革可能会让情况变得更糟。
+document
+/ˈdɒk.jə.mənt/
+v. 记载，记录; n. 文件
+The health benefits of breastfeeding are well-documented.
+喂母乳对健康的益处有良好的记载。
+feature
+/ˈfiː.tʃɚ/
+n. 特色；特征; v. 以...为特色
+Teamwork is a key feature of the training programme.
+团队合作是这项培训计划的一项重点。
+inherent
+/ɪnˈher.ənt/
+adj. 与生俱来的，固有的
+The desire for freedom is inherent in us all.
+对自由的渴望是我们所有人与生俱来的。
+minimal
+/ˈmɪn.ə.məl/
+adj. 极小的，极少的
+The likelihood of infection is minimal.
+感染的可能性极小。
+pioneer
+/ˌpaɪəˈnɪər/
+n. 先驱，开拓者; v. 当先驱，成为开拓者
+He was a pioneer in the field of biotechnology.
+他是生物技术领域的先驱。
+reluctant
+/rɪˈlʌk.tənt/
+adj. 不情愿的；勉强的
+The shop was reluctant to take back unsatisfactory goods.
+那间店不乐意退货人家不满意的商品。
+succeed
+/səkˈsiːd/
+v. 继承；接替；接着发生；成功
+The queen's eldest son will succeed to the throne.
+女王的长子将继承王位。
+administer
+/ədˈmɪn.ə.stɚ/
+v. 管理，经营；实施
+The new principal has to administer school budgets better.
+新校长必须更加妥善管理学校预算。
+chronological
+/ˌkrɒn.əˈlɒdʒ.ɪ.kəl/
+adj. 按时间排序的
+These paintings are exhibited in chronological sequence.
+这些画作是按时间顺序陈列的。
+culprit
+/ˈkʌl.prɪt/
+n. 元凶，问题起因；肇事者，责任人
+Plaque is the culprit that causes tooth decay.
+牙菌斑是导致蛀牙的罪魁祸首。
+embryo
+/ˈem.bri.əʊ/
+n. 胚胎
+Genes control the development of an embryo.
+基因控制着胚胎的发育。
+fraud
+/frɔːd/
+n. 诈骗；骗子，假货
+There was evidence of massive fraud.
+有大规模诈欺的证据。
+intermediate
+/ˌɪn.t̬ɚˈmiː.di.ət/
+adj. 中间的，中等的，中级的
+Gray is intermediate between black and white.
+灰色介于黑色和白色之间。
+nuclear
+/ˈnuː.kliː.ɚ/
+adj. 核能的；核武的；核子的
+They shut down the nuclear reactor for safety reasons.
+基于安全考量，他们关闭了核反应炉。
+premiere
+/ˈprem.i.eər/
+n. 首映；初次公演
+Last night the film was screened at a charity premiere.
+昨晚这部电影在慈善首映上播放。
+restore
+/rɪˈstɔːr/
+v. 恢复；修复
+A good rest will restore you to health.
+好好休息会让你恢复健康。
+task
+/tæsk/
+n. 任务，工作; v. 派给...任务，要...做一项工作
+Translating this book was no easy task.
+翻译这本书并非简单的任务。
+abstract
+/ˈæb.strækt/
+adj. 抽象的
+These concepts are too abstract to be understood.
+这些概念过于抽象，难以理解。
+beneficial
+/ˌben.ɪˈfɪʃ.əl/
+adj. 有益的，有利的
+We finally came to a mutually beneficial agreement.
+我们最终达成了互惠的协议。
+convey
+/kənˈveɪ/
+v. 传达；运送
+Words cannot convey the love I have for instrumental music.
+言语难以传达我对纯音乐的热爱。
+domestic
+/dəˈmes.tɪk/
+adj. 家庭的；国内的
+Modern devices facilitate domestic work.
+现代电器让做家事更便利。
+fee
+/fiː/
+n. 费用
+There's a $10 entrance fee to the exhibition.
+展览的入场费为 10 美元。
+initial
+/ɪˈnɪʃ.əl/
+adj. 初始的，最初的
+His initial surge of euphoria was soon followed by dismay.
+他最初的兴高采烈很快就变成了沮丧。
+mitigate
+/ˈmɪt.ɪ.ɡeɪt/
+v. 使缓和；减轻（危害等）
+Governments should endeavour to mitigate distress.
+各国政府应该努力减轻痛苦。
+plagiarise
+/ˈpleɪ.dʒə.raɪz/
+v. 抄袭，剽窃
+He was accused of plagiarising his student's results.
+他被控剽窃学生的成果。
+remains
+/rɪˈmeɪnz/
+n. 残留物；遗迹；遗体
+The museum contains the remains of Chinese antiquity.
+那座博物馆有中国古物的遗迹。
+sufficient
+/səˈfɪʃ.ənt/
+adj. 足够的；充足的
+We've gained sufficient experience to tackle this problem.
+我们已经得到够多经验，可以应对这个问题。
+articulate
+/ɑːrˈtɪk.jə.lət/
+adj. 口条好的; v. 言语表达；咬字清晰
+The teenager often struggles to articulate his thoughts.
+这位少年经常难以表达自己的想法。
+confidential
+/ˌkɒn.fɪˈden.ʃəl/
+adj. 机密的
+The information must be treated as strictly confidential.
+这项资讯必须严格保密。
+devise
+/dɪˈvaɪz/
+v. 巧妙设计，发明
+Ａ method has been devised to recycle the contaminated oil.
+已经设计出一种方法来回收受污染的油。
+exceptionally
+/ɪkˈsep.ʃən.əl.i/
+adv. 特别地；例外地
+This type of tree can be exceptionally long-lived.
+这个种类的树木可以特别长寿。
+ignorance
+/ˈɪɡ.nɚ.əns/
+n. 无知，愚昧
+Education is a progressive discovery of our own ignorance.
+所谓教育，便是持续发现自己的无知。
+magnificent
+/mæɡˈnɪf.ɪ.sənt/
+adj. 壮丽的，宏伟的；极好的
+The Taj Mahal is a magnificent building.
+泰姬玛哈陵是宏伟的建筑。
+parallel
+/ˈpær.ə.lel/
+n. 相似之处; adj. 平行的；类似的; v. 与...相似；与...同时发生
+There were parallels between their situations.
+他们的情况有相似之处。
+raise
+/reɪz/
+v. 增加；募款；养育；举起; n. 加薪
+The company said that it was constrained to raise prices.
+那间公司说涨价是迫不得已。
+so-called
+/ˌsəʊˈkɔːld/
+adj. 所谓的
+Those so-called friends of hers are a bad influence on her.
+她那些所谓的朋友对她有负面影响。
+vary
+/ˈveə.ri/
+v. 使不同，变化
+Funeral customs vary with different religions.
+丧葬习俗因不同宗教而异。
+affect
+/əˈfekt/
+v. 影响；感染
+Politics can affect every aspect of people's lives.
+政治可能会影响人们生活的各个层面。
+clientele
+/ˌkliː.ɒnˈtel/
+n. 客户，顾客（总称）
+This high-end restaurant has a large regular clientele.
+这间高档餐厅有许多常客。
+damp
+/dæmp/
+adj. 潮湿的
+Iron exposed to damp air will rust.
+暴露于潮湿空气的铁会生锈。
+enable
+/ɪˈneɪ.bəl/
+v. 使能够，使可能
+The new test enabled doctors to detect the disease early.
+那项新测试让医生得以及早发现疾病。
+harmful
+/ˈhɑːrm.fəl/
+adj. 有害的
+This apparatus produces harmful radiation.
+这项设备会产生有害辐射。
+intrinsic
+/ɪnˈtrɪn.zɪk/
+adj. 固有的，本质的，根本的
+Maths is an intrinsic part of the school curriculum.
+数学是学校课程固有的部分。
+obsolete
+/ˌɒb.səlˈiːt/
+adj. 过时的；淘汰的
+Most factories in the area are obsolete and badly managed.
+那个地区的工厂大多数都老旧且管理不善。
+preventive
+/prɪˈven.t̬ɪv/
+adj. 预防的，防止的
+Ginseng is used as a restorative and preventive remedy.
+人参被用来当作修复和预防的药物。
+revenue
+/ˈrev.ən.juː/
+n. 税收；收益
+Taxes provide most of the government's revenue.
+税收提供了政府的大部分收入。
+terrestrial
+/təˈres.tri.əl/
+adj. 陆地的；（动物）陆生的；地球的
+Terrestrial amphibians respire through their skin.
+陆生的两栖动物是透过皮肤呼吸。
