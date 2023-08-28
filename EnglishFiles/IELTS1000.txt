@@ -1,1000 +1,250 @@
-alert
-/əˈlɝːt/
-adj. 机警的; v. 使警觉; n. 警报，警戒状态
-Those soldiers must stay alert to the possibility of danger.
-那些士兵必须对可能的危险保持警觉。
-collapse
-/kəˈlæps/
-v. 倒塌，瓦解；昏倒; n. 倒塌，瓦解；昏倒
-The country's economy is on the verge of collapse.
-该国经济正处于崩溃边缘。
-deficit
-/ˈdef.ɪ.sɪt/
-n. 亏损，赤字
-The UK trade deficit has been widening for months.
-英国贸易赤字数月来一直扩大。
-engage
-/ɪnˈɡeɪdʒ/
-v. 使感兴趣
-Their pleas failed to engage any sympathy.
-他们的请求没有引起任何同情。
-genetic
-/dʒəˈnet̬.ɪk/
-adj. 基因的，遗传（学）的
-Eye colour shows your genetic inheritance.
-眼睛颜色呈现你的基因遗传。
-involve
-/ɪnˈvɑːlv/
-v. 包含；涉及，使卷入
-The treatment does not involve the use of artificial drugs.
-这项治疗未使用人工药物。
-odd
-/ɑːd/
-adj. 异常的，奇怪的
-I don't know what to make of his odd behaviour.
-我不知道如何理解他的异常行为。
-procedure
-/prəˈsiː.dʒɚ/
-n. 程序，步骤；医疗手术
-A biopsy is usually a minor surgical procedure.
-切片检查通常是一种小型外科手术。
-roughly
-/ˈrʌf.li/
-adv. 大致地；粗糙地；粗暴地
-Eight kilometres is roughly equivalent to five miles.
-八公里大约等于五英里。
-toll
-/toʊl/
-n. 伤亡数；通行费；长途电话费
-The official death toll has now reached 300.
-官方死亡人数现在已达到三百人。
-allocate
-/ˈæl.ə.keɪt/
-v. 分配，分派，拨给
-The local government failed to allocate resources wisely.
-当地政府未能明智地分配资源。
-colleague
-/ˈkɒl.iːɡ/
-n. 同事
-He was accused of sexually assaulting a male colleague.
-他被指控性骚性一名男同事。
-definite
-/ˈdef.ɪ.nət/
-adj. 确定的，肯定的
-These protesters demand a definite answer.
-这些抗议者要求一个明确的答案。
-enhance
-/ɪnˈhæns/
-v. 增强，提高
-Probiotics have been reported to enhance digestion.
-据报导，益生菌可以促进消化。
-genre
-/ˈʒɑːn.rə/
-n. 文艺作品之体裁，类型
-Science fiction as a genre is relatively new.
-科幻小说是相对较新的类型。
-irresistible
-/ˌɪr.ɪˈzɪs.tə.bəl/
-adj. 不可抗拒的，无法抵挡的
-He was overcome by an irresistable urge to cry.
-他压抑不住想哭的强烈冲动。
-odour
-/ˈoʊ.dɚ/
-n. 气味；臭味
-The dump sent out an offensive odour.
-垃圾场散发出难闻的气味。
-process
-/ˈprəʊ.ses/
-n. 过程，制作方法; v. 处理；加工
-Collecting data is a painfully slow process.
-搜集数据是痛苦而缓慢的过程。
-sanitation
-/ˌsæn.ɪˈteɪ.ʃən/
-n. 公共卫生，卫生设备
-Poor sanitation is a common problem in prisons.
-卫生环境糟糕是监狱常见的问题。
-trace
-/treɪs/
-v. 追踪，找到；追溯; n. 踪迹
-He could trace his ancestors back seven hundred years.
-他的祖先可以追溯到七百年前。
-activate
-/ˈæk.tɪ.veɪt/
-v. 启动，开动
-A gentle touch activates the prefrontal cortex in infancy.
-轻柔的触碰会活化婴儿的前额叶皮质。
-censorship
-/ˈsen.sɚ.ʃɪp/
-n. 审查，审查制度
-The government imposed strict censorship of the media.
-政府对媒体实施了严格的审查。
-credibility
-/ˌkred.əˈbɪl.ə.t̬i/
-n. 可信度
-The scandal has damaged his credibility as a mayor.
-丑闻损害了他身为市长的信誉。
-efficiency
-/ɪˈfɪʃ.ən.si/
-n. 效率，效能
-Friction lowers the efficiency of a machine.
-摩擦力会降低机器的效能。
-forthcoming
-/ˈfɔːrθˌkʌm.ɪŋ/
-adj. 即将到来的
-These allegations appear in a forthcoming documentary.
-这些指控出现在即将上映的纪录片中。
-integrity
-/ɪnˈteɡ.rə.t̬i/
-n. 完整；正直
-The country fought to preserve its territorial integrity.
-该国为维护自身领土完整而战。
-nomad
-/ˈnoʊ.mæd/
-n. 游牧民族；流浪者
-This makes me want to pursue a wandering nomad lifestyle.
-这让我想追求一种游牧民族流浪的生活方式。
-precious
-/ˈpreʃ.əs/
-adj. 珍贵的，宝贵的
-Don't drone away the precious years of youth.
-别浪费宝贵的青春岁月。
-resemble
-/rɪˈzem.bəl/
-v. 相似于，类似
-The house was designed to resemble a church.
-这间房屋的设计跟教堂相仿。
-symptom
-/ˈsɪmp.təm/
-n. 症状；征兆
-Fever is a symptom of many illnesses.
-发烧是许多疾病的症状。
-adequate
-
-adj. 足够的，合乎需要的
-Make sure they will have adequate supplies of raw materials.
-要确保他们有足够的原物料供应。
-charge
-/tʃɑːrdʒ/
-v. 索价；充电；控告; n. 收费；充电；控告；责任
-That technician did not charge me for the replacement.
-那位师傅没有向我收取更换的费用。
-critical
-/ˈkrɪt̬.ɪ.kəl/
-adj. 至关重要的，危急的；批判的
-This organ plays a critical role in overall health.
-这个器官在整体健康中扮演至关重要的角色。
-eliminate
-/iˈlɪm.ɪ.neɪt/
-v. 消除，淘汰
-This diet claims to eliminate toxins from the body.
-这种饮食法声称可以排毒。
-foundation
-/faʊnˈdeɪ.ʃən/
-n. 根基；基金会；创建
-Humility is the foundation of all virtue.
-谦虚是一切美德的基础。
-intensive
-/ɪnˈten.sɪv/
-adj. 密集的；加强的
-Intensive cultivation has impoverished the soil.
-密集耕作已使土壤变得贫瘠。
-normal
-/ˈnɔːr.məl/
-adj. 正常的，平常的
-The plane deviated from its normal flight path.
-飞机偏离了正常的飞行路线。
-predict
-/prɪˈdɪkt/
-v. 预测，预计
-Birth rates are notoriously difficult to predict.
-众所周知出生率很难预测。
-resolution
-/ˌrez.əˈluː.ʃən/
-n. 决议；决心；解决
-The resolution was unanimously rejected.
-该决议受到一致否决。
-target
-/ˈtɑːr.ɡɪt/
-v. 把...作为目标（或对象）; n. 目标
-Thieves often target unprotected vehicles.
-窃贼通常会锁定未上锁的车辆。
-allowance
-/əˈlaʊ.əns/
-n. 津贴；零用钱；限额
-She lives on a single parent's allowance of $100 a month.
-她靠每月 100 美元的单亲津贴过活。
-colloquial
-/kəˈloʊ.kwi.əl/
-adj. 口语的，非正式的
-Colloquial idioms should be avoided in essays.
-论文中应避免使用口语化的成语。
-definition
-/ˌdef.ɪˈnɪʃ.ən/
-n. 定义，解释
-This learner's dictionary provides precise definitions.
-这本学习词典提供了准确的定义。
-enormous
-/ɪˈnɔː.məs/
-adj. 极大的
-The problems confronting the new government are enormous.
-新政府面临了大量的问题。
-germination
-/ˌdʒɝː.məˈneɪ.ʃən/
-n. 发芽，萌芽
-Temperature is most important for seed germination.
-温度对种子发芽是最重要的。
-irrigation
-/ˌɪr.ɪˈɡeɪ.ʃən/
-n. 灌溉；冲洗（伤口）
-The land is dry and wholly dependent on irrigation.
-这块土地干燥，完全仰赖灌溉。
-off-limits
-/ˌɒfˈlɪm.ɪts/
-adj. 禁止入内的
-The site is off-limits to the general public.
-该处不开放给大众参观。
-professional
-/prəˈfeʃ.ən.əl/
-adj. 专业的，职业的; n. 专家，专业人员
-The doctor was found guilty of professional misconduct.
-这位医生被判失职。
-satellite
-/ˈsæt̬.əl.aɪt/
-n. 卫星
-The satellite orbits the earth every 48 hours.
-卫星每 48 小时绕地球一周。
-trait
-/treɪt/
-n. （个人的）特性，特征
-Awareness of class is a typically British trait.
-阶级意识是英国人的典型特征。
-astonishing
-/əˈstɒn.ɪ.ʃɪŋ/
-adj. 令人惊讶的，惊人的
-Cheetahs can move with astonishing velocity.
-猎豹能够以惊人的速度移动。
-considerable
-/kənˈsɪd.ɚ.ə.bəl/
-adj. 可观的，相当大的，相当多的
-Their latest show has received considerable acclaim.
-他们最近一场表演饱受赞誉。
-disclose
-/dɪˈskloʊz/
-v. 揭露，公开
-They refused to disclose the identity of the politician.
-他们拒绝透露政客的身份。
-explicit
-/ɪkˈsplɪs.ɪt/
-adj. 清楚明确的；露骨的
-Films containing explicit sex are banned.
-含有露骨色情内容的电影受到禁止。
-impose
-/ɪmˈpoʊz/
-v. 加强，强制执行
-The government may impose tariffs on imports.
-政府可能对进口商品征收关税。
-marginal
-/ˈmɑːr.dʒɪ.nəl/
-adj. 边缘的；少量的
-Welsh was considered a marginal language.
-威尔斯语被认为是边缘的语言。
-peer
-/pɪər/
-n. 同侪
-Teenagers may find it difficult to resist peer pressure.
-青少年可能会觉得很难对抗同侪压力。
-rear
-/rɪər/
-v. 养育（小孩），饲养（动物）；举起; adj. 后面的，背后的; n. 后面，后部
-He describes how these birds rear their young.
-他描述这些鸟会如何养育雏鸟。
-stability
-/stəˈbɪl.ə.t̬i/
-n. 稳定性
-The conflict has become a threat to stability in the region.
-这冲突已经威胁了该地区的稳定。
-vigorous
-/ˈvɪɡ.ɚ.əs/
-adj. 活力充沛的；健壮的
-Vigorous exercise increases oxygen consumption.
-激烈的运动会增加耗氧量。
-absorb
-/əbˈzɔːrb/
-v. 吸收（液体，气体，光，声等）
-Plants absorb carbon dioxide from the air.
-植物会吸收空气中的二氧化碳。
-behalf
-/bɪˈhɑːf/
-n. 代表
-The photographer's wife will accept the award on his behalf.
-那位摄影师的妻子将代表他领奖。
-convert
-/kənˈvɝːt/
-v. 转变；改变信仰
-The warehouse will be converted into a luxury hotel.
-这间仓库将改建为奢华饭店。
-domain
-/doʊˈmeɪn/
-n. 领域；网域
-Military history is really outside my domain.
-军事史真的超出了我的领域。
-federal
-/ˈfed.ɚ.əl/
-adj. 联邦政府的；联邦（制）的
-Switzerland is a federal repulic.
-瑞士是一个联邦共和国。
-inhibit
-/ɪnˈhɪb.ɪt/
-v. 抑制
-An unhappy family life may inhibit children's learning.
-不愉快的家庭生活可能会抑制孩子的学习。
-minority
-/maɪˈnɔːr.ə.t̬i/
-n. 少数；少数民族
-They are members of a racial minority.
-他们是少数族裔的一分子。
-placebo
-/pləˈsiː.boʊ/
-n. 安慰剂
-Half of the subjects received a placebo.
-一半的受试者拿到安慰剂。
-remain
-/rɪˈmeɪn/
-v. 保持；剩余
-The details of his life remain obscure.
-他的生活细节仍然不清楚。
-successive
-/səkˈses.ɪv/
-adj. 连续的；接连的；历任的
-There has been low rainfall for two successive years.
-降雨量连续两年都很低。
-aggregate
-/ˈæɡ.rɪ.ɡət/
-n. 总数，合计；聚集体; adj. 合计的，总数的; v. 使聚集
-The big party gained an aggregate of 75 percent of the vote.
-那个大党总共获得了 75% 的选票。
-coherence
-/koʊˈhɪr.əns/
-n. 连贯性，一致性
-The book was widely criticised for its lack of coherence.
-这本书因内容不连贯而广受批评。
-decay
-/dɪˈkeɪ/
-v. 衰败；腐蚀；蛀牙; n. 衰败；腐蚀；蛀牙
-The wood was treated with preservatives to prevent decay.
-木材经过了防腐处理，以防止腐烂。
-endorse
-/ɪnˈdɔːrs/
-v. （公开）认可；广告宣传；签名背书
-I wholeheartedly endorse his remarks.
-我衷心赞同他的言论。
-govern
-/ˈɡʌv.ɚn/
-v. 统治，管理；支配
-They accused the government of being unfit to govern.
-他们指责政府不适合执政。
-investigation
-/ɪnˌves.tɪˈɡeɪ.ʃən/
-n. 调查，侦查
-The research has opened up new realms for investigation.
-这项研究开辟了新的研究领域。
-occasional
-/əˈkeɪʒ.nəl/
-adj. 偶尔的
-He made occasional visits to Paris.
-他偶尔会造访巴黎。
-principle
-/ˈprɪn.sə.pəl/
-n. 原则，准则
-We ought not to depart from that principle.
-我们不应该背离这个原则。
-revolution
-/ˌrev.əˈluː.ʃən/
-n. 革命，变革；旋转
-The revolution caused a radical reformation of the society.
-那场革命引起了社会彻底的改革。
-thesis
-/ˈθiː.sɪs/
-n. 学位论文；论点
-She wrote her doctoral thesis on German literature.
-她的博士论文主题是德国文学。
-ambiguous
-/æmˈbɪɡ.ju.əs/
-adj. 模棱两可的
-The wording of the announcement was deliberately ambiguous.
-那份声明的措辞刻意模模两可。
-command
-/kəˈmænd/
-v. 命令，指挥; n. 掌握
-He eventually commanded the troop to retreat.
-他最终命令部队撤退。
-deliberate
-/dɪˈlɪb.ɚ.ət/
-adj. 刻意的，蓄意的；小心谨慎的; v. 慎重考虑
-They were accused of deliberate provocation.
-他们被指控蓄意挑衅。
-entice
-/ɪnˈtaɪs/
-v. 诱惑，诱使，引诱
-The ads entice young people to smoke.
-这些广告诱使年轻人抽烟。
-gather
-/ˈɡæð.ɚ/
-v. 聚集；收集；推断
-He paused to gather his breath.
-他停下来喘口气。
-issue
-/ˈɪʃ.uː/
-n. 议题，问题；（报刊）期; v. 发行，发布
-Public opinion has polarised on this issue.
-这个议题的公众舆论很两极。
-operate
-/ˈɒp.ər.eɪt/
-v. 运作，运行；动手术
-Solar panels can only operate in sunlight.
-太阳能电池板只能在阳光下运作。
-profound
-/prəˈfaʊnd/
-adj. 深度的；深刻的
-He had a profound influence on modern poets.
-他对现代诗人产生了深远的影响。
-scarcity
-/ˈsker.sə.t̬i/
-n. 缺乏，不足
-The scarcity of food forced prices up.
-食物短缺迫使价格上涨。
-transit
-/ˈtræn.zɪt/
-n. 运输
-Fruits are perishable in transit.
-水果在运送过程容易腐烂。
-afflict
-/əˈflɪkt/
-v. 折磨；使痛苦；使苦恼
-Famine and war still afflict a large number of people.
-饥荒和战争仍折磨着许多人。
-clone
-/kloʊn/
-v. 复制; n. 制制品
-It's been a debate if it's right to clone an individual.
-复制人类是对是错，一直存在争议。
-data
-/ˈdeɪ.t̬ə/
-n. 数据，资料
-"Data" is Latin plural form of "datum".
-Data 是 datum 的拉丁文复数型态。
-encounter
-/ɪnˈkaʊn.t̬ɚ/
-v. 遇到，遭遇; n. 偶遇
-The research team encountered a number of difficulties.
-研究团队遇到了一些困难。
-fundamental
-/ˌfʌn.dəˈmen.t̬əl/
-adj. 基础的；根本的; n. 基本原则；基本原理
-A free press is fundamental to democracy.
-新闻自由是民主的基础。
-intuitive
-/ɪnˈtuː.ɪ.t̬ɪv/
-adj. 直觉的，凭直觉的
-Men are often regarded as less intuitive than women.
-通常男性会被认为没有女性来得直觉。
-obstacle
-/ˈɒb.stə.kəl/
-n. 障碍（物），阻碍
-Fear of change is an obstacle to progress.
-害怕改变是进步的障碍。
-previous
-/ˈpriː.vi.əs/
-adj. 以前的，选前的
-It may outsell his previous novels.
-销售量可能会超过他以前的小说。
-reverse
-/rɪˈvɝːs/
-v. 反转；倒退；使反向; n. 相反；反面; adj. 相反的；反面的
-Please reverse the positions of the two pictures.
-请颠倒两张图片的位置。
-theme
-/θiːm/
-n. 主题
-Poverty is a recurrent theme in his novels.
-贫穷在他的小说里是反复出现的主题。
-aesthetic
-/esˈθet̬.ɪk/
-adj. 美学的，美的
-That new museum seems to have little aesthetic values.
-那间新博物馆似乎没多少美学价值。
-class
-/klɑːs/
-n. 阶级；班级；课堂
-Class differences may divide a country.
-阶级差异可能会开裂一个国家。
-cycle
-/ˈsaɪ.kəl/
-n. 周期，循环; v. 骑脚踏车
-The business cycle is a series of peaks and troughs.
-商业周期是一系列的高峰和低谷。
-empirical
-/emˈpɪr.ɪ.kəl/
-adj. 以实验为据，实证的；经验（主义）的
-His theory is inconsistent with the empirical evidence.
-他的理论与实验的证据不一致。
-fumes
-/fjuːmz/
-n. 烟雾，有害气体
-Exhaust fumes are bad for your health.
-废气对你的健康有害。
-intricate
-/ˈɪn.trɪ.kət/
-adj. 错综复杂的
-The farmers use an intricate system of drainage canals.
-农民使用复杂的排水系统。
-obscure
-/əbˈskjʊr/
-adj. 模糊的；鲜为人知的; v. 遮掩；使难理解
-Her poetry is full of obscure literary allusions.
-她的诗充满晦涩的文学典故。
-prevailing
-/prɪˈveɪ.lɪŋ/
-adj. 盛行的，占优势的
-This reflects attitudes and values prevailing in society.
-这反映了社会上普遍存在的态度和价值观。
-reveal
-/rɪˈviːl/
-v. 揭露，透露；显露出
-He is afraid of reveal his innermost self.
-他害怕显露内心深处的自我。
-terminal
-/ˈtɝː.mə.nəl/
-adj. 疾病末期的；极其的（负面）
-He is the terminal stage of cancer.
-他是癌症末期。
-application
-/ˌæp.ləˈkeɪ.ʃən/
-n. 应用；申请
-Their latest product is designed for general application.
-他们的最新产品专为一般应用而设计。
-component
-/kəmˈpoʊ.nənt/
-n. 组成部分；成分；零件
-Each component has to be carefully checked before assembly.
-组装前必须仔细检查每个组件。
-deprive
-/dɪˈpraɪv/
-v. 剥夺
-She cannot properly function when she is deprived of sleep.
-当她缺乏睡眠，根本无法正常打理生活。
-establish
-/ɪˈstæb.lɪʃ/
-v. 建立，设立
-The police are trying to establish the cause of the fire.
-警方正试图查明起火原因。
-heritage
-/ˈher.ɪ.t̬ɪdʒ/
-n. 遗产
-Rivers represent a cultural heritage as well.
-河流也是一种文化遗产。
-level
-/ˈlev.əl/
-n. 水平；等级，级别；楼层; adj. 水平的
-The village is 1,000 meters above sea level.
-那座村庄海拔 1000 公尺高。
-output
-/ˈaʊt.pʊt/
-n. 产量; v. 输出
-Few composers can match his prolific output.
-很少有作曲家能比得上他多产的作品。
-publicise
-/ˈpʌb.lə.saɪz/
-v. 宣传；公布
-The author appeared on TV to publicise her latest book.
-这作者出现在电视上宣传她的新书。
-sense
-/sens/
-v. 感觉到; n. 感官；理解；含义
-We sended a note of anger in her voice.
-我们从她的声音感觉到怒意。
-undergo
-/ˌʌn.dɚˈɡoʊ/
-v. 经历；接受（手术等）
-The planes have to undergo rigorous safety checks.
-这些飞机必须经过严格的安全检查。
-attach
-/əˈtætʃ/
-v. 附上，连接
-She attached a recent photograph to her application form.
-她在申请表附上了一张近照。
-constant
-/ˈkɒn.stənt/
-adj. 经常发生的；稳定的
-The constant pain made the patient's life intolerable.
-持续的疼痛让这位病患的生活很不好过。
-disperse
-/dɪˈspɝːs/
-v. （使）扩散，（使）分散
-The police used tear gas to disperse the demonstrators.
-警方使用催泪瓦斯驱散抗议人士。
-exposure
-/ɪkˈspoʊ.ʒɚ/
-n. 暴露，接触；揭发
-Exposure to the sun can accelerate the ageing process.
-暴露在阳光下会加速老化。
-income
-/ˈɪn.kʌm/
-n. 收入
-He derives his income from freelance work.
-他的收入来自从事自由业。
-maternal
-/məˈtɝː.nəl/
-adj. 母亲的，母方的；母亲般的
-Maternal age affects the baby's survival rate.
-母亲的年龄会影响婴儿的存活率。
-perch
-/pɝːtʃ/
-v. 栖息；位于高处（或边缘）; n. 栖木
-House swallows perch themselves on the roof of the house.
-家燕栖息在屋顶上。
-recovery
-/rɪˈkʌv.ɚ.i/
-n. 恢复；寻回，重新得到
-He made a remarkable recovery from a shin injury.
-他小腿前侧的伤恢复得很好。
-stimulate
-/ˈstɪm.jə.leɪt/
-v. 刺激；促进
-These proteins stimulates the production of blood cells.
-这些蛋白质刺激血球的生成。
-visual
-/ˈvɪʒ.u.əl/
-adj. 视觉的; n. 视觉材料（影像，图像等）
-Artists translate their ideas into visual images.
-艺术家将他们的想法化为视觉图像。
-adjacent
-/əˈdʒeɪ.sənt/
-adj. 邻近的，相邻的
-Our hotel is adjacent to the biggest shopping mall in town.
-我们的旅馆邻近镇上最大的购物中心。
-chart
-/tʃɑːrt/
-n. 图表；唱片排行榜
-This chart shows their performance over the past decade.
-这张图表显示了他们在过去十年中的表现。
-criticise
-/ˈkrɪt̬.ɪ.saɪz/
-v. 评论；批评，指责
-We learnt how to criticise poems in this course.
-我们在这门课学到如何评价诗。
-elusive
-/iˈluː.sɪv/
-adj. 难以捉摸的；难记起的；难达到的
-The fox is a sly and elusive animal.
-狐狸是一种狡猾且难以捉摸的动物。
-fragile
-/ˈfrædʒ.əl/
-adj. 脆弱的；易碎的
-Human happiness is so fragile.
-人的幸福是如此脆弱。
-interact
-/ˌɪn.t̬ɚˈækt/
-v. 互动，交流，相互作用
-We are studying how these two chemicals interact.
-我们正在研究这两种化学物质如何相互作用。
-notion
-/ˈnoʊ.ʃən/
-n. 看法，观念
-I have only a vague notion of what she does for a living.
-我对她靠什么谋生只知道个大概。
-predominantly
-/prɪˈdɒm.ɪ.nənt.li/
-adv. 主要地，占优势地
-The city's population is predominantly Irish.
-这个城市的居民主要是爱尔兰人。
-resource
-/ˈriː.sɔːrs/
-n. 资源，财力
-Water is becoming an increasingly precious resource.
-水正成为越来越宝贵的资源。
-tackle
-/ˈtæk.əl/
-v. 处理，对付
-We have to tackle the fundamental causes of the problem.
-我们必须解决问题的根本原因。
-award
-/əˈwɔːrd/
-n. 奖项，奖金; v. 授予
-He has won the award for the fourth year in succession.
-他已连续第四年获得此奖。
-contradict
-/ˌkɒn.trəˈdɪkt/
-v. 反驳；与...矛盾，相抵触
-The findings have contradicted established theories.
-这些研究结果已经反驳了既有的理论。
-distressing
-/dɪˈstres.ɪŋ/
-adj. 令人苦恼的，使用痛苦的
-A suffering animal is a distressing sight.
-动物受苦的景象会令人不适。
-fade
-/feɪd/
-v. 褪去，褪色
-Hopes of a peace settlement are beginning to fade.
-和平解决的希望开始破灭。
-indulge
-/ɪnˈdʌldʒ/
-v. 沉迷于；纵容
-The inheritance enabled him to indulge his passion for art.
-继承的遗产带给他本钱沉浸于对艺术的热情。
-methodology
-/ˌmeθ.əˈdɒl.ə.dʒi/
-n. 方法（论）；教学法
-His work centres upon the study of methodology in teaching.
-他的工作集中在教学方法的研究上。
-phenomenon
-/fəˈnɒm.ɪ.nən/
-n. 现象
-An eclipse of the moon is a rare phenomenon.
-月蚀是罕见的现象。
-relative
-/ˈrel.ə.t̬ɪv/
-adj. 与...相关的；相对的; n. 亲戚
-Price is relative to demand.
-价格与需求有关。
-subsequent
-/ˈsʌb.sɪ.kwənt/
-adj. 随后的；接着发生的
-Her illness was subsequent to her son's death.
-她的疾病是在儿子死后开始的。
-witness
-/ˈwɪt.nəs/
-n. 目击者，证人; v. 目击，为...作证
-She was a witness to the incident.
-她是那起事件的目击者。
-accurate
-/ˈæk.jɚ.ət/
-adj. 准确的，精确的
-His predictions about the election results proved accurate.
-他对选举结果的预测证明是准确的。
-capable
-/ˈkeɪ.pə.bəl/
-adj. 有能力的，能干的
-The robot is capable of understanding spoken commands.
-那个机器人能够理解口令。
-cosmic
-/ˈkɒz.mɪk/
-adj. 宇宙的
-Physics is governed by cosmic laws.
-物理学受宇宙法则所支配。
-due
-/dʒuː/
-adj. 由于；到期的
-The failure is due to the inadequacy of preparations.
-失败是因为准备不够充分。
-flourish
-/ˈflɝː.ɪʃ/
-v. 繁荣，兴盛
-If left unchecked, weeds will flourish.
-如果放任不管，杂草就会繁衍丛生。
-instruction
-/ɪnˈstrʌk.ʃən/
-n. 指示；教导
-His father's instruction rained influence on his behaviour.
-他父亲的教导对他的行为产生了影响。
-municipal
-/mjuːˈnɪs.ə.pəl/
-adj. 市政的，市的
-The city is planning to build a municipal library.
-这座城市正在规划建造市立图书馆。
-positive
-/ˈpɒz.ə.tɪv/
-adj. 正极的；呈阳性的；确定的
-A proton has a positive charge.
-质子带正电荷。
-replicate
-/ˈrep.lɪ.keɪt/
-v. 制制，重复；自我复制
-The study tried to replicate real-life situations.
-这项研究试图复制现实生活中的情况。
-survive
-/sɚˈvaɪv/
-v. 生存；生活
-These birds only survive in temperate latitudes.
-这些鸟只能在温带地区生存。
-arise
-/əˈraɪz/
-v. 出现，产生
-The accident arose from the driver's carelessness.
-这起事故起图于驾驶员的粗心。
-concrete
-/ˈkɒŋ.kriːt/
-adj. 具体的，确实的
-There is no concrete evidence that he committed the crime.
-并没有具体的证据指出犯人就是他。
-deterrent
-/dɪˈter.ənt/
-n. 威慑力；遏制事物
-Nuclear weapons are the ultimate deterrent.
-核武是终极的威慑力量。
-evoke
-/ɪˈvoʊk/
-v. 引起，唤起（记忆，感情等）
-Smells and tastes often evoke memories from the past.
-气味和味道经常唤起对于过去的回忆。
-identify
-/aɪˈden.t̬ə.faɪ/
-v. 辨认，识别
-First we need to identify actual and potential problems.
-首先，我们需要辨识实际和潜在的问题。
-logic
-/ˈlɒdʒ.ɪk/
-n. 逻辑，逻辑学
-Socrates laid the foundations of logic.
-苏格拉底奠定了逻辑的基础。
-overtake
-/ˌoʊ.vɚˈteɪk/
-v. 超过，大于
-The car accelerated to overtake me.
-那辆车加速超过了我。
-query
-/ˈkwɪə.ri/
-v. 提问；质问; n. 疑问，问题
-I'm not in a position to query their decision.
-我无权质疑他们的决定。
-similar
-/ˈsɪm.ə.lɚ/
-adj. 相似的
-My significant other and I have similar views on politics.
-我的另一半和我对政治的看法相似。
-valid
-/ˈvæl.ɪd/
-adj. 有效力的；有根据的
-Your return ticket is valid for three months.
-你的回程机票有效期为三个月。
-aware
-/əˈweər/
-adj. 察觉的，知道的
-More and more people are aware of the hazards of smoking.
-越来越多的人意识到抽烟的危害。
-contrary
-/ˈkɒn.trə.ri/
-adj. 相反的
-Contrary to expectations, interest rates did not go down.
-跟预期相反的是，利息并未下降。
-distribution
-/ˌdɪs.trɪˈbjuː.ʃən/
-n. 分布；分配
-These plants have a wide geographical distribution.
-这些植物的地理分布广泛。
-famine
-/ˈfæm.ɪn/
-n. 饥荒；饥荒时期
-Another crop failure could result in widespread famine.
-作物若再次欠收可能会导致大范围的饥荒。
-inequality
-/ˌɪn.ɪˈkwɒl.ə.ti/
-n. 不平等
-Inequality and poverty breed class conflict.
-不平等和贫穷会滋生阶级冲突。
-migraine
-/ˈmaɪ.ɡreɪn/
-n. 偏头痛
-Her injuries have left her with chronic migraine headaches.
-她受伤的后遗症是有慢性偏头痛。
-philosophy
-/fɪˈlɒs.ə.fi/
-n. 哲学
-This question comes into the domain of philosophy.
-这个问题进入了哲学的领域。
-release
-/rɪˈliːs/
-n. 释放，排放；发行，发表; v. 释放，排放；发行，发表
-Crying can give some emotional release.
-哭泣可以释放一些情绪。
-subsidiary
-/səbˈsɪd.i.er.i/
-adj. 辅助的，次要的，附属的; n. 子公司，附属公司
-All other issues are subsidiary to this one.
-所有其他问题都是附属于这一个问题。
-workforce
-/ˈwɝːk.fɔːrs/
-n. 劳动力；劳动人口
-Women now represent almost 50% of the workforce.
-女性现在几乎占了劳动力的半数。
-attitude
-/ˈæt̬.ə.tuːd/
-n. 态度
-His girlfriend has a liberal attitude to open relationships.
-他的女朋友对开放式关系心态开放。
-consumer
-/kənˈsuː.mɚ/
-n. 消费者，消耗者
-Both businesses and consumers are cutting back on spending.
-企业与消费者两边都在削减支出。
-disposal
-/dɪˈspoʊ.zəl/
-n. 清除，抛弃
-The disposal of hazardous waste is a serious problem.
-危险废弃物的处理是个严重的问题。
-external
-/ɪkˈstɝː.nəl/
-adj. 外部的
-The external layer of skin is called the epidermis.
-皮肤的外层称为表皮。
-incorporate
-/ɪnˈkɔːr.pɚ.eɪt/
-v. 包含，纳入，合并
-The new model incorporated a number of major improvements.
-新机型有几项主要的改进。
-means
-/miːnz/
-n. 方法，手段；钱财
-They want a highly efficient means of communication.
-他们想要一种高效率的沟通方式。
-permanent
-/ˈpɝː.mə.nənt/
-adj. 永久的；长久的
-He entered the country and applied for permanent residence.
-他进入了那个国家并申请永久居留权。
-refine
-/rɪˈfaɪn/
-v. 精炼，提炼；改进
-Reading good books helps to refine one's speech.
-阅读好书有助于精炼自己的言论。
-strain
-/streɪn/
-n. 张力，压力，负担; v. （使）拉紧，（使）紧张
-The wall collapsed under the strain.
-那面墙承受不了压力而倒塌。
-voluntary
-/ˈvɒl.ən.tər.i/
-adj. 自愿的
-The agency is voluntary and not run for profit.
-该机构是志工性质，非营利目的。
-accompany
-/əˈkʌm.pə.ni/
-v. 伴随，陪同
-The witness chose to accompany her to the police station.
-目击者选择陪她去警局。
-budget
-/ˈbʌdʒ.ɪt/
-n. 预算；预算方案; v. 编预算
-The defence budget had been trimmed by $100,000
-国防预算削减了十万美元。
-correlation
-/ˌkɔːr.əˈleɪ.ʃən/
-n. 相关
-There's a high correlation between smoking and lung cancer.
-抽烟和肺癌高度相关。
-dramatic
-/drəˈmæt̬.ɪk/
-adj. 戏剧性的，引人注目的；戏剧的
-They are alarmed by the dramatic increase in pollution.
-他们对急剧增加的污染感到警觉。
-finite
-/ˈfaɪ.naɪt/
-adj. 有限的
-Fossil fuels are finite resources.
-化石燃料是有限的资源。
-inspection
-/ɪnˈspek.ʃən/
-n. 检查，审查
-This thesis does not stand up to close inspection.
-这篇论文经不起仔细检验。
-mortality
-/mɔːrˈtæl.ə.t̬i/
-n. 死亡率；必死性
-The nation's infant mortality rate has reached a record low.
-该国的婴儿死亡率已创历史新低。
-portion
-/ˈpɔːr.ʃən/
-n. 一部分；（食物）一份
-The central portion of the bridge collapsed.
-桥的中央部分倒塌了。
-remuneration
-/rɪˌmjuː.nəˈreɪ.ʃən/
-n. 酬劳
-They demanded adequate remuneration for their work.
-他们要求对自己的工作给予足够的报酬。
-surround
-/səˈraʊnd/
-v. 围绕；包围
-Mountains surround the village on three sides.
-群山三面环绕这座村庄。
+apprentice
+/əˈpren.t̬ɪs/
+n. 学徒，生手
+Their daughter works in the hairdresser's as an apprentice.
+他们的女儿在美发店当学徒。
+compromise
+/ˈkɒm.prə.maɪz/
+n. 妥协，折中; v. 妥协，折中；背离；损害
+After lengthy talks they finally reached a compromise.
+经过长时间的会谈，他们终于达成妥协。
+despite
+/dɪˈspaɪt/
+prep. 尽管，不管
+Despite the criticisms, she has remained defiant.
+尽管受到批评，她仍然抱持强硬的态度。
+estimate
+/ˈes.tɪ.meɪt/
+n. 估计，估量; v. 估计，估量
+This figure is five times the original estimate.
+这个数字是原来估计的五倍。
+highlight
+/ˈhaɪ.laɪt/
+n. 精彩之处; v. 强调，使显著
+The highlight of the week was Saturday's firework display.
+本周的亮点是周六的烟火秀。
+likewise
+/ˈlaɪk.waɪz/
+adv. 同样地
+The food was excellent, and likewise the wine.
+食物很美味，酒也同样好喝。
+outweigh
+/ˌaʊtˈweɪ/
+v. 大于，比...更重要
+The rewards of motherhood outweigh the anguish.
+做妈妈的好处大于痛苦。
+punctual
+/ˈpʌŋk.tʃu.əl/
+adj. 准时的
+The trains there are invariably punctual.
+那里的火车总是准点抵达。
+sequence
+/ˈsiː.kwəns/
+n. 顺序；一连串
+The questions should be asked in a logical sequence.
+这些问题应该依逻辑顺序提出。
+unique
+/juːˈniːk/
+adj. 独特的
+This monkey is unique to the island.
+这种猴子是这座岛上独有的。
+abuse
+/əˈbjuːz/
+v. 滥用；虐待; n. 滥用；虐待
+The celeb abused alcohol for years before he died.
+那位名人在去世前酗酒多年。
+blast
+/blæst/
+v. 爆破；抨击; n. 爆破；狂欢
+They will have to blast a tunnel through the mountain.
+他们将须在山上炸开一条隧道。
+convinced
+/kənˈvɪnst/
+adj. 信服的
+Obiviously they are still only half convinced.
+显然他们仍半信半疑。
+dormant
+/ˈdɔːr.mənt/
+adj. 蛰伏的，休眠的
+The dormant volcano slopes down to the beaches.
+那座休眠火山的山坡一路连到海滩。
+fierce
+/fɪəs/
+adj. 凶猛的；激烈的；狂暴的
+The army met with fierce opposition in every town.
+军队在每个城镇都遭到了激烈的反抗。
+injury
+/ˈɪn.dʒər.i/
+n. 受伤，损伤
+He was discharged from the army following his injury.
+他受伤后退伍。
+modification
+/ˌmɒd.ɪ.fɪˈkeɪ.ʃən/
+n. 修改，改变
+Considerable modification of the existing system is needed.
+现有的系统需要大量的修改。
+plot
+/plɒt/
+n. 秘密计划；情节；小块土地; v. 在地图上标出；密谋；构思情节
+They uncovered a plot to destablilise the government.
+他们发现了一个颠覆政府的阴谋。
+remedy
+/ˈrem.ə.di/
+v. 补救；纠正; n. 疗法，补救方法；药物
+Their proposal seeks to remedy these shortcomings.
+他们的提议旨在弥补这些缺点。
+sum
+/sʌm/
+n. 总数，金额
+He donated a large sum of money to the orphanage.
+他捐了一大笔钱给孤儿院。
+abandon
+/əˈbæn.dən/
+v. 放弃，遗弃
+After careful consideration, we have abandoned the project.
+经过慎重考虑，我们放弃了这项专案。
+balance
+/ˈbæl.əns/
+n. 平衡；结余; v. 使平衡
+Large dams have harmed the country's ecological balance.
+大型水坝破坏了该国的生态平衡。
+contribute
+/kənˈtrɪb.juːt/
+v. 贡献
+Volunteers contributed a lot of their time to the project.
+志工为该项专案投入了大量时间。
+disturb
+/dɪˈstɝːb/
+v. 使焦虑，使烦恼；打断；扰乱
+Some scenes are violent and may disturb younger viewers.
+这些场景很暴力，可能让较年幼的观众不适。
+fascinating
+/ˈfæs.ən.eɪ.tɪŋ/
+adj. 吸引人的，迷人的
+The ancient Egyptians were a fascinating people.
+古埃及人是一个迷人的民族。
+inevitable
+/ˌɪnˈev.ə.t̬ə.bəl/
+adj. 不可避免的
+The accident was the inevitable outcome of carelessness.
+那起事故是粗心大意导致的必然结果。
+migration
+/maɪˈɡreɪ.ʃən/
+n. 迁移，迁徙
+Swallows begin their migration south in autumn.
+燕子在秋天开始向南迁徙。
+physical
+/ˈfɪz.ɪ.kəl/
+adj. 身体的；实物的；物理学的
+Her symptoms are more psychological than physical.
+她的症状更多是心理上的，而非身体上的。
+relevant
+/ˈrel.ə.vənt/
+adj. 有关的，相关联的
+Education should be relevant to the child's needs.
+教育应该与孩子的需要相关。
+substance
+/ˈsʌb.stəns/
+n. 物质；实质
+Mercury is a fluid substance.
+水银是一种液态物质。
+account
+/əˈkaʊnt/
+n. 描述；帐户
+The witness gave them a detailed account of the car crash.
+目击者向他们详细描述了车祸的经过。
+bureaucracy
+/bjʊəˈrɒk.rə.si/
+n. 官僚体系，官僚作风
+The PM promises to eliminate unnecessary bureaucracy.
+总理承诺消除不必要的官僚作风。
+correspond
+/ˌkɒr.ɪˈspɒnd/
+v. 符合；通信
+Their statements did not correspond with the evidence.
+他们的陈述与证据不符。
+drastic
+/ˈdræs.tɪk/
+adj. 激烈的；大幅度的
+There has been a drastic drop in tourism since last year.
+自去年以来，旅游业的表现急速下滑。
+flat
+/flæt/
+n. 公寓; adj. 平坦的
+The flat has gas-fired central heating.
+公寓配有燃烧媒气的中央暖气系统。
+inspire
+/ɪnˈspaɪr/
+v. 启发，给灵感；激励，鼓舞
+As wishes may inspire dreams, so dreams may inspire wishes.
+正如愿望可以启发梦想，梦想也可以启发愿望。
+motivation
+/ˌməʊ.tɪˈveɪ.ʃən/
+n. 动机，积极性
+There seems to be a lack of motivation among the students.
+这些学生似乎缺乏动力。
+portrait
+/ˈpɔːr.trɪt/
+n. 肖像；描绘
+The portrait of her was finished after only three sittings.
+只花了三次时间，她的肖像就画好了。
+render
+/ˈren.dɚ/
+v. 使成为某状态
+This action would render the agreement invalid.
+这项行动将使协议失效。
+surveillance
+/sɚˈveɪ.ləns/
+n. 监视；监控
+The country's borders are kept under constant surveillance.
+这个国家的边界持续受到监视。
+average
+/ˈæv.ɚ.ɪdʒ/
+adj. 普通的，一般的; n. 平均；平均水准
+Private childcare is too expensive for average earners.
+私人托婴对收入中等的族群来说过于昂贵。
+contingent
+/kənˈtɪn.dʒənt/
+adj. 取决于的，视...而定的
+Our growth is contingent upon setting and achieving goals.
+我们的成长取决于设定目标并加以实现。
+distinguish
+/dɪˈstɪŋ.ɡwɪʃ/
+v. 区分，分辨
+He can distinguish a genuine antique from a reproduction.
+他可以区分真正的古董和赝品。
+factor
+/ˈfæk.tɚ/
+n. 因素，要素
+Smoking is a causative factor in several major diseases.
+吸烟是几种重大疾病的病因。
+individual
+/ˌɪn.dɪˈvɪdʒ.u.əl/
+n. 个人，个体; adj. 个别的，个人的；独有的
+Every individual has rights that must never be taken away.
+每个人都拥有绝不能剥夺的权利。
+merge
+/mɝːdʒ/
+v. 合并，融合
+Fact and fiction merge together in his latest thriller.
+他最新的惊悚片虚实交错。
+pharmaceutical
+/ˌfɑːr.məˈsuː.t̬ɪ.kəl/
+adj. 制药的; n. 药品，药物，药剂
+He mentions the fat profits of the pharmaceutical companies.
+他提到了药厂的丰厚利润。
+reinforce
+/ˌriː.ɪnˈfɔːrs/
+v. 强化；加深；证实
+Such jokes tend to reinforce racial stereotypes.
+这样的笑话往往会强化种族刻板印象。
+stunning
+/ˈstʌn.ɪŋ/
+adj. 极迷人的；震惊的
+The sunset was a stunning spectacle.
+那天的日落景象极美无比。
+widespread
+/ˌwaɪdˈspred/
+adj. 广泛的，遍布的
+The proposal provoked widespread criticism.
+这项提案引起广泛的批评。
