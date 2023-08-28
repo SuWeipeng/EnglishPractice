@@ -3998,3 +3998,103 @@ terrestrial
 adj. 陆地的；（动物）陆生的；地球的
 Terrestrial amphibians respire through their skin.
 陆生的两栖动物是透过皮肤呼吸。
+attempt
+/əˈtempt/
+n. 努力，企图，尝试; v. 努力，企图，尝试
+The animal's attempt to escape was doomed to failure.
+这只动物的逃亡打算本来便注定会失败。
+construction
+/kənˈstrʌk.ʃən/
+n. 建造，建设
+The drainage system of the town needs careful construction.
+建造那座城镇的排水系统需要十分谨慎。
+display
+/dɪˈspleɪ/
+v. 显露；展示; n. 显露；陈列；显示
+These virus infections display obvious visual symptoms.
+这些病毒感染案例显示有明显的视觉症状。
+extent
+/ɪkˈstent/
+n. 程度，范围
+She was exaggerating the true extent of the problem.
+她夸大了问题的真正程度。
+incongruity
+/ˌɪn.kəŋˈɡruː.ə.ti/
+n. 不协调，不一致，不合适
+An incongruity between expectations and results is foreseen.
+原先便有预见期望会与结果不符。
+maximum
+/ˈmæk.sɪ.məm/
+adj. 最大值的，最大限度的; n. 最大值，最大限度，最大量
+The maximum load for this elevator is ten persons.
+这台电梯的最大载重量为十人。
+period
+/ˈpɪə.ri.əd/
+n. 一段时期；生理期
+The rainfall was measured over a three-month period.
+降雨量是在三个月的期间测量。
+refer
+/rɪˈfɝː/
+v. 提到；涉及；参考
+The figures in parentheses refer to page numbers.
+括号中的数字指的是页码。
+straightforward
+/ˌstreɪtˈfɔːr.wɚd/
+adj. 简单易懂的；坦率的
+Installing the program is relatively straightforward.
+程式的安装相对简单。
+volume
+/ˈvɒl.juːm/
+n. 总量；容量；（书）册或卷；音量
+How do you measure the volume of a gas?
+你如何测量气体的体积？
+acknowledge
+/əkˈnɒl.ɪdʒ/
+v. 承认，认可
+The leader refuses to acknowledge the need for reform.
+领导人拒绝承认改革的必要性。
+cardiovascular
+/ˌkɑːr.di.oʊˈvæs.kjə.lɚ/
+adj. 心血管的
+Smoking places you at a high risk of cardiovascular disease.
+吸烟会让你有高风险得心血管疾病。
+coverage
+/ˈkʌv.ɚ.ɪdʒ/
+n. 新闻报导；保险范围
+The allegations received widespread media coverage.
+这些指控受到媒体广泛的报导。
+dynamic
+/daɪˈnæm.ɪk/
+adj. 有活力的；不断变化的；动力的
+The countries are characterized by highly dynamic economies.
+这些国家的特点是经济充满活力。
+form
+/fɔːrm/
+n. 形式；表格；年级; v. 形成
+Attack is the best form of defence.
+进攻是最好的防守形式。
+intake
+/ˈɪn.teɪk/
+n. 摄取；吸入
+Salt intake may lead to raised blood pressure.
+摄取盐分可能导致高血压升高。
+nearly
+/ˈnɪə.li/
+adv. 几乎，差不多
+Hiroshima was nearly obliterated by the atomic bomb.
+广岛当时几乎被原子弹摧毁。
+practise
+/ˈpræk.tɪs/
+v. 实行；练习
+Both of them have been banned from practising medicine.
+他们两人都被禁止行医。
+reptile
+/ˈrep.taɪl/
+n. 爬虫类；爬行动物
+A snake is a limbless reptile.
+蛇是一种没有四肢的爬虫类。
+sustenance
+/ˈsʌs.tən.əns/
+n. 食物，营养；支持
+Potatoes were their only means of sustenance.
+马铃薯是他们唯一的食物来源。
