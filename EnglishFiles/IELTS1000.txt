@@ -4098,3 +4098,153 @@ sustenance
 n. 食物，营养；支持
 Potatoes were their only means of sustenance.
 马铃薯是他们唯一的食物来源。
+aggressive
+/əˈɡres.ɪv/
+adj. 雄心勃勃的；挑衅的
+Their business is challenged by some aggressive competitors.
+他们的生意受到一些野心勃勃的同业挑战。
+cohesion
+/koʊˈhiː.ʒən/
+n. 凝聚力，团结
+He argues smartphones have been affecting social cohesion.
+他主张智慧型手机一直在影响社会的凝聚力。
+declare
+/dɪˈkleər/
+v. 宣布，声明
+The police declared war on those gangsters.
+警方向那些原派分子宣战。
+endure
+/ɪnˈdʒʊər/
+v. 忍耐，忍受
+The pain was almost too great to endure.
+疼痛强烈到几乎无法忍受。
+gauge
+/ɡeɪdʒ/
+v. 测量；判定; n. 测量仪器
+A poll was conducted to gauge consumers' attitudes.
+为了衡量消费者的态度，举行了一次民调。
+investment
+/ɪnˈvest.mənt/
+n. 投资，投资额，投资物
+This country needs investment in education.
+这个国家需要对教育进行投资。
+occupational
+/ˌɒk.jəˈpeɪ.ʃən.əl/
+adj. 职业的，与职业相关的
+Getting injured is an occupational hazard of the sport.
+受伤是运动的职业伤害。
+prior
+/praɪər/
+adj. 在前的，居先的
+The course required no prior knowledge of German.
+这门课不需要事先懂德语。
+rigid
+/ˈrɪdʒ.ɪd/
+adj. 僵硬的，坚固的；死板的
+The curriculum was too narrow and too rigid.
+这个课程设计太狭隘死板。
+thoroughly
+/ˈθɝː.ə.li/
+adv. 彻底地
+Meat must be cooked thoroughly.
+肉类必须彻底煮熟。
+access
+/ˈæk.ses/
+n. 途径，通道，使用的机会（或方法，权利）
+Only authorised personnel have access to the internet.
+只有经授权的人员可以使用网路。
+bond
+/bɒnd/
+n. 紧密连结，紧密关系; v. 使黏合，使团结
+A bond of friendship has been forged among the team members.
+团队成员之间已经建立起友谊的连结。
+coordination
+/koʊˌɔːr.dənˈeɪ.ʃən/
+n. 协调
+Ball games require good hand-eye coordination.
+球类运动需要良好的手眼协调能力。
+doubt
+/daʊt/
+n. 怀疑; v. 怀疑，疑虑
+His religious belief is always hedged with doubt.
+他的宗教信仰总是夹杂着怀疑。
+figure
+/ˈfɪɡ.jɚ/
+n. 数字；图表；身形；人物
+By 2018, this figure had risen to 14 million.
+到 2018 年，这个数字便已经上升到 1400 万。
+innate
+/ɪˈneɪt/
+adj. 天生的，固有的
+Children have an innate ability to learn language.
+孩子天生就具有学习语言的能力。
+monitor
+/ˈmɒn.ɪ.tər/
+v. 监视，监测
+Instruments constantly monitor temperature and humidity.
+仪器不断监测温度和湿度。
+plough
+/plaʊ/
+n. 犁; v. 犁田；继续坚持
+The soil had been turned up by the plough.
+土壤已被犁翻起。
+remnant
+/ˈrem.nənt/
+n. 残余（部分）；遗迹；边角剩料
+Another colonial remnant is the train station.
+另一个殖民遗迹是火车站。
+summary
+/ˈsʌm.ɚ.i/
+n. 摘要
+Each chapter concludes with a short summary.
+每章都以简短的摘要结尾。
+appreciation
+/əˌpriː.ʃiˈeɪ.ʃən/
+n. 欣赏；感谢
+He doesn't share his father's appreciation for literature.
+他不像父亲那样欣赏文学。
+comprise
+/kəmˈpraɪz/
+v. 包含，组成
+The country comprise ten provinces.
+该国有 10 个省份。
+descend
+/dɪˈsend/
+v. 下降，走下
+All these breeds descend from some wild ancestor.
+这些品种全都是从某种野外的生物演化来的。
+esteem
+/ɪˈstiːm/
+n. 尊敬；好评
+The critics held him in high esteem as an actor.
+作为一名演员，评论家对他的评价很高。
+hierarchy
+/ˈhaɪə.rɑː.ki/
+n. 阶层，等级制度；统治集团
+There is a rigid hierarchy of power in that country.
+那个国家有严格的权力阶级制。
+liberal
+/ˈlɪb.ər.əl/
+adj. 自由开放的，开明的；慷慨的
+The church has become more liberal in this country.
+教会在这个世纪变得更加自由。
+outstanding
+/ˌaʊtˈstæn.dɪŋ/
+adj. 未偿付的，未解决的；杰出的
+She has outstanding debts of over $500.
+她有超过 500 美元的未偿债务。
+pulse
+/pʌls/
+n. 脉搏; v. 跳动，搏动
+His pulse raced as he faced the armed intruder.
+面对手持武器的入侵者，他心跳加快。
+sentence
+/ˈsen.təns/
+n. 判型，宣判; v. 判决
+He received a death sentence.
+他被判处死刑。
+undertake
+/ˌʌn.dɚˈteɪk/
+v. 着手做，进行；承诺
+University professors both teach and undertake research.
+大学教授既要教学也要从事研究。
