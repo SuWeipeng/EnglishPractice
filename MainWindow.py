@@ -190,12 +190,12 @@ class EnglishPractice:
         self.practiceMode = EnglishPractice.practiceModeList[self.wordMode]
         self.wordsNum     = self.configDict.get("Count")
         self.ui.lineEdit.setText(str(self.wordsNum))
-        self.ui.comboBox.setCurrentIndex(EnglishPractice.vocabulary_list.index(self.configDict.get("Source")))
+        self.ui.comboBox.setCurrentText(self.configDict.get("Source"))
         # 听力设置恢复
         self.listeningTable = self.configDict.get("Source2")
         self.listenCount    = self.db.getListenContent(self.listeningTable)
         self.ui.label_10.setText(str(self.listenCount))
-        self.ui.comboBox_2.setCurrentIndex(EnglishPractice.listening_list.index(self.listeningTable))
+        self.ui.comboBox_2.setCurrentText(self.listeningTable)
         self.ui.lineEdit_2.setText(str(self.configDict.get("From")))
         self.ui.lineEdit_3.setText(str(self.configDict.get("To")))
         self.ui.progressBar_2.setMinimum(int(self.ui.lineEdit_2.text().strip()))
