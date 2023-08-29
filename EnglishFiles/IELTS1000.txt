@@ -4498,3 +4498,253 @@ synthetic
 adj. 合成的；人造的
 Some synthetic materials do not crush easily.
 有些合成材料不容易压碎。
+appropriate
+/əˈproʊ.pri.ət/
+adj. 适当的，恰当的
+Jeans are not appropriate attire for job interviews.
+牛仔裤不是适合穿去工作面试的服饰。
+conceive
+/kənˈsiːv/
+v. 构想出；想像；受孕
+The director conceived the plot for this film at university.
+那位导演在大学时构思了这部电影的情节。
+detect
+/dɪˈtekt/
+v. 侦测出；察觉
+The test failed to detect any illegal substances.
+这项测试未能侦测到任何非法物质。
+ethnic
+/ˈeθ.nɪk/
+adj. 种族的；异族的；民族特色的
+Different ethnic groups have different systems of kinship.
+不同民族有不同的亲属制度。
+hollow
+/ˈhɒl.əʊ/
+adj. 空的，空洞的; v. 挖空; n. 洞，坑；山谷
+Bamboo is a sort of hollow plant.
+竹子是一种空心植物。
+literacy
+/ˈlɪt̬.ɚ.ə.si/
+n. 读写能力，识字；（某领域的）知识
+Many adults have some problems with literacy and numeracy.
+许多成年人识字和算术有困难。
+overcome
+/ˌoʊ.vɚˈkʌm/
+v. 克服，战胜
+This talented young actor struggled to overcome his shyness.
+这位有天赋的演员努力克服害羞。
+purchase
+/ˈpɝː.tʃəs/
+v. 购买，采购; n. 购买，采购
+It was decided the school should purchase new software.
+大家决定学校应该要购买新的软件。
+retrenchment
+/rɪˈtrentʃ.mənt/
+n. 紧缩，消减费用
+The company is in a period of retrenchment.
+公司正处于紧缩时期。
+urban
+/ˈɝː.bən/
+adj. 城市的
+The urban population in this country hit a record high.
+这个国家的都市人口达到新高。
+astronaut
+/ˈæs.trə.nɔːt/
+n. 太空人，宇航员
+The rocket boosted the astronauts into space.
+那艘火箭将宇航员送入了太空。
+consist
+/kənˈsɪst/
+v. 组成，构成
+The atmosphere consists of more than 70% of nitrogen.
+大气中含有超过 70% 的氮气。
+discrimination
+/dɪˌskrɪm.ɪˈneɪ.ʃən/
+n. 歧视；区分能力
+Racial discrimination still exists in modern society.
+种族歧视在现代社会依然存在。
+exploitation
+/ˌek.splɔɪˈteɪ.ʃən/
+n. 剥削，利用；开发
+Migrant workers are vulnerable to exploitation.
+移工容易受到剥削。
+incentive
+/ɪnˈsen.tɪv/
+n. 激励，刺激，诱因
+Farmers lack any incentive to manage their land organically.
+农民缺乏将土地有机化的动力。
+marked
+/mɑːrkt/
+adj. 明显的，显著的
+The patient showed a marked improvement in her condition.
+那位患者的病情明显好转。
+penetrate
+/ˈpen.ɪ.treɪt/
+v. 穿透；渗透；洞察
+The sun's rays can penetrate water up to 10 feet.
+太阳光线最远可以穿透 10 英尺的水。
+reasonable
+/ˈriː.zən.ə.bəl/
+adj. 合情理的；理性的；价格公道的
+Any reasonable person can see that it is not fair.
+任何通情达理的人都能看出这并不公平。
+statistics
+/stəˈtɪs·tɪks/
+n. 统计资料
+Statistics suggest that women live longer than men.
+统计数据指出女性比男性长寿。
+violation
+/ˌvaɪ.əˈleɪ.ʃən/
+n. 违反，违背
+Such action was a violation of medical ethics.
+这种行为违反了医学伦理。
+available
+/əˈveɪ.lə.bəl/
+adj. （物）可取得的；（人）有空的
+Our offer is available for a limited period only.
+我们的优惠仅在特定时限内有效。
+context
+/ˈkɒn.tekst/
+n. 情境；上下文
+It is more efficient to learn real English in context.
+透过有上下文的情境学习真正的英语更有效。
+distinctive
+/dɪˈstɪŋk.tɪv/
+adj. 独特的，与众不同的
+The whale has a very distinctive call.
+鲸鱼有一种非常独特的叫声。
+facility
+/fəˈsɪl.ə.t̬i/
+n. 天资；谢施；（特定用）场所
+She has a great facility for languages.
+她的语言能力极佳。
+indispensable
+/ˌɪn.dɪˈspen.sə.bəl/
+adj. 不可或缺的，必需的
+A computer is indispensable to modern life.
+现代生活离不开电脑。
+merely
+/ˈmɪə.li/
+adv. 仅仅，只是
+We humans are merely the instruments of fate.
+我们人类只是命运的工具。
+pesticide
+/ˈpes.tɪ.saɪd/
+n. 杀虫剂，农药
+The pesticide is lethal to all insect life.
+这种杀虫剂对所有昆虫都是致命的。
+regulation
+/ˌreɡ.jəˈleɪ.ʃən/
+n. 规定，条例；调节
+The new regulation was seen as equivalent to censorship.
+这项新规定被视为等同于审查制度。
+stumble
+/ˈstʌm.bəl/
+v. 踉跄；绊（倒）；犯错
+The sudden weakness in her legs made her stumble.
+她忽然双腿发软，踉跄了一下。
+whilst
+/waɪlst/
+conj. 当...的时候；尽管
+Whilst playing badminton, he ruptured his Achilles tendon.
+打羽毛球时，他的阿基里斯腱断裂。
+assess
+/əˈses/
+v. 评定，评估
+It's time-consuming to assess the effects of these changes.
+评估这些变化的影响非常耗时。
+conform
+/kənˈfɔːrm/
+v. 顺从，遵从
+The old building does not conform to safety regulations.
+那栋老旧建筑物不符合安全规定。
+dimension
+/ˌdaɪˈmen.ʃən/
+n. 层面；尺寸
+Those weapons add a new dimension to modern warfare.
+那些武器为现代战事带来了新的面向。
+exhibit
+/ɪɡˈzɪb.ɪt/
+v. 展示，展出; n. 展示品；展览会
+Most zoos try to exhibit animals in naturalistic settings.
+多数动物园都试图以自然的环境来展示动物。
+immigration
+/ˌɪm.ɪˈɡreɪ.ʃən/
+n. 移民（入境）
+Immigration is a controversial issue in many countries.
+移民在许多国家都是一个有争议的问题。
+malicious
+/məˈlɪʃ.əs/
+adj. 恶意的，恶毒的
+The malicious rumours compromised her good reputation.
+恶意的谣言破坏了她的良好名声。
+particular
+/pɚˈtɪk.jə.lɚ/
+adj. 特定的
+This particular custom has its origins in Wales.
+这项特殊的习俗源于威尔斯。
+rapidly
+/ˈræp.ɪd.li/
+adv. 迅速地
+The icecream evaporated rapidy in the sun.
+冰淇淋在阳光下迅速蒸发。
+sort
+/sɔːrt/
+v. 分类；整理; n. 种类，类型
+Furnishings of this sort are now highly fashionable.
+这种家具现在非常流行。
+version
+/ˈvɝː.ʒən/
+n. 版本
+She looked like a miniature version of her mother.
+她看起来如同她母亲的缩小版。
+archaeology
+/ˌɑː.kiˈɒl.ə.dʒi/
+n. 考古学
+He is considering pursuing his passion for archaeology.
+他正在考虑追求对考古学的热情。
+concession
+/kənˈseʃ.ən/
+n. 让步；认输
+She is prepared to make some concessions on minor details.
+她有心理准备会在小细节做出一些让步。
+deteriorate
+/dɪˈtɪə.ri.ə.reɪt/
+v. 恶化，变坏
+The patient's hearing began to deteriorate.
+患者的听力开始恶化。
+evidence
+/ˈev.ɪ.dəns/
+n. 证据，证明
+He supports his theory with copious evidence.
+他用大量证据支持他的理论。
+identical
+/aɪˈden.tɪ.kəl/
+adj. 相同的
+His fingerprints were identical to those left on the door.
+他的指纹与留在门上的指纹相符。
+location
+/ləʊˈkeɪ.ʃən/
+n. 位置，地点
+The location of the hotel is sublime.
+那间饭店的地点很好。
+overseas
+/ˌoʊ.vɚˈsiːz/
+adv. 在海外，到海外; adj. 海外的，国外的
+The news from overseas is overwhelmingly negative.
+那则越洋而来的消息极为负面。
+qualitative
+/ˈkwɒl.ɪ.tə.tɪv/
+adj. 品质上的；性质上的
+The research involves qualitative analysis.
+这项研究涉及质性分析。
+significant
+/sɪɡˈnɪf.ɪ.kənt/
+adj. 显著的；重大的；有特殊意义的
+Crime figures showed significant percentage increases.
+犯罪数字的百分比明显上升。
+vacancy
+/ˈveɪ.kən.si/
+n. 空缺；空处
+The vacancy has already been filled.
+空缺已经找到人。
