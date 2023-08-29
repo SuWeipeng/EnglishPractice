@@ -201,6 +201,8 @@ class EnglishPractice:
         self.ui.progressBar_2.setMinimum(int(self.ui.lineEdit_2.text().strip()))
         self.ui.progressBar_2.setMaximum(int(self.ui.lineEdit_3.text().strip()))
         self.listenPracticeCnt = int(self.ui.lineEdit_3.text().strip()) - int(self.ui.lineEdit_2.text().strip())
+        self.idxListen = int(self.ui.lineEdit_2.text().strip()) - 1
+        self.currentListening = self.db.getListenSentence(self.idxListen)
     
     def f_writeConfigFile(self):
         with open("config/Settings.json","w",encoding='utf-8') as file:
