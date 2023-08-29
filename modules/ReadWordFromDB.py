@@ -54,6 +54,38 @@ class ReadWordFromDB:
     def getListenTranslation(self,index):
         return self.listenTranslations[index]
 
+    def getRepeat(self,table=None):
+        self.id               = []
+        self.id_word          = {}
+        self.id_pronunciation = {}
+        self.id_meaning       = {}
+        self.id_sentence      = {}
+        self.id_translation   = {}
+        targetTable = self.tableName
+        if table is not None:
+            self.tableName = table
+            targetTable    = self.tableName
+        SQLITE_CMD = 'SELECT * FROM %s GROUP BY word HAVING COUNT(*)>1'%(targetTable)
+        with self.mem_conn:
+            cur = self.mem_conn.cursor()
+            cur.execute(SQLITE_CMD)
+            rows = cur.fetchall()
+        if len(rows) == 0:
+            return self.id
+        else:
+            for row in rows:
+                SQLITE_CMD = 'SELECT * FROM %s WHERE word=\"%s\"'%(targetTable,row[1])
+                cur = self.mem_conn.cursor()
+                cur.execute(SQLITE_CMD)
+                rows = cur.fetchall()
+                for row in rows:
+                    self.id.append(row[0])
+                    self.id_word[row[0]]          = row[1]
+                    self.id_pronunciation[row[0]] = row[2]
+                    self.id_meaning[row[0]]       = row[3]
+                    self.id_sentence[row[0]]      = row[4]
+                    self.id_translation[row[0]]   = row[5]
+        return self.id
     def getWords(self,table=None):
         '''
         从数据库的 vocabulary 表获取全部单词数据
@@ -101,12 +133,50 @@ class ReadWordFromDB:
             res = list(sr)
             res = random.sample(res,N)
         return res
+    def id_w(self,id):
+        return self.id_word[id]
+    def id_p(self,id):
+        return self.id_pronunciation[id]
+    def id_m(self,id):
+        return self.id_meaning[id]
+    def id_s(self,id):
+        return self.id_sentence[id]
+    def id_t(self,id):
+        return self.id_translation[id]
     def getAllWords(self):
         return self.words
 
 def main():
-    db = ReadWordFromDB("English.db","IELTS1000")
-    print(db.get_randomly(10))
+    wordTable = 'IELTS1000'
+    db = ReadWordFromDB('English.db',wordTable,'Coversation01')
+    repeat_id = db.getRepeat()
+    if len(repeat_id) > 0:
+        write_str = ''
+        with open("EnglishFiles/%s_Repeat.txt"%(wordTable),"w",encoding='utf-8') as file:
+            for id in repeat_id:
+                write_str += (db.id_w(id).strip())
+                write_str += ('\n')
+                write_str += (db.id_p(id).strip())
+                write_str += ('\n')
+                write_str += (db.id_m(id).strip())
+                write_str += ('\n')
+                write_str += (db.id_s(id).strip())
+                write_str += ('\n')
+                write_str += (db.id_t(id).strip())
+                write_str += ('\n')
+            file.write(write_str.rstrip())
+        write_str = ''
+        with open("EnglishFiles/%s_Repeat_p.txt"%(wordTable),"w",encoding='utf-8') as file:
+            for id in repeat_id:
+                write_str += ('\n')
+                write_str += (db.id_p(id).strip())
+                write_str += ('\n')
+                write_str += (db.id_m(id).strip())
+                write_str += ('\n')
+                write_str += ('\n')
+                write_str += (db.id_t(id).strip())
+                write_str += ('\n')
+            file.write(write_str.rstrip())
     
 if __name__ == '__main__':
     main()
