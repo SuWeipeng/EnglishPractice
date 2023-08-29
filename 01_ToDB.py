@@ -1,10 +1,10 @@
 # 输入文件名
-fileName       = "IELTS1000"
+fileName       = 'IELTS1000'
 
 from modules.FileRead import FileRead
 
 vocabulary = ['IELTS1000','ORCHARD7']
-listening  = ['Coversation01','SenteceStructure01']
+listening  = ['Coversation01','SenteceStructure01','EnglishNews001']
 def main():
     file_type = None
     if fileName in vocabulary:

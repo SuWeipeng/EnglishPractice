@@ -18,7 +18,7 @@ class EnglishPractice:
     '''
     practiceModeList = ['new','review','ebbinghaus']
     vocabulary_list  = ['IELTS1000','ORCHARD7']
-    listening_list   = ['Coversation01','SenteceStructure01']
+    listening_list   = ['Coversation01','SenteceStructure01','EnglishNews001']
     def __init__(self):
         self.generateAllWords = False
         # 打开单词数据库
