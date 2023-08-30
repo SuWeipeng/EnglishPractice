@@ -48,3 +48,53 @@ womb
 n. 子宫
 The device can determine the position of the baby in the womb.
 这台设备能够判定婴儿在子宫的位置。
+acclaim
+/əˈkleɪm/
+v. 公开赞常; n. 公开赞赏
+His performance received considerable acclaim.
+他的表演大获好评。
+calcium
+/ˈkæl.si.əm/
+n. 钙
+Take calcium if you want stronger bones.
+如果想要增强骨骼，可以补充钙质。
+conversion
+/kənˈvɝː.ʒən/
+n. 转变；换算；改变信仰
+The conversion of the old factory into a museum was a success.
+旧工厂转型为博物馆很成功。
+duplicate
+/ˈdʒuː.plɪ.keɪt/
+v. 复制; adj. 复制的，完全一样的; n. 复制品，副本
+The original experiment cannot be duplicated exactly.
+已经无法完全复制当初的实验了。
+gauge
+/ɡeɪdʒ/
+v. 测量；判定; n. 测量仪器
+I will try to gauge how much food we need for the party.
+我会估算一下这场派对需要多少食物。
+intervention
+/ˌɪn.t̬ɚˈven.ʃən/
+n. 干预，调停
+The country's leader condemned the foreign intervention.
+该国领袖谴责境外势力干预。
+monetary
+/ˈmʌn.ɪ.tri/
+adj. 货币的
+The current monetary policy is bringing down the economy.
+目前的货币政策正在拖垮经济。
+pneumonia
+/nuːˈmoʊ.njə/
+n. 肺炎
+She was diagnosed with pneumonia and had to be hospitalized.
+她被诊断出患有肺炎，需要住院治疗。
+ripple
+/ˈrɪp.əl/
+n. 涟漪；细浪; v. 使起涟漪
+The raindrops created ripples in the pond.
+雨滴在池塘激起涟漪。
+symphony
+/ˈsɪm.fə.ni/
+n. 交响乐；交响曲
+The orchestra played a beautiful symphony.
+管弦乐队演奏一首优美的交响乐。
