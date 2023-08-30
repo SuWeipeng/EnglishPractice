@@ -90,6 +90,12 @@ class Youtube:
                     break
     def again(self):
         self.driver.get(self.link)
+        try:
+            self.video = self.driver.find_element_by_id('movie_player')
+        except Exception as e: 
+            if 'target window already closed' in repr(e):
+                print("driver.quit()")
+                self.driver.quit()
 
 def main():
     ytb = Youtube()
