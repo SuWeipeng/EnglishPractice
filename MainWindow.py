@@ -772,29 +772,34 @@ class EnglishPractice:
         with open("reports/"+str(datetime.now()).replace(':','-')+".html","w",encoding='utf-8') as file:
             file.write('<table>\n')
             file.write('''    <tr align="left">
+        <th bgcolor="#F6F6F6"> LineNo.</th>
         <th bgcolor="#F6F6F6"> Word</th>
         <th bgcolor="#F6F6F6"> <font color="#FE642E"> Score</th>
         <th bgcolor="#F6F6F6"> <font color="#04B431"> Word Count</th>
         <th bgcolor="#F6F6F6"> <font color="#045FB4"> Sentence Count</th>
     </tr>''')
             index = 0
+            lineNo = 0
             for word in words_report:
+                lineNo += 1
                 if index % 2 == 0:
                     file.write('''
     <tr >
+        <td bgcolor="#FDFDFD"> %d</td>
         <td bgcolor="#FDFDFD"> %s</td>
         <td bgcolor="#FDFDFD"> <font color="#FE642E">%s</td>
         <td bgcolor="#FDFDFD"> <font color="#04B431">%s</td>
         <td bgcolor="#FDFDFD"> <font color="#045FB4">%s</td>
-    </tr>'''%(word,str(self.ebdb.score(word)),str(self.ebdb.wordCount(word)), str(self.ebdb.sentenceCount(word))))
+    </tr>'''%(lineNo,word,str(self.ebdb.score(word)),str(self.ebdb.wordCount(word)), str(self.ebdb.sentenceCount(word))))
                 else:
                     file.write('''
     <tr >
+        <td bgcolor="#FDFDFD"> %d</td>
         <td bgcolor="#F6F6F6"> %s</td>
         <td bgcolor="#F6F6F6"> <font color="#FE642E">%s</td>
         <td bgcolor="#F6F6F6"> <font color="#04B431">%s</td>
         <td bgcolor="#F6F6F6"> <font color="#045FB4">%s</td>
-    </tr>'''%(word,str(self.ebdb.score(word)),str(self.ebdb.wordCount(word)), str(self.ebdb.sentenceCount(word))))
+    </tr>'''%(lineNo, word,str(self.ebdb.score(word)),str(self.ebdb.wordCount(word)), str(self.ebdb.sentenceCount(word))))
                 index += 1
             file.write('\n</table>\n')
         self.ebdb.close()
