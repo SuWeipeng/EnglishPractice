@@ -1,5 +1,5 @@
 # 输入文件名
-fileName       = 'SentenceStructure01'
+fileName       = 'ORCHARD7'
 
 from modules.FileRead import FileRead
 
