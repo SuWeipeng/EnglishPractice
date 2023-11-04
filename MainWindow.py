@@ -450,6 +450,9 @@ class EnglishPractice:
     def ui_updateInReview(self):
         if self.ui.checkBox_2.isChecked():
             self.checkBox_2Initiated = True
+            self.wordIndex = 0
+            self.p_list    = []
+            self.f_generateWords()
         if self.wordMode != 2:
             if self.ui.checkBox_2.isChecked() == False:
                 self.ui.checkBox.setChecked(False)
