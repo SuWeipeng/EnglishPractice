@@ -1,5 +1,5 @@
 # 输入文件名
-fileName       = 'SimonReading_P1_02'
+fileName       = 'IELTS1000'
 
 from modules.FileRead import FileRead
 
@@ -14,7 +14,7 @@ def main():
         file_type = 2
     fr = FileRead(fileName, file_type)
     if fileName in vocabulary:
-        fr.readContentToDB()
+        fr.readContentToDB(True)
     elif fileName in listening:
         fr.listeningContentToDB()
 

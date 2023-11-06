@@ -1649,7 +1649,7 @@ n. 症状；征兆
 Fever is a symptom of many illnesses.
 发烧是许多疾病的症状。
 adequate
-
+/ˈæd.ə.kwət/
 adj. 足够的，合乎需要的
 Make sure they will have adequate supplies of raw materials.
 要确保他们有足够的原物料供应。
@@ -4919,7 +4919,7 @@ v. 鼓励，促进
 Television violence can encourage aggression in children.
 电视暴力会鼓励儿童的攻击行为。
 funds
-/fʌnd/
+/fʌndz/
 n. 资金
 More funds will be allocated to charitable organisations.
 更多的资金将会分配给慈善组织。
