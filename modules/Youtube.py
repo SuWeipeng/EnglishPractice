@@ -1,5 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 import time
@@ -50,11 +51,26 @@ class Youtube:
     def open_youtube(self):
         t4 = Thread(target=Youtube.youtube_skip_adds, args=(self,))
         t4.start()
+    def back5s(self):
+        self.send_left = True
+        t5 = Thread(target=Youtube.LeftToVideo, args=(self,))
+        t5.start()
     def spaceToVideo(self):
         if self.video is not None:
             if self.send_space:
                 self.video.click()
                 self.send_space = False
+        else:
+            print("self.video is None\n")
+            self.video = self.driver.find_element(By.ID, 'movie_player')
+    def LeftToVideo(self):
+        if self.video is not None:
+            if self.send_left:
+                actions = ActionChains(self.driver)
+                actions.move_to_element(self.video)
+                actions.send_keys(Keys.ARROW_LEFT)
+                actions.perform()
+                self.send_left = False
         else:
             print("self.video is None\n")
             self.video = self.driver.find_element(By.ID, 'movie_player')

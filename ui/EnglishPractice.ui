@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>549</width>
-    <height>384</height>
+    <width>658</width>
+    <height>389</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -163,7 +163,6 @@
               <font>
                <family>Arial Rounded MT Bold</family>
                <pointsize>25</pointsize>
-               <weight>75</weight>
                <bold>true</bold>
               </font>
              </property>
@@ -334,6 +333,16 @@
             <widget class="QProgressBar" name="progressBar_2">
              <property name="value">
               <number>24</number>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_14">
+             <property name="text">
+              <string>[F4] Back 5s</string>
+             </property>
+             <property name="shortcut">
+              <string>F4</string>
              </property>
             </widget>
            </item>

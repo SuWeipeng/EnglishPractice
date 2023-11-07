@@ -120,6 +120,7 @@ class EnglishPractice:
         self.ui.pushButton_11.clicked.connect(self.ui_openYoutube)
         self.ui.pushButton_12.clicked.connect(self.ui_againClicked)
         self.ui.pushButton_13.clicked.connect(self.ui_onceMoreClicked)
+        self.ui.pushButton_14.clicked.connect(self.ui_back5sClicked)
         # 进度条初始化
         self.ui.progressBar.setMinimum(1)
         self.ui.progressBar.setMaximum(self.wordsNum)
@@ -825,6 +826,9 @@ class EnglishPractice:
 
     def ui_againClicked(self):
         self.ytb.again()
+
+    def ui_back5sClicked(self):
+        self.ytb.back5s()
 
     def ui_onceMoreClicked(self):
         self.wordIndex = 0
