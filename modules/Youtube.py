@@ -12,11 +12,12 @@ class Youtube:
         self.skipTrigger  = False
     def set_driver(self):
         if self.browser_type == 'MicrosoftEdge':
-            from msedge.selenium_tools import Edge, EdgeOptions
-            options = EdgeOptions()
-            options.use_chromium = True
+            from selenium.webdriver.edge.options import Options
+            from selenium.webdriver.edge.service import Service
+            options = Options()
             options.binary_location = r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-            self.driver = Edge(options=options, executable_path=r".\drivers\msedgedriver.exe") 
+            service = Service(r".\drivers\msedgedriver.exe")
+            self.driver = webdriver.Edge(options=options, service=service) 
     def youtube_skip_adds(self):
         self.set_driver()
         self.driver.maximize_window()
@@ -26,14 +27,14 @@ class Youtube:
             try:
                 skip_ad_button = self.driver.find_element(by=By.XPATH, value="//div[@class='ytp-ad-text ytp-ad-skip-button-text']")
                 skip_ad_button.click()
-            except NoSuchElementException:
-                time.sleep(1)
-                continue
             except Exception as e: 
                 if 'target window already closed' in repr(e):
                     print("driver.quit()")
                     self.driver.quit()
                     break
+                else:
+                    time.sleep(1)
+                    continue
     def open_link(self,link):
         self.link = link
         t1 = Thread(target=Youtube.playVideo, args=(self,))
@@ -54,6 +55,9 @@ class Youtube:
             if self.send_space:
                 self.video.click()
                 self.send_space = False
+        else:
+            print("self.video is None\n")
+            self.video = self.driver.find_element(By.ID, 'movie_player')
     def skipAdProcess(self):
         while True:
             try:
@@ -79,7 +83,7 @@ class Youtube:
         self.driver.get(self.link)
         while True:
             try:
-                self.video = self.driver.find_element_by_id('movie_player')
+                self.video = self.driver.find_element(By.ID, 'movie_player')
                 break
             except NoSuchElementException:
                 continue
@@ -91,7 +95,7 @@ class Youtube:
     def again(self):
         self.driver.get(self.link)
         try:
-            self.video = self.driver.find_element_by_id('movie_player')
+            self.video = self.driver.find_element(By.ID, 'movie_player')
         except Exception as e: 
             if 'target window already closed' in repr(e):
                 print("driver.quit()")
