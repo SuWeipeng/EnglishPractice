@@ -54,6 +54,13 @@
              </property>
             </widget>
            </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_13">
+             <property name="text">
+              <string>Once more</string>
+             </property>
+            </widget>
+           </item>
           </layout>
          </item>
          <item>

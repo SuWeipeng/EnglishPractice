@@ -119,6 +119,7 @@ class EnglishPractice:
         self.ui.pushButton_10.clicked.connect(self.ui_skipAd)
         self.ui.pushButton_11.clicked.connect(self.ui_openYoutube)
         self.ui.pushButton_12.clicked.connect(self.ui_againClicked)
+        self.ui.pushButton_13.clicked.connect(self.ui_onceMoreClicked)
         # 进度条初始化
         self.ui.progressBar.setMinimum(1)
         self.ui.progressBar.setMaximum(self.wordsNum)
@@ -231,6 +232,11 @@ class EnglishPractice:
         self.ui.textEdit.clear()
         self.ui.textEdit_2.clear()
         self.ui.textEdit_3.clear()
+        # 是否显示 Once more
+        if self.practiceMode == EnglishPractice.practiceModeList[1]:
+            self.ui.pushButton_13.setVisible(True)
+        else:
+            self.ui.pushButton_13.setVisible(False)
         
     def ui_selectEbbinghaus(self):
         self.ui.checkBox.setEnabled(True)
@@ -819,7 +825,13 @@ class EnglishPractice:
 
     def ui_againClicked(self):
         self.ytb.again()
-        
+
+    def ui_onceMoreClicked(self):
+        self.wordIndex = 0
+        self.p_list    = []
+        self.f_generateWords()
+        self.ui_renewUI()
+
     def ui_setWordFromIndex(self, index):
         self.currentWord = self.words[index]
         self.ui_setMeaning()
