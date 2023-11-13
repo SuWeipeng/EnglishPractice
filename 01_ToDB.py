@@ -1,5 +1,5 @@
 # 输入文件名
-fileName       = 'SimonReading_P1_01'
+fileName       = 'SimonReading_P1_02'
 
 from modules.FileRead import FileRead
 
