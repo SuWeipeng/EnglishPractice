@@ -710,7 +710,7 @@ class EnglishPractice:
         输入句子发生变化时的回调函数。
         '''
         self.input_sentence = self.ui.textEdit_2.toPlainText()
-        self.fun_diffSentence(self.input_sentence,self.sentences.get(self.currentWord))
+        self.fun_diffSentence(self.input_sentence,self.sentences.get(self.currentWord) if self.sentences.get(self.currentWord) is not None else "All done.")
         if '\t' in self.input_sentence:
             self.ui_onNextClicked()
 
@@ -837,6 +837,8 @@ class EnglishPractice:
         self.ui_renewUI()
 
     def ui_setWordFromIndex(self, index):
+        if len(self.words) == 0:
+            self.words.append("All done")
         self.currentWord = self.words[index]
         self.ui_setMeaning()
         self.ui_setPronun()
@@ -936,6 +938,8 @@ class EnglishPractice:
             file.write(self.words_p_lines.rstrip())
     def f_generateWords(self):
         self.words_p_lines = ''
+        if len(self.words) == 0:
+            return
         with open("EnglishFiles/words.txt","w",encoding='utf-8') as file:
             for word in self.words:
                 self.words_p_lines += word

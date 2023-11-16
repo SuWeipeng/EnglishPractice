@@ -131,7 +131,7 @@ class ReadWordFromDB:
             s2 = set(expel)
             sr = s1 - s2
             res = list(sr)
-            res = random.sample(res,N)
+            res = random.sample(res,N if N <= len(sr) else len(sr))
         return res
     def id_w(self,id):
         return self.id_word[id]
