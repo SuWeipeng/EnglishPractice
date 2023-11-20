@@ -504,18 +504,15 @@ class EnglishPractice:
     def fun_getNewWords(self):
         # 获取新词汇
         res = self.fun_initWords()
-        if res == False:
-            self.fun_initWords(True)
 
-    def fun_initWords(self, force_from_db = False):
+    def fun_initWords(self):
         res = False
         if self.ebdb.tableExist(self.EbbinghausTable) == False:
             self.writeEbbinghaus.createEbbinghausTable(self.EbbinghausTable)
-        self.ebWords   = self.ebdb.getWords(self.EbbinghausTable,self.useSentenceScore)
-        if self.practiceMode == EnglishPractice.practiceModeList[0] or force_from_db:
+        if self.practiceMode == EnglishPractice.practiceModeList[0]:
             res = True
             # 从数据库中取数据
-            self.words       = self.db.get_randomly(self.wordsNum,self.ebWords)
+            self.words       = self.db.get_randomly(self.wordsNum)
             if self.generateAllWords:
                 self.words   = self.db.getAllWords()
             # 生成单词文件
@@ -524,7 +521,9 @@ class EnglishPractice:
         elif self.practiceMode == EnglishPractice.practiceModeList[1]:
             res = self.f_getWords()
         elif self.practiceMode == EnglishPractice.practiceModeList[2]:
-            res = self.eb_getEbbinghausWords()
+            self.ebWords     = self.ebdb.getWords(self.EbbinghausTable,self.useSentenceScore)
+            self.words       = self.db.get_randomly(self.wordsNum,self.ebWords)
+            res              = self.eb_getEbbinghausWords()
         if len(self.words) > 0:
             self.currentWord = self.words[self.wordIndex]
         return res
@@ -570,7 +569,7 @@ class EnglishPractice:
 
     def ui_wordSourceChanged(self):
         self.EbbinghausTable = self.ui.comboBox.currentText()
-        self.db.getWords(self.EbbinghausTable)
+        self.db.getWords(self.EbbinghausTable)          
         self.ui_renewUI()
         self.db_getWords()
 
