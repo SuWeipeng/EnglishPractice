@@ -149,101 +149,102 @@ adj. 难忘的，无法忘记的
 I had an unforgettable experience at the amusement park.
 我在这座游乐园有难以忘怀的回忆。
 attain
-
-v. 获得
-
-
+/əˈteɪn/
+v. 获得；达到
+I always strive to attain new levels of success.
+我一直都很努力争取更高的成就。
 compensation
-
-n. 弥补
-
-
+/ˌkɒm.penˈseɪ.ʃən/
+n. 弥补；赔偿；职员报酬
+Surviviors of the crash may be able to obtain compensation.
+那一场车祸的生还者有机会获得补偿金
 diarrhea
-
+/ˌdaɪ.əˈriː.ə/
 n. 腹泻
-
-
+I got diarrhea after drinking the expired milk.
+我喝了过期牛奶就拉肚子。
 extinguish
-
-v. 熄灭
-
-
+/ɪkˈstɪŋ.ɡwɪʃ/
+v. 熄灭，扑灭（火，光）；使（想法，感情）破灭
+The firefighter worked to extinguish the blazing fire.
+消防员努力扑灭熊熊大火。
 imminent
-
-adj. 逼近的
-
-
+/ˈɪm.ɪ.nənt/
+adj. 逼近的，即将发生的
+The storm is imminent; we need to take shelter.
+暴风雨即将来临，我们需要找地方避难。
 lullaby
-
-n. 摇篮曲
-
-
+/ˈlʌl.ə.baɪ/
+n. 摇篮曲，催眠曲
+She sang a gentle lullaby to put the baby to sleep.
+她唱了一首轻柔的摇篮曲让宝宝入睡。
 overestimate
-
+/ˌoʊ.vɚˈes.tə.meɪt/
 v. 高估
-
-
+It's important not to overestimate your abilities.
+不要高估自己的能力，这件事很重要。
 reconcile
-
-v. 和解
-
-
+/ˈrek.ən.saɪl/
+v. 和解；调和；使一致
+It is almost impossible to reconcile science and religion.
+科学和宗教几乎无法调和。
 spontaneous
-
-adj. 自发的
-
-
+/spɒnˈteɪ.ni.əs/
+adj. 自发的，随性的，即兴的
+The crowd erupted into spontaneous applause.
+群众突然爆出热烈的掌声。
 veterinarian
-
+/ˌvet.ər.ɪˈner.i.ən/
 n. 兽医
-
-
+I took my sick cat to a veterinarian.
+我带我生病的猫咪去看兽医。
 airtight
-
+/ˈer.taɪt/
 adj. 密封的
-
-
+The airtight container kept the food fresh.
+密封容器让食物保持新鲜。
 chronic
-
-adj. 慢性的
-
-
+/ˈkrɒn.ɪk/
+adj. 慢性的，长期的
+Chronic back pain can be debilitating.
+慢性背痛会使人变得衰弱。
 cynical
-
-adj. 愤世嫉俗的
-
-
+/ˈsɪn.ɪ.kəl/
+adj. 愤世嫉俗的，挖苦的
+I think she has a rather cynical view of men.
+我觉得她对男人的看法相当愤世嫉俗。
 enrichment
-
-n. 丰富
-
-
+/ɪnˈrɪtʃ.mənt/
+n. 丰富，增进
+Enrichment of the soil can be achieved with fertilizer.
+施肥可以让土壤变得更肥沃。
 harness
-
-n. 系带
-
-
+/ˈhɑːr.nəs/
+n. 系带；马具 v. 上马具；驾驭
+He buckled up his safety harness.
+他扣上了安全系带。
 knowledgeable
-
-adj. 博学的
-
-
+/ˈnɒl.ɪ.dʒə.bəl/
+adj. 博学的，有见识的
+She is knowledgeable about various art forms.
+她对各种艺术形式了若指掌。
 nomination
-
-n. 提名
-
-
+/ˌnɒm.ɪˈneɪ.ʃən/
+n. 提名；任命
+She has had ten Oscar nominations in her career.
+她职涯中已获得了十次奥斯卡提名。
 proficiency
-
-n. 精通
-
-
+/prəˈfɪʃ.ən.si/
+n. 精通，熟练
+He has a high level of proficiency in playing the piano.
+他弹钢琴的水平很高。
 sheriff
-
+/ˈʃer.ɪf/
 n. 警长
-
-
+We reported the burglary to the local town sheriff.
+我们向当地小镇的警长报告这起抢劫案。
 tournament
-
+/ˈtɝː.nə.mənt/
 n. 锦标赛
-
+He won the championship at the city's chess tournament.
+他在该市的象棋锦标赛赢得冠军。
