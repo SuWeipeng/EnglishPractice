@@ -248,3 +248,53 @@ tournament
 n. 锦标赛
 He won the championship at the city's chess tournament.
 他在该市的象棋锦标赛赢得冠军。
+acre
+/ˈeɪ.kɚ/
+n. 英亩
+This farmhouse comes with five acres of land.
+这间农舍附带有五英亩的土地。
+caterpillar
+/ˈkæt̬.ɚ.pɪl.ɚ/
+n. 毛毛虫
+The caterpillar transformed into a beautiful butterfly.
+毛毛虫变成了美丽的蝴蝶。
+cosmetic
+/kɒzˈmet.ɪk/
+adj. 美容的，化妆用的 n. 化妆品，美容品
+She had the surgery entirely for cosmetic purposes.
+她之所以做手术单纯是为了变美。
+electron
+/iˈlek.trɒn/
+n. 电子
+Electrons are negatively charged particles.
+电子是速有负电荷的粒子。
+goofy
+/ˈɡuː.fi/
+adj. 傻傻的，愚蠢的
+I look really goofy in that picture.
+那张照片里面的我看起来很蠢。
+invert
+/ɪnˈvɝːt/
+v. 倒置，使颠倒
+Invert the cake onto a plate and serve.
+把蛋糕倒放在盘子上再送餐。
+multicultural
+/ˌmʌl.tiˈkʌl.tʃɚ.əl/
+adj. 多元文化的；融合多种文化的
+Our city is known for its multicultural population.
+我们的城市以其多元文化的人口而闻名。
+precision
+/prɪˈsɪʒ.ən/
+n. 精确性；严谨
+The precision of his calculations impressed the scientists.
+他精准的计算让科学家留下了深刻印象。
+sanitation
+/ˌsæn.ɪˈteɪ.ʃən/
+n. 公共卫生，卫生设备
+This city suffers from a lack of sanitation.
+这座城市缺少卫生设施。
+terrorize
+/ˈter.ə.raɪz/
+v. 恐吓，威胁，使惊恐不安
+The criminal gang terrorized the small town for years.
+帮派多年来一直恐吓这个小镇。
