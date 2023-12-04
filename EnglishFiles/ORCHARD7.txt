@@ -398,3 +398,53 @@ terrain
 n. 地形，地势
 This vehicle can handle mountainous terrain.
 这辆车可以在山地行驶。
+aluminum
+/ˌæl.jəˈmɪn.i.əm/
+n. 铝
+Aluminum foil is made with aluminum.
+铝箔纸是用铝制成的。
+clearance
+/ˈklɪə.rəns/
+n. 清除；清仓拍卖
+Clearance of the site is needed before it can be cleaned.
+要先清理现场才能再作清洁。
+deem
+/diːm/
+v. 认为，视作
+I deem it an honor to be invited to this event.
+我觉得很荣幸能够受邀出席这场活动。
+equation
+/ɪˈkweɪ.ʒən/
+n. 方程式，等同，等式
+The math teacher wrote an equation on the blackboard.
+数学老师在黑板上写了一道方程式。
+hereafter
+/ˌhɪəˈrɑːf.tər/
+adv. 此后，今后 n. 来世
+Hereafter, all employees must follow the new policy.
+此后，所有员工都必须遵守这项新政策。
+legislation
+/ˌledʒ.ɪˈsleɪ.ʃən/
+n. 立法，法律
+The legislation aims to protect the environment.
+这项立法旨在保护环境。
+nutritional
+/njuːˈtrɪʃ.ən.əl/
+adj. 营养学的
+It helps to know the nutritional content of foods.
+对食物的营养成分有所了解比较好。
+prospective
+/prəˈspek.tɪv/
+adj. 有展望的；潜在的，可能的
+Prospective job candidates should visit this website.
+潜在求职者应拜访该网站。
+shutter
+/ˈʃʌt.ər/
+n. 快门；窗户遮板 v. 关（店）；停止营业
+This camera has a damaged shutter.
+这台相机快门坏掉了。
+traumatic
+/trɔːˈmæt.ɪk/
+adj. 精神创伤的，痛苦难忘的；令人恐惧的
+Our divorce was a traumatic experience for both of us.
+我们的离婚对双方都是一个创伤经历。
