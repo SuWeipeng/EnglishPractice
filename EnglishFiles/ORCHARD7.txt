@@ -348,3 +348,53 @@ vodka
 n. 伏特加
 They celebrated their anniversary with a shot of vodka.
 他们用一杯伏特加来庆祝周年纪念日。
+acquisition
+/ˌæk.wɪˈzɪʃ.ən/
+n. 获得；收购（品）
+This Ferrari is my latest acquisition.
+这台法拉利是我最新的战利品。
+catastrophe
+/kəˈtæs.trə.fi/
+n. 大灾难；不利的局面
+The city is now facing an economic catastrophe.
+这座城市正面临一场经济浩劫。
+corruption
+/kəˈrʌp.ʃən/
+n. 腐败，贪污
+She accused the government official of corruption.
+她指控那位政府官员贪污。
+electrician
+/ˌɪl.ekˈtrɪʃ.ən/
+n. 电工，电气技师
+An electrician came over and repaired the stove.
+电工上门把炉子修好了。
+goodwill
+/ɡʊdˈwɪl/
+n. 善意，友善；商誉
+He expressed goodwill towards his former business rivals.
+他向往日的业务劲敌表达了善意。
+inventory
+/ˈɪn.vən.tər.i/
+n. 存货；某处的物品清单 v. 盘点，把...登入目录
+Sorry, that item is no longer in our inventory.
+很抱歉，这个商品我们目前缺货。
+muffin
+/ˈmʌf.ɪn/
+n. 玛芬蛋糕
+He took the muffins out of the oven.
+他把玛芬蛋糕从烤箱拿出来。
+precedent
+/ˈpres.ɪ.dənt/
+n. 先例；惯例
+This case could serve as a precedent for related lawsuits.
+此案能作为相关诉讼的先例。
+salvation
+/sælˈveɪ.ʃən/
+n. 救助，解救；救赎
+Government loans failed to bring salvation to our business.
+政府货款无法拯救我们的企业。
+terrain
+/təˈreɪn/
+n. 地形，地势
+This vehicle can handle mountainous terrain.
+这辆车可以在山地行驶。
