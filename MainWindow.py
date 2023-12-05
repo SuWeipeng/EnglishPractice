@@ -522,7 +522,6 @@ class EnglishPractice:
             res = self.f_getWords()
         elif self.practiceMode == EnglishPractice.practiceModeList[2]:
             self.ebWords     = self.ebdb.getWords(self.EbbinghausTable,self.useSentenceScore)
-            self.words       = self.db.get_randomly(self.wordsNum,self.ebWords)
             res              = self.eb_getEbbinghausWords()
         if len(self.words) > 0:
             self.currentWord = self.words[self.wordIndex]
@@ -555,7 +554,13 @@ class EnglishPractice:
                 cnt += 1
                 if cnt >= self.wordsNum:
                     break
-        self.words = selectedWords[:self.wordsNum]
+        selectedList = selectedWords[:min(cnt,self.wordsNum)]
+
+        if len(selectedList) > 0:
+            self.words = selectedList
+        else:
+            self.words = self.db.get_randomly(min(self.wordsNum,len(self.ebWords)),self.ebWords)
+
         if len(self.words) > 0:
             result = True
             self.db_getWords()
