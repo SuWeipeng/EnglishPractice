@@ -548,3 +548,53 @@ woe
 n. 悲哀，不幸；困难，灾难
 Her voice was soft and full of woe.
 她的声音很轻且充满悲伤。
+blunt
+/blʌnt/
+adj. 直率的
+Let me be blunt. Your work is appalling.
+恕我直言，你的作品拙劣不堪。
+constitution
+/ˌkɒn.stɪˈtʃuː.ʃən/
+n. 宪法，章程；体质；组成
+The country's constitution guarantees certain rights.
+该国宪法保障某些权利。
+dispose
+/dɪˈspəʊz/
+v. 清除；击败
+Make sure to dispose of your litter properly.
+请务必妥善处理您的垃圾。
+formulate
+/ˈfɔː.mjə.leɪt/
+v. 制定，规划
+The policy was formulated in 1998.
+那项政策是在 1998 年制定的。
+inflict
+/ɪnˈflɪkt/
+v. 使遭受，使承受
+He was arrested for inflicting harm on his pets.
+他因为伤害宠物而遭到逮捕。
+miniseries
+/ˈmɪn.iˌsɪə.riːz/
+n. 迷你影集；（电视，网络）连续短剧
+Netflix released a new Korean miniseries.
+Netflix 上架了一部新的韩国迷你短剧。
+pessimism
+/ˈpes.ɪ.mɪ.zəm/
+n. 悲观，悲观主义
+His constant pessimism prevents him from enjoying life.
+他持续的悲观情绪使他无法享受生活。
+respondent
+/rɪˈspɒn.dənt/
+n. 回答者；被告
+In the poll, most respondents voted "no."
+投票中多数受访者投反对。
+superficial
+/ˌsuː.pəˈfɪʃ.əl/
+adj. 表面的；肤浅的
+The injury is superficial. Don't worry.
+只有伤到表面，不要担心。
+wholesale
+/ˈhəʊl.seɪl/
+adj. 批发的 adv. 批发地 n. 批发价
+They own a wholesale clothing business.
+他们拥有一间服饰批发企业。
