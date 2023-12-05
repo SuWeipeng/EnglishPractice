@@ -15,7 +15,7 @@ class Ebbinghaus:
         criteria = None
         # 确定判定标准
         if count in self.criteria:
-            criteria = self.criteria.get(count)
+            criteria = self.criteria.get(count) / 2
         elif count >= 6:
             criteria = self.criteria.get(6)
         if score > 0:
