@@ -314,7 +314,7 @@ v. 丢弃
 Please discard any expired or damaged products.
 请把任何过期或损坏的产品丢掉。
 fidget
-fidget
+/ˈfɪdʒ.ɪt/
 v. 坐立不安 n. 坐不住的人，坐立不安的人
 The child couldn't stop fidgeting in his seat.
 这个孩子无法在座位上好好坐着。
@@ -498,3 +498,53 @@ wrinkle
 n. 皱纹；皱褶 v. 起皱纹；起皱褶
 She was 50 and still without a wrinkle.
 她已经五十岁了，仍然毫无皱纹。
+briefing
+/ˈbriː.fɪŋ/
+n. 简报会；简明指示
+The manager gave a briefing on the new project.
+经理对新专案进行了简报。
+contemplate
+/ˈkɒn.təm.pleɪt/
+v. 仔细考虑，思忖
+He went on vacation to contemplate his future.
+为了好好思考未来，他去度假了。
+divert
+/daɪˈvɜːt/
+v. 转向，转移；使分心
+She tried to divert the conversation to a different topic.
+她试图把对话转到不同的话题。
+frantic
+/ˈfræn.tɪk/
+adj. 发狂的；忙乱的
+He made a frantic run for the boarding gate.
+他狂奔向登机门。
+inning
+/ˈɪn.ɪŋ/
+n. 棒球局，回合
+The baseball star threw 29 pitches in the first inning.
+这位棒球明星在第一局投了 29 球。
+mistress
+/ˈmɪs.trəs/
+n. 情妇
+He had a secret mistress with whom he had an affair.
+他私下有个情妇并与她有婚外情。
+philosopher
+/fɪˈlɒs.ə.fər/
+n. 哲学家
+The philosopher pondered the mysteries of life.
+哲学家思考生命的奥秘。
+retaliate
+/rɪˈtæl.i.eɪt/
+v. 报复，反击
+If you strike me, I will retaliate.
+如果你打我，我会反击。
+surge
+/sɜːdʒ/
+v. 激增；涌现 n. 激增；涌现；大浪
+We struggled to handle the sudden surge of customers.
+我们努力处理突然蜂拥而至的顾客。
+woe
+/wəʊ/
+n. 悲哀，不幸；困难，灾难
+Her voice was soft and full of woe.
+她的声音很轻且充满悲伤。
