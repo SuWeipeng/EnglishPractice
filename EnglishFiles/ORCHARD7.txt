@@ -648,3 +648,53 @@ ward
 n. 病房；牢房
 The patient was moved to a private ward for better care.
 病人被转移到私人病房以受更好的护理。
+backup
+/ˈbæk.ʌp/
+n. 备份，后备人或物，替代人或物
+Make sure to create a backup of your files.
+请确保备份好您的文件。
+condemn
+/kənˈdem/
+v. 谴责
+World leaders were quick to condemn the invasion.
+各国领袖纷纷立即谴责本次侵略行动。
+directive
+/dɪˈrek.tɪv/
+n. 指令，命令
+The manager issued a directive to all employees.
+经理向所有员工发出了指令。
+fertilizer
+/ˈfɜː.tɪ.laɪ.zər/
+n. 肥料
+Farmers use fertilizer to enhance crop growth.
+农民使用肥料来促进作物生长。
+inaudible
+/ɪˈnɔː.də.bəl/
+adj. 听不见的
+The distant sound was almost inaudible to my ears.
+我几乎听不见远处的声音。
+massacre
+/ˈmæs.ə.kər/
+n. 大屠杀；残杀 v. 大屠杀；残杀
+The massacre of innocent civilians shocked the world.
+对无辜平民的大屠杀震惊了世界。
+patriot
+/ˈpeɪ.tri.ət/
+n. 爱国者
+The brave soldier was a true patriot.
+那位勇敢的士兵是名符其实的爱国者。
+rehabilitate
+/ˌriː.həˈbɪl.ɪ.teɪt/
+v. 使康复；使恢复正常生活
+Your dislocated shoulder will take months to rehabilitate.
+你脱臼的肩膀需要数个月的时间恢复。
+stimulation
+/ˌstɪm.jəˈleɪ.ʃən/
+n. 刺激；促进
+Puzzles provide children with mental stimulation.
+拼图能刺激孩童的脑力。
+visibility
+/ˌvɪz.əˈbɪl.ə.ti/
+n. 能见度，可视度
+He wiped the windshield of the car for better visibility.
+他擦拭汽车挡风玻璃，提高能见度。
