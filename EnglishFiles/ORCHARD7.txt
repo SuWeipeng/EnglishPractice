@@ -698,3 +698,203 @@ visibility
 n. 能见度，可视度
 He wiped the windshield of the car for better visibility.
 他擦拭汽车挡风玻璃，提高能见度。
+blaze
+/bleɪz/
+v. 熊熊燃烧 n. 大火
+The forest fire blazed out of control.
+森林大火失去了控制。
+conspiracy
+/kənˈspɪr.ə.si/
+n. 阴谋
+The conspiracy involved high-ranking officials.
+这场阴谋涉及高级官员。
+disposal
+/dɪˈspəʊ.zəl/
+n. 清除，抛弃
+Please follow the guidelines for proper waste disposal.
+请遵循正确的废弃物清理指南。
+formidable
+/fɔːˈmɪd.ə.bəl/
+adj. 令人敬畏的，难对付的
+The army faced a formidable energy in the battle.
+军队在战斗中遇到了强大的敌人。
+infinite
+/ˈɪn.fɪ.nət/
+adj. 无限的，极大的
+The universe is believed to be infinite in size.
+宇宙被认为是无限大的。
+miniature
+/ˈmɪn.ə.tʃər/
+adj. 微型的，小规模的 n. 微型画；小瓶装的酒
+She collects miniature figurines as a hobby.
+她的兴趣是收集小公仔。
+persuasion
+/pəˈsweɪ.ʒən/
+n. 说服，劝说
+After a little persuasion, he agreed to come.
+听了别人的劝说以后，他答应会来。
+resourceful
+/rɪˈzɔː.sfəl/
+adj. 机敏的；足智多谋的
+You need to be resourceful to get a job here.
+你必须要足够机敏才能在这边工作。
+summon
+/ˈsʌm.ən/
+v. 召唤；召集
+I was summoned to the pricipal's office.
+我被叫去校长办公室。
+well-meaning
+/ˌwel ˈmiː.nɪŋ/
+adj. 善意的；出于好心的
+She offered well-meaning advice to her friend.
+她提供朋友善意的建议。
+avert
+/əˈvɜːt/
+v. 避开；转移
+He quickly averted his gaze to avoid eye contact.
+他迅速移开视线以避免眼神交流。
+compound
+/ˈkɒm.paʊnd/
+v. 使恶化，使加剧
+Worsening inflation has compounded my financial problems.
+通膨恶化，导致我的财务问题加剧。
+digestion
+/daɪˈdʒes.tʃən/
+n. 消化，消化能力
+Moderate excercise helps with digestion.
+适度运动可以帮助消化。
+familiarity
+/fəˌmɪl.iˈær.ə.ti/
+n. 熟悉，通晓；亲近
+We only hire candidates with some familiarity with coding.
+我们只会聘用懂得如何写程式的应征者。
+implicit
+/ɪmˈplɪs.ɪt/
+adj. 隐晦的，储蓄的；无疑问的
+His love for her was implicit in every action he took.
+他对她的爱隐含在他的一举一动中。
+mandate
+/ˈmæn.deɪt/
+n. 委任，授权；命令 v. 授权；命令
+The committee was given a mandate for investigation.
+该委员会被授权进行调查。
+pamphlet
+/ˈpæm.flət/
+n. 小册子
+This pamphlet explains how to apply for our credit cards.
+这本小册子有介绍如何申请我们家的信用卡。
+refinement
+/rɪˈfaɪn.mənt/
+n. 精炼，提炼；改进
+This book manuscript needs further refinement.
+这本书稿需要进一步完善。
+stamina
+/ˈstæm.ɪ.nə/
+n. 耐力，持久力
+Marathon runners need a lot of stamina.
+马拉松选手需要很多耐力。
+villain
+/ˈvɪl.ən/
+n. 坏人；反派角色；罪魁祸首
+The main character kills the villain at the end of the movie.
+电影最后主角杀掉反派角色。
+broil
+/brɔɪl/
+v. 烤，炙
+They broiled turkey over the flame.
+他们把火鸡放在火上面烤。
+contempt
+/kənˈtempt/
+n. 蔑视，鄙视
+This company treats its employees with contempt.
+这家公司很瞧不起员工。
+doctrine
+/ˈdɒk.trɪn/
+n. 信条，教义
+The religion's doctrine allows the use of violence.
+这个宗教的教义允许使用暴力。
+friction
+/ˈfrɪk.ʃən/
+n. 摩擦，不和；摩擦力
+The friction between the two surfaces created sparks.
+两个表面之间的摩擦产生了火花。
+insistent
+/ɪnˈsɪs.tənt/
+adj. 坚持的，坚决要求的
+I was insistent on having a work contract with the company.
+我坚持要那家公司和我签订劳动契约。
+mobilize
+/ˈməʊ.bɪ.laɪz/
+v. 动员，组织
+He is trying to mobilize all his supporters.
+他正在努力动员他的所有支持者。
+pier
+/pɪər/
+n. 突堤码头；长堤；支柱，桥墩
+They walked along the pier and enjoyed the ocean view.
+他们沿着码头散步，欣赏着海景。
+reversal
+/rɪˈvɜː.səl/
+n. 反向，倒转；挫折，失败
+We celebrated the reversal of the unpopular tax policy.
+我们庆祝不受欢迎的税法遭撤销。
+surname
+/ˈsɝː.neɪm/
+n. 姓，姓氏
+Chen is a common surname in this country.
+陈在这个国家是一个常见的姓氏。
+working-class
+/ˌwɜː.kɪŋ ˈklɑːs/
+adj. 劳工阶级的
+My wife comes from a working-class background.
+我的太太来自劳工阶级。
+astonishment
+/əˈstɒn.ɪʃ.mənt/
+n. 惊愕
+Her performance left the audience in astonishment.
+她的表演让观众大吃一惊。
+commonplace
+/ˈkɒm.ən.pleɪs/
+adj. 普通的，常见的
+VR headsets are increasingly commonplace.
+VR 头盔越来越普遍。
+detergent
+/dɪˈtɜː.dʒənt/
+n. 清洁剂，洗衣粉
+The detergent removed the stain from the shirt.
+清洁剂去除了衬衫上的污渍。
+expedition
+/ˌek.spəˈdɪʃ.ən/
+n. 远征，探险；远征队，探险队
+The scientists will go on an expedition to the North Pole.
+科学家将远征北极探险。
+hydrogen
+/ˈhaɪ.drə.dʒən/
+n. 氢气
+Hydrogen is the lightest element on the periodic table.
+氢气是周期表上最轻的元素。
+lodging
+/ˈlɒdʒ.ɪŋ/
+n. 投宿处
+He was given free lodging in the factory dormitories.
+他分到了工厂宿舍的免费住宿。
+outlaw
+/ˈaʊt.lɔː/
+v. 使成为非法，禁止 n. 不法之徒
+The government outlawed the use of certain drugs.
+政府禁用了某些药物。
+rash
+/ræʃ/
+n. 疹子
+Apply this cream to your rash.
+把这个药膏涂在疹子上。
+solitude
+/ˈsɒl.ɪ.tʃuːd/
+n. 独处；独居
+He loved to spend his days in solitude.
+他喜欢独自生活。
+velvet
+/ˈvel.vɪt/
+n. 天鹅绒 adj. 天鹅绒的
+The baby's cheeks were as soft as velvet.
+宝宝的脸颊跟天鹅绒一样柔软。
