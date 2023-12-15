@@ -1248,3 +1248,253 @@ throne
 n. 王座，王位，王权
 The peasants knelt before the throne.
 农民们跪在王座前。
+affirmative
+/əˈfɜː.mə.tɪv/
+adj. 肯定的，同意的 n. 肯定词
+His answer was an affirmative response.
+他的回答是肯定的。
+chemist
+/ˈkem.ɪst/
+n. 化学家
+My mom was a chemist at a cement company.
+我母亲以前是一家水泥公司的化学家。
+curb
+/kɝːb/
+v. 抑制，控制 n. 抑制，控制
+You should try to curb your spending.
+你花钱应该要节制一点。
+endurance
+/ɪnˈdʊr.əns/
+n. 耐受力
+His endurance allowed him to finish the marathon.
+他的耐力让他跑完了马拉松。
+inclusion
+/ɪnˈkluː.ʒən/
+n. 包容，包含
+Inclusion is key to fostering diversity and equality.
+包容是促进多样性和平等的关键。
+journalism
+/ˈdʒɝː.nə.lɪ.zəm/
+n. 新闻业，新闻工作
+My son is planning to go into journalism.
+我儿子打算从事新闻业。
+nestle
+/ˈnes.əl/
+v. 依偎；坐落于（安全或隐蔽之处）
+The child nestled up to his mother and fell asleep.
+那个小朋友依偎在妈妈的身上睡着了。
+probe
+/prəʊb/
+v. 探查，探测 n. 探查；探测器
+The police probe into the gang led to several arrests.
+警察调查这个帮源，导致数人被逮捕。
+sermon
+/ˈsɝː.mən/
+n. 布道，讲道
+The priest delivered a passionate sermon against war.
+牧师的反战布道充满热情。
+tiresome
+/ˈtaɪr.səm/
+adj. 令人厌倦的
+Buying a house can be a very tiresome process.
+买房子是一个令人疲惫的过程。
+batter
+/ˈbæt̬.ɚ/
+v. 连续猛击 n. 糊状物；（棒球等）打击手
+The woman and child were battered by the attacker.
+这名妇女和孩童遭到袭击者猛殴。
+congresswoman
+/ˈkɒŋ.ɡresˌwʊm.ən/
+n. 女国会议员；美国众议院议员
+The congresswoman was accused of corruption.
+这名女国会议员被控贪污。
+disciplinary
+/ˌdɪs.əˈplɪn.ər.i/
+adj. 惩戒的
+The director of the company faces disciplinary action.
+这家公司的总监将面临惩戒。
+fingerprint
+/ˈfɪŋ.ɡɚ.prɪnt/
+n. 指纹，指印 v. 采指纹
+His fingerprints do not match the ones in our records.
+他的指纹和我们纪录里的不同。
+hamper
+hamper
+v. 妨碍，阻碍
+The project was hampered by a lack of funds.
+那个专案因为缺乏资金而受阻。
+medication
+/ˌmed.əˈkeɪ.ʃən/
+n. 药物，药物治疗
+The doctor prescribed medication to treat her illness.
+医生开了药来治疗她的病。
+pebble
+/ˈpeb.əl/
+n. 卵石，砾石
+I think that there's a pebble in my shoe.
+我觉得我的鞋子里有一块小石头。
+relentless
+/rɪˈlent.ləs/
+adj. 持续强烈的，无情的
+The noise from the traffic outside is relentless.
+外面的交通噪音持续不断。
+stride
+/straɪd/
+v. 大步走 n. 大步；进展
+In one stride, he reached the door.
+他大步走到门口。
+voucher
+/ˈvaʊ.tʃɚ/
+n. 代金券
+This voucher can be used at all of our stores.
+优惠券适用于我们所有商店。
+Roman
+/ˈroʊ.mən/
+adj. 罗马的，古罗马（帝国）的 n. 罗马人，古罗马（帝国）人
+What caused the Roman Empire to fall?
+罗马帝国衰亡的原因是什么？
+accumulate
+/əˈkjuː.mjə.leɪt/
+v. 累积，积聚
+Fat tends to accumulate around my belly.
+通常脂肪会囤积在我的肚子周围。
+caption
+/ˈkæp.ʃən/
+n. 图片说明 v. 帮图片加上说明
+The caption provided context for the image.
+图片说明为这张图提供了背景介绍。
+corporation
+/ˌkɔːr.pəˈreɪ.ʃən/
+n. 大公司，集团公司
+I don't want to work for a large corporation ever again.
+我以后再不想在大公司上班了。
+ecology
+/iˈkɒl.ə.dʒi/
+n. 生态；生态学
+It is our duty to keep ecology in balance.
+维持生态平衡，我们责无旁贷。
+geometry
+/dʒiˈɒm.ə.tri/
+n. 几何学
+I got an A-plus on my geometry test.
+我的几何学考了 A+。
+intrigue
+/ɪnˈtriːɡ/
+v. 使很感兴趣，迷住 n. 阴谋，诡计
+I've never been intrigued by superhero movies.
+我对超级英雄电影从来都不感兴趣。
+mortality
+/mɔːrˈtæl.ə.t̬i/
+n. 死亡率；必死性
+The mortality rate of the disease was alarmingly high.
+这种疾病的死亡率高得惊人。
+popularize
+/ˈpɒp.jə.lə.raɪz/
+v. 使普及；推广；使大众化
+The band's success helped to popularize jazz music.
+这个乐团的成功使爵士乐开始普及。
+tedious
+/ˈtiː.di.əs/
+adj. 冗长乏味的，使人厌烦的
+The job is tedious, but the pay is quite good.
+工作很乏味，不过薪水蛮好的。
+backdrop
+/ˈbæk.drɒp/
+n. 背景幕；背景；（事件）背景
+The mountains provided a beautiful backdrop for our picnic.
+山峦是我们野餐的绝佳背景。
+concession
+/kənˈseʃ.ən/
+n. 让步；认输
+I am willing to make some concessions on minor details.
+我可以在细枝末节上作一点让步。
+diplomacy
+/dɪˈpləʊ.mə.si/
+n. 外交；人际手腕
+Diplomacy has so far failed to bring an end to the war.
+外交斡旋目前尚未能终结这场战争。
+fertility
+/fəˈtɪl.ə.ti/
+n. 繁殖力；肥沃度
+Fertility rates can vary among different populations.
+不同人群的生育率会有所不同。
+imprisonment
+/ɪmˈprɪz.ən.mənt/
+n. 监禁
+He was sentenced to six years imprisonment for manslaughter.
+他因杀人罪被判六年徒刑。
+marital
+/ˈmær.ɪ.təl/
+adj. 婚姻的
+They had a long and happy marital relationship.
+他们拥有一段长久而幸福的婚姻关系。
+pastel
+/ˈpæs.təl/
+n. 粉蜡笔；粉彩 adj. 粉彩色的
+The artist works primarily with pastels.
+这位艺术家主要使用粉蜡笔进行创作。
+regime
+/reɪˈʒiːm/
+n. 政权，政体；管理体制
+The military regime promissed to restore democracy soon.
+军政权承诺很快就会恢复民主。
+stationary
+/ˈsteɪ.ʃən.ər.i/
+adj. 静止的；不变的
+The train is stationary at the platform.
+火车停在月台上。
+violinist
+/ˌvaɪəˈlɪn.ɪst/
+n. 小提琴手
+The talented violinist performed a beautiful piece of music.
+才华横溢的小提琴手演奏了一首优美的乐曲。
+banquet
+/ˈbæŋ.kwɪt/
+n. 盛宴
+They hosted a lavish banquet for their guests.
+他们为客人举办了一场豪华的宴会。
+condense
+/kənˈdens/
+v. 压缩，浓缩；凝固，凝结
+Can you try to condense this paragraph into one sentence?
+你可不可以把这个段落浓缩成一句话？
+directory
+/dɪˈrek.tɚ.i/
+n. 名录，指南
+I found his contact information in the company's directory.
+我在公司名录中找到他的联系方式。
+fiddle
+/ˈfɪd.əl/
+n. 小提琴 v. 拉小提琴
+I can play this song on this fiddle.
+我可以用这把小提琴演奏这首曲子。
+incentive
+/ɪnˈsen.t̬ɪv/
+n. 动机，激励，刺激
+Neither country has any incentive to start a war.
+两国都没有发动战争的动机。
+masterpiece
+/ˈmæs.tɚ.piːs/
+n. 杰作；好范例
+The painting is considered a masterpiece of Renaissance art.
+这幅画被认为是文艺复兴艺术的杰作。
+patriotic
+/ˌpeɪ.triˈɒt.ɪk/
+adj. 爱国的
+The president's speech stirred up patriotic feelings.
+总统的演说激起了民众的爱国之情。
+reign
+/reɪn/
+v. 统治，主宰 n. 统治，主宰
+The king made many enemies during his brief reign.
+国王在短暂的统治期间树敌无数。
+statistical
+/stəˈtɪs.tɪ.kəl/
+adj. 统计的；统计学的
+The statistical data showed a significant increase in sales.
+统计数据显示销售量大幅增长。
+vitality
+/vaɪˈtæl.ə.t̬i/
+n. 活力，生命力
+Despite being seventy years old, Elsie was full of vitality.
+虽然七十岁了，Elsie 还是活力充沛。
