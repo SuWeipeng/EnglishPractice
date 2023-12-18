@@ -1748,3 +1748,253 @@ tiptoe
 v. 踮脚尖 n. 踮脚尖
 We tiptoed past the sleeping baby.
 我们蹑手蹑脚地经过熟睡的婴儿。
+assessment
+/əˈses.mənt/
+n. 评估，评定
+The assessment of the project is underway.
+该计划的评估正在进行中。
+commitment
+/kəˈmɪt.mənt/
+n. 投入，承诺；必须做的事
+The president reaffirmed his commitment to raising taxes.
+总统再次重申加税的决心不减。
+detention
+/dɪˈten.ʃən/
+n. 留校察看；拘留
+He was sent to detention by the teacher.
+老师要他留校察看。
+exhaust
+/ɪɡˈzɔːst/
+v. 用光；使精疲力尽
+She has finally exhaused all my patience.
+她终于把我的耐心都磨光了。
+hunch
+/hʌntʃ/
+n. 预感，直觉
+I had a hunch that we would work well together.
+我有预感，我们应该会合作愉快。
+localized
+/ˈloʊ.kəl.aɪzd/
+adj. 局部的；当地的
+Ice is helpful for localized swelling.
+局部肿胀可使用冰敷。
+ornament
+/ˈɔːr.nə.mənt/
+n. 装饰品；装饰 v. 装饰
+She decorated the Christmas tree with colorful ornaments.
+她用五颜六色的装饰口装饰圣诞树。
+radius
+/ˈreɪ.di.əs/
+n. 半径，半径范围
+I measured the radius of the circle.
+我测量圆的半径。
+solemn
+/ˈsɒl.əm/
+adj. 庄严的；来肃的
+The ceremony was solemn and filled with reverence.
+典礼庄重且充满敬意。
+vault
+/vɒlt/
+n. 金库，保险库；穹顶；墓穴；（教堂）地下墓室
+He entered the vault with two armed guards.
+他在两名武装守卫陪同下进入金库。
+bilateral
+/ˌbaɪˈlæt̬.ɚ.əl/
+adj. 双边的，双方的
+The two countries reached a bilateral agreement.
+两国达成了双边协议。
+conservation
+/ˌkɒn.səˈveɪ.ʃən/
+n. 保育；节约
+She is passionate about environmental conservation.
+她对环境保育很热衷。
+dismay
+/dɪˈsmeɪ/
+n. 沮丧，灰心，失望
+She could not hide her dismay after her loss.
+在蒙受损失以后，她难掩沮丧之情。
+flexibility
+/ˌflek.səˈbɪl.ə.t̬i/
+n. 弹性，灵活性；柔韧性
+Stretching exercises will help with your flexibility.
+伸展运动有助于增加身体弹性。
+indispensable
+/ˌɪn.dɪˈspen.sə.bəl/
+adj. 不可或缺的，必需的
+The computer is indispensible to modern life.
+电脑是现代生活不可或缺的配备。
+merger
+/ˈmɝː.dʒɚ/
+n. （公司，企业等）合并
+The two companies are considering a merger.
+这两家公司正在考虑合并。
+perish
+/ˈper.ɪʃ/
+v. 丧命；毁灭
+Five hundred people perished in the earthquake.
+有 500 人在那场地震中丧生。
+renowned
+/rɪˈnaʊnd/
+adj. 著名的；有声誉的
+The Thai people are renowned for their cuisine.
+泰国人以其美食闻名。
+succession
+/səkˈseʃ.ən/
+n. 一连串，连续；继承
+The team had a succession of victories.
+这支团队接连获胜。
+warranty
+/ˈwɔːr.ən.t̬i/
+n. 保证书
+This phone is still under warranty.
+电话还在保固期内。
+broth
+/brɒθ/
+n. （用肉，蔬菜等煮成的）高汤
+You should add some water to the broth.
+你要在高汤里面加点水。
+contention
+/kənˈten.ʃən/
+n. 争论，主张；论点
+Money was always the main point of contention between them.
+他们主要的争论点通常都是金钱。
+doom
+/duːm/
+n. 厄运 v. 使注定
+Their reckless actions sealed their doom.
+他们鲁莽的行为注定了他们的厄运。
+fume
+/fjuːm/
+v. 发怒
+She sat on the sofa, silently fuming about what I said.
+她坐在沙发上，因为我说的话而生气。
+installation
+/ˌɪn.stəˈleɪ.ʃən/
+n. 安装；设施；正式任命
+Please restart your computer to complete the installation.
+请重启电脑，以便完成安装步骤。
+modeling
+/ˈmɒd.əlɪŋ/
+n. 模特儿职业；模拟
+You're beautiful. You should get into modeling.
+你长得很漂亮，应该要当模特儿才对。
+piercing
+/ˈpɪə.sɪŋ/
+adj. 刺耳的；穿透的；非常寒冷的 n. 身上穿的洞；在身上穿洞
+The woman let out a piercing shriek.
+那位女士发出了刺耳的尖叫。
+revival
+/rɪˈvaɪ.vəl/
+n. 复苏；复兴
+Jazz is enjoying a revival these days.
+爵士乐再度开始流行。
+surpass
+/sɚˈpæs/
+v. 超过；胜过
+His achievements surpass those of any other athlete.
+他的成就超越了其他运动员。
+world-view
+/wɝːld vjuː/
+n. 世界观
+She seems to have a very negative worldview.
+她的世界观似乎非常消极。
+abide
+/əˈbaɪd/
+v. 遵守；忍受；等候
+They need to abide by the rules.
+她们需要遵守规定。
+bypass
+/ˈbaɪ.pæs/
+v. 绕过
+This special pass allows you to bypass security checks.
+这个特别通行证可以让你顺利通过安检。
+contributor
+/kənˈtrɪb.jə.t̬ɚ/
+n. 贡献者；捐款人；撰稿人；促成因素
+Luck has been a major contributor to my success.
+我的成就主要来自于运气。
+dubious
+/ˈduː.bi.əs/
+adj. 可疑的；怀疑的
+I am still dubious about her motives.
+我还是觉得她的动机很可疑。
+gallop
+/ˈɡæl.əp/
+v. （马）奔驰，骑马奔驰；快速行动 n. （马）奔驰；骑马奔驰；高速
+The horse galloped across the field at full speed.
+马儿全速奔过田野。
+internship
+/ˈɪn.tɝːn.ʃɪp/
+n. 实习期；医生实习期
+I have a summer internship at the local radio station.
+我暑假会去当地的广播电台实习。
+momentum
+/məˈmen.t̬əm/
+n. 动力，动量
+The team gained momentum after scoring the first goal.
+球队在进第一颗球后获得了动力。
+plea
+/pliː/
+n. 恳求；申诉
+She made a plea for donations to support the cause.
+她恳求捐款支持这项事业。
+rhythmic
+/ˈrɪð.mɪk/
+adj. 有节奏的
+The rhythmic beats of the drums filled the dance floor.
+舞池里充满了有节拍的鼓声。
+swirl
+/swɝːl/
+v. （使）旋转，（使）打转
+He watched the water swirl into the drain.
+他看着水旋转着流入排水道。
+bonfire
+/ˈbɒn.faɪər/
+n. 火堆，篝火，营火
+We sat around the bonfire and told stories.
+我们围着篝火坐在一起讲故事。
+constraint
+/kənˈstreɪnt/
+n. 约束，限制
+Lack of funding was a major constraint for our company.
+本公司面临的重大制约是资金不足。
+distinction
+/dɪˈstɪŋk.ʃən/
+n. 区别；优秀
+There is a distinction between right and wrong.
+对错有别。
+fracture
+/ˈfræk.tʃɚ/
+n. 骨折，断裂 v. 使断裂，使骨折；使（组织）分裂
+X-rays revealed a fracture in his skull.
+X 光显示他的头骨裂了。
+infrastructure
+/ˈɪn.frəˌstrʌk.tʃɚ/
+n. 基础建设
+The government invests in infrastructure development.
+政府对基础建设发展投入资金。
+miraculous
+/məˈræk.jə.ləs/
+adj. 神奇的，奇迹般的，不可思议的
+She has made a miraculous recovery.
+她奇迹般康复了。
+petroleum
+/pəˈtroʊ.li.əm/
+n. 石油
+This land is rich in petroleum.
+这片土地蕴藏着丰富的石油。
+restoration
+/ˌres.təˈreɪ.ʃən/
+n. 恢复；修复
+I specialized in the restoration of old paintings.
+我擅长修复古画。
+traitor
+/ˈtreɪ.t̬ɚ/
+n. 叛徒，卖国贼
+He was labeled a traitor by his former colleagues.
+他被他前同事称为叛徒。
+widow
+/ˈwɪd.oʊ/
+n. 寡妇
+When my husband died, I became a widow.
+我丈夫过世后，我成为寡妇。
