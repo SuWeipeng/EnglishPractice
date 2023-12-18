@@ -1998,3 +1998,253 @@ widow
 n. 寡妇
 When my husband died, I became a widow.
 我丈夫过世后，我成为寡妇。
+all-time
+/ˌɔːlˈtaɪm/
+adj. 前所未有的；空前的
+The president's popularity is at an all-time low.
+总统的民调为史上最低。
+clam
+/klæm/
+n. 蛤蜊
+The child collected seashells and clams on the beach.
+孩子在滩上收集贝壳和蛤蜊。
+decisive
+/dɪˈsaɪ.sɪv/
+adj. 果断的，决定性的
+The answer from the CEO was a decisive no.
+CEO 的答复是绝对不行。
+envision
+/ɪnˈvɪʒ.ən/
+v. 预见
+He could envision a better future for his country.
+他可以预见国家更美好的未来。
+heir
+/eər/
+n. 继承人，接班人
+She is the rightful heir to the family fortune.
+她是家族财产的合法继承人。
+lavish
+/ˈlæv.ɪʃ/
+adj. 奢华的，豪华的；慷慨的
+This is the most lavish wedding l've ever been to.
+这是我参加过最奢华的婚礼了。
+novice
+/ˈnɒv.ɪs/
+n. 初学者，新手
+I'm a complete novice at badminton.
+我是羽毛球初学者。
+prose
+/proʊz/
+n. 散文
+I prefer reading prose to poetry.
+比起诗歌，我更喜欢散文。
+shrub
+/ʃrʌb/
+n. 灌木；矮树
+The child hid next to a shrub.
+小孩躲在一棵灌木旁边。
+transplant
+/trænˈsplænt/
+v. （植物，器官）移植 n. 移植；移植的器官
+The patient will need a liver transplant very soon.
+病人很快就需要肝脏移植。
+Fahrenheit
+/ˈfer.ən.haɪt/
+n. 华氏温度
+Water boils at 212 degrees Fahrenheit.
+水在华氏 212 度时沸腾。
+auditor
+/ˈɔː.dɪt.ər/
+n. 查帐员；审计员
+The auditor carefully examined the financial records.
+查帐员仔细审查了财务记录。
+complexity
+/kəmˈplek.sə.t̬i/
+n. 复杂性，错综复杂
+You don't understand the complexity of this situation.
+你不懂这个状况有多么复杂。
+diesel
+/ˈdiː.zəl/
+n. 柴油
+The truck runs on diesel fuel.
+这辆卡车使用柴油燃料。
+implement
+/ˈɪm.plə.ment/
+v. 实施，执行 n. 工具，器具
+The company plans to implement a new marketing strategy.
+公司计划实施新的市场行销策略。
+magnify
+/ˈmæɡ.nɪ.faɪ/
+v. 放大，扩大；加剧
+The microscope can magnify objects for closer examination.
+显微镜可以放大物体以进行更近距离的检查。
+pact
+/pækt/
+n. 协定，条约
+The two countries signed a peace pact to end the conflict.
+两国签署和平协定以结束冲突。
+referee
+/ˌref.əˈriː/
+n. 裁判；仲裁人
+The referee blew the whilstle to signal the end of the game.
+裁判吹响哨子宣告比赛结束。
+stagger
+/ˈstæɡ.ɚ/
+v. 蹒跚，摇晃；使错开 n. 蹒跚，摇晃
+The drunk man managed to stagger home.
+酒醉的男子踉跄地回家。
+vigor
+/ˈvɪɡ.ɚ/
+n. 活力，热忱
+The man's strength and vigor decreased as he aged.
+随着年龄的增长，这个人的力气和活力皆下降。
+Nazi
+/ˈnɑːt.si/
+n. 纳粹党人；独断专横者；极端种族主义者 adj. 纳粹的
+His grandfather was a German Nazi.
+他的祖父是德国的纳粹党人。
+affiliate
+/əˈfɪl.i.eɪt/
+v. 使隶属
+We are not affiliated with any political party.
+我们并不隶属于任何政党。
+characterize
+/ˈkær.ək.tə.raɪz/
+v. 是...的特征；描绘...的特性
+His paintings are characterized by bright colors.
+他作画的特色是用色明亮。
+crutch
+/krʌtʃ/
+n. 腋下拐杖
+I was on crutches for a week after that injury.
+那次受伤以后，我有一周时间者要撑着拐杖。
+endorsement
+/ɪnˈdɔːrs.mənt/
+n. 名人代言；支持
+The company sought out endorsements from famous athletes.
+这家业者希望请知名选手代言。
+hail
+/heɪl/
+n. 冰雹 v. 下冰雹
+Our car was damaged by the hail.
+我们的车子被冰雹砸伤了。
+jockey
+/ˈdʒɒk.i/
+n. 赛马骑师；（机器等）操作者 v. 耍手段谋利
+The jockey got injured when he got thrown off his horse.
+那位赛马骑师被甩下马时受了伤。
+privatize
+/ˈpraɪ.və.taɪz/
+v. 使私有化
+The government privatized the country's rail transport.
+政府将该国铁路运输私有化。
+serene
+/səˈriːn/
+adj. 平静的；安详的
+Her serene expression gave me feel a sense of security.
+她平静的表情让我有安全感。
+timely
+/ˈtaɪm.li/
+adj. 及时的，适时的
+The timely approval of the bank loan saved my company.
+银行贷款即时获得批准，拯救了我的公司。
+archaeology
+/ˌɑː.kiˈɒl.ə.dʒi/
+n. 考古学
+Archaeology explores ancient civilizations.
+考古学探索古文明。
+comeback
+/ˈkʌm.bæk/
+n. 东山再起，复出
+The athlete made a successful comeback after an injury.
+那位运动员在受伤后成功东山再起。
+depressing
+/dɪˈpres.ɪŋ/
+adj. 今人沮丧的，令人感压抑的
+The film is both depressing and amusing.
+这部电影既压抑又好笑。
+exclusion
+/ɪkˈskluː.ʒən/
+n. 排除在外
+Her exclusion from the list of Oscar nominees was political.
+她之所以没有入围奥斯卡是出于政治原因。
+hormone
+/ˈhɔːr.moʊn/
+n. 荷尔蒙，激素
+Hormones play a crucial role in regulating bodily functions.
+荷尔蒙在调节身体机能方面有着至关重要的作用。
+linger
+/ˈlɪŋ.ɡɚ/
+v. 徘徊，逗留，停留
+Let's not linger over this problem.
+我们不要在这个问题上纠缠不休了。
+ordeal
+/ɔːrˈdɪəl/
+n. 磨难，煎熬
+Surviving the shipwreck was a harrowing ordeal.
+在船难中幸存是场痛苦的磨难。
+racist
+/ˈreɪ.sɪst/
+n. 种族主义者 adj. 种族主义的
+He was accused of being a racist.
+他被指控为种族主义者。
+sly
+/slaɪ/
+adj. 狡猾的；狡诈的
+Foxes are known to be clever but sly.
+狐狸聪明但狡猾，这是众所皆知的事。
+upright
+/ˈʌp.raɪt/
+adj. 直立的；正直的 adv. 挺直地；立式地
+She sat upright in her chair when the principal walked in.
+校长走进来时，她挺直地坐在椅子上。
+attorney
+/əˈtɝː.ni/
+n. 律师
+The attorney presented the case in court.
+律师在法庭上陈述了案件。
+compile
+/kəmˈpaɪl/
+v. 汇编；编译程式
+This book took ten years to compile.
+这本书花了十年才编订成册。
+dictate
+/ˈdɪk.teɪt/
+v. 规定；口述；下令
+The dictator dictated new laws to the citizens.
+独裁者向公民颁布了新法。
+extract
+/ɪkˈstrækt/
+v. 取出 n. 萃取；摘录
+She used a tool to extract the nail from the wood.
+她用工具把钉子从木头上拔出来。
+foster
+/ˈfɒs.tər/
+v. 培养，促进
+Teachers should foster a sense of community in the classroom.
+老师应该培养班级的群体意识。
+immunity
+/ɪˈmjuː.nə.ti/
+n. 免疫；豁免
+The flu vaccine provides immunity against the flu.
+流感疫苗让人对流感产生免疫力。
+lumber
+/ˈlʌm.bɚ/
+n. 木材
+We used the leftover lumber to build a small treehouse.
+我们用剩下的木材盖了一间小树屋。
+overflow
+/ˌoʊ.vɚˈfloʊ/
+v. 溢出；爆满；洋溢；澎湃 n. 溢出的水，容纳不下的人
+The river overflowed its banks after heavy rainfall.
+大雨过后，河水泛滥并淹过河堤。
+rectangular
+/rekˈtæŋ.ɡjə.lɚ/
+adj. 长方形的，矩形的
+The chocolates come in a rectangular box.
+巧克力装在长方形盒子里。
+sportsmanship
+/ˈspɔːrts.mən.ʃɪp/
+n. 运动家精神；体育精神
+The team has a reputation for good sportsmanship.
+这个团队以良好运动家精神闻名。
