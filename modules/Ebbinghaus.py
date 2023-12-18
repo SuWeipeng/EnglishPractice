@@ -15,13 +15,13 @@ class Ebbinghaus:
         criteria = None
         # 确定判定标准
         if count in self.criteria:
-            criteria = self.criteria.get(count) / 2
+            criteria = self.criteria.get(count)
         elif count >= 6:
             criteria = self.criteria.get(6)
         if score > 0:
             criteria = int(criteria * score)
         # 按标准计算下一次的时间
-        next_timestamp = timestamp+datetime.timedelta(hours=criteria)
+        next_timestamp = timestamp+datetime.timedelta(hours=int(criteria/2))
         # 若当前已到达判定时间，则将返回值置为 True
         if next_timestamp < datetime.datetime.now():
             res = True
