@@ -2748,3 +2748,253 @@ warship
 n. 战舰，军舰
 The navy deployed a warship to protect the country's waters.
 海军部署了军舰来保护该国的水域。
+abbreviate
+/əˈbriː.vi.eɪt/
+v. 缩写
+"Alexander" is often abbreviated to "Alex".
+“Alexander”通常简称为“Alex”。
+buzzer
+/ˈbʌz.ɚ/
+n. 蜂鸣器
+The buzzer signaled the end of the game.
+蜂鸣场响起表示比赛结束了。
+contradictory
+/ˌkɒn.trəˈdɪk.tər.i/
+adj. 相互矛盾的，对立的
+The witness gave contradictory statements.
+证人提供了相互矛盾的陈述。
+dribble
+/ˈdrɪb.əl/
+v. 运球
+He dribbled the ball across the basketball court.
+他运球跨越了整个篮球场。
+fuss
+/fʌs/
+n. 大惊小怪；焦虑 v. 过度焦虑，过于关注
+She made a fuss over the minor mistake.
+她对这个小失误大惊小怪。
+intern
+/ˈɪn.tɝːn/
+n. 实习生；实习医生 v. （战时之）拘禁，关押
+She worked in an accounting firm as an intern.
+她曾经在一家会计师事务所实习。
+molecule
+/ˈmɒl.ɪ.kjuːl/
+n. 分子
+A molecule is the smallest unit of a chemical compound.
+分子是化合物的最小单位。
+playwright
+/ˈpleɪ.raɪt/
+n. 剧作家
+He is both the playwright and director of this musical.
+他是这部音乐剧的编剧和导演。
+rhetoric
+/ˈret̬.ɚ.ɪk/
+n. 煽动性言词；浮夸之词；修辞
+The politician used persuasive rhetoric to sway the audience.
+政治家利用有说服力的煽动性言词来影响观众。
+swarm
+/swɔːm/
+n. 一大群（人，昆虫） v. 涌入；蜂拥而至
+A swarm of bees buzzed around the hive.
+一群蜜蜂在蜂巢周围嗡嗡作响。
+amendment
+/əˈmend.mənt/
+n. 修订，修改；修正案
+They made an amendment to the agreement.
+他们对协议进行了修订。
+clone
+/kloʊn/
+v. 复制 n. 复制品
+Philosophers debate whether it's okay to clone a human.
+哲学家针对应否复制人类展开辩论。
+defect
+/ˈdiː.fekt/
+n. 缺陷，瑕疵
+The product had a defect that needed to be fixed.
+这项产品有个需要修复的瑕疵。
+equivalent
+/ɪˈkwɪv.əl.ənt/
+adj. 相等的，相同的 n. 相等物，等价物
+Five miles is roughly equivalent to eight kilometers.
+5 英里相当于 8 公里。
+heterosexual
+/ˌhet̬.ə.roʊˈsek.ʃu.əl/
+adj. 异性恋的 n. 异性恋者
+The law will mainly affect heterosexual couples.
+这部法律以影响异性恋夫妻为主。
+legitimacy
+/ləˈdʒɪt̬.ə.mə.si/
+n. 合理性；合法性
+I really question the legitimacy of his claims.
+我真的很怀疑他的主张是否合理。
+oath
+/oʊθ/
+n. 誓言，宣誓
+He swore an oath to protect the king.
+他誓言会保护国王的安全。
+prototype
+/ˈproʊ.t̬ə.taɪp/
+n. 原型
+The car prototype was revealed at the auto show.
+该车的原型在车展曝光。
+siege
+/siːdʒ/
+n. 围攻；包围
+The siege on the city lasted two weeks.
+这座城市的围城持续两周。
+tribute
+/ˈtrɪb.juːt/
+n. 致敬；赞扬
+Our performance today is a tribute to all the soldiers.
+我们今天的表演是为了向所有士兵致敬。
+bachelor
+/ˈbætʃ.əl.ɚ/
+n. 单身汉
+My uncle remained a bachelor all his life.
+我叔叔一生都单身。
+comrade
+/ˈkɒm.reɪd/
+n. 战友，（曾共患难的）朋友；（共产主义，社会组织的）同志
+The soldier rushed to help his comrade.
+那名士兵急忙跑过去帮助他的战友。
+diner
+/ˈdaɪ.nɚ/
+n. （美国）路边小餐馆；（餐馆里）用餐者，食客
+The truck stopped at a diner for a short break.
+那台货车停在一家小餐馆门口稍作休息。
+feeble
+/ˈfiː.bəl/
+adj. 虚弱的；微弱的
+His heartbeat was feeble and irregular.
+他的心跳微弱且不规律。
+imposing
+/ɪmˈpoʊ.zɪŋ/
+adj. 宏伟的；气宇不凡的
+He's a soft spoken but imposing figure.
+他这个人说话轻声细语，但很有威严。
+mar
+/mɑːr/
+v. 损坏，毁损，破坏
+The noise marred the peace of the night.
+噪音打破了夜晚的祥和。
+particle
+/ˈpɑː.tɪ.kəl/
+n. 微粒
+There are particle of dust on the camera lens.
+相机镜头上面有灰尘。
+regain
+/rɪˈɡeɪn/
+v. 重新获得，恢复；重返
+She made an effort to regain her composure.
+她努力让自己恢复冷静。
+static
+/ˈstæt̬.ɪk/
+adj. 静止的，停滞的 n. 静电（干扰）
+Gas prices have been more or less static lately.
+油价近期没有太多变化。
+vineyard
+/ˈvɪn.jɚd/
+n. 葡萄园
+Our wine is made in this vineyard.
+我们的酒店在这座葡萄园酿制。
+binoculars
+/bɪˈnɒk.jə.ləz/
+n. 双筒望远镜
+He focused his binoculars on the strange bird.
+他把望远镜的焦点对准了那只奇怪的鸟。
+console
+/kənˈsoʊl/
+v. 安慰，慰问
+The friends consoled each other during difficult times.
+朋友在困难时互相安慰。
+dispense
+/dɪˈspens/
+v. 供应；配（药）
+An ATM is a machine that dispenses cash.
+所谓 ATM 就是可以提领现钞的机器。
+foil
+/fɔɪl/
+n. （用来包裹食品保鲜的）箔；陪衬物，衬托
+Cover the chicken with foil before baking.
+在烤之前先用箔纸把鸡包起来。
+infamous
+/ˈɪn.fə.məs/
+adj. 恶名昭彰的，声名狼藉的
+He gained an infamous reputation for his criminal acts.
+他因犯罪行为而声名狼藉。
+metropolitan
+/ˌmet.rəˈpɒl.ɪ.tən/
+adj. 大都市的，大都会的
+Metropolitan areas tend to have higher crime rates.
+大都市的犯罪率通常比较高。
+persistence
+/pɚˈsɪs.təns/
+n. 坚持；持续存在
+I owe my success to persistence.
+我成功的关键在于坚持。
+resemblance
+/rɪˈzem.bləns/
+n. 长相相似；相似处
+The resemblance between the two sisters is remarkable.
+两姊妹长得十分相似。
+suffocate
+/ˈsʌf.ə.keɪt/
+v. 使窒息；遏制
+If you shut all the windows, I'll suffocate.
+如果你把窗户都关起来，我会窒息的。
+wary
+/ˈwer.i/
+adj. 心存防范的
+She's always wary of strangers and takes precautions.
+她总是对陌生人保持警惕并采取预防措施。
+boulevard
+/ˈbʊl.ə.vɑːrd/
+n. 大道，林荫大道
+We walked along the tree-lined boulevard.
+我们沿着林荫大道走。
+consultation
+/ˌkɒn.sʌlˈteɪ.ʃən/
+n. 咨询；商议
+He reached his decision after a consultation with a lawyer.
+他在咨询过律师以后下了决定。
+distress
+/dɪˈstres/
+n. 忧虑；遇险 v. 使烦乱，使忧虑
+The lost child cried out in distress.
+迷路的孩子惊慌失措地大哭起来。
+fragrant
+/ˈfreɪ.ɡrənt/
+adj. 芳香的，芬芳的
+The flowers gave off a fragrant smell.
+这些花散发着芳香。
+inhale
+/ɪnˈheɪl/
+v. 吸气；吸入
+Cover your mouth area and don't inhale this smoke.
+请捂住口鼻处，不要吸入烟雾。
+miscellaneous
+/ˌmɪs.əlˈeɪ.ni.əs/
+adj. 混杂的，各种各样的
+The drawer contained a variety of miscellaneous items.
+抽屉里放着各种杂物。
+pharmacist
+/ˈfɑːr.mə.sɪst/
+n. 药剂师
+The pharmacist informed me of possible side effects.
+药剂师告诉我可能会有副作用。
+restraint
+/rɪˈstreɪnt/
+n. 抑制，制止，克制
+Her spending habits are without restraint.
+她毫不克制花费习惯。
+supervision
+/ˌsuː.pɚˈvɪʒ.ən/
+n. 监督；指导
+The new intern needs constant supervision.
+新的实习生需要持续的指导。
+trillion
+/ˈtrɪl.jən/
+n. 兆
+The country's economic output fell by a trillion dollars.
+国家的经济产出减少一兆美元。
