@@ -2998,3 +2998,253 @@ trillion
 n. 兆
 The country's economic output fell by a trillion dollars.
 国家的经济产出减少一兆美元。
+allege
+/əˈledʒ/
+v. 声称
+The woman alleged that I stole her bag.
+这位女士声称我偷了她的包包。
+citizenship
+/ˈsɪt.ɪ.zən.ʃɪp/
+n. 公民身分；市民义务
+She obtained citizenship through naturalization.
+她透过归化取得公民身份。
+daunting
+/ˈdɔːn.tɪŋ/
+adj. 令人生畏的；使用气馁的
+The idea of traveling alone is daunting to some.
+有些人觉得独自旅行这件事很可怕。
+entity
+/ˈen.tɪ.ti/
+n. 独立存在体，实体
+The company is a separate legal entity from its owners.
+该公司是独立于其所有人的法人实体。
+headlight
+/ˈhed.laɪt/
+n. 车头灯，前灯
+The car's headlights illuminated the dark road.
+汽车的前灯照亮了黑暗的道路。
+lash
+/læʃ/
+v. 鞭打；猛打；抨击；系牢
+He received a lash on his back for his misconduct.
+他因为行为不当而受到谴责。
+nostril
+/ˈnɒs.trəl/
+n. 鼻孔
+Gorillas have large nostrills.
+大猩猩的鼻孔很大。
+propel
+/prəˈpel/
+v. 推动，推进
+Rachel's good looks helped propel her acting career.
+Rachel 亮丽的外表有助于推动演艺事业。
+shred
+/ʃred/
+v. 撕碎；切碎；用碎纸机销毁 n. 碎片；细条
+He instructed staff to shred the sensitive documents.
+他命令员工将敏感文件粉碎销毁。
+superiority
+/suːˌpɪə.riˈɒr.ə.ti/
+n. 优势，优越性
+He beliees in the superiority of his own ideas.
+他相信自己想法的优越性。
+accommodation
+/əˌkɒm.əˈdeɪ.ʃən/
+n. 住处，停留处
+Accommodation is so expensive in this city.
+这座城市的住宿费用高昂。
+campground
+/ˈkæmp.ɡraʊnd/
+n. 露营地
+We turned our backyard into a beautiful campground.
+我们把后院改造成了风景优美的露营地。
+convert
+/kənˈvɝːt/
+n. 转变信仰，习惯，生活方式的人
+She was a convert to Roman Catholicism.
+她皈依了罗马天主教。
+eccentric
+/ɪkˈsen.trɪk/
+adj. 怪异的，古怪的 n. 古怪的人
+His eccentric behavior lost him his job.
+他因为行为怪异而丢了饭碗。
+genetics
+/dʒəˈnet̬.ɪks/
+n. 遗传学
+She is an expert in the field of genetics.
+她是遗传学专家。
+interviewer
+/ˈɪn.t̬ɚ.vjuː.ɚ/
+n. 面试官，采访者
+The interviewer asked probing questions during the interview.
+面试官在面试中提出了试探性问题。
+morale
+/məˈræl/
+n. 士气，斗志
+The company's staff are suffering from low morale.
+该公司的员工士气很低迷。
+outnumber
+/ˌaʊtˈnʌm.bɚ/
+v. 数量上超过，比...多
+The opposing team outnumbered us on the basketball court.
+对方球队在篮球场上的人数比我们多。
+rivalry
+/ˈraɪ.vəl.ri/
+n. 竞争；相互较劲
+There's always been fierce rivalry between the two schools.
+两所学校竞争一直十分激烈。
+synonym
+/ˈsɪn.ə.nɪm/
+n. 同义词
+I am trying to find a synonym for this word.
+我试图找到这个字的同义词。
+astronaut
+/ˈæs.trə.nɔːt/
+n. 太空人，宇航员
+THe astronaut floated weightlessly in space.
+太空人在太空中无重力地漂浮。
+communist
+/ˈkɒm.jə.nɪst/
+n. 共产主义者 adj. 共产主义者的
+The senator was labeled a communist by the opposing party.
+在野党为这位参议员贴上了“共产主义者”的标签。
+devour
+/dɪˈvaʊ.ɚ/
+v. 狼吞虎咽；吞没
+The big fish continued to devour the little one.
+大鱼继续狼吞虎咽地吃着小鱼。
+expel
+/ɪkˈspel/
+v. 驱逐，开除
+His criminal activity got him expelled from the country.
+他因从事犯罪活动而被驱逐出境。
+hygiene
+/ˈhaɪ.dʒiːn/
+n. 卫生
+If you want a girlfriend, you should improve your hygiene.
+想交女朋友就要先改善个人卫生。
+lofty
+/ˈlɒf.ti/
+adj. 高耸的；崇高的；高傲的
+The mountain peak stood tall, reaching lofty heights.
+山峰耸立，高耸入云。
+pod
+/pɒd/
+n. 荚，荚果；吊舱；简易小屋
+He squeezed the beans out of the pod.
+他将豆子挤出豆荚。
+ratify
+/ˈræt.ɪ.faɪ/
+v. 正式批准；认可
+The parliament is expected to ratify the new treaty next week.
+国会预计在下周批准新条约。
+sovereignty
+/ˈsɒv.rɪn.ti/
+n. 主权；统治权；国家主权
+The country fought for its sovereignty and independence.
+这个国家为自己的主权和独立而战。
+venture
+/ˈven.tʃɚ/
+v. 冒险去
+He ventured into the dark forest.
+他冒险进入暗黑的森林。
+atomic
+/əˈtɒm.ɪk/
+adj. 原子的
+Atomic energy has the potential for great power.
+原子能具有产生巨大能量的潜力。
+compassionate
+/kəmˈpæʃ.ən.ət/
+adj. 慈悲的，富有同情心的
+My compassionate boss always calls me when I am sick.
+我老板很有心，我生病的时候都会致电慰问。
+diameter
+/daɪˈæm.ə.t̬ɚ/
+n. 直径
+The diameter of the circle is 10 centimeters.
+这个圆的直径是 10 公分。
+exposition
+/ˌek.spəˈzɪʃ.ən/
+n. 详细说明，博览会
+He gave us a clear exposition of the environmental problem.
+他向我们详细解释了这个环境问题。
+illusion
+/ɪˈluː.ʒən/
+n. 幻想，错觉，假象
+The magician created an illusion of a disappearing rabbit.
+魔术师制造出一只兔子消失的幻象。
+lucrative
+/ˈluː.krə.t̬ɪv/
+adj. 很赚钱的，盈利的，有利可图的
+She has a lucrative business selling online courses.
+她贩售线上课程的生意很赚钱。
+outskirts
+/ˈaʊt.skɝːts/
+n. 郊区
+They lived in a small house on the outskirts of the city.
+他们住在城市郊区的一间小房子里。
+recession
+/rɪˈseʃ.ən/
+n. 经济衰退期；衰退
+The US is currently heading into a recession.
+美国正迈向经济衰退。
+spiral
+/ˈspaɪr.əl/
+adj. 螺旋形的 n. 螺旋形 v. 急剧上升；螺旋上升（或下降）
+The airplane went into a spiral dive before crashing.
+飞机在坠毁前进入螺旋俯冲。
+versatile
+/ˈvɜː.sə.taɪl/
+adj. 多用途的；多才多艺的
+The Swiss Army Knife is a versatile tool for various tasks.
+瑞士刀是适用于各种任务的多功能工具。
+best-selling
+/ˌbestˈsel.ɪŋ/
+adj. 畅销的
+This best-selling album has won three awards.
+这张畅销专辑获得了三项大奖。
+conscientious
+/ˌkɒn.ʃiˈen.ʃəs/
+adj. 尽心尽责的
+He is a conscientious student, but his grades are average.
+他是很认真的学生，只是成绩中规中矩。
+discourse
+/ˈdɪs.kɔːs/
+n. 论述
+I'm hoping for some lively political discourse at the meeting.
+我希望在会议上看到热烈的政治对话。
+flake
+/fleɪk/
+n. 小薄片，碎片 v. 成薄片般脱落
+Flakes of paint were coming off the wall.
+一片片油漆从墙上剥落。
+inconvenience
+/ˌɪn.kənˈviː.ni.əns/
+n. 不方便 v. 带来不方便，导致麻烦
+I apologize for any inconvenience caused by the delay.
+对于延误造成的任何不便，我很抱歉。
+meditation
+/ˌmed.ɪˈteɪ.ʃən/
+n. 冥想；沉思
+Meditation can help lower blood pressure.
+冥想有助于降低血压。
+perception
+/pəˈsep.ʃən/
+n. 看法；感知；洞察力
+Her perception of the situation was completely different.
+她对该情况的看法完全不同。
+relic
+/ˈrel.ɪk/
+n. 遗迹；遗物
+This stone axe is a relic from ancient times.
+这把石斧是古代遗迹。
+subjective
+/səbˈdʒek.tɪv/
+adj. 主观的
+He tried not to be subjective when grading oral tests.
+他在评分口说测试时尽量不带入主观立场。
+wag
+/wæɡ/
+v. （尤指尾巴，手指）摆动，摇动 n. （尤指尾巴，手指）摆动，摇动
+The happy dog wagged its tail.
+这只快乐的狗摇着尾巴。
