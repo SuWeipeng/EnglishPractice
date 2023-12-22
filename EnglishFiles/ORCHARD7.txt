@@ -3493,8 +3493,258 @@ spectrum
 n. 光谱；范围
 The colors of the spectrum can be seen in a rainbow.
 彩虹可以看到光谱的颜色。
-verity
-/ˈver.ə.t̬i/
+verify
+/ˈver.ɪ.faɪ/
 v. 证实，证明
 We must verify these figures.
 我们必须验证这些数据。
+autonomy
+/ɔːˈtɒn.ə.mi/
+n. 自治（权），自主（权）
+Teachers here are given considerable individual autonomy.
+这里的老师有相当大的自主权。
+composite
+/ˈkɒm.pə.zɪt/
+n. 合成物，综合体；复合材料
+The sculpture was made of composite materials.
+此雕塑是由复合材料制成。
+differentiate
+/ˌdɪf.əˈren.ʃi.eɪt/
+v. 区分，使差别
+It is not easy to differentiate between the two diseases.
+这两种疾病不容易区分。
+falter
+/ˈfɒl.tər/
+v. 蹒跚
+I was so tired that my legs began to falter.
+我累到开始双腿发抖。
+implication
+/ˌɪm.plɪˈkeɪ.ʃən/
+n. 暗示，含义
+The implication of his words was that he didn't trust her.
+他的话意味着不信任她。
+majestic
+/məˈdʒes.tɪk/
+adj. 雄伟的，威严的，壮丽的
+I looked up at the majestic mountains.
+我抬头仰望壮丽的群山。
+paddle
+/ˈpæd.əl/
+v. 用桨划 n. 船桨
+They decided to paddle across the lake in a small canoe.
+他们决定坐着小独木舟划过湖面。
+referendum
+/ˌref.əˈren.dəm/
+n. 公民投票
+The nation voted for impeachment in a referendum.
+全国人民公投同意弹劾。
+stabilize
+/ˈsteɪ.bəl.aɪz/
+v. 使稳定；使稳固
+This diet can help stabilize your blood sugar levels.
+这个饮食习惯可以帮助稳定你的血糖水平。
+vigorous
+/ˈvɪɡ.ɚ.əs/
+adj. 充满活力的，精力旺盛的；健装的
+I almost fainted after the vigorous exercise session.
+剧烈运动后我差点昏倒。
+basin
+/ˈbeɪ.sən/
+n. 盆，水盆；盆地
+The basin was filled with clear water.
+盆里装满了清澈的水。
+congressman
+/ˈkɒŋ.ɡres.mən/
+n. 男国会议员；美国众议院议员
+The congressman was accused of corruption.
+这名男国会议员被控贪污。
+disciple
+/dɪˈsaɪ.pəl/
+n. 信徒，追随者，门徒
+He was a disciple of Gandhi.
+他是甘地的信徒。
+fin
+/fɪn/
+n. 鳍，鳍状物
+Shark fin is a delicacy in China.
+在中国，鱼翅是美食。
+inclined
+/ɪnˈklaɪnd/
+adj. 倾向于
+Nobody felt inclined to argue with him.
+没有人想要跟他争吵。
+mechanism
+/ˈmek.ə.nɪ.zəm/
+n. 机械装置；机制
+This gate locking mechanism doesn't work.
+这个门锁坏掉了。
+peasant
+/ˈpez.ənt/
+n. （贬义）农民
+Most villagers here a peasant farmers.
+这里大部分的村民都务农。
+rejoice
+/rɪˈdʒɔɪs/
+v. 深感欣喜，充满喜悦
+My mother rejoiced when I told her I got into Harvard.
+我跟妈妈说我被哈佛大学录取时，她欣喜若狂。
+stray
+/streɪ/
+adj. 流浪的；零星的 n. 流浪宠物 v. 偏离；离题
+The stray dogs in this city seem to be very friendly.
+这座城市的流浪狗看起来十分友善。
+volcanic
+/vɒlˈkæn.ɪk/
+adj. 火山的
+Over 100 people were killed in the volcanic eruption.
+超过一百人死于火山爆发。
+analogy
+/əˈnæl.ə.dʒi/
+n. 比喻；类比
+He used an analogy to explain the complex concept.
+他用比喻来解释这个复杂的概念。
+clutch
+/klʌtʃ/
+n. 离合器；（鸟巢的）一窝蛋；一小群...
+This car needs a new clutch.
+这台车需要换新的离合器。
+defiance
+/dɪˈfaɪ.əns/
+n. 对抗，对立
+The protest was an act of defiance against the government.
+抗议是对抗政府的一种行动。
+escort
+/ɪˈskɔːt/
+v. 护送；陪同 n. 护送者；陪同者
+The security guard escorted the VIP to the event.
+保全人员护送那位贵宾参加活动。
+hijack
+/ˈhaɪ.dʒæk/
+v. 劫持；把持 n. 劫持
+The thugs attempted to hijack a plane.
+那些暴徒试图劫机。
+lengthy
+/ˈleŋ.θi/
+adj. 漫长的，冗长的
+The meeting lasted for a lengthy six hours.
+会议持续了漫长的六个小时。
+obligation
+/ˌɒb.lɪˈɡeɪ.ʃən/
+n. 义务
+He felt an obligation to help those in need.
+他觉得有义务帮助那些需要帮助的人。
+provision
+/prəˈvɪʒ.ən/
+n. 条款；提供，供给
+The contract includes a provision for overtime pay.
+合约里包含加班费的条款。
+simultaneous
+/ˌsaɪ.məlˈteɪ.ni.əs/
+adj. 同时的；同步的
+The two events occured simultaneously.
+这两件事同时发生。
+trout
+/traʊt/
+n. 鳟鱼
+He went fishing and caught a beautiful trout in the river.
+他去河边钓鱼，钓到了一条漂亮的鳟鱼。
+alienate
+/ˈeɪ.li.ə.neɪt/
+v. 使疏远
+The tax policy will alienate many voters.
+这项税收政策会让很多选民反感。
+cinnamon
+/ˈsɪn.ə.mən/
+n. 肉桂；肉桂粉
+Would you like a bit of cinnamon on your hot chocolate?
+你的热巧克力要放一点肉桂粉吗？
+damn
+/dæm/
+adj. 该死的，可恶的，讨厌的 adj. 很，非常（常用于生气时） v. 谴责，指责；（尤指上帝）惩罚
+This damn traffic is unbearable.
+这该死的交通让人难以忍受。
+enrollment
+/ɪnˈroʊl.mənt/
+n. 注册，登记
+Enrollment in the university has been falling for years.
+这所大学的学生注册人数长年下降。
+hassle
+/ˈhæs.əl/
+v. 麻烦，困难 v. 烦扰（尤指透过反复提问）
+It's a hassle to travel with so much luggage.
+带着这么多行李旅行很麻烦。
+lad
+/læd/
+n. 小伙子，少年
+Things were much cheaper when I was a lad.
+我年轻的时候物价便宜很多。
+nonexistent
+/ˌnɑn·ɪɡˈzɪs·tənt/
+adj. 不存在的
+The promised improvements turned out to be nonexistent.
+承诺的改进措施结果并不存在。
+prohibition
+/ˌprəʊ.hɪˈbɪʃ.ən/
+n. 禁令；禁止
+I am in favor of the prohibition of gambling.
+我赞成禁止赌博。
+shooting
+/ˈʃuː.t̬ɪŋ/
+n. 枪击事件；发射，开枪；狩猎 adj. （价格）急速攀升的
+Street shootings have become commonplace in this city.
+街头枪击案在这座城市已经司空见惯。
+tractor
+/ˈtræk.tɚ/
+n. 施拉机；拽引机
+He used a tractor to move the large rock.
+他用一台拖拉机搬运大石头。
+agony
+/ˈæɡ.ə.ni/
+n. 极度痛苦
+She endured hours of agony before seeking help.
+在寻求帮助前，她忍受了好几小时的痛苦。
+chirp
+/tʃɝːp/
+v. 鸟叫虫鸣
+The birds chirped merrily at the top of the tree.
+小鸟在树顶欢乐地鸣叫。
+custody
+/ˈkʌs.tə.di/
+n. 监护；拘留
+The child was placed in the custody of his grandparents.
+孩子被交由其祖父母监护。
+enhancement
+/ɪnˈhæns.mənt/
+n. 增强，提高
+The enhancement of data security cost the company millions.
+这家公司花了几百万提升资安。
+harassment
+/həˈræs.mənt/
+n. 骚扰
+The townspeople complained about recent police harassment.
+镇上的人抱怨最近受到警察骚扰。
+juvenile
+/ˈdʒuː.vən.aɪl/
+adj. 青少年的；幼稚的，不成熟的 n. 青少年
+She works as a counselor for juvenile offenders.
+她是青少年罪犯的辅导员。
+newcomer
+/ˈnjuːˌkʌm.ər/
+n. 新来者，新手
+I'm a newcomer to the world of e-commerce.
+我是电商世界的新手。
+processor
+/ˈprəʊ.ses.ər/
+n. （电脑）处理器；加工机
+He wanted to upgrade the processor on his computer.
+他想要升级电脑的处理器。
+shady
+/ˈʃeɪ.di/
+adj. 阴凉的；不老实的
+They met in a shady park to discuss their secret plans.
+他们在阴凉的公园碰面讨论其秘密计划。
+trustworthy
+/ˈtrʌstˌwɝː.ði/
+adj. 值得信赖的，可信的
+She is a trustworthy and loyal friend.
+她是个值得信赖且忠诚的朋友。
