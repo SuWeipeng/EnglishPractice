@@ -3998,3 +3998,253 @@ unconditional
 adj. 无条件的，绝对的
 Her love for her child is unconditional, no matter what.
 她对孩子的爱是无条件的，不管怎样。
+amplify
+/ˈæm.plɪ.faɪ/
+v. 放大声音，扩大
+I want to help the activists amplify their message.
+我想帮助社运人士扩大音量。
+closure
+/ˈkloʊ.ʒɚ/
+n. 了结；停业
+Can this business be saved from closure?
+这家企业能否免于停业的命运？
+defendant
+/dɪˈfen.dənt/
+n. 被告人
+The defendant pleaded not guilty in court.
+被告在法庭上辩称无罪。
+erode
+/ɪˈroʊd/
+v. 侵蚀，磨损；削弱
+Wind and rain have significantly eroded this statue.
+这座雕像遭受了风雨的严重侵蚀。
+hierarchy
+/ˈhaɪə.rɑː.ki/
+n. 等级制度，阶层；统治集团
+The company has a strict hierarchy for decision-making.
+公司的决策需透过严格的层级。
+legitimate
+/ləˈdʒɪt̬.ə.mət/
+adj. 合法的；合理的；合法婚生的 v. 使合法；使合理
+He provided legitimate proof of his identity.
+他提供了合法的身分证明。
+obesity
+/oʊˈbiː.sə.t̬i/
+n. 肥胖
+The rise in obesity rates is a growing concern.
+肥胖率的上升是个日益严重的问题。
+provincial
+/prəˈvɪn.ʃəl/
+adj. 省份的；外地的
+He wrote a letter to the provincial government.
+他写了一封信给省政府。
+simplicity
+/sɪmˈplɪs.ə.t̬i/
+n. 简单；单纯
+I like the simplicity of his fashion style.
+我喜欢他简洁的时尚风格。
+withhold
+/wɪðˈhoʊld/
+v. 拒绝提供
+It was wrong for the witness to withhold evidence.
+证人拒绝提供证据是不对的。
+accordance
+/əˈkɔːr.dəns/
+n. 依照
+You should act in accordance with your beliefs.
+你的行为应该要和你的信仰一致。
+canvas
+/ˈkæn.vəs/
+n. 帆布；油画布；油画
+We stretched the canvas over a wooden frame.
+我们把帆布展开铺在了木框上。
+convict
+/kənˈvɪkt/
+n. 罪犯，囚犯
+They helped to recapture the escaped convict.
+在他们的协助下再次逮捕了那名逃犯。
+eclipse
+/ɪˈklɪps/
+n. 日蚀，月蚀 v. 遮蔽天体的光
+A total solar eclipse is a rare event.
+日全蚀是罕见现象。
+genre
+/ˈʒɑːn.rə/
+n. 文艺作品之体裁，类型，风格
+What genres of music do you like?
+你喜欢哪一类型的音乐？
+intimacy
+/ˈɪn.tɪ.mə.si/
+n. 亲密，亲近
+They shared a deep sense of intimacy in their relationship.
+他们的关系很亲密。
+morality
+/məˈræl.ə.t̬i/
+n. 道德，道德观
+He was a man of exemplary morality.
+他是道德上的楷模。
+poetic
+/poʊˈet̬.ɪk/
+adj. 富有诗情的；诗的；诗意的
+There is a poetic quality to her piano playing.
+她弹钢琴时有股诗意的气质。
+roaring
+/ˈrɔːr.ɪŋ/
+adj. 喧嚣的；强烈的
+The roaring sound of the waterfall echoed through the valley.
+瀑布的轰鸣声在山谷中回荡。
+synthetic
+/sɪnˈθet̬.ɪk/
+adj. 合成的；人造的
+Nylon is a synthetic material.
+尼龙是合成材料。
+Hindu
+/ˈhɪn.duː/
+n. 印度教教徒
+Most of the people in this community are Hindus.
+这个社区大部分居民都是印度教教徒。
+anchor
+/ˈæŋ.kɚ/
+n. 锚；依靠的人或物 v. 下锚；把...系住
+The ship dropped anchor in the harbor.
+船只在港口抛锚停留。
+coalition
+/koʊ.əˈlɪʃ.ən/
+n. 联盟，同盟
+The two right wing parties have formed a coalition.
+这两个右翼政党组成了联盟。
+deficiency
+/dɪˈfɪʃ.ən.si/
+n. 不足，缺乏，缺少
+The patient had a deficiency of vitamin D.
+该病患缺乏维生素 D。
+esteem
+/ɪˈstiːm/
+n. 尊敬；好评
+She is held in high esteem by her colleagues.
+她受到同事们高度尊敬。
+lethal
+/ˈliː.θəl/
+adj. 致命的，极危险的
+The snake's venom is lethal and can cause death.
+这条蛇的毒液是危险且致命的。
+oblige
+/əˈblaɪdʒ/
+v. 迫使；为...效劳
+The circumstances obliged him to reconsider his decision.
+形势迫使他重新考虑自己的决定。
+provisional
+/prəˈvɪʒ.ən.əl/
+adj. 暂定的，临时的
+All dates are provisional and subject to change.
+所有日期都是暂定的，可能会调整。
+siren
+/ˈsaɪr.ən/
+n. 警报；警笛；海妖
+The police siren caused the thieves to panic.
+警察的警笛声引起盗贼的恐慌。
+trustee
+/ˌtrʌsˈtiː/
+n. 受托人
+A trustee was appointed to oversee the merger.
+受托人被任命监督合并。
+activist
+/ˈæk.tə.vɪst/
+n. 积极分子，激进分子
+Angry activists gathered outside the White House.
+愤怒的社运人士在白宫外面聚集。
+cathedral
+/kəˈθiː.drəl/
+n. 主教堂
+The cathedral's architecture was breathtaking.
+主教堂的建筑令人叹为观止。
+counterpart
+/ˈkaʊn.t̬ɚ.pɑːrt/
+n. 对应的人，对应的物
+The CEO met with her international counterpart.
+CEO 会见了其国际对口。
+eloquent
+/ˈel.ə.kwənt/
+adj. 口才流利的；雄辩的
+The government made an eloquent speech.
+州长发表了精彩演说。
+gory
+/ˈɡɔːr.i/
+adj. 血腥的
+You shouldn't let your child watch such gory films.
+你不应该让小孩看这么血腥的电影。
+invoke
+/ɪnˈvoʊk/
+v. 唤起，引起；援引（法律），求助于（法律，神灵）
+The UN will invoke economic sanctions if the war continues.
+万一战争延续，联合国将会实施经济制裁。
+multimedia
+/ˌmʌl.tiˈmiː.di.ə/
+adj. 多媒体的
+He was an early adopter of multimedia in the classroom.
+他是最早一批在课尝上采用多媒体的人。
+predecessor
+/ˈpriː.dɪˌses.ər/
+n. 前任；前辈；前身
+The new president is much younger than his predecessor.
+新总统比前任总统年轻许多。
+satellite
+/ˈsæt̬.əl.aɪt/
+n. 卫星
+In 1970, China successfully launched a man-made satellite.
+中国于 1970 年成功发射一颗人造卫星。
+testimony
+/ˈtes.tɪ.mən.i/
+n. 证词；见证
+The man refused to give a testimony.
+这名男子拒绝提供证词。
+buckle
+/ˈbʌk.əl/
+n. 扣环 v. 用扣环扣住；弯曲，变形
+The buckle on his belt was broken.
+他皮带上的扣环坏了。
+continental
+/ˌkɒn.tɪˈnen.təl/
+adj. 大洲的，大陆的
+Not all scientists believe that continental drift is real.
+并非所有科学家都认为大陆漂移是真实存在的现象。
+downside
+/ˈdaʊn.saɪd/
+n. 不利的一面，不利因素
+The downside of the phone is that it is heavy.
+这支手机的缺点是很重。
+fundraiser
+/ˈfʌndˌreɪ.zɚ/
+n. 募款活动；募款人
+He organized a fundraiser for his church.
+他帮自己的教会筹办了一场募款活动。
+institutional
+/ˌɪn.stɪˈtʃuː.ʃən.əl/
+adj. 机构的
+The group is calling for institutional reforms.
+该团体呼吁要进行体制改革。
+modernization
+/ˌmɒd.ən.aɪˈzeɪ.ʃən/
+n. 现代化
+The modernization of the waterways will cost millions.
+航道现代化将耗资数百万元。
+placement
+/ˈpleɪs.mənt/
+n. 摆放位置；临时职位
+I couldn't decide on the best placement of the sofa.
+我不知道应该把沙发放在哪里最好。
+revive
+/rɪˈvaɪv/
+v. （使）复苏，复兴，恢复生机
+He managed to revive the dying plant with proper care.
+他透过适当的照料成功让垂死的植物恢复生机。
+surveillance
+/sɚˈveɪ.ləns/
+n. 监视；监控
+The government increased surveillance to prevent crime.
+政府加强监视以预防犯罪。
+wrench
+/rentʃ/
+n. 扳手
+He used a wrench to loosen the bolt.
+他使用扳手松开螺栓。
