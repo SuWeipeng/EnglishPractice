@@ -4748,3 +4748,253 @@ vice
 n. 恶习，罪行
 Gambling is my biggest vice.
 赌博是我最大的恶习。
+Hispanic
+/hɪˈspæn.ɪk/
+adj. 西班牙裔的 n. 西班牙裔
+The population here is mainly black and Hispanic.
+这里的人口以非裔和西班牙裔为主。
+annoyance
+/əˈnɔɪ.əns/
+n. 恼怒；令人不悦的事
+The constant noise was a source of annoyance.
+持续的噪音让人烦躁。
+cognitive
+/ˈkɒɡ.nə.tɪv/
+adj. 认知的，感知的
+Cognitive abilities decline with age.
+认知能力随着年龄增长而下降。
+deficit
+/ˈdef.ɪ.sɪt/
+n. 亏损，赤字
+The company is running a budget deficit this year.
+该公司今年出现预算赤字。
+etch
+/etʃ/
+v. 蚀刻，凿出（尤在金属或玻璃上）
+He etched his name onto the desk with his scissors.
+他用剪刀在桌上刻下了自己的名字。
+liability
+/ˌlaɪ.əˈbɪl.ə.t̬i/
+n. 法律责任；累赘，麻烦
+He denied any liability for the damage caused.
+针对本次造成的损失，他拒绝承担任何法律责任。
+occurrence
+/əˈkɝː.əns/
+n. 发生的事；存在
+Robbery in this city is now an everyday occurrence.
+现在这座城市每天都有抢劫案发生。
+psychic
+/ˈsaɪ.kɪk/
+adj. 通灵的；精神的 n. 灵媒，通灵者
+The man claimed to have psychic powers.
+这名男士宣称他有通灵能力。
+skeptical
+/ˈskep.tɪ.kəl/
+adj. 怀疑的；持怀疑态度的
+I'm skeptical that the president can fulfill his promises.
+我很怀疑总统是否会实践诺言。
+torment
+/ˈtɔːr.ment/
+n. 折磨，痛苦 v. 折磨，使痛苦
+Her child's death caused her great mental torment.
+她小孩的死亡为她带来巨大的精神折磨。
+ambiguity
+/ˌæm.bɪˈɡjuː.ə.t̬i/
+n. 模棱两可
+The statement had an ambiguity that left everyone confused.
+该陈述含糊不清，让大家都很困惑。
+cliche
+/kliːˈʃeɪ/
+n. 陈腔滥调，老生常谈，老套的话
+Try to avoid using cliche in your writing.
+写作时要避免陈腔滥调。
+default
+/dɪˈfɒlt/
+n. 预设值 v. 不履约
+What do you use as your default internet browser?
+你的预设网路浏览器是什么？
+equity
+/ˈek.wɪ.ti/
+n. 公平；公司股票；资产净值
+The company strives for equity in its hiring practices.
+该公司力求在招聘上公平公正。
+heritage
+/ˈher.ɪ.t̬ɪdʒ/
+n. 遗产
+The historical artifacts are part of our heritage.
+这些历史文物是我们遗产的一部分。
+legislature
+/ˈledʒ.ɪ.slə.tʃʊər/
+n. 立法机构
+The legislature passed a new law to address the issue.
+立法机构通过了新法律来解决该问题。
+oasis
+/oʊˈeɪ.sɪs/
+n. （沙漠中的）绿洲；宁静之地
+The park was an oasis in the loud, bustling city.
+这个公园是喧嚣繁忙都市里的一片绿洲。
+protocol
+/ˈprəʊ.tə.kɒl/
+n. 规章制度；协议；公约；礼仪
+Make sure to follow the safety protocols.
+请务必遵循安全规章。
+sideline
+/ˈsaɪd.laɪn/
+v. 排挤，使退赛 v. 副业，兼职；（运动场上的）边线
+He was sidelined by his party after criticizing the policy.
+他批评政策后遭到政党排挤。
+treasury
+/ˈtreʒ.ɚ.i/
+n. （政府）财政部门
+The Treasury has decided to raise the interest rate.
+财政部门已经决定要升息。
+accusation
+/ˌæk.jəˈzeɪ.ʃən/
+n. 指控；罪名
+The lawyer presented evidence to refute the accusation.
+律师出示了证据来反驳指控。
+captive
+/ˈkæp.tɪv/
+n. 俘虏
+The captives were freed after a ransom was paid.
+支付赎金后，俘虏获得了释放。
+corpse
+/kɔːrps/
+n. 尸体
+The detective examined the corpse for clues.
+侦探检查尸体以寻找线索。
+economical
+/ek.əˈnɒm.ɪ.kəl/
+adj. 节约的，省钱的
+Buying in bulk can be more economical in the long run.
+长远来看，批量购买更经济实惠。
+glacier
+/ˈɡleɪ.si.ɚ/
+n. 冰川，冰河
+Massive ice chunks broke off from the glacier.
+有大型冰块从冰川崩落。
+intriguing
+/ɪnˈtriː.ɡɪŋ/
+adj. 引人入胜的，吸引人的，非常有趣的
+The mystery novel is intriguing and captivating.
+此推理小说非常吸引人。
+mosque
+/mɒsk/
+n. 清真寺
+He visits the mosque every Friday for prayers.
+他每周五都会去清真寺礼拜。
+porcelain
+/ˈpɔːr.səl.ɪn/
+n. 瓷，瓷器
+The tea cups are made of procelain.
+这些茶杯是瓷器。
+rotate
+/ˈroʊ.teɪt/
+v. 使旋转；轮流
+He rotated the handle by 90 degrees.
+他将把手转动 90 度。
+telecommunications
+/ˌtel.ə.kəˌmjuː.nəˈkeɪ.ʃənz/
+n. 电信
+Telecommunications connect people across long distances.
+电信让远距离的人们能联系。
+battlefield
+/ˈbæt̬.əl.fiːld/
+n. 战场；争论主题
+The battlefield was filled with chaos.
+战场上一片混乱。
+conquest
+/ˈkɒŋ.kwest/
+n. 征服，占领
+The king continued to expand his empire by conquest.
+国王继续出征扩展帝国版图。
+disclosure
+/dɪˈskloʊ.ʒɚ/
+n. 公开
+I will need full disclosure of your financial situation.
+我需要阁下全面公开您的财务状况。
+finite
+/ˈfaɪ.naɪt/
+adj. 有限的
+Our funding is finite. Please spend it effectively.
+我们资金有限，请有效运用。
+inclusive
+/ɪnˈkluː.sɪv/
+adj. 包容的；包括一切的
+Our company promotes an inclusive and diverse culture.
+我们公司提倡包容和多元的文化。
+medieval
+/ˌmed.iˈiː.vəl/
+adj. 中世纪的
+I studied medieval history in elementary school.
+我在小学学过中世纪历史。
+peninsula
+/pəˈnɪn.sə.lə/
+n. 半岛
+The peninsula is surrounded by water on three sides.
+这个半岛三面环海。
+reliance
+/rɪˈlaɪ.əns/
+n. 依赖，信任
+Don't place too much reliance on her advice.
+不要太信赖她的建议。
+stutter
+/ˈstʌt̬.ɚ/
+v. 结巴；口吃 n. 结巴；口吃
+I was so nervous that I stuttered throughout the speech.
+我非常紧张，整场演讲都在结巴。
+wade
+/weɪd/
+v. 在浅水中走
+We waded across the shallow river.
+我们涉足穿过浅水河。
+altitude
+/ˈæl.tɪ.tʃuːd/
+n. 海拔，海拔高度
+The airplane ascended to a high altitude.
+飞机上升到了高海拔。
+clause
+/klɔːz/
+n. 条款；子句
+The contract includes a confidentiality clause.
+合约中包含保密条款。
+deduction
+/dɪˈdʌk.ʃən/
+n. （根据已知）推断，推论；减法，扣除；扣除额
+His deduction was based on careful analysis of the evidence.
+他的推论是基于对证据的仔细分析。
+equate
+/ɪˈkweɪt/
+v. 使等同
+Some people equate success with wealth and fame.
+有些人把成功和名利划上等号。
+hemisphere
+/ˈhem.ɪ.sfɪər/
+n. 半球，半球体；脑半球
+The wealthiest nations are mostly in the northern hemisphere.
+最富裕的国家大部分都位于北半球。
+lease
+/liːs/
+n. 租约 v. 租借
+The lease on this apartment expires next month.
+这间公寓的租约下个月到期。
+nucleus
+/ˈnjuː.kli.əs/
+n. 核子；细胞核；核心
+The nucleus is the central part of an atom.
+原子核是原子的中心部分。
+prosecute
+/ˈprɒs.ɪ.kjuːt/
+v. 起诉
+The police decided not to prosecute them.
+警察决定不对他们起诉。
+shuffle
+/ˈʃʌf.əl/
+v. 洗牌；拖着脚走；移动
+They shuffled the deck of cards before starting the game.
+他们在游戏开始前洗牌。
+trauma
+/ˈtraʊ.mə/
+n. 创伤
+I hired a therapist to help me heal from my childhood trauma.
+我聘请一名治疗师帮助我治愈童年的创伤。
