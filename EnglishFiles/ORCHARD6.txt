@@ -998,3 +998,253 @@ trophy
 n. 奖杯；战利品
 The winner lifted the trophy up and kissed it.
 获胜者将奖杯举起并亲了一下。
+beforehand
+/bɪˈfɔːr.hænd/
+adv. 事先，提前地
+He warned me beforehand about what to expect.
+他有事先警告我会发生什么事。
+compute
+/kəmˈpjuːt/
+v. 计算
+I haven't computed the final results.
+我还没计算出最后的结果。
+documentation
+/ˌdɒk.jə.menˈteɪ.ʃən/
+n. 证明文件；文件证据
+We have documentation to support these charges.
+我们有文件能证明这些指控。
+gravity
+/ˈɡræv.ə.t̬i/
+n. 地心引力，重力；严重性
+The force of gravity makes things fall.
+地心引力使物体下坠。
+lining
+/ˈlaɪ.nɪŋ/
+n. 内衬，内里
+The lining of my coat is torn.
+我外套的内衬破了。
+paralyze
+/ˈpær.əl.aɪz/
+v. 使麻痹，使瘫痪
+A stroke paralyzed half his face.
+中风使他半张脸瘫痪。
+raspberry
+/ˈræz.ber.i/
+n. 覆盆子
+We decorate the cake with raspberries and cream.
+我们用覆盆子和奶油装饰蛋糕。
+slur
+/slɝː/
+v. 含糊地说；连唱，连奏；诽谤 n. 诽谤；含糊的发音；（乐谱上）连唱线，连音符
+After he was drunk, Leo began to slur his words.
+Leo 喝醉后说话开始含糊不清。
+sympathize
+/ˈsɪm.pə.θaɪz/
+v. 同情，怜悯；支持
+I sympathize with you, but I don't know how to help.
+我同情你，但我不知道如何帮助你。
+wig
+/wɪɡ/
+n. 假发
+Who's that man in the wig?
+那个戴假发的男人是谁？
+act
+/ækt/
+n. 法案，法令
+Despite strong opposition, the act became law.
+尽管反对声浪强烈，那个法案还是成了法规。
+calling
+/ˈkɔː.lɪŋ/
+n. 召唤，使命感
+He believes it is his calling to become a dentist.
+他认为成为一名牙医是他的使命。
+counselor
+/ˈkaʊn.səl.ɚ/
+n. 顾问
+She hired a counselor to help her find her dream job.
+她聘请了顾问来帮她寻找她梦寐以求的工作。
+errand
+/ˈer.ənd/
+n. 跑腿，差事
+My mother always makes me run errands for her.
+妈妈总是叫我帮她跑腿。
+iceberg
+/ˈaɪs.bɝːɡ/
+n. 冰山
+These complaints are just the tip of the iceberg.
+这些投诉只是冰山一角。
+mold
+/moʊld/
+n. 霉菌
+The bread has a mold on it.
+面包上有霉菌。
+pitcher
+/ˈpɪtʃ.ɚ/
+n. 壶，罐；投手
+I poured the apple juice out of the pitcher.
+我把水壶里的苹果汁倒了出来。
+reservoir
+/ˈrez.ɚ.vwɑːr/
+n. 水库，蓄水池；宝库
+The reservoir was low after the long drought.
+长期干旱时，水库的水位很低。
+spine
+/spaɪn/
+n. 脊椎；书背
+She injured her spine in a riding accident.
+她在一次骑马意外中弄伤了脊椎。
+toothpick
+/ˈtuːθ.pɪk/
+n. 牙签
+I need some toothpicks for my DIY project.
+我需要一些牙签来完成我的 DIY 作品。
+abundance
+/əˈbʌn.dəns/
+n. 丰富，大量
+The area has an abundance of wildlife.
+这个地区有丰富的野生物种。
+breakup
+/ˈbreɪkˌʌp/
+n. 分手；关系破裂，分解
+Sam's still very upset about the breakup.
+Sam 还在为分手的事伤心。
+converse
+/kənˈvɝːs/
+v. 交谈 adj. 相反的
+Mom and I conversed for a long time on the phone.
+我和妈妈在电话里聊了很久。
+emigrate
+/ˈem.ɪ.ɡreɪt/
+v. 移民出，移居外国
+Her family left Iran in 1979 and emigrated to France.
+她全家于 1979 年离开伊朗，移居法国。
+hilarious
+/hɪˈler.i.əs/
+adj. 滑稽的，好笑的
+I didn't know you can be this hilarious!
+我不知道你这么会搞笑！
+masculine
+/ˈmæs.kjə.lɪn/
+adj. 男性化的，男子气概的，男性的 n. 男性，阳性；阳性词
+Hunting is typically a  masculine activity.
+狩猎通常是男性的活动。
+petty
+/ˈpet̬.i/
+adj. 琐碎的；小心眼的
+Petty restrictions make everyone's lives harder.
+琐碎的限制使大家的生活更加艰难。
+regulation
+/ˌreɡ.jəˈleɪ.ʃən/
+n. 规定，条例；调节
+The bus driver violated several traffic regulations.
+公车司机违反了好几条交通规则。
+spade
+/speɪd/
+n. 铲子；（扑克牌）黑桃花色
+The gardener dug a hole with a spade.
+园丁用铲子挖了一个洞。
+thrill
+/θrɪl/
+n. 激动，兴奋 v. 使兴奋，使激动
+He enjoys the thrill of driving race cars.
+他喜欢驾驶赛车的快感。
+adore
+/əˈdɔːr/
+v. 爱慕，热爱
+Arthur adores his grandchildren.
+Arthur 很喜欢他的孙子们。
+caregiver
+/ˈkerˌɡɪv.ɚ/
+n. 看护者
+James became a caregiver of his sister when he was 18.
+James 在 18 岁时成为了他妹妹的照顾人。
+cracker
+/ˈkræk.ɚ/
+n. 薄脆饼干
+The diners had some cheese and crackers as appetizers.
+客人吃了一些乳酪和饼干作为开胃菜。
+excel
+/ɪkˈsel/
+v. 突出，擅长
+Dan excels in art and music.
+Dan 擅长艺术和音乐。
+indifferent
+/ɪnˈdɪf.ɚ.ənt/
+adj. 漠不关心的，不感兴趣的；一般的
+How can they be indifferent to the sufferings of others?
+他们怎么能对别人的痛苦漠不关心呢？
+mow
+/moʊ/
+v. 割草
+The gardener mows the lawn regularly.
+园丁定期修剪草坪。
+porch
+/pɔːrtʃ/
+n. 门廊
+The family gathered on the porch to say goodbye.
+一家人聚集在门廊上告别。
+respective
+/rɪˈspek.tɪv/
+adj. 各自的，分别的
+We went back to our respective homes to wait for news.
+我们回到各自的家中等待消息。
+stability
+/stəˈbɪl.ə.t̬i/
+n. 稳定性
+It was a time of political stability.
+那是一个政治稳定的时代。
+treadmill
+/ˈtred.mɪl/
+n. 跑步机；繁重无聊的重复性工作
+He ran two miles on the treadmill.
+他在跑步机上跑了两英里。
+abbreviation
+/əˌbriː.viˈeɪ.ʃən/
+n. 缩写，简称
+The abbreviation ASAP stands for "as soon as possible".
+ASAP 这个缩写代表“尽快”。
+boom
+/buːm/
+n. 迅速发展，经济繁荣；隆隆声 v. 隆隆作响；迅速发展
+This year has seen a boom in book sales.
+今年图书销售量爆增。
+constructive
+/kənˈstrʌk.t̬ɪv/
+adj. 建设性的，积极的，有帮助的
+I welcome any constructive criticism of my work.
+欢迎对我的作品提出有建设性的批评。
+dwarf
+/dwɔːrf/
+n. 小矮人 adj. 矮小的，极小的
+The dwarf lived in a mountain cave.
+矮人住在山洞里。
+haunt
+/hɔːnt/
+v. 萦绕，不断困扰；（鬼魂）常出没于 n. 常去之处
+Some people say the old mansion is haunted.
+有人说那座老宅闹鬼。
+mainland
+/ˈmeɪn.lænd/
+n. 大陆，本陆（不含其他岛屿）
+The island is joined to the mainland by a bridge.
+该岛由一座桥与大陆相连。
+penetrate
+/ˈpen.ɪ.treɪt/
+v 穿透；进入；渗透
+The spies managed to penetrate behind enemy lines.
+间谍设法渗透了敌营。
+reference
+/ˈref.ɚ.əns/
+n. 参考资料；出处；提及；推荐信
+You should keep the book for future reference.
+你应该把这本书留下来供未来参考。
+sole
+/soʊl/
+adj. 唯一的；单一的 n. 脚底，鞋底；比目鱼
+The sole purpose of his trip was to attend a wedding.
+他此行的唯一目的是参加婚礼。
+terrify
+/ˈter.ə.faɪ/
+v. 使害怕
+Speaking in public terrifies him.
+他很怕公众演讲。
