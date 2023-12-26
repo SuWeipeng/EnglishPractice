@@ -1248,3 +1248,253 @@ terrify
 v. 使害怕
 Speaking in public terrifies him.
 他很怕公众演讲。
+beep
+/biːp/
+n. 哔哔声 v. 哔哔作响
+The microwave beeps to let you know when it has finished.
+微波炉烹煮完食物后会发出哔哔声提醒你。
+compromise
+/ˈkɒm.prə.maɪz/
+n. 妥协，折中 v. 妥协，折中；背离；损害
+We must find a compromise that is agreeable to both sides.
+我们必须找到双方都同意的妥协方案。
+document
+/ˈdɒk.jə.mənt/
+v. 记录；证明
+The film documented the ballerina's entire life.
+这部电影记录了这名芭蕾舞者的一生。
+grapefruit
+/ˈɡreɪp.fruːt/
+n. 葡萄柚
+Mom cut a grapefruit in half and squeezed the juice.
+妈妈把一个柚子对半切开，榨汁。
+linen
+/ˈlɪn.ɪn/
+n. 亚麻布；亚麻制品
+Linen is very comfortable to wear.
+亚麻穿起来很舒服。
+parallel
+/ˈpær.ə.lel/
+adj. 平行的；类似的 n. 相似之处 v. 与...相似；与...同时发生
+The road runs parallel to the railway.
+公路与铁路平行。
+rap
+/ræp/
+n. 饶舌乐；敲击声
+His favorite music genre is rap.
+他最喜欢的音乐类型是饶舌乐。
+slot
+/slɒt/
+n. 投币口；狭槽；时段
+Insert coins into the slot for a ticket.
+购票请将硬币投入投币口。
+sympathetic
+/ˌsɪm.pəˈθet̬.ɪk/
+adj. 同情的；支持的
+She was sympathetic to the problems of her students.
+她对她学生的困境感到同情。
+whiskey
+/ˈwɪs.ki/
+n. 威士忌酒
+He poured himself another shot of whiskey.
+他又给自己倒了一杯威士忌。
+blues
+/bluːz/
+n. 蓝调
+No one sings the blues like Billie did.
+没有人能像 Billie 那样唱蓝调。
+confine
+/kənˈfaɪn/
+v. 局限，限制，把...限于；关押
+He's been confined to a wheelchair since the accident.
+意外发生后，他便离不开轮椅了。
+drastic
+/ˈdræs.tɪk/
+adj. 大幅度的；激烈的
+There will be some drastic changes to the current schedule.
+目前的时间表会有一些剧烈的变化。
+hacker
+/ˈhæk.ɚ/
+n. 骇客
+Hackers broke into our security system last night.
+骇客昨晚骇进了我们的安全系统。
+lottery
+/ˈlɒt.ər.i/
+n. 乐透
+What would you do if you won the lottery?
+如果你中了彩券，你会做什么？
+peacock
+/ˈpiː.kɒk/
+n. 孔雀；爱炫耀者
+Calvin is as proud as a peacock.
+Calvin 个性非常骄傲。
+recipient
+/rɪˈsɪp.i.ənt/
+n. 受奖者；接受者
+Anna is a recipient of the Fulbright scholarship.
+Anna 是傅尔布莱特奖学金的获奖者。
+snore
+/snɔːr/
+v. 打呼 n. 打呼声
+Brandon fell asleep and began to snore.
+Brandon 睡着了，开始打鼾。
+technician
+/tekˈnɪʃ.ən/
+n. 技术人员，技师
+The recording studio hired a skilled technician.
+录音室聘请了一名熟练的技师。
+yacht
+/jɒt/
+n. 游艇；快艇
+They invited us to dine on their yacht.
+他们邀请我们去游艇上用餐。
+administrator
+/ədˈmɪn.ɪ.streɪ.tər/
+n. 行政人员；管理人员
+Her aunt works as a school administrator.
+她的阿姨是一名学校行政人员。
+cardboard
+/ˈkɑːrd.bɔːrd/
+n. 纸板
+Margot packed her books in cardboard boxes.
+Margot 把她的书装进纸箱里。
+cowardly
+/ˈkaʊ.ɚd.li/
+adj. 怯懦的
+Blaming your mistakes on others is a cowardly thing to do.
+将自己的错误归咎于他人是一种懦弱的行为。
+examiner
+/ɪɡˈzæm.ɪ.nər/
+n. 考官，主考人
+These papers will be graded by external examiners.
+这些考卷将由校外的考官批改。
+indicator
+/ˈɪn.dɪ.keɪ.tər/
+n. 指标
+Gold prices are often seen as an indicator of inflation.
+黄金价格常被视为通货膨胀的指标。
+motive
+/ˈməʊ.tɪv/
+n. 动机，缘由
+Does he have a motive for lying?
+他有撒谎的动机吗？
+ponder
+/ˈpɒn.dər/
+v. 仔细考虑
+I pondered the question for a moment.
+我花了一会儿深思这个问题。
+resort
+/rɪˈzɔːrt/
+v. 诉诸；凭借
+Neither side wants to resort to violence.
+双方都不想诉诸暴力。
+squash
+/skwɒʃ/
+v. 压扁；压制 n. 拥挤；壁球；南瓜
+I accidentally sat on her hat and squashed it.
+我不小心坐在她的帽子上，把它压扁了。
+transmit
+/trænsˈmɪt/
+v.（节目，广播）传送；传播；传递
+The TV station will transmit the football match live.
+电视台将直播足球比赛。
+bolt
+/boʊlt/
+n. 门闩；螺栓 v. 闩门（或窗）；惊吓飞奔
+Did you close the bolt of the door?
+你关上门闩了吗？
+console
+/kənˈsoʊl/
+n. 操控台，仪表板
+Barry got a new video game console for his birthday.
+Barry 生日收到一台新的游戏机。
+dual
+/ˈduː.əl/
+adj. 双重的
+Oliver has dual British and German nationality.
+Oliver 有英国和德国的双重国籍。
+hateful
+/ˈheɪt.fəl/
+adj. 充满憎恨的；可恨的，令人厌恶的
+I regret saying those hateful words to you.
+我很后悔对你说了那些恨意满满的话。
+lunar
+/ˈluː.nɚ/
+adj. 月亮的，阴历的
+Scientists are planning to build a lunar base.
+科学家们计划建造一个月球基地。
+peek
+/piːk/
+v. 偷看，窥视 n. 匆匆一瞥
+The actor peeked at the audience from behind the curtain.
+演员从幕后偷看观众。
+reconnect
+/ˌriː.kəˈnekt/
+v. 重新连接；重新联系；改善关系
+One of his goals this year is to reconnect with nature.
+他今年的目标之一是与大自然重新建立连结。
+sociable
+/ˈsoʊ.ʃə.bəl/
+adj. 好交际的；善于社交的
+I'm not in a sociable mood.
+我没兴致与人社交。
+temptation
+/tempˈteɪ.ʃən/
+n. 诱惑，引诱，诱惑物
+I couldn't resist the temptation of a chocolate bar.
+我无法抗拒巧克力棒的诱惑。
+yogurt
+/ˈjoʊ.ɡɚt/
+n. 优格；优酪乳
+This yogurt comes in five different flavors.
+这款优格有五种不同的口味。
+accordingly
+/əˈkɔːr.dɪŋ.li/
+adv. 相应地，照着
+Inform us of your decision, and we will act accordingly.
+请告知我们您的决定，我们将采取相应措施。
+bureau
+/ˈbjʊr.oʊ/
+n. （政府部门的）局，处；办事处
+She had a friend in the press bureau.
+她在新闻局有朋友。
+correspondent
+/ˌkɒr.ɪˈspɒn.dənt/
+n. 记者；通信者
+She is the foreign correspondent for CNN.
+她是 CNN 的驻外记者。
+epidemic
+/ˌep.ɪˈdem.ɪk/
+n. 疫情，疾病流行 adj. 肆虐的
+A flu epidemic is sweeping through the city.
+流感席卷整个城市。
+hover
+/ˈhʌ.vɚ/
+v. 盘旋；徘徊 n. 盘旋；徘徊
+The helicopter was hovering above the building.
+直升机在大楼上空盘旋。
+mimic
+/ˈmɪm.ɪk/
+v. 模仿 n. 善于模仿的人
+The radio host could mimic many accents.
+那名电台主持人可以模仿许多口音。
+pimple
+/ˈpɪm.pəl/
+n. 痘痘，面疱
+The teenager has a large pimple on his chin.
+那个青年的下巴上长了一个大痘痘。
+render
+/ˈren.dɚ/
+v. 使成为某状态；提供
+The shock of the discovery rendered him speechless.
+这个发现使他震惊得哑口无言。
+spectacular
+/spekˈtæk.jə.lɚ/
+adj. 壮观的，壮丽的；惊人的
+The festival will end with a spectacular laser show.
+庆典将以壮观的灯光秀收尾。
+tissue
+/ˈtɪʃ.uː/
+n. 生物的组织
+Human tissue is made up of cells.
+人体组织由细胞组成。
