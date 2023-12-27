@@ -1748,3 +1748,253 @@ upward
 adv. 向上地 adj. 向上的
 The rocket blasted upward into the sky.
 火箭朝空中射出。
+abnormal
+/æbˈnɔːr.məl/
+adj. 异常的，不正常的
+This warm weather is abnormal for February in Norway.
+挪威二月天气这么温暖十分异常。
+boost
+/buːst/
+v. 增强，改善 n. 增强，改善
+Getting that job did a lot to boost his ego.
+得到那份工作让他的自信提升了不少。
+contagious
+/kənˈteɪ.dʒəs/
+adj. 具有传染力的
+Chickenpox is a highly contagious disease.
+水痘是一种传染性很强的疾病。
+dwell
+/dwel/
+v. 逗留；居住
+My eyes dwelled on the beautiful sunrise.
+我的目光停留在美丽的日出上。
+hazard
+/ˈhæz.ɚd/
+n. 危险；危险物 v. 冒险作出；使遭受危险
+Air pollution is a serious health hazard.
+空气污染是一种严重的健康危害。
+maintenance
+/ˈmeɪn.tən.əns/
+n. 维护，维持
+Old houses need a lot of maintenance.
+老房子需要大量的维修。
+pension
+/ˈpen.ʃən/
+n. 退休金，养老金
+Monica lives on her pension and her savings.
+Monica 靠退休金和积蓄生活。
+seagull
+/ˈsiː.ɡʌl/
+n. 海鸥
+The seagull swooped down and stole my ice cream.
+海鸥俯冲下来，偷走了我的冰淇淋。
+soothe
+/suːð/
+v. 缓解；抚慰
+Lucy soothed the child who was afraid.
+Lucy 安抚害怕的孩子。
+testify
+/ˈtes.tɪ.faɪ/
+v. 作证，证实
+I can testify to this man's character.
+我可以为这个人的品格作证。
+archive
+/ˈɑːr.kaɪv/
+v. 存档 n. 档案，档案馆
+They stored the archive in the basement of the city hall.
+他们把档案存放在市政厅的地下室。
+clothe
+/kloʊð/
+v. 给...穿衣服
+Richard works very hard to feed and clothe his family.
+Richard 非常努力地工作养家糊口。
+deploy
+/dɪˈplɔɪ/
+v. 有效运用；部署
+Tanks have been deployed to the front line.
+坦克已经部署到前线。
+flirt
+/flɝːt/
+v. 调情，打情骂俏 n. 调情者，打情骂俏者
+He was flirting with every girl in the room.
+他和房间里的每个女孩调情。
+investigator
+/ɪnˈves.tɪ.ɡeɪ.tər/
+n. 调查人员
+Investigators could not determine the cause of the fire.
+调查人员无法确定起火原因。
+offspring
+/ˈɒf.sprɪŋ/
+n. 后代，子女；幼崽
+Angela and Fred's offspring are all very clever.
+Angela 和 Fred 的子嗣都很聪明。
+prompt
+/prɒmpt/
+v. 引发，激起
+What prompted you to move to Iceland?
+是什么促使你移居冰岛？
+refine
+/rɪˈfaɪn/
+v. 精炼，提炼；改进
+Sugar cane is refined into sugar.
+甘蔗被提炼成糖。
+stroll
+/stroʊl/
+v. 散步；漫步 n. 散步；漫步
+People were strolling along the beach.
+人们沿着海滩漫步。
+valid
+/ˈvæl.ɪd/
+adj. 合理的；有根据的；有效力的
+She made a number of valid criticisms.
+她提出了一些有道理的批评。
+ally
+/ˈæl.aɪ/
+n. 盟友
+USA and USSR were allies during World War II.
+二战时期美国和苏联曾是盟友。
+chant
+/tʃænt/
+v. 反复念诵 n. 反复念诵的内容
+The woman began to chant, and others soon joined her.
+妇人开始念诵，很快其他人也加入了她的行列。
+curry
+/ˈkʌr.i/
+n. 咖哩
+The lamb curry is extremely spicy.
+羊肉咖哩非常的辣。
+extensive
+/ɪkˈsten.sɪv/
+adj. 广阔的，广大的
+She has extensive experience in negotiation.
+她有丰富的谈判经验。
+injustice
+/ɪnˈdʒʌs.tɪs/
+n. 不公正，不正义
+I felt angry at the injustice of the situation.
+我对这种不公平的情况感到愤怒。
+neutral
+/ˈnjuː.trəl/
+adj. 中立的；中性的 n. 中立者；空档；停滞
+She wishes to remain neutral in this conflict.
+她希望在这场冲突中保持中立。
+premiere
+/prɪˈmɪr/
+n. 初次公演；首映
+The movie will have its premiere in May.
+该片将于五月首映。
+roadway
+/ˈroʊd.weɪ/
+n. 车行道
+A truck was blocking the roadway.
+一辆卡车挡住了道路。
+stationery
+/ˈsteɪ.ʃə.ner.i/
+n. 文具
+Stationery is kept in the cupboard.
+文具放在橱柜里。
+underneath
+/ˌʌn.dɚˈniːθ/
+prep. 在下面；在底下 adv. 在下面；在底下
+I found a coin underneath the sofa.
+我在沙发下面发现了一枚硬币。
+abundant
+/əˈbʌn.dənt/
+adj. 盛大的，大量的
+The lake is abundant in fish.
+湖里有很多鱼。
+bribe
+/braɪb/
+v. 贿赂
+The mayor was accused of taking bribes.
+市长被指控受贿。
+convert
+/kənˈvɝːt/
+v. 转变；改变信仰
+I want to convert the small bedroom into a study room.
+我想把小卧室改造成书房。
+empathy
+/ˈem.pə.θi/
+n. 同理心，同感，共鸣
+Andy has a deep empathy for animals.
+Andy 对动物很有同情心。
+honorable
+/ˈɒn.ər.ə.bəl/
+adj. 值得尊敬的，品德高尚的
+Elliot fought for his country like an honorable man.
+Elliot 为他的国家奔赴战场，像个高尚的人。
+maze
+/meɪz/
+n. 迷宫；迷宫似的区域；错综复杂的事物
+The children got lost in the maze.
+孩子们在迷宫里迷路了。
+pharmacy
+/ˈfɑː.mə.si/
+n. 药房，（商店里的）药品部
+Aaron works at the pharmacy.
+Aaron 在药房工作。
+rehearsal
+/rəˈhɝː.səl/
+n. 排练；试演
+We didn't have time for rehearsal before the performance.
+演出前我们没有时间排练。
+span
+/spæn/
+n. 一段时间；全长 v. 持续，横跨
+He has gained 10 kg in the span of two years.
+两年内他的体重增加了 10 公斤。
+vibrate
+/ˈvaɪ.breɪt/
+v. 震动，颤抖
+The uneven road made the car vibrate.
+崎岖不平的路面使汽车震动。
+assess
+/əˈses/
+v. 评估，评定
+It's difficult to assess the effects of climate change.
+气候变化带来的影响是难以评估的。
+combat
+/ˈkɒm.bæt/
+n. 战斗，搏斗；抗争 v. 战斗，搏斗；抗争
+It's said that General Brown was badly hurt in combat.
+据说 Brown 将军在战斗中受了重伤。
+dictator
+/ˈdɪk.teɪ.t̬ɚ/
+n. 独裁者
+The dictator had been in power for 23 years.
+独裁者执政了 23 年。
+freak
+/friːk/
+adj. 怪异的，不寻常的 n. 怪人，异类；...迷 v. 使极度激动
+These huge glasses make me look like a freak.
+这副巨大的眼镜让我看卢来像个怪人。
+jury
+/ˈdʒʊr.i/
+n. 陪审团；裁判团
+Has the jury reached a verdict?
+陪审团作出判决了吗？
+orphanage
+/ˈɔːr.fən.ɪdʒ/
+n. 孤儿院
+The girl was raised in an orphanage.
+这个女孩是在孤儿院长大的。
+provoke
+/prəˈvoʊk/
+v. 激怒，激起
+If you provoke the dog, it will bite you.
+你激怒那只狗的话，它会咬你哦。
+sewer
+/ˈsuː.ɚ/
+n. 下水道，排水管，阴沟
+The city has a complicated sewer system underground.
+城市的地底下布有复杂的下水道系统。
+subtle
+/ˈsʌt̬.əl/
+adj. 微妙的；细微的；隐约的
+The dish had a subtle hint of ginger.
+这道菜有淡淡的姜味。
+thrive
+/θraɪv/
+v. 兴旺，繁荣
+The organization thrived under Mr. Dalton's leadership.
+该组织在 Dalton 先生的领导下蓬勃发展。
