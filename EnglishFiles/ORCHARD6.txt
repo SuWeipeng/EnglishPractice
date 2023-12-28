@@ -3248,3 +3248,253 @@ treaty
 n. 条约，协定
 Both sides agreed to sign the peace treaty.
 双方同意签署和平条约。
+anonymous
+/əˈnɒn.ɪ.məs/
+adj. 匿名的
+The journalist received a file from an anonymous source.
+记者从匿名来源收到了一份档案。
+chunk
+/tʃʌŋk/
+n. 大块，厚片
+The dog bit off a large chunk of meat.
+狗咬掉了一大块肉。
+dedication
+/ˌded.ɪˈkeɪ.ʃən/
+n. 奉献精神；献词
+I thank you for all your hard work and dedication.
+谢谢你的努力和奉献的精神。
+fatigue
+/fəˈtiːɡ/
+n. 疲惫 v. 使疲惫
+The athlete was suffering from fatigue.
+这位运动员深感疲劳。
+integration
+/ˌɪn.tɪˈɡreɪ.ʃən/
+n. 结合；融入
+He is calling for greater economic integration with Europe.
+他呼吁加强与欧洲的经济一体化。
+nude
+/nuːd/
+adj. 裸的；肉色的 n. 裸体画；裸体
+Are there any nude scenes in the movie?
+电影中有裸露镜头吗？
+presumably
+/prɪˈzuː.mə.bli/
+adv. 据推测；大概，可能
+Presumably, the bad weather delayed the flight.
+据推测，恶劣的天气使航班延误了。
+scanner
+/ˈskæn.ɚ/
+n. 扫描机，（医用）扫描器
+This picture has been digtized by a scanner.
+这张照片已被扫描机数位化。
+stimulus
+/ˈstɪm.jə.ləs/
+n. 促进因素；刺激物
+Foreign investment has been a stimulus to the industry.
+外国投资为该行业带来经济刺激。
+unprecedented
+/ʌnˈpres.ɪ.den.tɪd/
+adj. 空前的
+We received unprecedented support from the public.
+我们得到了大众前所末有的支持。
+allocate
+/ˈæl.ə.keɪt/
+v. 分配，分派，拨给
+Tickets will be allocated to those who apply first.
+票会先分配给最先申请的人。
+champagne
+/ʃæmˈpeɪn/
+n. 香槟
+The champagne is spilling out of the bottle.
+香槟从瓶子里溢出来了。
+currency
+/ˈkɝː.ən.si/
+n. 货币
+The bank can supply you with foreign currency.
+银行有提供外币。
+extension
+/ɪkˈsten.ʃən/
+n. 延伸；分机
+Julia got an extension for her thesis.
+Julia 获准延长论文的缴交期限。
+injection
+/ɪnˈdʒek.ʃən/
+n. 注射；投入
+The nurse is coming to give you an injection.
+护理师要来帮你打针了。
+nerd
+/nɝːd/
+n. 书呆子；很聪明的人
+He used to be a computer nerd in high school.
+他高中时是个电脑宅。
+premier
+/prɪˈmɪr/
+n. 总理；首相 adj. 首位的；最早的
+I would like to arrange a meeting with the premier.
+我想安排与总理会面。
+rival
+/ˈraɪ.vəl/
+n. 对手，敌手 adj. 竞争的 v. 与...相比，比得上
+The basketball team defeated their rivals.
+篮球队击败了他们的对手。
+starvation
+/stɑːrˈveɪ.ʃən/
+n. 饥饿；饿死
+The animals had died of starvation.
+动物们都饿死了。
+undermine
+/ˌʌn.dɚˈmaɪn/
+v. 削弱
+Nothing can undermine their friendship.
+没有什么能破坏他们的友谊。
+accessible
+/əkˈses.ə.bəl/
+adj. 可得到的，可接近的
+The small island is only accessible by boat.
+该小岛只能乘船到达。
+brook
+/brʊk/
+n. 小溪，小河
+Max bought a small farm near the brook.
+Max 买了在小溪旁的小农庄。
+coordinate
+/kəʊˈɔː.dɪ.neɪt/
+v. 协调
+The sound has to be coordinated with the picture.
+声音和画面必须是协调的。
+enterprise
+/ˈen.t̬ɚ.praɪz/
+n. 企业；商业计划
+He is the owner of a successful small enterprise.
+他是一家成功的小企业的老板。
+hostage
+/ˈhɒs.tɪdʒ/
+n. 人质
+Two people were taken hostage by the gunman.
+枪手劫持了两人作为人质。
+merge
+/mɝːdʒ/
+v. 合并，融合
+The two roads merged into one.
+两条路合二为一。
+pianist
+/ˈpiː.ən.ɪst/
+n. 钢琴演奏者；钢琴家
+The pianist bowed to the audience.
+钢琴家向观众鞠躬。
+reliant
+/rɪˈlaɪ.ənt/
+adj. 依赖的，依靠的
+Nowadays we are very reliant on electricity.
+现在我们非常依赖电力。
+sparkling
+/ˈspɑːr.klɪŋ/
+adj. 闪烁的，闪亮的；流满活力的；（饮料）起泡的
+She wore a sparkling dress to the dinner party.
+她穿着一件闪闪发光的裙子参加晚宴。
+tile
+/taɪl/
+n. 瓷砖；瓦片 v. 铺瓦；贴瓷砖
+The kitchen tiles are made of ceramic.
+厨房瓷砖是陶瓷制成的。
+batch
+/bætʃ/
+n. 一批，一群
+We burned the first batch of pancakes.
+我们把第一批煎饼煎焦了。
+comprehension
+/ˌkɒm.prɪˈhen.ʃən/
+n. 理解力；理解力测试
+You should practice your reading comprehension more.
+你应该要多练习阅读理解。
+disturbance
+/dɪˈstɝː.bəns/
+n. 干扰；骚乱
+There were disturbances in the crowd during the game.
+比赛期间人群中出现骚动。
+gracious
+/ˈɡreɪ.ʃəs/
+adj. 亲切的，和蔼的；富足安逸的
+Jane welcomed her guests in a gracious manner.
+Jane 以亲切的态度欢迎她的客人。
+lighten
+/ˈlaɪ.t̬ən/
+v. 减轻；使光亮；使变浅；使高兴起来
+The sky began to lighten after the storm.
+暴风雨过后，天空开始变亮。
+pant
+/pænt/
+v. 喘息
+The dog was panting because of the hot weather.
+狗狗因为天气热而一直喘气。
+rally
+/ˈræl.i/
+n. 集会；拉力赛 v. 召集；使团结；重新振作
+Sally attended two political rallies last year.
+Sally 去年参加了两次政治集会。
+slang
+/slæŋ/
+n. 俚语
+"Dough" is slang for money.
+Dough 是钱的俚语。
+swipe
+/swaɪp/
+v. 荧幕上滑动；刷（卡）；击打；偷窃 n. 批评，打击；挥击
+Swipe your card to open the door.
+刷卡开门。
+whereabouts
+/ˈwer.ə.baʊts/
+n. 行踪，下落
+Her present whereabouts are still unknown.
+她目前下落不明。
+analytical
+/ˌæn.əˈlɪt̬.ɪ.kəl/
+adj. 善于分析的
+The student has a very analytical mind.
+这位学生有很强的分析能力。
+credit
+/ˈkred.ɪt/
+v. 相信（不大可能的事）；归功
+His statements are hard to credit.
+他的说法很难令人信服。
+declaration
+/ˌdek.ləˈreɪ.ʃən/
+n. 宣告，声明
+The president issued a formal declaration of war.
+总统正式地宣了战。
+facilitate
+/fəˈsɪl.ɪ.teɪt/
+v. 促进，使便利
+Technologies can be used to facilitate language learning.
+科技可用于促进语言学习。
+institution
+/ˌɪn.stɪˈtʃuː.ʃən/
+n. 机构；制定；制度
+Do you have experience working for financial institutions?
+你有在金融机构工作的经验吗？
+notion
+/ˈnoʊ.ʃən/
+n. 观念，看法
+The man believes that patriotism is an outdated notion.
+这位男人认为爱国主义是一种过时的观念。
+preservation
+/ˌprez.ɚˈveɪ.ʃən/
+n. 保存；保护；保养
+The old building is in good preservation.
+老建筑保存完好。
+rebel
+/ˈreb.əl/
+n. 反抗者，造反者
+Some parts of the country had fallen into rebel hands.
+该国的某些地区已落入叛军手中。
+stepmother
+/ˈstepˌmʌð.ɚ/
+n. 继母
+When she married, she became the stepmother to Seb's child.
+当她嫁给 Seb 时，她成了他孩子的继母。
+uniform
+/ˈjuː.nɪ.fɔːm/
+adj. 一律的
+All images should be of uniform size and style.
+所有图片都要有一律的大小和风格。
