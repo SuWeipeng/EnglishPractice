@@ -4248,3 +4248,253 @@ violation
 n. 违反，违背
 The employee was in violation of the contract.
 该员工违反了合约。
+attribute
+/ˈæt.rɪ.bjuːt/
+n. 属性
+Vases with the same attributes are displayed together.
+同类型的花瓶被展示在一起。
+compassion
+/kəmˈpæʃ.ən/
+n. 同情，恻隐之心
+The doctor showed no compassion for her patients.
+那位医生对她的病人毫无同情心。
+disastrous
+/dɪˈzæs.trəs/
+adj. 灾难性的；极为失败的
+The policy was disastrous for the economy.
+该政策对经济造成灾难性的破坏。
+fury
+/ˈfjʊr.i/
+n. 狂怒，暴怒
+His face was white with fury.
+他气得脸都白了。
+lavender
+/ˈlæv.ɪn.dɚ/
+n. 薰衣草；淡紫色 adj. 淡紫色的
+She sprays her pillow with a lavender mist every night.
+她每晚都在枕头上喷薰衣草喷雾。
+outlook
+/ˈaʊt.lʊk/
+n. 前景；观点；景色
+Laura has a positive outlook on life.
+Laura 有积极的人生观。
+purposeful
+/ˈpɝː.pəs.fəl/
+adj. 有明确目标的
+The lawyer looked purposeful and determined.
+那位律师看起来目标明确、意志坚定。
+sheer
+/ʃɪr/
+adj. 完全的；纯粹的
+By sheer luck, nobody was hurt in the explosion.
+幸运的是，没有人在爆炸中受伤。
+supernatural
+/ˌsuː.pɚˈnætʃ.ɚ.əl/
+adj. 超自然的
+They believe he has supernatural powers.
+他们相信他有超自然能力。
+void
+/vɔɪd/
+adj. 无效的；不合法的；缺少的 n. 空白；空洞 v. 使无效；使作废
+The election was declared null and void.
+选举被宣布无效。
+arena
+/əˈriː.nə/
+n. 体育场，竞技场
+The boxing match will be held at the arena.
+拳击比赛将在体育场举行。
+clutch
+/klʌtʃ/
+v. （因恐惧，焦虑）紧抓，紧握
+She clutched her handbag tightly in one hand.
+她一只手紧紧抓着手提包。
+deputy
+/ˈdep.jə.t̬i/
+n. 副手；代理人
+Tom will act as deputy until the manager returns.
+在经理回来之前，Tom 将担任副手。
+folklore
+/ˈfoʊk.lɔːr/
+n. 民间传说，民俗
+In Chinese folklore, a dragon is a symbol of good fortune.
+在中国民间传说里，龙是吉祥的象征。
+isle
+/aɪl/
+n. 岛
+The water around the isle is always clean.
+这个岛周围的水总是清澈的。
+opposition
+/ˌɒp.əˈzɪʃ.ən/
+n. 反对，反抗
+There was a great deal of opposition to the war.
+反对战争的声浪很大。
+prop
+/prɒp/
+n. 道具；螺旋桨
+Josie is in charge of managing the props.
+Josie 负责管理道具。
+selective
+/sɪˈlek.tɪv/
+adj. 选择性的
+Elena is selective about the clothes she buys.
+Elena 买衣服很挑剔。
+stun
+/stʌn/
+v. 使吃惊；使昏迷
+I was too stunned to speak.
+我吃惊到说不出话来。
+variable
+/ˈver.i.ə.bəl/
+adj. 多变的 n. 变数
+The photos are of variable quality.
+照片的品质参差不齐。
+architecture
+/ˈɑː.kɪ.tek.tʃər/
+n. 建筑学，建筑风格
+She studied architecture and art history at the university.
+她大学读建筑和艺术史。
+clockwise
+/ˈklɒk.waɪz/
+adj. 顺时针的
+Turn the lid clockwise to open the jar.
+顺时针转动盖子打开罐子。
+dental
+/ˈden.t̬əl/
+adj. 牙齿的，牙科的
+I have a dental appointment tomorrow.
+我明天要去看牙医。
+flaw
+/flɔː/
+n. 瑕疵，缺点 v. 使有瑕疵
+Pride is the biggest flaw in his personality.
+自傲是他性格最大的缺陷。
+invaluable
+/ɪnˈvæl.jə.bəl/
+adj. 宝贵的，极有用的
+Your support has been invaluable to us.
+你的支持对我们来说非常宝贵。
+offshore
+/ˌɒfˈʃɔːr/
+adj. 离岸的，近海的；海外的 adv. 离岸地，近海地；海外地
+The crime boss hid his money in a offshore bank account.
+犯罪头头将钱藏在离岸银行户口中。
+prohibit
+/prəˈhɪb.ɪt/
+v. 禁止；阻止
+The law prohibits hunting without a license.
+法律禁止无证狩猎。
+sculptor
+/ˈskʌlp.tɚ/
+n. 雕刻家，雕塑家
+Michelangelo is a famous painter and sculptor.
+米开朗基罗是著名的画家和雕塑家。
+striking
+/ˈstraɪ.kɪŋ/
+adj. 引人注目的；惊人的
+She bears a striking similarity to her mother.
+她与她的母亲有着惊人的相似之处。
+vague
+/veɪɡ/
+adj. 模糊的，含糊的
+He made a vague promise to me.
+他对我做了一个含糊的承诺。
+bass
+/beɪs/
+adj. 低音的，男低音的 n. 鲈鱼
+My brother practices bass drums at school every Thursday.
+我弟弟每周四都会在学校练习打低音鼓。
+comprehend
+/ˌkɒm.prɪˈhend/
+v. 充分理解
+She failed to comprehend the seriousness of the situation.
+她无法理解事态的严重性。
+distributor
+/dɪˈstrɪb.jə.t̬ɚ/
+n. 经销商，发行人；配电盘
+They are the biggest distributor of French wine in Taiwan.
+他们是台湾最大的法国葡萄酒经销商。
+gorilla
+/ɡəˈrɪl.ə/
+n. 大猩猩
+Five gorillas escaped from the zoo last night.
+五只大猩猩昨晚从动物园逃了出来。
+lifelong
+/ˈlaɪf.lɒŋ/
+adj. 终身的，一辈子的
+Physics and philosophy were his lifelong passions.
+物理学和哲学是他终生的爱好。
+painkiller
+/ˈpeɪnˌkɪl.ɚ/
+n. 止痛药
+The doctor gave him some painkiller to ease the pain.
+医生给他开了些止痛药以减轻疼痛。
+raid
+/reɪd/
+v. 突袭；抢劫；突击检查 n. 突袭；抢劫；突击检查
+A gang of thieves raided five homes in the area.
+一伙窃贼袭击了该区五间房子。
+slam
+/slæm/
+v. 砰地关上 n. 砰的一声
+I heard someone slam the door.
+我听到有人砰的一声关上了门。
+sustainable
+/səˈsteɪ.nə.bəl/
+adj. 永续的，能长期维持的
+The architect designed several sustainable buildings.
+这位建筑师设计了好几座绿建筑。
+whatsoever
+/ˌwɑːt.soʊˈev.ɚ/
+adv. （加强否定句的语气）无论怎样，完全，丝毫
+I have no opinion on the matter whatsoever.
+我对这件事没有任何意见。
+array
+/əˈreɪ/
+n. 排列，大量 v. 排放
+The museum has an array of Greek vases.
+博物馆有一系列的希腊花瓶。
+coffin
+/ˈkɒf.ɪn/
+n. 棺材，灵柩
+They lowered Reagan's coffin into the grave.
+他们把 Reagan 的棺材放到坟墓里。
+descend
+/dɪˈsend/
+v. 下降，走下
+The plane began to descend soon after I finished my meal.
+我吃完饭不久飞机就开始下降了。
+forthcoming
+/ˈfɔːrθˌkʌm.ɪŋ/
+adj. 即将到来的
+We have received information about the forthcoming event.
+我们已收到即将到来的活动的资讯。
+ivy
+/ˈaɪ.vi/
+n. 常春藤
+The walls were covered in ivy.
+墙上长满了常春藤。
+orchard
+/ˈɔːr.tʃɚd/
+n. 果园
+There is an orange orchard behind our house.
+我们家后面有片橘子园。
+prophet
+/ˈprɒf.ɪt/
+n. 预言家，先知
+Some believe that he was not a true prophet.
+有些人认为他不是真正的先知。
+senator
+/ˈsen.ə.t̬ɚ/
+n. 参议员
+His grandfather was a senator from Nevada.
+他的祖父是内华达州的参议员。
+stylish
+/ˈstaɪ.lɪʃ/
+adj. 有型的，时髦的；时尚的
+Stella is a stylish dresser.
+Stella 穿得很时尚有型。
+veil
+/veɪl/
+n. 面纱；笼罩物 v. 用面纱遮住；笼罩
+The moon was hidden behind a veil of clouds.
+月亮藏在云层的面纱后面。
