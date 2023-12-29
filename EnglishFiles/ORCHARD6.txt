@@ -4748,3 +4748,253 @@ tuck
 v. 塞入
 Amy tucked her hair behind her ears.
 Amy 把头发塞在耳后。
+addiction
+/əˈdɪk.ʃən/
+n. 上瘾，沉溺
+The company director has a serious gambling addiction.
+那位公司经理有严重的赌瘾。
+cape
+/keɪp/
+n. 披风；岬角
+Not all heroes wear capes.
+并非所有英雄都穿着斗篷。
+courthouse
+/ˈkɔːrt.haʊs/
+n. 法院大楼
+Armed guards took the prisoner into the courthouse.
+武装警卫将囚犯带进了法院。
+ethical
+/ˈeθ.ɪ.kəl/
+adj. 符合伦理道德的
+His behavior raised several ethical questions.
+他的行为引发了伦理上的问题。
+imperial
+/ɪmˈpɪr.i.əl/
+adj. 帝国的，皇帝的
+The Qing dynasty was the last imperial dynasty in China.
+清朝是中国最后一个封建王朝。
+moody
+/ˈmuː.di/
+adj. 喜怒无常的；闷闷不乐的
+Her husband is always very moody.
+她的丈夫总是喜怒无常。
+plunge
+/plʌndʒ/
+v. 骤降，下跌；跳下 n. 骤降，下跌；跳下
+The country was plunged into economic chaos.
+国家陷入经济混乱。
+resignation
+/ˌrez.ɪɡˈneɪ.ʃən/
+n. 辞职；顺从
+Hank has handed in his resignation letter.
+Hank 已经递交了辞职信。
+sponsorship
+/ˈspɑːn.sɚ.ʃɪp/
+n. 赞助；赞助费
+The athlete has a sponsorship from Nike.
+这位运动员有 Nike 的赞助。
+transformation
+/ˌtræns.fɚˈmeɪ.ʃən/
+n. 彻底改变，转型
+There was a huge transformation in his appearance.
+他的外表有巨大的改变。
+antique
+/ænˈtiːk/
+n. 古物，古董 adj. 年代久远的，古董的
+This antique turned out to be fake.
+这件古物原来是假的。
+citrus
+/ˈsɪt.rəs/
+n. 柑橘类
+Citrus fruits are rich in vitamin C.
+柑橘类水果富含维生素 C。
+delegate
+/ˈdel.ɪ.ɡət/
+n. 代表人，会议代表
+We decided not to send a delegate to the conference.
+我们决定不派代表参加会议。
+fern
+/fɝːn/
+n. 蕨类
+Ferns grow in shady and moist places.
+蕨类植物生长在阴凉潮湿的地方。
+intent
+/ɪnˈtent/
+n. 意图，目的 adj. 专注的，专心致志的
+It was not my intent to insult you.
+我无意侮辱你。
+nutrient
+/ˈnuː.tri.ənt/
+n. 养分，营养物，滋养物
+Plants absorb nutrients from the soil.
+植物从土壤中吸收养分。
+preview
+/ˈpriː.vjuː/
+v. 预览；预习；试演，试映 n. 预告片；预习；预览
+They attended a sneak preview of the movie.
+他们参加电影的预演。
+scheme
+/skiːm/
+n. 阴谋；计划 v. 策划，密谋
+They need goverment funding for their scheme.
+他们的计划需要政府的资助。
+stockholder
+/ˈstɒkˌhəʊl.dər/
+n. 股票持有人，股东
+Logan is a major stockholder in an oil company.
+Logan 是一家石油公司的大股东。
+urine
+/ˈjʊə.rɪn/
+n. 尿液，小便
+All the runners had to provide a urine sample.
+所有参赛者都必须提供尿液样本。
+adaptation
+/ˌæd.əpˈteɪ.ʃən/
+n. 改编；适应
+Joe is working on a screen adaptation of his lastest novel.
+Joe 正在把他最新的小说改写成影视剧本。
+canal
+/kəˈnæl/
+n. 运河，渠道
+They have built canals to irrigate the desert.
+他们建造了运河来灌溉沙漠。
+coupon
+/ˈkuː.pɒn/
+n. 优惠券
+My grandmother loves cutting coupons from the newspaper.
+我的祖母喜欢从报纸上剪下优惠券。
+essence
+/ˈes.əns/
+n. 本质，要素；精油
+Her peoms capture the essence of life and death.
+她的诗捕捉了生与死的本质。
+immense
+/ɪˈmens/
+adj. 巨大的，广大的
+To my immense relief, the teacher didn't notice my mistake.
+老师没注意到我的错，为此我松了一大口气。
+monopoly
+/məˈnɒp.əl.i/
+n. 垄断，独占，专卖
+The state has a monopoly on diamond mining in that country.
+政府垄断了该国的钻石开采。
+plead
+/pliːd/
+v. 恳求；（在法庭）辩护
+He pleaded with his parents to let him buy a motorcycle.
+他恳求父母让他买一辆摩托车。
+reside
+/rɪˈzaɪd/
+v. 居住；定居
+Emily's family resides in southern France.
+Emily 的家人居住在法国南部。
+spiritual
+/ˈspɪr.ɪ.tʃu.əl/
+adj. 心灵的，精神的
+He found spiritual meaning through religion.
+他透过信教，找到了自己的精神内涵。
+trailer
+/ˈtreɪ.lɚ/
+n. 拖车，联结车
+We hooked the trailer to the back of the car.
+我们把拖车附挂在车尾。
+amend
+/əˈmend/
+v. 修改（法律文件）
+It is impossible to amend the bill at this late stage.
+在现在这么后期的阶段修改法案是不可能的。
+chatter
+/ˈtʃæt̬.ɚ/
+v. 唠叨，喋喋不休；（动物）啁啾；牙齿打颤 n. 唠叨；（动物）啁啾声
+I've had enough of his continual chatter.
+我受够了他的喋喋不休。
+debris
+/ˈdeb.riː/
+n. 碎片，残骇
+The blast sent debris flying in all directions.
+爆炸使碎片飞向四面八方。
+extinct
+/ɪkˈstɪŋkt/
+adj. 绝种的
+Dinosaurs became extinct millions of years ago.
+恐龙在数百万年前就灭绝了。
+inquiry
+/ˈɪŋ.kwɚ.i/
+n. 询问，打听；调查
+Please contact us if you have any inquiries.
+如果您有任何疑问，请联系我们。
+nominee
+/ˌnɒm.ɪˈniː/
+n. 被提名者；被任命者
+Alex will likely be the party's nominee.
+Alex 很有可能成为该党的候选人。
+premium
+/ˈpriː.mi.əm/
+n. 附加价；加费；额外付费；保费
+He is willing to pay a premium for the best product.
+他愿意为最好的产品支付额外费用。
+resume
+/rɪˈzjuːm/
+v. 继续；重新开始，恢复
+We will resume our work after a quick break.
+我们短暂休息后将继续工作。
+statute
+/ˈstætʃ.uːt/
+n. 法令；法规
+College statutes forbid drinking on campus.
+大学法规禁止校内饮酒。
+underway
+/ˌʌn.dɚˈweɪ/
+adj. 进行中的
+Economic recovery is already underway.
+经济已经开始复苏了。
+advocacy
+/ˈæd.və.kə.si/
+n. 主张，提倡，拥护
+She is renowned for her advocacy of human rights.
+她以倡导人权闻名。
+carton
+/ˈkɑːr.t̬ən/
+n. 纸盒
+Can you help me open this milk carton?
+你能帮我打开这个牛奶盒吗？
+creek
+/kriːk/
+n. 小河，小溪
+There's a small creek at the bottom of the hill.
+山脚下有一条小溪。
+excessive
+/ekˈses.ɪv/
+adj. 过度的，极度的
+Excessive weight loss is bad for your health.
+减肥过度对健康有害。
+induce
+/ɪnˈdjuːs/
+v. 诱使；导致
+Too much food induces sleepiness.
+吃过多的食物会导致嗜睡。
+municipal
+/mjuːˈnɪs.ɪ.pəl/
+adj. 市政的，市的
+They camped in front of the municipal building.
+他们在市政大楼前扎营。
+posture
+/ˈpɒs.tʃər/
+n. 姿势；姿态
+Poor posture will give you a backache.
+姿势不良会引起背痛。
+royalty
+/ˈrɔɪ.əl.t̬i/
+n. 版税；皇族成员
+The author received $5000 in royalties.
+作者收到了 5000 美元的版税。
+stain
+/steɪn/
+v. 沾污；染色；玷污 n. 污渍；染色剂
+The blackberry juice stained their fingers.
+黑莓汁弄脏了他们的手指。
+tremendous
+/trɪˈmen.dəs/
+adj. 巨大的；极好的
+I have tremendous respect for you.
+我非常尊重你。
