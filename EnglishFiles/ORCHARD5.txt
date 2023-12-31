@@ -1498,3 +1498,253 @@ worsen
 v. 恶化，使更糟
 Further dispute would worsen our relations.
 进一步的争执会使我们的关系恶化。
+alongside
+/əˈlɒŋˌsaɪd/
+adv. 跟...一起 prep. 在...旁边
+It's a pleasure to work alongside you guys.
+很高兴与你们一起工作。
+chore
+/tʃɔːr/
+n. 家务琐事，日常杂务，例行工作
+I'll go out for dinner when I've done my chores.
+做完家事后我会外出吃晚餐。
+defensive
+/dɪˈfɛnsɪv/
+adj. 防御的，防卫的
+They built a defensive wall around the city.
+他们在城市周围建造了防御墙。
+entertain
+/ˌɛntərˈteɪn/
+v. 娱乐；招待
+We hired a singer to entertain our guests.
+我们聘请了一位歌手让我们的客人开心。
+guilty
+/ˈɡɪlti/
+adj. 有罪恶感的，内疚的；有罪的
+He had a guilty look on his face.
+他一脸愧疚。
+isolation
+/ˌaɪsəˈleɪʃən/
+n. 孤立，隔离，分离
+The foreign student had a feeling of total isolation.
+那名外国学生有一种完全孤立的感觉。
+offense
+/əˈfɛns/
+n. 进攻；冒犯，得罪；罪行
+The best defense is a good offense.
+好的进攻就是最佳的防守。
+publication
+/ˌpʌblɪˈkeɪʃən/
+n. 出版物；出版，发表
+There has been a delay in my book's publication.
+我那本书的出版有所延迟。
+series
+/ˈsɪəriːz/
+n. 一连串；一系列；影集
+The theory is based on a series of assumptions.
+该理论基于一系列假设。
+torture
+/ˈtɔːrtʃər/
+v. 折磨；拷问 n. 折磨；拷问
+The stray dog was tortured to death by them.
+那只流浪狗被他们折磨死了。
+beware
+/bɪˈwɛr/
+v. 当心，提防
+Beware of falling asleep while bathing.
+小心别在洗澡时睡着。
+contrast
+/ˈkɒntræst/ /kənˈtræst/
+n. 对比，对照 v. 对比，对照
+I like the contrast of the black jeans with the white shirt.
+我喜欢黑色牛仔裤与白色衬衫的对比。
+diversity
+/daɪˈvɜːrsɪti/
+n. 多样性；差异
+Many employers seek diversity in their staff.
+许多雇主寻求员工的多样性。
+format
+/ˈfɔːrmæt/
+n. 格式，模式，形式 v. 编排成某形式，格式化
+The file is saved in Word format.
+该文件以 Word 格式储存。
+initial
+/ɪˈnɪʃəl/
+adj. 初始的，最初的 n. 姓名的首字母 v. 签姓名的首字母于...
+The project is only in the initial phase.
+该专案还只在最初阶段而已。
+merit
+/ˈmɛrɪt/
+n. 优点，好处，价值
+This plan is completely without merit.
+这个计划完全没有优点。
+plot
+/plɒt/
+v. 密谋；在地图上标出
+He spent a year plotting his revenge.
+他花了一年时间密谋报复。
+resume
+/ˈrez.juː.meɪ/
+n. 履历；简历
+Every time I apply for a new job, I update my resume.
+每次找新工作，我都会更新履历。
+straighten
+/ˈstreɪtn̩/
+v. 使变直；弄直
+Straighten your legs, and then relax.
+伸直双腿，然后放松。
+welfare
+/ˈwɛlfɛər/
+n. 社会福利
+We are concerned about cuts in the welfare fund.
+我们担心社会福利金被削减。
+biological
+/ˌbaɪəˈlɒdʒɪkəl/
+adj. 生物的，生物学的
+Sleeping is a biological necessity!
+睡觉是种生理需求！
+convention
+/kənˈvɛnʃən/
+n. 大会；习俗
+The National Convention speech was inspiring.
+全国代表大会的演讲很鼓舞人心。
+document
+/ˈdɒkjʊmənt/
+n. 文件
+She walked me through the document.
+她带我浏览了文件。
+forum
+/ˈfɔːrəm/
+n. 论坛
+We will hold a forum where problems can be discussed.
+我们将举办一个可以讨论问题的论坛。
+innocence
+/ˈɪnəsəns/
+n. 无辜；天真，单纯；无罪
+Can you prove your innocence?
+你能证明你的清白吗？
+migration
+/maɪˈɡreɪʃən/
+n. 迁移，迁徙
+Birds begin their migration south in autumn.
+鸟类在秋天开始向南迁徙。
+portable
+/ˈpɔːrtəbəl/
+adj. 可携带的，行动的
+This device is portable, lightweight, and cheap.
+这个设备方便携带、重量轻且便宜。
+retain
+/rɪˈteɪn/
+v. 保持，保留；记住
+Zoe managed to retain the championship.
+Zoe 设法保住了冠军。
+strive
+/straɪv/
+v. 力争，努力；奋斗
+Strive for the best, and prepare for the worst.
+为了最佳成绩奋斗，也为最坏结果做好打算。
+whereas
+/wɛərˈæz/
+conj. 但是
+Some praise her, whereas others condemn her.
+有人夸她，但也有人骂她。
+acknowledge
+/ækˈnɒlɪdʒ/
+v. 承认，认可
+The government acknowledge the need for change.
+政府承认变革的必要性。
+bulk
+/bʌlk/
+n. 大量，庞大体积
+It's cheaper to buy in bulk.
+大量购买更便宜。
+criticize
+/ˈkrɪtɪsaɪz/
+v. 批评，指责；评论
+It's not your place to criticize me!
+你没资格批评我！
+electronics
+/ɪˌlɛkˈtrɒnɪks/
+n. 电子产品；电子学
+Sales of electronics have been strong.
+电子产品的销售一直很强劲。
+generosity
+/ˌdʒɛnəˈrɒsɪti/
+n. 慷慨，大方
+Your generosity is an example to us all.
+你的慷慨是我们所有人的榜样。
+intend
+/ɪnˈtɛnd/
+v. 打算，计划
+Do you intend to continue your job?
+你打算继续你的工作吗？
+negotiate
+/nɪˈɡoʊʃieɪt/
+v. 协商，谈判
+The victim's family has refused to negotiate on this issue.
+受害人家属拒绝就此问题进行协商。
+priority
+/praɪˈɔːrɪti/
+n. 优先事项；优先权
+The past is all gone. Being happy is the top priority.
+过去的都过去了，开心是现在最优先的考量。
+saint
+/seɪnt/
+n. 圣徒；圣人
+Many babies, schools, and cities were all named after saints.
+许多婴儿、学校和城市都以圣徒的名字命名。
+syllable
+/ˈsɪləbəl/
+n. 音节
+The world 'happiness' has three syllables.
+“Happiness” 这个字有三个音节。
+aisle
+/aɪl/
+n. 走道；通道
+I prefer an aisle seat when I fly.
+我搭飞机比较喜欢靠走道的座位。
+ceremony
+/ˈsɛrəmoʊni/
+n. 典礼，仪式
+When is the opening ceremony?
+开幕典礼是什么时候？
+decrease
+/ˈdiːkriːs/
+n. 减少，下降
+The decrease in sales was almost 50 percent.
+销售额减少了近 50%。
+enforcement
+/ɪnˈfɔːrsmənt/
+n. 执法，执行，强制
+This is an act against law enforcement.
+这是违反执法的行为。
+gross
+/ɡroʊs/
+adj. 令人恶心的；法法接受的；臃肿难看的
+What is that? It looks gross.
+那是啥？看起来好恶心。
+involvement
+/ɪnˈvɒlvmənt/
+n. 参与；风流韵事
+Your involvement is central to our plan.
+您的参与是我们计划的核心。
+occasional
+/əˈkeɪʒənəl/
+adj. 偶尔的
+I'm a serious person with an occasional touch of humor.
+我是一个严肃的人，偶尔有点幽默感。
+prosperity
+/prɒˈspɛrɪti/
+n. 繁荣，昌盛；成功
+The country's prosperity relies heavily on agriculture.
+该国的繁荣很高度依赖农业。
+seize
+/siːz/
+v. 抓住，夺取
+You've got to seize any opportunity when it presents itself.
+当机会出现时，你必须要抓住。
+tolerable
+/ˈtɒlərəbəl/
+adj. 可忍受的，过得去的，可接受的
+The heat is barely tolerable during the summer.
+炎热的夏天几乎让人无法忍受。
