@@ -2498,3 +2498,253 @@ tumor
 n. 肿瘤，肿块
 The doctor has found a tumor in his lungs.
 医生在他的肺部发现了一个肿瘤。
+banner
+/ˈbænər/
+n. 横布条，横幅广告
+A red banner was hanging out of the window.
+窗外挂着一条红布条。
+conservative
+/kənˈsɜːrvətɪv/
+adj. 保守的，守旧的，传统的
+I don't know how to convince dad. He's quite conservative.
+不知道怎么说服老爸，他相当保守。
+distinguished
+/dɪˈstɪŋɡwɪʃt/
+adj. 杰出的；外表出众的
+Victor is the most distinguished scholar in his field.
+Victor 是他领域里最杰出的学者。
+flush
+/flʌʃ/
+v. 冲马桶；脸红 n. 冲马桶；脸红
+Remember to flush the toilet when you are done.
+如厕后请记得冲马桶。
+indication
+/ˌɪndɪˈkeɪʃən/
+n. 表示，显示，指出
+Did she give you any indication of her feelings?
+她有没有向你表示过她的感受？
+meantime
+/ˈmiːnˌtaɪm/
+adv. 同时，在此期间 n. 期间
+Please call a taxi, and in the meantime, I'll pack some food.
+请你叫计程车，我同时来打包一些食物。
+pest
+/pɛst/
+n. 害虫，有害的小动物
+Are cockroaches pests?
+蟑螂是害虫吗？
+reputation
+/ˌrɛpjʊˈteɪʃən/
+n. 名誉；名声
+He has a very good reputation among his fellows.
+他在他朋友、同事间的名声非常好。
+stab
+/stæb/
+v. 刺；捅；戳 n. 刺；捅；戳
+Stab at the meat with a knife to see if it's well cooked.
+用刀在肉上刺一下，看看它是否煮熟了。
+visa
+/ˈviːzə/
+n. 签证
+Your visa expired last month.
+你的签证上个月过期了。
+assure
+/əˈʃʊər/
+v. 向...保证，担保
+I won't let you down. I can assure you of that.
+我不会让你失望的，我可以向你保证。
+conception
+/kənˈsɛpʃən/
+n. 概念，见解；受孕
+You've got a pretty strange conception of friendship.
+你对友谊的见解很怪。
+disaster
+/dɪˈzæstər/
+n. 灾难，非常失败
+We are encountering one of the worst natural disasters ever.
+我们正在遭遇有史以来最严重的自然灾害之一。
+fiber
+/ˈfaɪbər/
+n. 纤维
+Eating leafy greens gives you plenty of fiber in your diet.
+绿色叶菜可以为你的饮食提供充足的纤维。
+imaginative
+/ɪˈmædʒɪnətɪv/
+adj. 想像力丰富的，独创的
+Be more flexible and imaginative in your writing.
+在你的写作中表现的更灵活和有想像力。
+mainstream
+/ˈmeɪnˌstriːm/
+n. 主流 adj. 主流的
+This style of drama is not part of the mainstream.
+这种戏剧风格不属于主流。
+passive
+/ˈpæsɪv/
+adj. 被动的，消极的
+He's passive in the relationship.
+他在这段感情中是被动的。
+remark
+/rɪˈmɑːrk/
+n. 言论，评论；谈论 v. 评论；谈论
+My remark is on behalf of the team.
+我的发言代表团队。
+specialist
+/ˈspɛʃəlɪst/
+n. 专家
+She is a specialist in Biology.
+她是生物学专家。
+verbal
+/ˈvɜːrbəl/
+adj. 口头的；言词上的
+They had made a verbal agreement to pay.
+他们已经口头同意付款。
+attach
+/əˈtætʃ/
+v. 附上（档案），贴上，连接
+Remember to attach this file when you email him.
+你发邮件时记得附上这个档案。
+conductor
+/kənˈdʌktər/
+n. 乐团指挥；列车长；导体
+He became a world-famous conductor.
+他成为了世界知名的指挥家。
+disconnect
+/ˌdɪskəˈnɛkt/
+v. 切断（电、瓦斯、水等）
+If you don't pay your bills, they'll disconnect your gas.
+如果你不支付帐单，他们就会切断你的天然气。
+finance
+/ˈfaɪnæns/
+n. 金融，财政 v. 向...提供资金
+Milan is an expert in finance.
+Milan 是个金融专家。
+immigrant
+/ˈɪmɪɡrənt/
+n. 移入的移民者
+Let's be kind to the immigrant students.
+我们要善待移民学生。
+mansion
+/ˈmænʃən/
+n. 豪宅
+This mansion was built in 2001.
+这座豪宅建于 2001 年。
+peep
+/piːp/
+v. （尤指从小洞）偷看，窥视 n. 匆匆一瞥
+He is peeping through the blinds into the office.
+他正透过百叶窗窥视办公室。
+removal
+/rɪˈmuːvəl/
+n. 去除；移开；免职
+Surgical removal of the lump might be necessary.
+可能需要进行手术来切除肿块。
+spicy
+/ˈspaɪsi/
+adj. 辛辣的；加香料的
+Do you like spicy food?
+你喜欢辣的食物吗？
+vessel
+/ˈvɛsəl/
+n. 船舰；血管；器皿
+The damaged vessel was towed into the harbor.
+受损船舰被拖入港口。
+beloved
+/bɪˈlʌvd/
+adj. 心爱的，深爱的 n. 心爱的人
+She is Sam's beloved wife.
+她是 Sam 心爱的老婆。
+content
+/ˈkɒntɛnt/
+adj. 满足的，知足的 v. 使满足
+Are you content with your present monthly pay?
+你对现在的月薪满意吗？
+ditch
+/dɪtʃ/
+v. 丢弃，抛弃
+We ditched the sofa because it's old and dirty.
+我们扔掉了沙发，因为它又旧又脏。
+forecast
+/ˈfɔːrkæst/
+v. 预测，预报 n. 预测，预报
+He confidently forecast a big increase in sales.
+他很有自信地预测销售额会大幅增长。
+informative
+/ɪnˈfɔːrmətɪv/
+adj. 资讯丰富的，提供资讯的
+I find the video both informative and entertaining.
+我觉得这个影片既有用又有趣。
+mentor
+/ˈmɛntɔːr/
+n. 导师，指导者
+You need a mentor to guide you along the way.
+你需要一个导师一路上指导你。
+pistol
+/ˈpɪstəl/
+n. 手枪
+The police found a pistol in his car.
+警察在他的车里搜出一把手枪。
+resort
+/rɪˈzɔːrt/
+n. 度假村；旅游胜地
+San Diego is a south coast resort.
+圣地牙哥是一个南海岸度假胜地。
+stock
+/stɒk/
+n. 存货
+These shoes are out of stock.
+这双鞋缺货。
+warrior
+/ˈwɔːriər/
+n. 战士，勇士
+That young man is a brave warrior.
+那个年轻男人是个勇敢的战士。
+animated
+/ˈænɪmeɪtɪd/
+adj. 生气勃勃的
+What are you guys talking about? You look animated.
+你们在聊什么？看起来兴致勃勃。
+cling
+/klɪŋ/
+v. 紧抓，紧抱；紧挨着；依附
+The little boy is clinging to his mom.
+小男孩紧抓着妈妈。
+desperate
+/ˈdɛspərɪt/
+adj. 因绝望而拼命的，极度的；非常严重的；非常想要的
+She had a desperate longing to go back.
+她绝望地渴望回去。
+establishment
+/ɪˈstæblɪʃmənt/
+n. 机构；建立；建立的机构
+What made you come and work in this establishment?
+是什么让你来到这个机构工作？
+heartbeat
+/ˈhɑːrtbiːt/
+n. 心跳，心跳声；核心
+My heartbeat is racing to see her walking towards me.
+看到她朝我走来，我的心跳加速。
+launch
+/lɔːntʃ/
+v. 发射；新船下水；开始，推出 n. 发射；新船下水；发表会
+I saw the launch of the rocket just now.
+我刚才看到火箭发射。
+orphan
+/ˈɔːrfən/
+n. 孤儿 v. 使成孤儿
+She was left an orphan at a young age.
+她很小的时候就成了孤儿。
+rail
+/reɪl/
+n. 栏杆；扶手；铁轨
+He held tightly onto the rail.
+他紧紧抓住栏杆。
+shortage
+/ˈʃɔːrtɪdʒ/
+n. 缺少；短缺
+There is a severe shortage of water.
+现在严重缺水。
+trim
+/trɪm/
+v. 修剪，修整；削减 n. 修剪，修整
+The branches are too long. Can you trim them?
+树枝太长了，你能修剪一下吗？
