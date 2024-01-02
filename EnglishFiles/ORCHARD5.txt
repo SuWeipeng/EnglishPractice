@@ -2248,3 +2248,253 @@ worthy
 adj. 值得（尊敬，支持，敬佩）的；有价值的
 He's a worthy guy, but he's dull.
 他是个很值得欣赏的男人，但他很无趣。
+assignment
+/əˈsaɪnmənt/
+n. （分派的）任务，工作，作业
+My boss has given me a tough assignment.
+我的老板给了我一个艰难任务。
+component
+/kəmˈpoʊnənt/
+n. 组成部分，成分；零件
+Our company supplies components for bikes.
+我们公司供应自行车零件。
+disabled
+/dɪsˈeɪbəld/
+adj. 残疾的，丧失能力的；残疾人士的
+The car accident left him severely disabled.
+车祸使他严重残疾。
+fabulous
+/ˈfæbjələs/
+adj. 极好的，惊人的
+The room has fabulous views across the lake.
+房间可以看到整个湖的美妙景色。
+ignorance
+/ˈɪɡnərəns/
+n. 无知，愚昧
+Fear is a product of ignorance.
+恐惧是无知的产物。
+luxurious
+/lʌɡˈʒʊəriəs/
+adj. 奢华的；舒适的
+The hotel we stayed in was really luxurious.
+我们住的酒店真的很奢华。
+pail
+/peɪl/
+n. 桶子
+Water spilled from the pail.
+水从桶里溅了出来。
+regulate
+/ˈrɛɡjəˌleɪt/
+v. 调节，控制
+The AC can regulate the temperature of the room.
+空调可以调节房间的温度。
+sophomore
+/ˈsɒfəmɔːr/
+n. （大学，高中）二年级学生
+Soon we will be sophomores.
+很快我们就会是二年级生了。
+vacancy
+/ˈveɪkənsi/
+n. 空处；空缺
+The job vacancy has already been filled.
+该职缺已经填补。
+assembly
+/əˈsɛmbli/
+n. 集会，集合
+Our company holds an assembly every morning.
+我们公司每天早上都有集会。
+complicate
+/ˈkɒmplɪˌkeɪt/
+v. 使复杂；使病情恶化
+There is no need to complicate things.
+没有必要把事情变得更复杂。
+diplomatic
+/ˌdɪpləˈmætɪk/
+adj. 外交的；委婉的
+We admire him for his diplomatic skills.
+我们钦佩他的外交手腕。
+external
+/ɪkˈstɜːrnəl/
+adj. 外面的
+The ointment is for external use only.
+这药膏只能外用。
+idiot
+/ˈɪdiət/
+n. 笨蛋，白痴
+I feel like a complete idiot.
+我觉得自己像个彻头彻尾的笨蛋。
+oxygen
+/ˈɒksɪdʒən/
+n. 氧气
+No living things can live without oxygen.
+没有氧气，任何生物都无法生存。
+regarding
+/rɪˈɡɑːrdɪŋ/
+prep. 关于
+My supervisor has said nothing regarding your request.
+关于你的要求，我的主管只字未提。
+soften
+/ˈsɔːfən/
+v. 软化，使变软
+They treated you well just to soften you up.
+他们对你很好只是为了让你软化。
+tap
+/tæp/
+n. 窃听，窃听器 v. 窃听，在电话上装窃听器
+All of the phone taps need to be posted online!
+所有电话窃听都需要线上发布！
+urge
+/ɜːrdʒ/
+v. 力劝，敦促 n. 欲望，冲动
+I strongly urge Peggy to give up smoking.
+我强烈力劝 Peggy 戒烟。
+bias
+/ˈbaɪəs/
+n. 偏见；偏差；偏好；斜纹 v. 使...存有偏见
+Reporters should not show political bias.
+记者不应表现出政治偏见。
+contribution
+/kənˈtrɪbjuːʃən/
+n. 贡献
+I will make a great contribution to society.
+我会为社会做出很大的贡献。
+divine
+/dɪˈvaɪn/
+adj. 神圣的，像神一样的
+The media seem to regard them as divine beings.
+媒体似乎把他们神化了。
+formation
+/fɔːrˈmeɪʃən/
+n. 阵形；形成；结构
+The soldiers advanced in close formation.
+士兵们以紧密的队形前进。
+inject
+/ɪnˈdʒɛkt/
+v. 注射；投入
+He has to inject himself with insulin every day.
+他必须每天给自己注射胰岛素。
+midst
+/mɪdst/
+prep. 在...之中 n. 当中，中间
+That hut is in the midst of the forest.
+那个小屋在森林中间。
+pointed
+/ˈpɔɪntɪd/
+adj. 尖的；尖角的；尖锐的，犀利的
+You've got a perfectly pointed chin.
+你有个完美的尖下巴。
+retail
+/ˈriːteɪl/
+n. 零售 v. 零售
+Nathan works in the retail trade.
+Nathan 在零售业工作。
+strategic
+/strəˈtiːdʒɪk/
+adj. 有策略的；战略的
+Being strategic means you know what you are doing.
+具有策略性意味着你知道自己在做什么。
+well-being
+/ˈwɛlˌbiːɪŋ/
+n. 安康，幸福
+People doing exercise get a feeling of well-being.
+运动会带来种快乐的感受。
+beak
+/biːk/
+n. 鸟喙，鸟嘴；大鼻子，鹰钩鼻
+The bird has a worm in its beak.
+鸟的嘴里衔着一条虫子。
+construct
+/kənˈstrʌkt/
+v. 建造，构成
+There are plans to construct a new building here.
+有计划要在这里建造一座新大楼。
+distribution
+/ˌdɪstrɪˈbjuːʃən/
+n. 分发，分配
+We ensure smooth and effective distribution of goods.
+我们确保顺利高效地配送货物。
+footwear
+/ˈfʊtwɛər/
+n. 鞋（总称）
+Be sure to wear the correct footwear when you work out.
+重训时务必要穿正确的鞋子。
+inflated
+/ɪnˈfleɪtɪd/
+adj. 膨胀的，（价格，成本，数目等）过高的
+He has an inflated sense of his own importance.
+他把自己的重要性想得太高了。
+memorial
+/məˈmɔːriəl/
+adj. 用以纪念的，追悼的 n. 纪念碑，纪念物
+Many people attended Quinn's memorial service.
+许多人参加了 Quinn 的追悼会。
+physician
+/fɪˈzɪʃən/
+n. 医生，内乎医生
+The drug is not sold except on the order of a physician.
+除非医生指示，否则该药物不得出售。
+resistance
+/rɪˈzɪstəns/
+n. 抵抗；抵抗力；阻力
+They put up stubborn resistance.
+他们顽强抵抗。
+stem
+/stɛm/
+n. 茎；主干 v. 阻挡；遏止
+The plant stem was cut off to avoid further infections.
+植物茎被切断以避免进一步感染。
+vomit
+/ˈvɒmɪt/
+v. 呕吐 n. 呕吐物
+The smell makes me want to vomit.
+这气味让我想吐。
+apology
+/əˈpɒlədʒi/
+n. 道歉
+I think you owe me an apology.
+我觉得你欠我一个道歉。
+cod
+/kɒd/
+n. 鳕鱼
+Can I get cod and chips, please?
+我可以点鳕鱼和薯条吗？
+destructive
+/dɪˈstrʌktɪv/
+adj. 破坏的，有害的
+Are all kids so destructive?
+所有的小孩子都这么具有破坏性吗？
+ethics
+/ˈɛθɪks/
+n. 伦理标准
+The ethics of this decision are questionable.
+他的决定是否符合道德标准值得怀疑。
+herb
+/hɜːrb/
+n. 草药，香草
+This herb has a variety of uses.
+这种草药有多种用途。
+league
+/liːɡ/
+n. 联盟；联赛
+We're playing against the league champion tonight.
+今晚我们要打联盟冠军。
+outfit
+/ˈaʊtfɪt/
+n. （特定场合，活动的）全套服装 v. 提供装备或服装
+You look so good in that outfit.
+你穿这件衣服真好看。
+ratio
+/ˈreɪʃioʊ/
+n. 比例，比率
+The ratio of students to teachers is 12 to 1.
+师生比例为 12 比 1。
+sideways
+/ˈsaɪdweɪz/
+adv. 侧向地 adj. 侧向的
+She is sitting sideways on the scooter.
+她侧身坐在机车上。
+tumor
+/ˈtjuːmər/
+n. 肿瘤，肿块
+The doctor has found a tumor in his lungs.
+医生在他的肺部发现了一个肿瘤。
