@@ -2748,3 +2748,253 @@ trim
 v. 修剪，修整；削减 n. 修剪，修整
 The branches are too long. Can you trim them?
 树枝太长了，你能修剪一下吗？
+agenda
+/əˈdʒɛndə/
+n. 议程
+Let's skip to the last item on the agenda.
+让我们跳到议程的最后一项。
+caution
+/ˈkɔːʃən/
+n. 谨慎；小心；警告，提醒
+You must proceed with caution.
+你务必谨慎行事。
+deadly
+/ˈdɛdli/
+adj. 致死的，致命的；完全的
+Both smoking and passive smoking are deadly.
+抽烟和吸二手烟都是致命的。
+endless
+/ˈɛndləs/
+adj. 无止尽的
+I have endless work to do with five kids in the house.
+家里有五个孩子，我有无穷无尽的事要做。
+greed
+/ɡriːd/
+n. 贪婪，贪心
+I'm sick of your greed.
+我受够了你的贪婪。
+invade
+/ɪnˈveɪd/
+v. 入侵，侵略；侵犯
+The enemy troops are ready to invade the country.
+敌军准备入侵该国。
+objective
+/əbˈdʒɛktɪv/
+adj. 客观的
+A judge's decision in a court case should be objective.
+法官在案件中的决定应该要客观。
+proportion
+/prəˈpɔːrʃən/
+n. 部分；比例
+A large proportion of old people live by themselves.
+很大一部分的老人独居生活。
+script
+/skrɪpt/
+n. 剧本；讲稿；字迹
+My friend sent me a film script that he wrote.
+我朋友寄给我一份他写的电影剧本。
+thereby
+/ˈðɛrˌbaɪ/
+adv. 因而
+The doctor took prompt action, thereby saving his life.
+医生迅速采取了行动，因而救回他一命。
+accuse
+/əˈkjuːz/
+v. 指控，指责
+You can't accuse me of stealing. I was with Jin at home.
+你不能指控我偷东西，我当时和 Jin 在家。
+bruise
+/bruːz/
+n. 瘀伤 v. 使受瘀伤
+How did you bruise your leg?
+你的腿是怎么瘀青的？
+critic
+/ˈkrɪtɪk/
+n. 批评者，反对者；评论家
+Alice is a food critic.
+Alice 是个美食评论家。
+electoral
+/ɪˈlɛktərəl/
+adj. 选举的
+There's a need to reform the unfair electoral system.
+有必要改革不公平的选举制度。
+generator
+/ˈdʒɛnəˌreɪtər/
+n. 发电机；产生器
+If the power fails, the generator will cut in.
+如果停电，发电机将会启动。
+intelligence
+/ɪnˈtɛlɪdʒəns/
+n. 智力，智能；情报
+You insult my intelligence!
+你侮辱我的智商！
+myth
+/mɪθ/
+n. 迷思；神话
+Is it a myth that money brings happiness?
+钱能带来幸福是个迷思吗？
+prioritize
+/praɪˈɔːrɪtaɪz/
+v. 确定优先次序
+List all the things you have to do and prioritize them.
+列出所有你需要做的事，确定它们的优先顺序。
+sailboat
+/ˈseɪlˌboʊt/
+n. 帆船
+The sailboat swayed on the stormy sea.
+帆船在波涛汹涌的大海上摇摆不定。
+sway
+/sweɪ/
+v. 摇摆；使动摇 n. 影响；控制
+The coconut trees are swaying in the wind.
+椰子树在风中摇曳。
+absorb
+/əbˈzɔːrb/
+v. 吸收（液体，气体，光，声等）
+Plants absorb energy from the sun.
+植物从太阳吸收能量。
+boundary
+/ˈbaʊndəri/
+n. 边界；界限
+They drove across the boundary.
+他们开车穿过边界。
+counsel
+/ˈkaʊnsəl/
+v. 提供咨询 n. 劝告；法律顾问
+I counsel them on how to find jobs.
+我提供他们就业咨询。
+drowsy
+/ˈdraʊzi/
+adj. 昏昏欲睡的
+The medicine makes me drowsy.
+这药让我昏昏欲睡。
+fulfillment
+/fʊlˈfɪlmənt/
+n. 履行，实现；满足感
+He will face any hardship in fulfillment of his duty.
+他会在履行职责过程中面对任何困难。
+instinct
+/ˈɪnstɪŋkt/
+n. 本能，天性，直觉
+Molly usually acts purely on instinct.
+Molly 通常完全凭直觉行事。
+modify
+/ˈmɒdɪfaɪ/
+v. 修改，更改；修饰
+The client asked to slightly modify the original design.
+客户要求稍微修改原始设计。
+presentation
+/ˌprɛzənˈteɪʃən/
+n. 报告；颁发；呈现方式
+All of us have to give a presentation by turns.
+我们所有人都必须轮流报告。
+risky
+/ˈrɪski/
+adj. 冒险的，危险的
+Are you aware of how risky this investment is?
+你知道这项投资的风险有多大吗？
+supportive
+/səˈpɔːrtɪv/
+adj. 支持的，鼓励的，拥护的
+My family has been supportive of my career.
+我的家人一直支持我的事业。
+altar
+/ˈɔːltər/
+n. 祭坛，圣坛
+There are fruits on that Taoist altar.
+那个拜拜的桌上放有水果。
+chubby
+/ˈtʃʌbi/
+adj. 圆胖的
+He is a chubby, happy man.
+他是一个胖乎乎的、快乐的人。
+delicate
+/ˈdɛlɪkɪt/
+adj. 娇嫩的；柔和的；需要小必处理的
+Babies have very delicate skin.
+婴儿的皮肤非常娇嫩。
+entertainer
+/ˌɛntərˈteɪnər/
+n. 艺人，（娱乐大众的）表演者
+He's the highest-paid entertainer.
+他是收入最高的艺人。
+gulf
+/ɡʌlf/
+n. 海湾；隔阂
+The river flows southwards to the gulf.
+河流向南流向海湾。
+jealousy
+/ˈdʒɛləsi/
+n. 嫉妒，妒忌
+Love is never without jealousy and possessiveness.
+没有嫉妒和占有欲就没有爱。
+offensive
+/əˈfɛnsɪv/
+adj. 冒犯的；令人不快的；攻击的
+He told some offensive dirty jokes.
+他讲了一些冒犯人的黄色笑话。
+pulse
+/pʌls/
+n. 脉搏 v. 跳动，搏动
+His pulse raced with excitement.
+他兴奋地脉搏加速。
+session
+/ˈsɛʃən/
+n. 一段时间；会议；开庭
+The course contains 10 two-hour sessions.
+该课程包含 10 次两小时的课程。
+vain
+/veɪn/
+adj. 虚荣的；徒然的
+He's just a vain, foolish man.
+他只是个虚荣又愚蠢的人。
+association
+/əˌsoʊsiˈeɪʃən/
+n. 协议，社团；关联
+The association is having its monthly meeting next week.
+该协会将于下周召开月会。
+composer
+/kəmˈpoʊzər/
+n. 作曲家
+The composer expresses his grief in his music.
+作曲家在他的音乐中表达了他的悲伤。
+disappoint
+/ˌdɪsəˈpɔɪnt/
+v. 使失望
+I hate to disappoint you, but I'm just not interested.
+我不想让你失望，但我就是不感兴趣。
+fatal
+/ˈfeɪtl/
+adj. 致命的
+This type of allergy can be fatal.
+这种类型的过敏有可能致命。
+illustrate
+/ˈɪləstreɪt/
+v. 画插图；（以例子）阐明，解释
+This beautifully illustrated book is for your son.
+这本插图精美的书是给你儿子的。
+machinery
+/məˈʃiːnəri/
+n. 大型机器；体系
+The factory's machinery pounds away day and night.
+工厂的机器日以继夜地运转。
+parachute
+/ˈpærəʃuːt/
+n. 降落伞 v. 跳伞
+What if the parachute doesn't open?
+要是降落伞打不开怎么办？
+rejection
+/rɪˈdʒɛkʃən/
+n. 拒绝，拒收
+I received a rejection letter from the university.
+我收到了那所大学的拒绝信。
+spare
+/spɛər/
+adj. 备用的，多余的；剩下的 v. 拨出 n. 备用品；备件
+Do you have a spare charger?
+你有备用的充电器吗？
+toxic
+/ˈtɒksɪk/
+adj. 有毒的；令人极不愉快的；造成阴影的
+Toxic waste was dumped into the river.
+有毒废物被乱倒入河中。
