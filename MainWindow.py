@@ -559,7 +559,8 @@ class EnglishPractice:
         if len(selectedList) > 0:
             self.words = selectedList
         else:
-            self.words = self.db.get_randomly(min(self.wordsNum,len(self.ebWords)),self.ebWords)
+            wordsCnt = min(self.wordsNum,len(self.ebWords) if len(self.ebWords)>0 else self.wordsNum)
+            self.words = self.db.get_randomly(wordsCnt,self.ebWords)
 
         if len(self.words) > 0:
             result = True
