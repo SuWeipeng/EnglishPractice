@@ -3748,3 +3748,253 @@ utter
 v. 出声，说，讲
 She didn't utter a word.
 她一个字也没出声。
+ban
+/bæn/
+v. 官方禁止 n. 官方禁令
+Smoking is banned in all public places.
+所有公共场所都禁止吸烟。
+consent
+/kənˈsɛnt/
+n. 许可，同意
+His silence sometimes implies consent.
+他的沉默有时意味着同意。
+distinct
+/dɪˈstɪŋkt/
+adj. 明显不同的；显著的
+There is a distinct improvement in your English.
+你的英语有明显的进步喔。
+floral
+/ˈflɔːrəl/
+adj. 花卉的
+On the wall are several framed floral paintings.
+墙上挂着几幅镶框的花卉画。
+incredible
+/ɪnˈkrɛdəbəl/
+adj. 难以置信的；极好的
+Your appetite was incredible.
+你的胃口令人难以置信。
+maturity
+/məˈtʊərɪti/ /məˈtjʊərɪti/
+n. 成熟；期满
+One day you'll have the maturity to understand.
+总有一天你够成熟，就能理解了。
+persuasive
+/pərˈsweɪsɪv/
+adj. 有说服力的
+He's very persuasive salesperson.
+他是一个非常有说服力的推销员。
+representation
+/ˌrɛprɪzɛnˈteɪʃən/
+n. 代表；象征；展现
+They have no representation in Congress.
+他们在国会没有代表。
+sprain
+/spreɪn/
+v. 扭伤（关节）
+I sprained my ankle while I was playing basketball.
+我在打篮球时扭伤了脚踝。
+virtue
+/ˈvɜːrtʃuː/
+n. 美德；优点
+Virtue and courtesy go hand in hand.
+美德和礼貌是相辅相成的。
+ambitious
+/æmˈbɪʃəs/
+adj. 有野心的
+Mary is an ambitious career woman.
+Mary 是一位具有野心的职业女性。
+classification
+/ˌklæsɪfɪˈkeɪʃən/
+n. 分类，分级；类别
+These things belong in another classification.
+这些东西属于另一种分类。
+depressed
+/dɪˈprɛst/
+adj. 忧郁的；萧条的，不景气的
+He was depressed and in a confused state of mind.
+他很忧郁，心里有些错乱。
+erupt
+/ɪˈrʌpt/
+v. 爆发；火山喷发
+The volcano might erupt at any time.
+火山随时可能爆发。
+harsh
+/hɑːrʃ/
+adj. 严厉的；过强烈的
+She was harsh to her students.
+她对她的学生很严厉。
+landlord
+/ˈlændˌlɔːrd/
+n. 房东，地主
+The landlord has put the rent up again.
+房东又涨房租了。
+optimistic
+/ˌɒptɪˈmɪstɪk/
+adj. 乐观的
+She's not optimistic about the results.
+她对结果并不乐观。
+qualify
+/ˈkwɒlɪfaɪ/
+v. 有资格，合格
+He qualified as a teacher last month.
+他上个月取得了教师资格。
+shameful
+/ˈʃeɪmfʊl/
+adj. 可耻的；丢脸的
+There is nothing shameful about being poor.
+贫穷没什么可耻的。
+transit
+/ˈtrænzɪt/ /ˈtrænsɪt/
+n. 运输
+Many of our packages were damaged in transit.
+我们许多包裹在运输途中损坏。
+analyze
+/ˈænəˌlaɪz/
+v. 分析
+I am analyzing the cause of our failure.
+我在分析我们失败的原因。
+cliff
+/klɪf/
+n. 悬崖，峭壁
+He almost fell off the edge of the cliff.
+他差点从悬崖边掉下去。
+despair
+/dɪˈspɛər/
+n. 绝望，丧失信心 v. 绝望
+Zac gave up the struggle in despair.
+Zac 绝望地放弃了挣扎。
+established
+/ɪˈstæblɪʃt/ /ɛˈstæblɪʃt/
+adj. （长期存在而）已确立的，既定的；（因优秀而）被认可的，著名的
+There're established procedures for tackling such matters.
+处理此类问题有既定程序。
+hearing
+/ˈhɪərɪŋ/
+n. 听觉，听力 adj. 能够听到的
+My hearing is very sharp.
+我的听觉非常敏锐。
+latter
+/ˈlætər/
+n. 后者 adj. 后面部分的，后半的
+Does he hike or swim? The latter seems unlikely.
+他会健行或游泳吗？后者感觉不太可能。
+orchestra
+/ˈɔːrkɪstrə/ /ˈɔːrkɛstrə/
+n. 管弦乐队
+She plays the violin in an orchestra.
+她在管弦乐队中拉小提琴。
+ragged
+/ˈræɡɪd/
+adj. 破旧的；邋遢的；参差不齐的
+Although this shirt is ragged, I like it.
+虽然这件衬衫破旧不堪，但我喜欢它。
+shipment
+/ˈʃɪpmənt/
+n. 运输的货物；运输，装运
+The shipment was lost in transmit.
+货物在运输途中丢失了。
+trigger
+/ˈtrɪɡər/
+v. 引发 n. 扳机；引发
+Some foods can trigger my allergies.
+有些食物会引发我的过敏。
+apparent
+/əˈpærənt/
+adj. 明显的，显而易见的
+Your unhappiness was apparent to everyone.
+你不开心大家都看得出来。
+collapse
+/kəˈlæps/
+v. 倒塌，瓦解；昏倒 n. 倒塌，瓦解；昏倒
+The bridge collapsed in the earthquake.
+这座桥在地震中倒塌了。
+determination
+/dɪˌtɜːrmɪˈneɪʃən/
+n. 决心；决定
+Kim's face is set in determination.
+Kim 一脸坚定。
+ethnic
+/ˈɛθnɪk/
+adj. 种族的；异族的；民族特色的
+The ethnic conflict worsened this year.
+今年种族矛盾加剧了。
+hesitation
+/ˌhɛzɪˈteɪʃən/
+n. 犹豫，踌躇
+After an moment's hesitation, Penn nodded.
+Penn 犹豫片刻，点了点头。
+lean
+/liːn/
+adj. 瘦的；贫乏的；精简的
+It takes lots of exercise to keep a lean, muscular body.
+保持精瘦的身体需要大量运动。
+outlet
+/ˈaʊtlɛt/
+n. 排放口；销售据点；畅货中心；出口；宣泄方式
+The outlet of a water pipe was blocked.
+水管的排放口被堵住了。
+rational
+/ˈræʃənəl/
+adj. 理性的；合理的
+Aaron is too upset to be rational.
+Aaron 气到无法理性。
+signify
+/ˈsɪɡnɪfaɪ/
+v. 表示；意味
+Joseph nodded to signify that he agreed.
+Joseph 点点头，表示同意。
+twig
+/twɪɡ/
+n. 细枝，嫩枝
+Brandon snapped a twig off a bush.
+Brandon 从灌木丛中折下一根小细枝。
+ambiguous
+/æmˈbɪɡjuəs/
+adj. 模棱两可的
+The wording of this agreement is ambiguous.
+这份合约的措辞模棱两可。
+clash
+/klæʃ/
+v. 冲突；相抵触 n. 冲突；相抵触
+I feel that these two colors clash.
+我觉得这两种颜色不搭。
+depress
+/dɪˈprɛs/
+v. 压下；使贬值；使沮丧
+Slowly depress the brake pedal.
+慢慢踩下刹车板。
+era
+/ˈɪərə/ /ˈɛrə/
+n. 时代，年代
+We are living in the IT era.
+我们生活在资讯科技的时代。
+harmony
+/ˈhɑːrməni/
+n. 和谐，协调；和声
+My cat and dog get along in perfect harmony.
+我的猫和狗相处得非常和谐。
+knuckle
+/ˈnʌkəl/
+n. 指关节
+My dad rapped his knuckles on the table.
+我爸用指关节敲了敲桌子。
+opt
+/ɒpt/
+v. 选择
+To keep the cost down, opt for a basic model.
+为了降低成本，请选择基本型号。
+pyramid
+/ˈpɪrəmɪd/
+n. 金字塔；三角锥
+When I think of Egypt, pyramids come to my mind.
+当我想到埃及，我会想到金字塔。
+sew
+/soʊ/
+v. 缝；缝制
+Can you help me sew a button on?
+你能帮我缝一颗钮扣吗？
+transform
+/trænsˈfɔːrm/ /trɑːnsˈfɔːrm/
+v. 彻底改变
+This sofa can transform for use as a bed.
+这个沙发可以摇身一变成一张床。
