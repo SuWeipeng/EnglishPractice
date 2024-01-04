@@ -4248,3 +4248,253 @@ wreck
 v. 毁坏；破坏 n. 交通失事；残骸
 The earthquake shattered the windows and wrecked many cars.
 地震震碎窗户并毁坏了许多汽车。
+attendance
+/əˈtɛndəns/
+n. 出席；出席人数
+The attendance in this class is high.
+这堂课的出勤率很高。
+conform
+/kənˈfɔːrm/
+v. 顺从，遵从
+All empolyees are required to conform to these rules.
+所有员工都必须遵从这些规则。
+disgust
+/dɪsˈɡʌst/
+v. 使作呕 n. 厌恶，憎恶
+She told me that she was disgusted by his remark.
+她告诉我她对他的话很反感。
+flatter
+/ˈflætər/
+v. 奉承，谄媚
+He would always flatter her by praising her cooking.
+他总是夸奖她的厨艺来奉承她。
+implant
+/ɪmˈplænt/
+v. 植入，移植；灌输 n. 植入，移植
+The operation to implant the artificial heart took hours.
+杆入人工心脏的手术花了数小时。
+manufacturer
+/ˌmænjuˈfækˌtʃərər/
+n. 厂商，制造商
+Send these faulty goods back to the manufacturer.
+把这些不良品退回给厂商。
+perceive
+/pərˈsiːv/
+v. 看待，认为；察觉
+How do you perceive this issue?
+您如何看待这个问题？
+renovate
+/ˈrɛnəˌveɪt/
+v. 整修，修复，翻新
+My wife and I have decided to renovate the house.
+我和我老婆决定整修这间屋子。
+split
+/splɪt/
+v. 使分开；劈开；切开 n. 分裂；裂缝
+We split the prize fifty-fifty.
+我们把奖金平分。
+viewer
+/ˈvjuːər/
+n. 观看者，观众
+He stands facing the viewers and starts singing.
+他站在观众面前，开始歌唱。
+appoint
+/əˈpɔɪnt/
+v. 任命；安排时间
+They're going to appoint a new chairman tomorrow.
+他们在明天任命一位新主席。
+comedian
+/kəˈmiːdiən/
+n. 喜剧演员
+Who is your favorite comedian?
+谁是你最喜欢的喜剧演员？
+diagram
+/ˈdaɪəˌɡræm/
+n. 示意图
+The results are shown in diagram 3.
+结果如图 3 所示。
+exaggerate
+/ɪɡˈzædʒəˌreɪt/
+v. 夸大，夸张
+He tends to exaggerate when talking about his past.
+他在谈论他的过去时往往会夸大其词。
+horizon
+/həˈraɪzən/
+n. 地平线
+The sun rises above the horizon.
+太阳从地平线上升起。
+likelihood
+/ˈlaɪklɪˌhʊd/
+n. 可能性，可能
+There is very little likelihood of her agreeing to this.
+她同意这事的可能性微乎其微。
+overall
+/ˈoʊvərˌɔːl/
+adj. 整体的，全部的 adv. 整体而言，大体上
+The overall cost of the trip was NT$20,000.
+这次旅行的整体花费为两万元。
+recognition
+/ˌrɛkəɡˈnɪʃən/
+n. 认可；表扬；赏识
+He won wide recognition in the field of Chinese medicine.
+他在中医领域赢得了广泛的认可。
+slap
+/slæp/
+v. 掌掴；拍打 n. 掌掴；拍打
+The video of him getting slapped went viral.
+他被打耳光的影片在网上疯传。
+underline
+/ˈʌndərˌlaɪn/
+v. 画底线；强调
+You can underline keywords in your speech notes.
+你可以把讲稿里的关键字画底线。
+barefoot
+/ˈbɛrˌfʊt/
+adv. 赤脚地 adj. 赤脚地
+He walked barefoot across the sand.
+他赤脚走过沙滩。
+considerate
+/kənˈsɪdərɪt/
+adj. 体贴的，周到的
+Tylor is considerate of other people's feelings.
+Tylor 很懂得考虑到其他人的感受。
+distort
+/dɪˈstɔːrt/
+v. 扭曲，使变形
+Don't try to distort the meaning of the words.
+不要试图扭曲语意。
+foam
+/foʊm/
+n. 泡沫 v. 起泡
+We see foam on the water with a lot of dirt in it.
+我们看到水面上浮着脏污的泡沫。
+inequality
+/ˌɪnɪˈkwɒlɪti/
+n. 不平等
+More and more people are concerned about social inequality.
+越来越多的人关注社会不平等。
+mechanic
+/mɪˈkænɪk/
+n. 技工，技师
+The mechanic found a hole in the gas tank.
+技师在油箱上发现了一个洞。
+pesticide
+/ˈpɛstɪˌsaɪd/
+n. 杀虫剂，农药
+This pesticide kills insects on contact.
+这种杀虫剂可杀死接触到的昆虫。
+resemble
+/rɪˈzɛmbəl/
+v. 看起来像；类似
+You resemble your dad very closely.
+你很像你爸爸。
+stalk
+/stɔːk/
+v. 跟踪；悄悄靠近
+Gary was arrested for stalking.
+Gary 因跟踪而被捕。
+vital
+/ˈvaɪtl/
+adj. 不可或缺的；朝气蓬勃的
+Your financial support is vital for our project.
+你的金援对我们的专案不可或缺。
+bishop
+/ˈbɪʃəp/
+n. 主教
+The marriage ceremony was performed by the bishop.
+婚礼由主教主持。
+conventional
+/kənˈvɛnʃənəl/
+adj. 常规的，传统的
+Nihao is a conventional greeting in Chinese.
+你好是中文惯用的问候。
+documentary
+/ˌdɒkjʊˈmɛntəri/
+n. 纪录片 adj. 文件的；（电影，电视等）记录的
+They filmed a documentary on animal communication.
+他们拍摄了一部关于动物交流的纪录片。
+foul
+/faʊl/
+adj. 肮脏恶臭的，糟糕的，粗鄙的
+The restroom smells foul.
+洗手间闻起来很臭。
+innovative
+/ˈɪnəˌveɪtɪv/
+adj. 创新的
+We need innovative products to boost sales.
+我们需要创新产品来促进销售。
+milestone
+/ˈmaɪlˌstoʊn/
+n. 里程碑，重大事件
+Our work will be a milestone in scientific history.
+我们的成果将成为科学史上的里程碑。
+portfolio
+/pɔːrˈtfoʊliˌoʊ/
+n. 作品集；公事包，资料集；投资组合
+I was asked to submit a portfolio of work at the interview.
+我被要求在面试时提交作品集。
+retreat
+/rɪˈtriːt/
+v. 撤退；退却 n. 撤退；退却
+Our troops were forced to retreat as the enermy.
+敌人来袭，我军被迫撤退。
+stroke
+/stroʊk/
+v. 抚摸；轻抚
+You can stroke him. He won't bite.
+你可以摸他，他不会咬人。
+widespread
+/ˈwaɪdˌsprɛd/
+adj. 广泛的，遍布的
+The killing caused widespread rage.
+该谋杀引发了公愤。
+alcoholic
+/ˌælkəˈhɒlɪk/
+n. 酒鬼 adj. 含酒精的，酗酒的
+Ben is a total alcoholic.
+Ben 就是个酒鬼呀。
+chef
+/ʃɛf/
+n. （餐馆等的）主厨，大师傅
+He is one of the top chefs in Pairs.
+他是巴黎的顶级主厨之一。
+defeat
+/dɪˈfiːt/
+v. 击败 n. 失败
+He was defeated by 75 votes to 100.
+他以 75 票对 100 票落败。
+enlarge
+/ɪnˈlɑːrdʒ/ /ɛnˈlɑːrdʒ/
+v. 扩大，扩充
+Using this app will enlarge your vocabulary.
+使用这个 app 会扩大你的词汇量。
+guarantee
+/ˌɡærənˈtiː/
+v. 保证，保固；担保 n. 保证，保证书；担保，担保品
+I guarantee that we will have your suit ready in three days.
+我保证您的西装会在三天内准备好。
+irrelevant
+/ɪˈrɛləvənt/
+adj. 不相关的，不切题的
+Some people consider politics irrelevant to their lives.
+有些人认为政治与他们的生活不相关。
+occupation
+/ˌɒkjʊˈpeɪʃən/
+n. 职业；占领；消遣
+Please state your present occupation and salary.
+请说明您现在的职业和薪水。
+protein
+/ˈproʊˌtiːn/
+n. 蛋白质
+Soy milk is very high in protein.
+豆浆的蛋白质含量非常高。
+self-esteem
+/ˈsɛlfɪˈstiːm/
+n. 自尊
+His words touched her self-esteem.
+他的话伤了她的自尊。
+tolerant
+/ˈtɒlərənt/
+adj. 宽容的；忍耐的
+Learn to be tolerant of other people.
+学习宽容对待他人。
