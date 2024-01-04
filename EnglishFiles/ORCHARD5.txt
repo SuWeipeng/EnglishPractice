@@ -3998,3 +3998,253 @@ transform
 v. 彻底改变
 This sofa can transform for use as a bed.
 这个沙发可以摇身一变成一张床。
+anxiety
+/æŋˈzaɪəti/
+n. 焦虑，令人焦虑的事
+Stop doing that. It gives me anxiety.
+别那么做，这让我很焦虑。
+coarse
+/kɔːrs/
+adj. 粗糙的；粗野的
+My hands are coarse from working out.
+我的手因为重训而变得粗糙。
+destiny
+/ˈdɛstɪni/
+n. 命运，前途
+Choice, not chance, determines your destiny.
+是选择而不是机会，决定了你的命运。
+eternal
+/ɪˈtɜːrnəl/
+adj. 永恒的，长期的
+I am tired of your eternal arguments.
+我厌倦了你没完没了的争论。
+hence
+/hɛns/
+adv. 因此；从此
+You knew that already, hence the smile.
+你早就知道了，所以才露出那个笑容。
+layer
+/ˈleɪər/
+n. 层，阶层，地层 v. 把...分层放置
+A layer of snow covered the street.
+一层雪覆盖了街道。
+outcome
+/ˈaʊtkʌm/
+n. 结果，效果
+The outcome will depend on a number of factors.
+结果将取决于许多因素。
+rating
+/ˈreɪtɪŋ/
+n. 等级，级别，程度
+The movie carries a PG rating.
+这部电影列为辅导级。
+sibling
+/ˈsɪblɪŋ/
+n. 兄弟姐妹，手足
+How many siblings do you have?
+你有几个兄弟姐妹？
+tumble
+/ˈtʌmbəl/
+v. 摔落；倒塌；跌撞地走 n. 跌跤
+I lost my balance and tumbled down the stairs.
+我失去平衡，摔下楼梯。
+artificial
+/ˌɑːrtɪˈfɪʃəl/
+adj. 人工的；矫揉造作的
+These cookies do not contain artificial flavorings.
+这些饼干不含人工香料。
+commodity
+/kəˈmɒdɪti/
+n. 市场商品
+I hope that commodity prices will not rise sharply.
+我希望商品价格不会大幅上涨。
+dimension
+/dɪˈmɛnʃən/
+n. 尺寸；层面
+Can you specify the dimensions of your living room?
+你可以明确说明你客厅的大小规格吗？
+experimental
+/ɪkˌspɛrɪˈmɛntəl/
+adj. 实验的，试验的
+An experimental drug may be approved by the FDA.
+实验药物可能会获得食药局的批准。
+icon
+/ˈaɪkɒn/
+n. 图示；崇拜对象
+Click on this icon to open the file.
+点击此图标以打开档案。
+loop
+/luːp/
+n. 回圈，环形 v. 缠绕，弯曲
+His mind keeps turning in an endless loop.
+他的思绪陷入了无限回圈。
+overthrow
+/ˌoʊvərˈθroʊ/
+v. 推翻，打倒 n. 推翻，打倒
+Rebels are making plans to overthrow the government.
+反叛军正在制定推翻政府的计划。
+refugee
+/ˌrɛfjuˈʤiː/
+n. 难民，避难者
+Many refugees left their homeland to escape the war.
+许多难民离开家园逃离战争。
+soak
+/soʊk/
+v. 浸泡；浸透 n. 浸泡；浸透
+Soak the beans overnight.
+将豆子浸泡一夜。
+upcoming
+/ˈʌpˌkʌmɪŋ/
+adj. 即将发生的
+We are preparing for this weekend's upcoming event.
+我们正在为本周末即将举行的活动做准备。
+adjust
+/əˈdʒʌst/
+v. 调整；适应
+You can adjust the chair to suit you if it's too high.
+如果椅子太高，你可以调到你要的高度。
+capability
+/ˌkeɪpəˈbɪlɪti/
+n. 能力；军事力量
+No one ever questioned your capability.
+没有人质疑过你的能力。
+cuisine
+/kwɪˈziːn/
+n. 料理；菜肴
+The cuisine of Japan is low in fat.
+日本料理的脂肪含量很低。
+embrace
+/ɪmˈbreɪs/
+v. 拥抱；欣然接受 n. 拥抱
+They embraced each other warmly before saying goodbye.
+他们在别离前深拥彼此。
+glimpse
+/ɡlɪmps/
+v. 瞥见，一瞥 n. 瞥见，一瞥
+I glimpsed the girl among the crowd.
+我在人群中瞥见了那女孩。
+interface
+/ˈɪntərfeɪs/
+n. 界面；相互作用 v. （使）接合，（使）连接；互相交流
+The new user interface is much better than the old one.
+新的用户界面比旧的好得多。
+nowhere
+/ˈnoʊˌwɛr/
+adj. 无处，没有地方
+This discussion led us nowhere.
+这场讨论毫无方向结果。
+proceed
+/prəˈsiːd/
+v. 继续进行；开始做；出发
+Please proceed with your performance.
+请继续你的表演。
+scan
+/skæn/
+v. 扫描；快速浏览；细看 n. 扫描；扫描检查
+Please scan the letter into the computer and send it to me.
+请把这封信扫描到电脑里，然后发给我。
+tackle
+/ˈtækəl/
+v. 对付，处理
+We all have our own problems to tackle.
+我们都有自己的问题要应付。
+accuracy
+/ˈækjʊrəsi/
+n. 准确性，精确，精确性
+I doubt the accuracy of your story.
+我怀疑你故事的准确性。
+browse
+/braʊz/
+v. 浏览 n. 浏览
+We should browse around the gift shop before we leave.
+我们应该在离开之前浏览一下礼品店。
+criticism
+/ˈkrɪtɪˌsɪzəm/
+n. 批评，指责；评论
+I don't like the implied criticism in his voice.
+我不喜欢他语气中隐含的批评。
+elastic
+/ɪˈlæstɪk/
+adj. 有弹性的 n. 橡皮筋
+The rules are elastic.
+规则是弹性的。
+generate
+/ˈdʒɛnəˌreɪt/
+v. 产生；造成
+They burn coal to generate power.
+他们燃烧煤矿来发电。
+intellectual
+/ˌɪntəˈlɛktʃuəl/
+adj. 智力的，脑力的 n. 知识分子
+I don't like movies that are too intellectual.
+我不喜欢要花太多脑力的电影。
+mysterious
+/mɪˈstɪəriəs/
+adj. 神秘的，难以理解的；悬疑作品
+Her action was very mysterious.
+她的举动非常神秘。
+prior
+/ˈpraɪər/
+adj. 在前的，居先的
+Visits are by prior arrangement.
+来访需事先安排。
+ascrifice
+/ˈsækrɪˌfaɪs/
+v. 牺牲；献祭 n. 牺牲，祭品
+Would you sacrifice freedom for a relationship?
+你会为了一段感情牺牲自由吗？
+swap
+/swɒp/
+v. 交换 n. 交换
+Why don't we swap jobs for a day?
+不然我们交换彼此的工作一天？
+boredom
+/ˈbɔːrdəm/
+n. 无聊，厌倦
+I am dying of boredom.
+我快无聊死了。
+council
+/ˈkaʊnsəl/
+n. 委员会，理事会
+The party is expecting to gain control of the council.
+该党有望控制委员会。
+drought
+/draʊt/
+n. 旱灾
+The river ran dry during the drought.
+这条河在干旱期间干涸了。
+fulfill
+/fʊlˈfɪl/
+v. 履行，实现；使满足
+You should fulfill the promise that you made.
+你应该履行你的承诺。
+install
+/ɪnˈstɔːl/
+v. 安装；正式任命
+I asked my colleague to help me install the computer system.
+我请同事帮我安装电脑系统。
+modesty
+/ˈmɒdɪsti/
+n. 谦虚，谦逊
+Modesty helps one to go forward.
+谦虚有助于一个人前进。
+premium
+/ˈpriːmiəm/
+adj. 顶级的，优质的
+You must try our premium steak.
+您一定要尝尝我们的顶级牛排。
+ridiculous
+/rɪˈdɪkjʊləs/
+adj. 荒谬的，可笑的
+You look ridiculous in those tight pants.
+你穿那条紧身裤看起来很荒谬。
+supervisor
+/ˈsuːpərˌvaɪzər/
+n. 监督者；指导者
+I wish my supervisor would give me a raise.
+我希望主管能给我加薪。
+wreck
+/rɛk/
+v. 毁坏；破坏 n. 交通失事；残骸
+The earthquake shattered the windows and wrecked many cars.
+地震震碎窗户并毁坏了许多汽车。
