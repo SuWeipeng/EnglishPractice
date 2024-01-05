@@ -24,6 +24,11 @@ class EnglishPractice:
                         'The rabbit is eating a carrot.'      ,'The rabbit was eating a carrot.'     ,'The rabbit will be eating a carrot.'       ,'I said the rabbit would be eating a carrot.',
                         'The rabbit has eaten a carrot.'      ,'The rabbit had eaten a carrot.'      ,'The rabbit will have eaten a carrot.'      ,'l said the rabbit would have eaten a carrot.',
                         'The rabbit has been eating a carrot.','The rabbit had been eating a carrot.','The rabbit will have been eating a carrot.','I said the rabbit would have been eating a carrot.']
+    verb_tense_02    = ['I do yoga.'             ,'I did yoga.'           ,'I will do yoga.'             ,'I said I would do yoga.',
+                        'I am doing yoga.'       ,'I was doing yoga.'     ,'I will be doing yoga.'       ,'I said I would be doing yoga.',
+                        'I have done yoga.'      ,'I had done yoga.'      ,'I will have done yoga.'      ,'l said I would have done yoga.',
+                        'I have been doing yoga.','I had been doing yoga.','I will have been doing yoga.','I said I would have been doing yoga.']
+    verb_tense       = verb_tense_02
     def __init__(self):
         self.generateAllWords = False
         # 打开单词数据库
@@ -431,82 +436,82 @@ class EnglishPractice:
         self.ui.textEdit_21.clear()
     def ui_verbTense01Changed(self):
         who      = self.ui.textEdit_6
-        sentence = EnglishPractice.verb_tense_01[0]
+        sentence = EnglishPractice.verb_tense[0]
         input_sentence = who.toPlainText()
         self.ui_verbTenseDiff(who, input_sentence, sentence)
     def ui_verbTense02Changed(self):
         who      = self.ui.textEdit_7
-        sentence = EnglishPractice.verb_tense_01[1]
+        sentence = EnglishPractice.verb_tense[1]
         input_sentence = who.toPlainText()
         self.ui_verbTenseDiff(who, input_sentence, sentence)
     def ui_verbTense03Changed(self):
         who      = self.ui.textEdit_8
-        sentence = EnglishPractice.verb_tense_01[2]
+        sentence = EnglishPractice.verb_tense[2]
         input_sentence = who.toPlainText()
         self.ui_verbTenseDiff(who, input_sentence, sentence)
     def ui_verbTense04Changed(self):
         who      = self.ui.textEdit_9
-        sentence = EnglishPractice.verb_tense_01[3]
+        sentence = EnglishPractice.verb_tense[3]
         input_sentence = who.toPlainText()
         self.ui_verbTenseDiff(who, input_sentence, sentence)
     def ui_verbTense05Changed(self):
         who      = self.ui.textEdit_10
-        sentence = EnglishPractice.verb_tense_01[4]
+        sentence = EnglishPractice.verb_tense[4]
         input_sentence = who.toPlainText()
         self.ui_verbTenseDiff(who, input_sentence, sentence)
     def ui_verbTense06Changed(self):
         who      = self.ui.textEdit_11
-        sentence = EnglishPractice.verb_tense_01[5]
+        sentence = EnglishPractice.verb_tense[5]
         input_sentence = who.toPlainText()
         self.ui_verbTenseDiff(who, input_sentence, sentence)
     def ui_verbTense07Changed(self):
         who      = self.ui.textEdit_12
-        sentence = EnglishPractice.verb_tense_01[6]
+        sentence = EnglishPractice.verb_tense[6]
         input_sentence = who.toPlainText()
         self.ui_verbTenseDiff(who, input_sentence, sentence)
     def ui_verbTense08Changed(self):
         who      = self.ui.textEdit_13
-        sentence = EnglishPractice.verb_tense_01[7]
+        sentence = EnglishPractice.verb_tense[7]
         input_sentence = who.toPlainText()
         self.ui_verbTenseDiff(who, input_sentence, sentence)
     def ui_verbTense09Changed(self):
         who      = self.ui.textEdit_14
-        sentence = EnglishPractice.verb_tense_01[8]
+        sentence = EnglishPractice.verb_tense[8]
         input_sentence = who.toPlainText()
         self.ui_verbTenseDiff(who, input_sentence, sentence)
     def ui_verbTense10Changed(self):
         who      = self.ui.textEdit_15
-        sentence = EnglishPractice.verb_tense_01[9]
+        sentence = EnglishPractice.verb_tense[9]
         input_sentence = who.toPlainText()
         self.ui_verbTenseDiff(who, input_sentence, sentence)
     def ui_verbTense11Changed(self):
         who      = self.ui.textEdit_16
-        sentence = EnglishPractice.verb_tense_01[10]
+        sentence = EnglishPractice.verb_tense[10]
         input_sentence = who.toPlainText()
         self.ui_verbTenseDiff(who, input_sentence, sentence)
     def ui_verbTense12Changed(self):
         who      = self.ui.textEdit_17
-        sentence = EnglishPractice.verb_tense_01[11]
+        sentence = EnglishPractice.verb_tense[11]
         input_sentence = who.toPlainText()
         self.ui_verbTenseDiff(who, input_sentence, sentence)
     def ui_verbTense13Changed(self):
         who      = self.ui.textEdit_18
-        sentence = EnglishPractice.verb_tense_01[12]
+        sentence = EnglishPractice.verb_tense[12]
         input_sentence = who.toPlainText()
         self.ui_verbTenseDiff(who, input_sentence, sentence)
     def ui_verbTense14Changed(self):
         who      = self.ui.textEdit_19
-        sentence = EnglishPractice.verb_tense_01[13]
+        sentence = EnglishPractice.verb_tense[13]
         input_sentence = who.toPlainText()
         self.ui_verbTenseDiff(who, input_sentence, sentence)
     def ui_verbTense15Changed(self):
         who      = self.ui.textEdit_20
-        sentence = EnglishPractice.verb_tense_01[14]
+        sentence = EnglishPractice.verb_tense[14]
         input_sentence = who.toPlainText()
         self.ui_verbTenseDiff(who, input_sentence, sentence)
     def ui_verbTense16Changed(self):
         who      = self.ui.textEdit_21
-        sentence = EnglishPractice.verb_tense_01[15]
+        sentence = EnglishPractice.verb_tense[15]
         input_sentence = who.toPlainText()
         self.ui_verbTenseDiff(who, input_sentence, sentence)
 
