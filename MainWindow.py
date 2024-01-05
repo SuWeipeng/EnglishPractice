@@ -22,11 +22,11 @@ class EnglishPractice:
                         'SimonReading_P1_01', 'SimonReading_P1_02']
     verb_tense_01    = ['The rabbit eats carrots.'            ,'The rabbit ate a carrot.'            ,'The rabbit will eat a carrot.'             ,'I said the rabbit would eat a carrot.',
                         'The rabbit is eating a carrot.'      ,'The rabbit was eating a carrot.'     ,'The rabbit will be eating a carrot.'       ,'I said the rabbit would be eating a carrot.',
-                        'The rabbit has eaten a carrot.'      ,'The rabbit had eaten a carrot.'      ,'The rabbit will have eaten a carrot.'      ,'l said the rabbit would have eaten a carrot.',
+                        'The rabbit has eaten a carrot.'      ,'The rabbit had eaten a carrot.'      ,'The rabbit will have eaten a carrot.'      ,'I said the rabbit would have eaten a carrot.',
                         'The rabbit has been eating a carrot.','The rabbit had been eating a carrot.','The rabbit will have been eating a carrot.','I said the rabbit would have been eating a carrot.']
     verb_tense_02    = ['I do yoga.'             ,'I did yoga.'           ,'I will do yoga.'             ,'I said I would do yoga.',
                         'I am doing yoga.'       ,'I was doing yoga.'     ,'I will be doing yoga.'       ,'I said I would be doing yoga.',
-                        'I have done yoga.'      ,'I had done yoga.'      ,'I will have done yoga.'      ,'l said I would have done yoga.',
+                        'I have done yoga.'      ,'I had done yoga.'      ,'I will have done yoga.'      ,'I said I would have done yoga.',
                         'I have been doing yoga.','I had been doing yoga.','I will have been doing yoga.','I said I would have been doing yoga.']
     verb_tense       = verb_tense_02
     def __init__(self):
