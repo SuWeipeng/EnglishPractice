@@ -1,9 +1,9 @@
 # 输入文件名
-fileName       = 'ORCHARD5'
+fileName       = 'ORCHARD4'
 
 from modules.FileRead import FileRead
 
-vocabulary = ['IELTS1000','ORCHARD7','ORCHARD6','ORCHARD5']
+vocabulary = ['IELTS1000','ORCHARD7','ORCHARD6','ORCHARD5','ORCHARD4']
 listening  = ['Coversation01','SentenceStructure01','EnglishNews001','Medium01',
               'SimonReading_P1_01','SimonReading_P1_02']
 def main():
