@@ -20,6 +20,10 @@ class EnglishPractice:
     vocabulary_list  = ['IELTS1000','ORCHARD7','ORCHARD6','ORCHARD5']
     listening_list   = ['Coversation01','SentenceStructure01','EnglishNews001','Medium01',
                         'SimonReading_P1_01', 'SimonReading_P1_02']
+    verb_tense_01    = ['The rabbit eats carrots.'            ,'The rabbit ate a carrot.'            ,'The rabbit will eat a carrot.'             ,'I said the rabbit would eat a carrot.',
+                        'The rabbit is eating a carrot.'      ,'The rabbit was eating a carrot.'     ,'The rabbit will be eating a carrot.'       ,'I said the rabbit would be eating a carrot.',
+                        'The rabbit has eaten a carrot.'      ,'The rabbit had eaten a carrot.'      ,'The rabbit will have eaten a carrot.'      ,'l said the rabbit would have eaten a carrot.',
+                        'The rabbit has been eating a carrot.','The rabbit had been eating a carrot.','The rabbit will have been eating a carrot.','I said the rabbit would have been eating a carrot.']
     def __init__(self):
         self.generateAllWords = False
         # 打开单词数据库
@@ -139,6 +143,24 @@ class EnglishPractice:
             self.ui.tabWidget.setStyleSheet("color:saddlebrown;")
         # Youtube 视频相关
         self.ytb = Youtube()
+        # 时态相关
+        self.ui.pushButton_15.clicked.connect(self.ui_clearVerbTense)
+        self.ui.textEdit_6.textChanged.connect(self.ui_verbTense01Changed)
+        self.ui.textEdit_7.textChanged.connect(self.ui_verbTense02Changed)
+        self.ui.textEdit_8.textChanged.connect(self.ui_verbTense03Changed)
+        self.ui.textEdit_9.textChanged.connect(self.ui_verbTense04Changed)
+        self.ui.textEdit_10.textChanged.connect(self.ui_verbTense05Changed)
+        self.ui.textEdit_11.textChanged.connect(self.ui_verbTense06Changed)
+        self.ui.textEdit_12.textChanged.connect(self.ui_verbTense07Changed)
+        self.ui.textEdit_13.textChanged.connect(self.ui_verbTense08Changed)
+        self.ui.textEdit_14.textChanged.connect(self.ui_verbTense09Changed)
+        self.ui.textEdit_15.textChanged.connect(self.ui_verbTense10Changed)
+        self.ui.textEdit_16.textChanged.connect(self.ui_verbTense11Changed)
+        self.ui.textEdit_17.textChanged.connect(self.ui_verbTense12Changed)
+        self.ui.textEdit_18.textChanged.connect(self.ui_verbTense13Changed)
+        self.ui.textEdit_19.textChanged.connect(self.ui_verbTense14Changed)
+        self.ui.textEdit_20.textChanged.connect(self.ui_verbTense15Changed)
+        self.ui.textEdit_21.textChanged.connect(self.ui_verbTense16Changed)
     def ui_loadConfig(self):
         # 读取配置文件
         self.noConfigFile = False
@@ -380,6 +402,113 @@ class EnglishPractice:
         if len(self.input_listening) > 0:
             if '\t' == self.input_listening[-1]:
                 self.ui_onSentenceNextClicked()
+
+    def ui_verbTenseDiff(self,who,input_sentence, sentence):
+        import difflib
+        scoreVerbTense = difflib.SequenceMatcher(None, input_sentence.strip(), sentence.strip()).quick_ratio()
+        if len(input_sentence) == 0:
+            who.setStyleSheet("background:white")
+        elif int(scoreVerbTense) == 1:
+            who.setStyleSheet("background:palegreen")
+        else:
+            who.setStyleSheet("background:lavenderblush")
+    def ui_clearVerbTense(self):
+        self.ui.textEdit_6.clear()
+        self.ui.textEdit_7.clear()
+        self.ui.textEdit_8.clear()
+        self.ui.textEdit_9.clear()
+        self.ui.textEdit_10.clear()
+        self.ui.textEdit_11.clear()
+        self.ui.textEdit_12.clear()
+        self.ui.textEdit_13.clear()
+        self.ui.textEdit_14.clear()
+        self.ui.textEdit_15.clear()
+        self.ui.textEdit_16.clear()
+        self.ui.textEdit_17.clear()
+        self.ui.textEdit_18.clear()
+        self.ui.textEdit_19.clear()
+        self.ui.textEdit_20.clear()
+        self.ui.textEdit_21.clear()
+    def ui_verbTense01Changed(self):
+        who      = self.ui.textEdit_6
+        sentence = EnglishPractice.verb_tense_01[0]
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+    def ui_verbTense02Changed(self):
+        who      = self.ui.textEdit_7
+        sentence = EnglishPractice.verb_tense_01[1]
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+    def ui_verbTense03Changed(self):
+        who      = self.ui.textEdit_8
+        sentence = EnglishPractice.verb_tense_01[2]
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+    def ui_verbTense04Changed(self):
+        who      = self.ui.textEdit_9
+        sentence = EnglishPractice.verb_tense_01[3]
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+    def ui_verbTense05Changed(self):
+        who      = self.ui.textEdit_10
+        sentence = EnglishPractice.verb_tense_01[4]
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+    def ui_verbTense06Changed(self):
+        who      = self.ui.textEdit_11
+        sentence = EnglishPractice.verb_tense_01[5]
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+    def ui_verbTense07Changed(self):
+        who      = self.ui.textEdit_12
+        sentence = EnglishPractice.verb_tense_01[6]
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+    def ui_verbTense08Changed(self):
+        who      = self.ui.textEdit_13
+        sentence = EnglishPractice.verb_tense_01[7]
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+    def ui_verbTense09Changed(self):
+        who      = self.ui.textEdit_14
+        sentence = EnglishPractice.verb_tense_01[8]
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+    def ui_verbTense10Changed(self):
+        who      = self.ui.textEdit_15
+        sentence = EnglishPractice.verb_tense_01[9]
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+    def ui_verbTense11Changed(self):
+        who      = self.ui.textEdit_16
+        sentence = EnglishPractice.verb_tense_01[10]
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+    def ui_verbTense12Changed(self):
+        who      = self.ui.textEdit_17
+        sentence = EnglishPractice.verb_tense_01[11]
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+    def ui_verbTense13Changed(self):
+        who      = self.ui.textEdit_18
+        sentence = EnglishPractice.verb_tense_01[12]
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+    def ui_verbTense14Changed(self):
+        who      = self.ui.textEdit_19
+        sentence = EnglishPractice.verb_tense_01[13]
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+    def ui_verbTense15Changed(self):
+        who      = self.ui.textEdit_20
+        sentence = EnglishPractice.verb_tense_01[14]
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+    def ui_verbTense16Changed(self):
+        who      = self.ui.textEdit_21
+        sentence = EnglishPractice.verb_tense_01[15]
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
 
     def ui_selectReview(self):
         self.ui.checkBox_2.setVisible(True)
