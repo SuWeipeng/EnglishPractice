@@ -248,3 +248,253 @@ victim
 n. 受害者，牺牲品
 Can we not blame the victim?
 我们可以别检讨受害者吗？
+accidental
+/ˌæk.sɪˈden.təl/
+adj. 偶然的，意外的
+What just happened was completely accidental.
+刚刚发生的事纯属偶然。
+bold
+/bəʊld/
+adj. 大胆的
+It was a bold move to open a business in that area.
+在那区开店是很大胆的举动。
+continent
+/ˈkɒn.tɪ.nənt/
+n. 洲，大陆
+I've been to 5 continents in the past few years.
+过去几年间，我去过五大洲。
+durable
+/ˈdjʊə.rə.bəl/
+adj. 耐用的，经久的
+This type of material is durable.
+这种材质很耐用。
+fossil
+/ˈfɒs.ɪl/
+n. 化石；守旧的人
+These fossils are over 1000 years old.
+这些化石超过千年之久。
+injury
+/ˈɪn.dʒə.ri/
+n. 受伤，损伤
+He is recovering from a wrist injury.
+他手腕的伤正在复原。
+mine
+/maɪn/
+n. 矿；地雷 v. 开采；布雷
+We found a diamond mine!
+我们发现了一个钻石矿！
+pint
+/paɪnt/
+n. （容量单位）品脱
+How much is a pint of milk?
+一品脱的牛奶多少钱？
+riddle
+/ˈrɪd.əl/
+n. 迷语，谜
+See if you can solve this riddle.
+你看看能不能解开这个谜语。
+suspicion
+/səˈspɪʃ.ən/
+n. 怀疑；嫌疑
+Your strange behavior rasise my suspicion.
+你奇怪的行为引起了我的怀疑。
+authority
+/əˈθɒr.ɪ.ti/
+n. 权威；授权；当权者；权威人士
+The leader has to be a person of authority.
+领袖必须是有权威的人。
+clumsy
+/ˈklʌm.zi/
+adj. 笨拙的，不灵活的
+Sorry for breaking the glass. I'm so clumsy.
+抱歉打破了杯子，我真笨拙。
+democratic
+/ˌdem.əˈkræt.ɪk/
+adj. 有民主精神的
+I think what you did was very democratic.
+我觉得你所做的非常有民主精神。
+extreme
+/ɪkˈstriːm/
+adj. 极度的；极差的；极端的
+We might get sick working under extreme pressure.
+我们在极度的压力下工作可能会生病。
+hawk
+/hɔːk/
+n. 鹰
+Look! A hawk hovers in the sky.
+看！有只老鹰在空中盘旋。
+literary
+/ˈlɪt.ər.ə.ri/
+adj. 文学的，与文学相关的
+I make a living from literary work.
+我靠文学作品谋生。
+opera
+/ˈɒp.ər.ə/
+n. 看剧
+I quite like some opera music.
+我相当喜欢某些歌剧音乐。
+reception
+/rɪˈsep.ʃən/
+n. 接待处；招待会
+Let's meet in reception at 7 P.M.
+我们晚上七点在接待处见面吧。
+so-called
+/ˈsəʊ.kɔːld/
+adj. 所谓的，叫做...的
+Be wary of these so-called special offers.
+注意这些所谓的特别优惠。
+vanish
+/ˈvæn.ɪʃ/
+v. 消失
+All the food on the table vanished quickly.
+桌上所有的食物很快就消失了。
+ambulance
+/ˈæm.bjʊ.ləns/
+n. 救护车
+Please call an ambulance immediately.
+请马上打电话叫救护车。
+capacity
+/kəˈpæs.ɪ.ti/
+n. 容纳量；能力
+The seating capacity of that car is 4.
+那辆车座位容纳量为四个人。
+cruel
+/ˈkruː.əl/
+adj. 残忍的，残酷的
+I can't bear you being so cruel to animals.
+我无法忍受你对动物如此残忍。
+engagement
+/ɪnˈɡeɪdʒ.mənt/
+n. 订婚
+They are having an engagement party tomorrow.
+他们明天要举办订婚派对。
+glow
+/ɡləʊ/
+v. 发光，发热；容光焕发 n. 光亮，灼热；容光焕发；喜悦
+Her face was glowing with happiness.
+她的脸洋溢着幸福的光芒。
+kit
+/kɪt/
+n. 成套工具；配套元件
+My girlfriend always carries a first-aid kit in her luggage.
+我女友总会在行李里放个急救箱。
+murderer
+/ˈmɜː.dər.ər/
+n. 谋杀犯，凶手
+The murderer is now behind bars.
+凶手现已入狱。
+previous
+/ˈpriː.vi.əs/
+adj. 以前的，先前的
+I'm a lot happier than I was in my previous job.
+我现在比我前一份工作来得开心许多。
+sculpture
+/ˈskʌlp.tʃər/
+n. 雕刻（品），雕塑（品）
+His sculpture of a horse won the prize.
+他的雕塑的马获奖了。
+translation
+/trænzˈleɪ.ʃən/
+n. 译文，译本；翻译
+The translation of this book was poor.
+这本书翻译得很糟。
+analysis
+/əˈnæl.ə.sɪs/
+n. 分析
+Further analysis of the data is required.
+这些资料需要进一步分析。
+capture
+/ˈkæp.tʃər/
+v. 捕获；获得 n. 描绘，拍摄
+We captured a snake in the restroom.
+我们在厕所里捕获了一条蛇。
+cruelty
+/ˈkruː.əl.ti/
+n. 残忍，残酷
+The cruelty of her words cut him like a knife.
+她话里的残忍对他宛如心如刀割。
+enormous
+/ɪˈnɔː.məs/
+adj. 极大的
+The main bedroom is enormous.
+主卧室好大。
+goods
+/ɡʊdz/
+n. 商品，货物，物品
+All the goods are clearly priced.
+所有商品都清楚标示价格。
+kneel
+/niːl/
+v. 跪下
+I kneel to pray every morning when I wake up.
+我每天早上醒来后会跪拜祈祷。
+murmur
+/ˈmɜː.mər/
+v. 低声说，嘀咕；私下抱怨 n. 低声说，嘀咕；私下抱怨
+My friend is murmuring in my ear.
+我朋友在我耳边低语。
+probable
+/ˈprɒb.ə.bl/
+adj. 可能发生的
+A storm is probable today.
+今天可能会有暴风雨。
+seal
+/siːl/
+v. 密封，封上 n. 封口；封条
+Seal the package with sticky tape.
+用胶带包裹封起来。
+translator
+/trænsˈleɪ.tər/
+n. 译者
+Just like other jobs, working as a translator isn't easy.
+就像其他工作一样，译者的工作并不容易。
+biography
+/baɪˈɒɡ.rə.fi/
+n. 传记
+I like reading biographies in my spare time.
+我喜欢在空闲时间读传记。
+considering
+/kənˈsɪd.ər.ɪŋ/
+prep. 考虑到；就...而言
+She's really mature considering her age.
+考虑到她的年纪，她真的很成熟。
+dodge
+/dɒdʒ/
+v. 闪避 n. 逃避
+I feel like you are dodging my question.
+我感觉你在闪避我问的问题。
+flea
+/fliː/
+n. 跳蚤
+My dogs have fleas.
+我的狗身上有跳蚤。
+incident
+/ˈɪn.sɪ.dənt/
+n. 事件
+The movie is based on a real-life incident.
+这电影取材于真实事件。
+measurement
+/ˈmeʒ.ə.mənt/
+n. 测量；尺寸
+My waist measurement is 30 inches.
+我的腰围是 30 寸。
+penny
+/ˈpen.i/
+n. （英国货币）便士，一便士硬币
+A penny saved is a penny gained.
+省一分钱就是赚一分钱。
+response
+/rɪˈspɒns/
+n. 回复；回应
+I've had no response to my message.
+我的讯息没有得到回复。
+submarine
+/ˈsʌb.mə.riːn/
+n. 潜艇 adj. 海底的
+The submarine signaled for help.
+那艘潜艇发出求救信号。
+worldwide
+/ˈwɜːld.waɪd/
+adj. 全世界的 adv. 世界各地
+One day I will be a worldwide famous designer.
+我总有一天会成为世界知名的设计师。
