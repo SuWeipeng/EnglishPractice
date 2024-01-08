@@ -1248,3 +1248,253 @@ tendency
 n. 倾向，癖性
 He has a tendency to lie.
 他有说谎的倾向。
+achieve
+/əˈtʃiːv/
+v. 达成，实现
+Let's do our best to achieve the goals!
+让我们竭尽所能达成目标吧！
+brake
+/breɪk/
+n. 刹车 v. 刹车
+Don't slam on the brakes. It's not good for cars.
+别急踩刹车，对车不好。
+convenience
+/kənˈviː.ni.əns/
+n. 便利，方便
+I like the convenience of living near work.
+我喜欢住在离工作地点很近的地方所带来的便利。
+dynasty
+/ˈdɪ.nə.sti/
+n. 王朝，朝代
+My grandpa was born in the Qing Dynasty.
+我爷爷是在清朝出生的。
+fright
+/fraɪt/
+n. 恐惧，惊吓
+The kid is crying in fright.
+小朋友害怕地哭着。
+inspect
+/ɪnˈspekt/
+v. 检查，审查
+The police are inspecting my driver's license.
+警察在检查我的驾照。
+minor
+/ˈmaɪ.nər/
+n. 未成年者
+It's illegal to sell alcohol to minors.
+卖酒给未成年者是违法的。
+plot
+/plɒt/
+n. 小块土地
+We have a vegetable plot in the backyard.
+我们的后院有一块种菜的地。
+romance
+/roʊˈmæns/
+n. 浪漫；恋爱；爱意
+You are such a sucker for romance.
+你真是个浪漫的傻瓜。
+tailor
+/ˈteɪ.lər/
+n. 裁缝师
+A tailor took my measurements for a new suit.
+裁缝师为我量了新西装的尺寸。
+accurate
+/ˈæk.jə.rət/
+adj. 准确的，精确的
+I don't think these figures are accurate.
+我觉得这些数字并不准确。
+bracelet
+/ˈbreɪ.slət/
+n. 手镯，手链
+She wore a bracelet on her wrist.
+她手腕上戴着一个手镯。
+contribute
+/kənˈtrɪ.bjuːt/
+v. 贡献，出力；投稿
+All of us should contribute to the discussion.
+我们所有人都应该要对这次讨论有所贡献。
+dye
+/daɪ/
+v. 染色 n. 染料
+I really want to dye my hair blonde.
+我很想把我的头发染金。
+freshman
+/ˈfreʃ.mən/
+n. （高中，大学）一年级生，新生；新手
+I'm a college freshman.
+我是大学一年级生。
+insist
+/ɪnˈsɪst/
+v. 坚持
+I insist on paying for dinner.
+我坚持晚餐我付。
+minimum
+/ˈmɪn.ɪ.məm/
+n. 最小值，最低限度 adj. 最小的，最低限度的
+What's the minimum wage now?
+现在最低工资是多少？
+pity
+/ˈpɪt.i/
+n. 怜悯，同情 v. 怜悯，同情，可惜的事
+I don't want your pity.
+我不想要你的怜悯。
+robe
+/roʊb/
+n. 长袍；浴衣；礼袍
+A woman in a red robe walked past him.
+一个身穿红色长袍的女人从他身边走过。
+tablecloth
+/ˈteɪ.bəl.klɒθ/
+n. 桌布，桌巾
+Breakfast is ready. Spread the tablecloth!
+早餐准备好了，铺桌布吧！
+awkward
+/ˈɔː.kwərd/
+adj. 别扭的，尴尬的，笨拙的
+Her movements are slow and awkward.
+她的动作缓慢别扭。
+combination
+/ˌkɒm.bɪˈneɪ.ʃən/
+n. 组合
+I am not sure if purple and green are a good combination.
+我不确定紫配绿是不是个好组合。
+desirable
+/dɪˈzaɪərəbəl/
+adj. 渴望获得的，令人向往的
+The new product has many desirable features.
+新产品有很多让人想要的功能。
+familiar
+/fəˈmɪl.i.ər/
+adj. 熟悉的；新近的
+I'm familiar with this area. I can show you around.
+我对这附近很熟，我可以带你四处看看。
+hippo
+/ˈhɪp.oʊ/
+n. 河马
+I'm surprised by the way hippos eat watermelons.
+我被河马吃西瓜的方式吓到。
+location
+/loʊˈkeɪ.ʃən/
+n. 位置，地点
+His apartment is in a fairly good location.
+他的公寓位置相当好。
+organic
+/ɔːrˈɡæn.ɪk/
+adj. 有机的；不使用化肥的；含碳的
+Organic farming is better for the environment.
+有机农作对环境比较好。
+refer
+/rɪˈfɜːr/
+v. 提及；涉及；参考
+I promised not to refer to the matter again.
+我保证不再提此事。
+sound
+/saʊnd/
+adj. 健全的，完好的
+A sound mind in a sound body leads a happy life.
+心智和身体都健康，就会活得幸福。
+visual
+/ˈvɪʒ.u.əl/
+adj. 视觉的 n. 视觉材料
+The film is a visual feast.
+这电影是个视觉飨宴。
+benefit
+/ˈben.ɪ.fɪt/
+v. 有益于 n. 利益，好处
+We should spend the money on something that will benefit us.
+我们应该把钱花在有益于我们的东西上。
+confusion
+/kənˈfjuː.ʒən/
+n. 困惑，混淆；混乱状态
+She looked at me in confusion.
+她困惑地看着我。
+ditch
+/dɪtʃ/
+n. 沟渠，壕沟
+I tripped and fell into a ditch.
+我绊倒跌进水沟里。
+firm
+/fɜːrm/
+adj. 结实的；牢固的；坚决的 adv. 牢固地
+The mangos are still firm.
+芒果还是硬的。
+impression
+/ɪmˈpreʃ.ən/
+n. 印象
+He gives the impression of always being very busy.
+他给人一种永远都很忙的印象。
+meaningless
+/ˈmiː.nɪŋ.ləs/
+adj. 无意义的；不重要的，无价值的
+No one's life is meaningless.
+没有人的人生是无意义的。
+pave
+/peɪv/
+v. 铺路，筑路
+They are going to pave the roads next week.
+他们将在下周铺路。
+research
+/rɪˈsɜːrtʃ/
+v. 研究；调查 n. 研究；调查
+I'm researching into ways of improving your diet.
+我正在研究改善你饮食的方法。
+strengthen
+/ˈstreŋ.θən/
+v. 加强；巩固
+Exercise can strengthen your muscles.
+运动可以强化你的肌肉。
+wok
+/wɒk/
+n. 中式炒锅
+Heat the wok, and add five tablespooons of oil.
+热锅，然后加入五汤匙油。
+agency
+/ˈeɪ.dʒən.si/
+n. 代理机构；政府专门机构
+Some people like to book trips through travel agencies.
+有些人喜欢透过旅行社预定旅程。
+bury
+/ˈber.i/
+v. 埋；埋葬；掩藏
+Where did you bury the treasure?
+你把宝藏埋在哪呢？
+craft
+/kræft/
+n. 工艺，手艺 v. 手工制作
+Let's go check out that craft shop.
+我们去看看那间手工艺品店。
+elementary
+/ˌel.ɪˈmen.tə.ri/
+adj. 初级的，基础的
+I signed up for an elementary Chinese course.
+我报名参加了初级中文课程。
+gender
+/ˈdʒen.dər/
+n. 性别
+My friend is curious about the gender of the baby.
+我朋友很好奇宝宝的性别。
+involve
+/ɪnˈvɒlv/
+v. 涉及，使人卷入；包含
+Don't involve me in your drama.
+别把我牵扯进你的闹剧。
+monk
+/mʌŋk/
+n. 修道士，僧侣
+I feel that it takes a lot to become a monk.
+我觉得要成为修道士要付出很多。
+portrait
+/ˈpɔːr.trət/
+n. 肖像；描绘
+He painted a pretty portrait for us.
+他为我们画了一幅漂亮的肖像画。
+saucepan
+/ˈsɔːs.pæn/
+n. 平底锅；炖锅
+She washed the saucepan with cleanser.
+她用清洁剂清洗平底锅。
+thoughtful
+/ˈθɔːt.fəl/
+adj. 考虑周到的
+What a thoughtful gift!
+多么用心的礼物啊！
