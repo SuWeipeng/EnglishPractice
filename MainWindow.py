@@ -71,6 +71,7 @@ class EnglishPractice:
         self.ui.pushButton_7.setVisible(False)
         self.ui.pushButton_8.setVisible(False)
         self.ui.checkBox_3.setVisible(False)
+        self.ui.checkBox_4.setVisible(False)
         # 听力设置相关
         self.ui.label_10.setText(str(self.listenCount))
         # Settings 中的 Word 数据源选择
@@ -91,6 +92,8 @@ class EnglishPractice:
         self.wordsNumChanged = False
         self.ui.lineEdit.returnPressed.connect(self.ui_wordsNumEnterPressed)
         self.ui.pushButton_4.clicked.connect(self.ui_onGoClicked)
+        # Marked Only
+        self.ui.checkBox_4.toggled.connect(self.fun_markedOnly)
         # 听力页面相关
         self.ui.pushButton_5.clicked.connect(self.ui_onSentencePrevClicked)
         self.ui.pushButton_6.clicked.connect(self.ui_onSentenceNextClicked)
@@ -280,6 +283,7 @@ class EnglishPractice:
     def ui_selectEbbinghaus(self):
         self.ui.checkBox.setEnabled(True)
         self.ui.checkBox_3.setVisible(True)
+        self.ui.checkBox_4.setVisible(True)
         if self.ui.radioButton.isChecked():
             self.radioButtonChanged = True
         self.wordMode = 2
@@ -529,6 +533,7 @@ class EnglishPractice:
 
     def ui_selectReview(self):
         self.ui.checkBox_2.setVisible(True)
+        self.ui.checkBox_4.setVisible(False)
         if self.ui.checkBox_2.isChecked():
             if self.ui.checkBox.isChecked() == False:
                 self.ui.checkBox.setChecked(False)
@@ -555,6 +560,7 @@ class EnglishPractice:
 
     def ui_selectNew(self):
         self.ui.checkBox_2.setVisible(True)
+        self.ui.checkBox_4.setVisible(False)
         if self.ui.checkBox_2.isChecked():
             if self.ui.checkBox.isChecked() == False:
                 self.ui.checkBox.setChecked(False)
@@ -675,6 +681,9 @@ class EnglishPractice:
             self.currentWord = self.words[self.wordIndex]
         return res
 
+    def fun_markedOnly(self):
+        self.ui_renewUI()
+
     def eb_getEbbinghausWords(self):
         result = False
         selectedWords = []
@@ -698,17 +707,26 @@ class EnglishPractice:
                 else:
                     res = self.ebbinghaus.check(self.ebdb.sentenceCount(word), sentenceTimestamp, self.ebdb.score(word))
             if res == True:
-                selectedWords.append(word)
+                if self.ui.checkBox_4.isChecked() == False:
+                    selectedWords.append(word)
+                else:
+                    if self.ebdb.getMarked(word) == '1':
+                        selectedWords.append(word)
+                    else:
+                        continue
                 cnt += 1
                 if cnt >= self.wordsNum:
                     break
         selectedList = selectedWords[:min(cnt,self.wordsNum)]
 
-        if len(selectedList) > 0:
-            self.words = selectedList
+        if self.ui.checkBox_4.isChecked() == False:
+            if len(selectedList) > 0:
+                self.words = selectedList
+            else:
+                wordsCnt = min(self.wordsNum,len(self.ebWords) if len(self.ebWords)>0 else self.wordsNum)
+                self.words = self.db.get_randomly(wordsCnt,self.ebWords)
         else:
-            wordsCnt = min(self.wordsNum,len(self.ebWords) if len(self.ebWords)>0 else self.wordsNum)
-            self.words = self.db.get_randomly(wordsCnt,self.ebWords)
+            self.words = selectedList
 
         if len(self.words) > 0:
             result = True
