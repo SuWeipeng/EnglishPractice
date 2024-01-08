@@ -58,6 +58,8 @@ class EnglishPractice:
         self.score            = 0
         self.ebbinghaus       = Ebbinghaus()
         self.sentenceCriteria = 0.9
+        self.lastCurrent      = ''
+        self.typeCnt          = 0
         # 听力相关变量
         self.links                 = []
         self.listeningSentences    = []
@@ -801,6 +803,12 @@ class EnglishPractice:
         '''
         输入单词发生变化时的回调函数。
         '''
+        if self.lastCurrent != self.currentWord:
+            self.lastCurrent = self.currentWord
+            self.typeCnt     = 0
+        else:
+            self.typeCnt += 1
+            
         self.ui_setWordFont() 
         self.input_word = self.ui.textEdit.toPlainText()
         replace_pos, delete_pos, insert_pos = self.fun_diffWord(self.input_word, self.currentWord)
@@ -814,6 +822,11 @@ class EnglishPractice:
             self.tipCursor.setPosition(0,QTextCursor.MoveAnchor)
             self.tipCursor.setPosition(10,QTextCursor.KeepAnchor)
             self.tipCursor.mergeCharFormat(self.tipFormat)
+            if self.wordMode == 2:
+                if self.typeCnt > len(self.currentWord) + 1:
+                    self.ui.checkBox_3.setChecked(True)
+                else:
+                    self.ui.checkBox_3.setChecked(False)
         else:
             tipString = self.input_word
             # 需插入的地方用 _ 代替
