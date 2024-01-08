@@ -14,16 +14,16 @@ class WriteEbbinghausDB:
         self.disk_conn.backup(self.mem_conn)
     def createEbbinghausTable(self,table):
         self.open()
-        sql = "CREATE TABLE IF NOT EXISTS %s(word VARCHAR PRIMARY KEY, score DOUBLE, word_base INTEGER, sentence_base INTEGER, word_time TIMESTAMP, sentence_time TIMESTAMP)"%(table)
+        sql = "CREATE TABLE IF NOT EXISTS %s(word VARCHAR PRIMARY KEY, score DOUBLE, word_base INTEGER, sentence_base INTEGER, word_time TIMESTAMP, sentence_time TIMESTAMP, marked INTEGER)"%(table)
         cursor = self.mem_conn.cursor()
         cursor.execute(sql)
         self.mem_conn.commit()
         self.to_disk()
-    def openAndInsert(self,table,word,score,word_base,sentence_base,word_time,sentence_time):
+    def openAndInsert(self,table,word,score,word_base,sentence_base,word_time,sentence_time,marked):
         self.open()
-        sql = "INSERT OR REPLACE INTO %s VALUES(?,?,?,?,?,?)"%(table)
+        sql = "INSERT OR REPLACE INTO %s VALUES(?,?,?,?,?,?,?)"%(table)
         cursor = self.mem_conn.cursor()
-        cursor.execute(sql, (word,score,word_base,sentence_base,word_time,sentence_time))
+        cursor.execute(sql, (word,score,word_base,sentence_base,word_time,sentence_time,marked))
         self.mem_conn.commit()
         self.to_disk()
     def to_disk(self):
@@ -34,7 +34,8 @@ class WriteEbbinghausDB:
 def main():
     db = WriteEbbinghausDB("Ebbinghaus.db")
     from datetime import datetime
-    db.openAndInsert("a",1,1,1,datetime.now(),datetime.now())
+    db.createEbbinghausTable("test_code")
+    db.openAndInsert("test_code","a",1,1,1,datetime.now(),datetime.now(),0)
     
 if __name__ == '__main__':
     main()

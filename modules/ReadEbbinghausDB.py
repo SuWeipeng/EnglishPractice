@@ -8,6 +8,7 @@ class ReadEbbinghausDB:
         self.sentenceCnt  = {}
         self.wordTime     = {}
         self.sentenceTime = {}
+        self.marked       = {}
         self.db_name   = "database/" + db_name
         self.getWords(table)
     def open(self):
@@ -54,6 +55,7 @@ class ReadEbbinghausDB:
             self.sentenceCnt [row[0]] = row[3]
             self.wordTime    [row[0]] = row[4]
             self.sentenceTime[row[0]] = row[5]
+            self.marked      [row[0]] = row[6]
         return self.words
     def score(self,word):
         return self.scores.get(word)
@@ -65,6 +67,8 @@ class ReadEbbinghausDB:
         return self.wordTime.get(word)
     def sentenceTimestamp(self,word):
         return self.sentenceTime.get(word)
+    def getMarked(self,word):
+        return self.marked.get(word)
 
 def main():
     db = ReadEbbinghausDB("Ebbinghaus.db")

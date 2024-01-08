@@ -70,6 +70,7 @@ class EnglishPractice:
         self.radioButtonChanged    =    False
         self.ui.pushButton_7.setVisible(False)
         self.ui.pushButton_8.setVisible(False)
+        self.ui.checkBox_3.setVisible(False)
         # 听力设置相关
         self.ui.label_10.setText(str(self.listenCount))
         # Settings 中的 Word 数据源选择
@@ -249,6 +250,15 @@ class EnglishPractice:
                                 }
             json.dump(self.configDict,file)
 
+    def fun_updateMarked(self):
+        # Marked 的钩选状态
+        if self.wordMode == 2 or self.updateInReview:
+            self.ebWords = self.ebdb.getWords(self.EbbinghausTable,self.useSentenceScore)
+            if self.ebdb.getMarked(self.currentWord) is not None:
+                self.ui.checkBox_3.setChecked(int(self.ebdb.getMarked(self.currentWord)))
+            else:
+                self.ui.checkBox_3.setChecked(False)
+
     def ui_renewUI(self,getNewWords = True):
         self.wordIndex        = 0
         self.words_p_lines    = ''
@@ -265,9 +275,11 @@ class EnglishPractice:
             self.ui.pushButton_13.setVisible(True)
         else:
             self.ui.pushButton_13.setVisible(False)
-        
+        self.fun_updateMarked()
+
     def ui_selectEbbinghaus(self):
         self.ui.checkBox.setEnabled(True)
+        self.ui.checkBox_3.setVisible(True)
         if self.ui.radioButton.isChecked():
             self.radioButtonChanged = True
         self.wordMode = 2
@@ -598,8 +610,10 @@ class EnglishPractice:
             if self.ui.checkBox_2.isChecked() == False:
                 self.ui.checkBox.setChecked(False)
                 self.ui.checkBox.setEnabled(False)
+                self.ui.checkBox_3.setVisible(False)
             else:
                 self.ui.checkBox.setEnabled(True)
+                self.ui.checkBox_3.setVisible(True)
         self.updateInReview = self.ui.checkBox_2.isChecked()
         if self.updateInReview:
             self.ui.tabWidget.setStyleSheet("color:purple;")
@@ -843,6 +857,7 @@ class EnglishPractice:
             self.ui.textEdit_2.setFocus()
         if '\t' in self.input_word:
             self.ui_onNextClicked()
+            self.fun_updateMarked()
 
     def ui_onTextEdit_2Changed(self):
         '''
@@ -1038,6 +1053,7 @@ class EnglishPractice:
         return res
 
     def db_writeEbbinghausDB(self):
+        self.ebWords     = self.ebdb.getWords(self.EbbinghausTable,self.useSentenceScore)
         input_word = self.input_word.strip()
         word_cnt = self.ebdb.wordCount(input_word)
         if word_cnt is None:
@@ -1060,7 +1076,8 @@ class EnglishPractice:
                                                    word_cnt,
                                                    sentence_cnt,
                                                    datetime.now(),
-                                                   sentenceTimestamp)
+                                                   sentenceTimestamp,
+                                                   int(self.ui.checkBox_3.isChecked()))
             elif self.score > self.sentenceCriteria:
                 self.writeEbbinghaus.openAndInsert(self.EbbinghausTable,
                                                    input_word,
@@ -1068,7 +1085,8 @@ class EnglishPractice:
                                                    word_cnt,
                                                    sentence_cnt,
                                                    datetime.now(),
-                                                   datetime.now())
+                                                   datetime.now(),
+                                                   int(self.ui.checkBox_3.isChecked()))
     def f_wordsToFile(self):
         self.words_p_lines = ''
         with open("EnglishFiles/words_p.txt","w",encoding='utf-8') as file:
