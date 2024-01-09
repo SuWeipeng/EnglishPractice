@@ -1748,3 +1748,253 @@ timid
 adj. 羞怯的；胆怯的
 I am timid by nature.
 我天性羞怯。
+aboard
+/əˈbɔːrd/
+adv. 在交通工具上 prep. 在飞机上（或船，火车，公车）
+The captain and crew welcomed us aboard.
+机长和组员欢迎我们登机。
+blend
+/blɛnd/
+v. 使混合 n. 混合物
+Next, blend all the ingredients together.
+接着，把全部的食材都混合一起。
+consult
+/kənˈsʌlt/
+v. 咨询，请教；跟...商量
+Please consult your doctor if the pain continues.
+若持续感到疼痛，请咨询你的医生。
+drain
+/dreɪn/
+n. 排水口，排水管，下水道 v. 排干液体；消耗
+The drain is blocked. Can you call a plumber?
+排水口堵住了，你可以打给水电师傅吗？
+fluent
+/ˈfluːənt/
+adj. （语言）流利的，流畅的
+He is fluent in Chinese and English.
+他的中文和英文都很流利。
+indoors
+/ˈɪnˌdɔːrz/
+adv. 在室内，往室内
+It's so cold. Let's go indoors.
+好冷啊，我们进去室内吧。
+messenger
+/ˈmɛsɪndʒər/
+n. 送信人，通讯员
+Don't get mad at me. I'm only the messenger.
+别生我的气，我只是信使而已。
+permission
+/pərˈmɪʃən/
+n. 允许，同意
+Have you been given permission to do that?
+你有获准这样做吗？
+restrict
+/rɪˈstrɪkt/
+v. 限制，约束
+We restrict the number of students per class to five.
+我们将每个班级的学生人数限制为五人。
+sufficient
+/səˈfɪʃənt/
+adj. 足够的，充足的
+This recipe should be sufficient for ten people.
+这个食谱应该够十个人吃。
+attempt
+/əˈtɛmpt/
+v. 尝试，努力，企图 n. 尝试，努力，企图
+I will attmpt to answer any questions that you have.
+我会尝试回答你的任何疑问。
+circulation
+/ˌsɜːr.kjʊˈleɪ.ʃən/
+n. 循环
+Regular execise improves blood circulation.
+规律的运动促进血液循环。
+demand
+/dɪˈmænd/
+v. 强烈要求；需要 n. 强烈的要求；需求
+The boss demanded that all of us work extra hours.
+老板要求我们所有人加班。
+expressive
+/ɪkˈsprɛsɪv/
+adj. 表情丰富的，有表现力的
+I like people whose faces and gestures are expenssive.
+我喜欢脸部表情和肢体动作生动的人。
+hasty
+/ˈheɪsti/
+adj. 仓促的，轻率的
+Hasty love, soon cold.
+来得快的爱，去得也快。
+limitation
+/ˌlɪmɪˈteɪʃən/
+n. 限制；限定
+This product is useful, but it has its limitations.
+这产品很好用，但也有所限制。
+omit
+/əˈmɪt/
+v. 忽略；删除；遗漏
+Please don't omit any details.
+请不要忽略任何细节。
+reasonable
+/ˈriːzənəbl/
+adj. 合理的；理性的；价格公道的
+Your opinion is quite reasonable.
+你的意见相当合理。
+slight
+/slaɪt/
+adj. 轻微的；少量的；些微的
+Your voice has a slight American accent.
+你听起来有点美国口音。
+wealthy
+/ˈwɛlθi/
+adj. 富裕的，丰富的
+Helen comes from a wealthy family.
+Helen 来自一个富裕的家庭。
+barn
+/bɑːrn/
+n. 谷仓，粮仓
+Some kids are playing hide-and-seek in the barn.
+一些小孩们在谷仓里玩着捉迷藏。
+competitor
+/kəmˈpɛtɪtər/
+n. 竞争者，对手
+We must outseil our main competitor.
+我们一定要起越我们主要竞争对手。
+developed
+/dɪˈvɛləpt/
+adj. 已发展的，发达的
+Some diseases tend to be more common in developed countries.
+某些疾病往往在已发展国家更为常见。
+feast
+/fiːst/
+n. 大餐，盛宴，筵席 v. 设宴款待
+Feast today and fast tomorrow!
+今天先大餐，禁食明天再说。
+housework
+/ˈhaʊsˌwɜrk/
+n. 家事，家务
+My husband and kids are not allergic to housework.
+我老公和小孩不排斥做家事。
+mankind
+/mænˈkaɪnd/
+n. 人类
+Mankind has always been obsessed with power.
+人类一直以来都为权利着迷。
+packed
+/pækt/
+adj. 挤满的，拥挤的
+The MRT station is packed.
+捷运站挤满了人。
+relief
+/rɪˈliːf/
+n. 解脱，缓解，救济
+I feel a great sense of relief.
+我感到如释重负。
+spring
+/sprɪŋ/
+v. 弹起；跳 n. 弹簧
+I turned off the alarm and sprang out of bed.
+我关掉闹钟，跳下床。
+urgent
+/ˈɜrdʒənt/
+adj. 急迫的，紧急的
+I am in urgent need of money.
+我急需用钱。
+Asian
+/ˈeɪʒən/
+n. 亚洲人；亚裔人 adj. 亚洲（人）的
+We've all heard the stereotype - Asians are good at math.
+我们都听过这样的刻板印象——亚洲人数学很好。
+chew
+/tʃuː/
+v. 咀嚼 n. 咀嚼
+Chew your food well before you swallow it.
+食物吞下去前要先好好咀嚼。
+decorative
+/ˈdɛkərətɪv/
+adj. 装饰性的
+These potted plants are cute and decorative.
+这些盆栽很可爱、很有装饰效果。
+expansion
+/ɪkˈspænʃən/
+n. 扩大，增加，扩展
+The rapid expansion of cities can cause problems.
+城市快速扩大可能造成问题。
+guidance
+/ˈɡaɪdəns/
+n. 指导，导引
+Under the swimming coach's guidance, he learned how to swim.
+在游泳教练的指导下，他学会了游泳。
+leisure
+/ˈliːʒər/
+n. 闲暇，空闲时间
+We spent the afternoon at leisure in the city.
+我们在市区悠闲地度过一个下午。
+nun
+/nʌn/
+n. 修女，尼姑
+She's been a nun for 30 years.
+她当修女 30 年了。
+quilt
+/kwɪlt/
+n. 被子，被褥
+I got under the quilt and lay sideways on the bed.
+我钻进被子侧躺在床上。
+sin
+/sɪn/
+n. 罪过，罪 v. 违反教规；犯过失
+It's a sin to waste taxpayers' money like that.
+那样浪费纳税人的钱是种罪过。
+unique
+/juːˈniːk/
+adj. 独特的
+I am ordinary yet unique.
+我平凡却独特。
+balance
+/ˈbæləns/
+n. 结余 v. 使收支平衡
+I check my bank balance every other day.
+我每隔一天检查我的银行帐户余额。
+committee
+/kəˈmɪti/
+n. 委员会
+The committee has decided to fire him.
+委员会决定解雇他。
+despite
+/dɪˈspaɪt/
+prep. 尽管，不管
+We enjoyed the trip despite the bad weather.
+尽管天气不好，这趟旅行还是很让人享受。
+fare
+/fɛər/
+n. 车费，车资
+You have to pay the bus fare first.
+你得先付公车钱。
+homeland
+/ˈhoʊmlænd/
+n. 祖国，家乡
+We were forced to leave our homeland for political reasons.
+因为政治关系，我们被迫离开家园。
+long
+/lɔŋ/
+v. 渴望
+She has always longed for a younger sister.
+她一直渴望有个妹妹。
+original
+/əˈrɪdʒənəl/
+adj. 最初的；原作的；独创的 n. 原稿；原作
+The original findings conflict with the recent findings.
+原始的发现与近期的发现互相矛盾。
+register
+/ˈrɛdʒɪstər/
+v. 登记，注册 n. 登记簿，注册表
+This car is registered under his name.
+这台车登记在他名下。
+spark
+/spɑrk/
+n. 火花；导火线 v. 引起；触发
+I can feel there is a spark between them.
+我可以感觉到他们之间有火花。
+voyage
+/ˈvɔɪɪdʒ/
+n. 长途航行
+He sees life as a voyage of discovery.
+他把人生视为一趟发现之旅。
