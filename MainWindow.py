@@ -8,6 +8,7 @@ from modules.Ebbinghaus import Ebbinghaus
 from modules.Youtube import Youtube
 import json
 import pyttsx3
+import threading
 
 class EnglishPractice:
     '''
@@ -16,6 +17,7 @@ class EnglishPractice:
     03. 与文件相关的函数名以         f_   开头
     04. 功能相关的函数名以           fun_ 开头
     05. 与 Ebbinghous 相关的函数名以 eb_  开头
+    06. 与 TTS 相关以               tts_ 开头
     '''
     practiceModeList = ['new','review','ebbinghaus']
     vocabulary_list  = ['IELTS1000','ORCHARD7','ORCHARD6','ORCHARD5','ORCHARD4']
@@ -98,6 +100,13 @@ class EnglishPractice:
         self.ui.pushButton_4.clicked.connect(self.ui_onGoClicked)
         # Marked Only
         self.ui.checkBox_4.toggled.connect(self.fun_markedOnly)
+        # TTS
+        self.ui.lineEdit_4.textChanged.connect(self.tts_SpeedChange)
+        self.ui.comboBox_3.currentIndexChanged.connect(self.tts_AccentChange)
+        self.engine = pyttsx3.init()
+        self.ignoreTTS = True
+        self.tts_SpeedChange()
+        self.tts_AccentChange()
         # 听力页面相关
         self.ui.pushButton_5.clicked.connect(self.ui_onSentencePrevClicked)
         self.ui.pushButton_6.clicked.connect(self.ui_onSentenceNextClicked)
@@ -193,31 +202,48 @@ class EnglishPractice:
     def ui_saveClicked(self):
         self.f_writeConfigFile()
 
-    def speak(self, content, speed=120, accent='british'):
-        # Initialize the text-to-speech engine
-        engine = pyttsx3.init()
-        # Set the speaking rate
-        engine.setProperty('rate', speed)
+    def tts_SpeedChange(self):
+        self.ttsSpeed = int(self.ui.lineEdit_4.text().strip()) if len(self.ui.lineEdit_4.text().strip()) > 0 else 120
+        self.engine.setProperty('rate', self.ttsSpeed)
+        if self.ignoreTTS:
+            return
+        else:
+            self.f_writeConfigFile()
+    def tts_AccentChange(self):
+        self.ttsAccent = self.ui.comboBox_3.currentText().lower()
         # Get available voices and set to English
-        voices = engine.getProperty('voices')
+        voices = self.engine.getProperty('voices')
+        selected_voice = None
         for voice in voices:
-            if accent == 'american' and 'en-us' in voice.id.lower():  # American English
+            if 'english' in voice.name.lower():  # Check if the voice is English
+                selected_voice = voice.id
+        for voice in voices:
+            if self.ttsAccent == 'american' and 'en-us' in voice.id.lower():  # American English
                 selected_voice = voice.id
                 break
-            elif accent == 'british' and 'en-gb' in voice.id.lower():  # British English
-                selected_voice = voice.id
-                break
-            elif 'english' in voice.name.lower():  # Check if the voice is English
+            elif self.ttsAccent == 'british' and 'en-gb' in voice.id.lower():  # British English
                 selected_voice = voice.id
                 break
         # Set the voice
         if selected_voice:
-            engine.setProperty('voice', selected_voice)
+            self.engine.setProperty('voice', selected_voice)
         else:
-            print(f"No {accent} accent voice found. Using default voice.")
-        # Say the word
-        engine.say(content)
-        engine.runAndWait()
+            print(f"No {self.ttsAccent} accent voice found. Using default voice.")
+        if self.ignoreTTS:
+            return
+        else:
+            self.f_writeConfigFile()
+    def speak(self, content):
+        def run_speak():
+            # Say the word
+            try:
+                self.engine.say(content)
+                self.engine.runAndWait()
+            except (RuntimeError) as e:
+                pass
+        # Create and start the thread
+        speak_thread = threading.Thread(target=run_speak)
+        speak_thread.start()
         
     def fun_initWithConfig(self):
         self.useSentenceScore = False
@@ -267,7 +293,10 @@ class EnglishPractice:
         self.listenPracticeCnt = int(self.ui.lineEdit_3.text().strip()) - int(self.ui.lineEdit_2.text().strip())
         self.idxListen = int(self.ui.lineEdit_2.text().strip()) - 1
         self.currentListening = self.db.getListenSentence(self.idxListen)
-    
+        # TTS 设置恢复
+        self.ui.lineEdit_4.setText(str(self.configDict.get("Speed")))
+        self.ui.comboBox_3.setCurrentText(self.configDict.get("Accent"))
+
     def f_writeConfigFile(self):
         with open("config/Settings.json","w",encoding='utf-8') as file:
             self.configDict = {"Source":self.ui.comboBox.currentText(),
@@ -279,7 +308,9 @@ class EnglishPractice:
                                 "UpdateInReview":False,#self.ui.checkBox_2.isChecked(),
                                 "Source2":self.ui.comboBox_2.currentText(),
                                 "From":int(self.ui.lineEdit_2.text().strip()) if len(self.ui.lineEdit_2.text().strip()) > 0 else 1,
-                                "To":int(self.ui.lineEdit_3.text().strip()) if len(self.ui.lineEdit_3.text().strip()) > 0 else 2
+                                "To":int(self.ui.lineEdit_3.text().strip()) if len(self.ui.lineEdit_3.text().strip()) > 0 else 2,
+                                "Speed":int(self.ui.lineEdit_4.text().strip()) if len(self.ui.lineEdit_4.text().strip()) > 0 else 120,
+                                "Accent":self.ui.comboBox_3.currentText()
                                 }
             json.dump(self.configDict,file)
 
@@ -857,6 +888,9 @@ class EnglishPractice:
             self.tipCursor.setPosition(0,QTextCursor.MoveAnchor)
             self.tipCursor.setPosition(10,QTextCursor.KeepAnchor)
             self.tipCursor.mergeCharFormat(self.tipFormat)
+            self.ignoreTTS = False
+            self.tts_SpeedChange()
+            self.tts_AccentChange()
             if self.wordMode == 2:
                 if self.typeCnt > len(self.currentWord) + 1:
                     self.ui.checkBox_3.setChecked(True)
@@ -971,8 +1005,6 @@ class EnglishPractice:
             self.wordCursor.insertText(self.p_list[8*self.wordIndex].strip())
             self.ui.textEdit_2.clear()
             self.sentenceCursor.insertText(self.p_list[8*self.wordIndex+5].strip())
-
-            self.speak(self.p_list[8*self.wordIndex].strip())
 
     def ui_onNextClicked(self):
         # 在 p_list 中保存输入内容
