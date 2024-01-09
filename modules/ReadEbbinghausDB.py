@@ -38,7 +38,13 @@ class ReadEbbinghausDB:
 
     def getWords(self,table,order_by_sentence = False):
         self.open()
-        self.words = []
+        self.words        = []
+        self.scores       = {}
+        self.wordCnt      = {}
+        self.sentenceCnt  = {}
+        self.wordTime     = {}
+        self.sentenceTime = {}
+        self.marked       = {}
         if order_by_sentence == False:
             SQLITE_CMD = 'SELECT * FROM %s ORDER BY word_base ASC'%(table)
         else:

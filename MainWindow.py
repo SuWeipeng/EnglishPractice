@@ -281,6 +281,7 @@ class EnglishPractice:
         self.wordsNum     = self.configDict.get("Count")
         self.ui.lineEdit.setText(str(self.wordsNum))
         self.ui.comboBox.setCurrentText(self.configDict.get("Source"))
+        self.ui_wordSourceChanged()
         # 听力设置恢复
         self.listeningTable = self.configDict.get("Source2")
         self.listenCount    = self.db.getListenContent(self.listeningTable)
@@ -722,8 +723,9 @@ class EnglishPractice:
 
     def fun_initWords(self):
         res = False
-        if self.ebdb.tableExist(self.EbbinghausTable) == False:
-            self.writeEbbinghaus.createEbbinghausTable(self.EbbinghausTable)
+        for table in EnglishPractice.vocabulary_list:
+            if self.ebdb.tableExist(table) == False:
+                self.writeEbbinghaus.createEbbinghausTable(table)
         if self.practiceMode == EnglishPractice.practiceModeList[0]:
             res = True
             # 从数据库中取数据
@@ -802,6 +804,7 @@ class EnglishPractice:
 
     def ui_wordSourceChanged(self):
         self.EbbinghausTable = self.ui.comboBox.currentText()
+        self.ebWords         = self.ebdb.getWords(self.EbbinghausTable,self.useSentenceScore)
         self.db.getWords(self.EbbinghausTable)          
         self.ui_renewUI()
         self.db_getWords()
