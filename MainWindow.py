@@ -60,6 +60,7 @@ class EnglishPractice:
         self.sentenceCriteria = 0.9
         self.lastCurrent      = ''
         self.typeCnt          = 0
+        self.wordModeLast     = self.wordMode
         # 听力相关变量
         self.links                 = []
         self.listeningSentences    = []
@@ -808,9 +809,15 @@ class EnglishPractice:
             self.typeCnt     = 0
         else:
             self.typeCnt += 1
-            
+        if self.wordModeLast != self.wordMode:
+            self.wordModeLast = self.wordMode
+            self.ignore_once = True
+        else:
+            self.ignore_once = False
         self.ui_setWordFont() 
         self.input_word = self.ui.textEdit.toPlainText()
+        if len(self.input_word) == 0 and self.ignore_once:
+            self.typeCnt = 0
         replace_pos, delete_pos, insert_pos = self.fun_diffWord(self.input_word, self.currentWord)
 
         # 修改窗口的提示
