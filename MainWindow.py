@@ -32,6 +32,7 @@ class EnglishPractice:
                         'I have done yoga.'      ,'I had done yoga.'      ,'I will have done yoga.'      ,'I said I would have done yoga.',
                         'I have been doing yoga.','I had been doing yoga.','I will have been doing yoga.','I said I would have been doing yoga.']
     verb_tense       = verb_tense_02
+    tts_mode         = ['en','cn']
     def __init__(self):
         self.generateAllWords = False
         # 打开单词数据库
@@ -101,6 +102,9 @@ class EnglishPractice:
         # Marked Only
         self.ui.checkBox_4.toggled.connect(self.fun_markedOnly)
         # TTS
+        self.ui.radioButton_4.clicked.connect(self.ui_ttsChineseSelected)
+        self.ui.radioButton_5.clicked.connect(self.ui_ttsEnglishSelected)
+        self.ttsMode = EnglishPractice.tts_mode[0]
         self.ui.lineEdit_4.textChanged.connect(self.tts_SpeedChange)
         self.ui.comboBox_3.currentIndexChanged.connect(self.tts_AccentChange)
         self.engine = pyttsx3.init()
@@ -202,6 +206,16 @@ class EnglishPractice:
     def ui_saveClicked(self):
         self.f_writeConfigFile()
 
+    def ui_ttsChineseSelected(self):
+        self.ui.label_23.setVisible(False)
+        self.ui.comboBox_3.setVisible(False)
+        self.ttsMode = EnglishPractice.tts_mode[1]
+    def ui_ttsEnglishSelected(self):
+        self.ui.label_23.setVisible(True)
+        self.ui.comboBox_3.setVisible(True)
+        self.ttsMode = EnglishPractice.tts_mode[0]
+        self.tts_SpeedChange()
+        self.tts_AccentChange()
     def tts_SpeedChange(self):
         self.ttsSpeed = int(self.ui.lineEdit_4.text().strip()) if len(self.ui.lineEdit_4.text().strip()) > 0 else 120
         self.engine.setProperty('rate', self.ttsSpeed)
@@ -233,6 +247,27 @@ class EnglishPractice:
             return
         else:
             self.f_writeConfigFile()
+    def speak_cn(self, content):
+        def run_speak():
+            # Say the word
+            try:
+                self.engine.setProperty('rate', 250)
+                voices = self.engine.getProperty('voices')
+                selected_voice = None
+                for voice in voices:
+                    if 'chinese' in voice.name.lower():  # Check if the voice is English
+                        selected_voice = voice.id
+                if selected_voice:
+                    self.engine.setProperty('voice', selected_voice)
+                else:
+                    print(f"No {self.ttsAccent} accent voice found. Using default voice.")
+                self.engine.say(content)
+                self.engine.runAndWait()
+            except (RuntimeError) as e:
+                pass
+        # Create and start the thread
+        speak_thread = threading.Thread(target=run_speak)
+        speak_thread.start()        
     def speak(self, content):
         def run_speak():
             # Say the word
@@ -868,7 +903,10 @@ class EnglishPractice:
         if self.lastCurrent != self.currentWord:
             self.lastCurrent = self.currentWord
             self.typeCnt     = 0
-            self.speak(self.currentWord)
+            if self.ttsMode == 'en':
+                self.speak(self.currentWord)
+            elif self.ttsMode == 'cn':
+                self.speak_cn(self.db.mean(self.currentWord))
         else:
             self.typeCnt += 1
         if self.wordModeLast != self.wordMode:

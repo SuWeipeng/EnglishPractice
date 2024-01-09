@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>630</width>
-    <height>397</height>
+    <height>415</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -960,34 +960,72 @@
              </layout>
             </item>
             <item>
-             <widget class="QComboBox" name="comboBox_3">
+             <layout class="QHBoxLayout" name="horizontalLayout_17">
               <item>
-               <property name="text">
-                <string>American</string>
-               </property>
+               <widget class="QRadioButton" name="radioButton_5">
+                <property name="text">
+                 <string>English</string>
+                </property>
+                <property name="checked">
+                 <bool>true</bool>
+                </property>
+               </widget>
               </item>
               <item>
-               <property name="text">
-                <string>British</string>
-               </property>
+               <widget class="QRadioButton" name="radioButton_4">
+                <property name="text">
+                 <string>Chinese</string>
+                </property>
+               </widget>
               </item>
-             </widget>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_16">
+              <item>
+               <widget class="QLabel" name="label_23">
+                <property name="text">
+                 <string>Accent:</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="comboBox_3">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>American</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>British</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <spacer name="verticalSpacer">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>40</height>
+               </size>
+              </property>
+             </spacer>
             </item>
            </layout>
           </widget>
-         </item>
-         <item>
-          <spacer name="verticalSpacer">
-           <property name="orientation">
-            <enum>Qt::Vertical</enum>
-           </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>20</width>
-             <height>40</height>
-            </size>
-           </property>
-          </spacer>
          </item>
         </layout>
        </item>
