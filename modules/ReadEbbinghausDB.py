@@ -49,13 +49,13 @@ class ReadEbbinghausDB:
             rows = cur.fetchall()
         self.close()
         for row in rows:
-            self.words.append(row[0])
-            self.scores      [row[0]] = row[1]
-            self.wordCnt     [row[0]] = row[2]
-            self.sentenceCnt [row[0]] = row[3]
-            self.wordTime    [row[0]] = row[4]
-            self.sentenceTime[row[0]] = row[5]
-            self.marked      [row[0]] = row[6]
+            self.words.append(row[1])
+            self.scores      [row[1]] = row[2]
+            self.wordCnt     [row[1]] = row[3]
+            self.sentenceCnt [row[1]] = row[4]
+            self.wordTime    [row[1]] = row[5]
+            self.sentenceTime[row[1]] = row[6]
+            self.marked      [row[1]] = row[7]
         return self.words
     def score(self,word):
         return self.scores.get(word)
