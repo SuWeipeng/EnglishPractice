@@ -7,6 +7,7 @@ from modules.ReadEbbinghausDB import ReadEbbinghausDB
 from modules.Ebbinghaus import Ebbinghaus
 from modules.Youtube import Youtube
 import json
+import pyttsx3
 
 class EnglishPractice:
     '''
@@ -192,6 +193,32 @@ class EnglishPractice:
     def ui_saveClicked(self):
         self.f_writeConfigFile()
 
+    def speak(self, content, speed=120, accent='british'):
+        # Initialize the text-to-speech engine
+        engine = pyttsx3.init()
+        # Set the speaking rate
+        engine.setProperty('rate', speed)
+        # Get available voices and set to English
+        voices = engine.getProperty('voices')
+        for voice in voices:
+            if accent == 'american' and 'en-us' in voice.id.lower():  # American English
+                selected_voice = voice.id
+                break
+            elif accent == 'british' and 'en-gb' in voice.id.lower():  # British English
+                selected_voice = voice.id
+                break
+            elif 'english' in voice.name.lower():  # Check if the voice is English
+                selected_voice = voice.id
+                break
+        # Set the voice
+        if selected_voice:
+            engine.setProperty('voice', selected_voice)
+        else:
+            print(f"No {accent} accent voice found. Using default voice.")
+        # Say the word
+        engine.say(content)
+        engine.runAndWait()
+        
     def fun_initWithConfig(self):
         self.useSentenceScore = False
         self.ui.checkBox.setChecked(self.useSentenceScore)
@@ -807,6 +834,7 @@ class EnglishPractice:
         if self.lastCurrent != self.currentWord:
             self.lastCurrent = self.currentWord
             self.typeCnt     = 0
+            self.speak(self.currentWord)
         else:
             self.typeCnt += 1
         if self.wordModeLast != self.wordMode:
@@ -891,6 +919,7 @@ class EnglishPractice:
             self.ui.textEdit.clear()
             self.wordCursor.insertText(tempWord.strip())
             self.ui.textEdit_2.setFocus()
+            self.speak(self.sentences.get(self.currentWord) if self.sentences.get(self.currentWord) is not None else "All done.")
         if '\t' in self.input_word:
             self.ui_onNextClicked()
             self.fun_updateMarked()
@@ -942,6 +971,8 @@ class EnglishPractice:
             self.wordCursor.insertText(self.p_list[8*self.wordIndex].strip())
             self.ui.textEdit_2.clear()
             self.sentenceCursor.insertText(self.p_list[8*self.wordIndex+5].strip())
+
+            self.speak(self.p_list[8*self.wordIndex].strip())
 
     def ui_onNextClicked(self):
         # 在 p_list 中保存输入内容
