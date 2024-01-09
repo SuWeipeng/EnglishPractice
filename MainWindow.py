@@ -978,6 +978,7 @@ class EnglishPractice:
         <th bgcolor="#F6F6F6"> <font color="#FE642E"> Score</th>
         <th bgcolor="#F6F6F6"> <font color="#04B431"> Word Count</th>
         <th bgcolor="#F6F6F6"> <font color="#045FB4"> Sentence Count</th>
+        <th bgcolor="#F6F6F6"> Marked</th>
     </tr>''')
             index = 0
             lineNo = 0
@@ -991,7 +992,8 @@ class EnglishPractice:
         <td bgcolor="#FDFDFD"> <font color="#FE642E">%s</td>
         <td bgcolor="#FDFDFD"> <font color="#04B431">%s</td>
         <td bgcolor="#FDFDFD"> <font color="#045FB4">%s</td>
-    </tr>'''%(lineNo,word,str(self.ebdb.score(word)),str(self.ebdb.wordCount(word)), str(self.ebdb.sentenceCount(word))))
+        <td bgcolor="#FDFDFD"> %s</td>
+    </tr>'''%(lineNo,word,str(self.ebdb.score(word)),str(self.ebdb.wordCount(word)), str(self.ebdb.sentenceCount(word)), str(self.ebdb.getMarked(word))))
                 else:
                     file.write('''
     <tr >
@@ -1000,7 +1002,8 @@ class EnglishPractice:
         <td bgcolor="#F6F6F6"> <font color="#FE642E">%s</td>
         <td bgcolor="#F6F6F6"> <font color="#04B431">%s</td>
         <td bgcolor="#F6F6F6"> <font color="#045FB4">%s</td>
-    </tr>'''%(lineNo, word,str(self.ebdb.score(word)),str(self.ebdb.wordCount(word)), str(self.ebdb.sentenceCount(word))))
+        <td bgcolor="#F6F6F6"> %s</td>
+    </tr>'''%(lineNo, word,str(self.ebdb.score(word)),str(self.ebdb.wordCount(word)), str(self.ebdb.sentenceCount(word)), str(self.ebdb.getMarked(word))))
                 index += 1
             file.write('\n</table>\n')
         self.ebdb.close()
