@@ -2998,3 +2998,253 @@ warfare
 n. 作战，交战
 The news is about drugs and gang warfare.
 那新闻是关于毒品和帮派斗争。
+apologize
+/əˈpɒlədʒaɪz/
+v. 道歉
+We apologize for any inconvenience caused.
+我们对造成的任何不便道歉。
+celebration
+/ˌseləˈbreɪʃən/
+n. 庆祝
+We're having a small celebration for dad's birthday.
+我们在帮爸爸的生日小小庆祝一下。
+cushion
+/ˈkʊʃən/
+n. 靠垫，坐垫
+These sofa cushions are so soft and comfortable.
+这些沙发靠垫好柔软舒适。
+essay
+/ˈɛseɪ/
+n. 散文
+Mr. Chen asked me to rewrite my essay.
+陈老师要我重写文章。
+graph
+/ɡræf/
+n. 图表，图解
+I decided to show the results in a graph.
+我决定用图表呈现结果。
+largely
+/ˈlɑːdʒli/
+adv. 大部分，大多地，大量地，很大程度地
+His success was largely due to his diligence.
+他成功很大的原因是他的勤奋。
+necessity
+/nɪˈsesɪti/
+n. 必需品；必要
+Do you think love is a necessity of life?
+你觉得爱是生命的必需品吗？
+promotion
+/prəˈməʊʃən/
+n. 促销，推广，升迁
+We are doing a special promotion on these drinks.
+这些饮料我们在做特别促销。
+shave
+/ʃeɪv/
+v. 剃毛发，刮胡子
+He shaves every mornign before going out.
+他每天早上出门前都会刮胡子。
+truthful
+/ˈtruːθfʊl/
+adj. 诚实的
+Let's truthful with each other.
+让我们彼此坦诚相待。
+affordable
+/əˈfɔːrdəbəl/
+adj. 负担得起的，买得起的
+Housing is not really affordable these days.
+最近房子很难买得起。
+bundle
+/ˈbʌndəl/
+n. 一捆
+There is a bundle of drinking straws on the table.
+桌上有一捆吸管。
+cradle
+/ˈkreɪdəl/
+n. 摇篮 v. 轻托，轻抱
+What should I do when the baby cries in the cradle?
+宝宝在摇篮里哭时，我该怎么做？
+element
+/ˈɛlɪmənt/
+n. 元素，要素，成分
+The ability to write English is a key element of this job.
+英文写作能力是这工作的关键要素。
+gear
+/ɡɪər/
+n. 齿轮，用具，装备，衣服；排档
+Careless use of the clutch can damage the gears.
+乱使用离合器会损害齿轮。
+invisible
+/ɪnˈvɪzəbəl/
+adj. 隐形的
+His ability is to make himself invisible.
+他的能力是将自己隐形。
+monitor
+/ˈmɒnɪtər/
+v. 监控，监测，监听
+The transaction has been monitored.
+那笔交易已被监控。
+portion
+/ˈpɔːrʃən/
+n. 一部分；（食物）一份
+You are paid your portion not later than a week.
+您将在一周内收到您那部分的款项。
+satisfaction
+/ˌsætɪsˈfækʃən/
+n. 满意，满足
+This meal gave me a feeling of satisfaciton.
+这顿饭让我有种满足的感觉。
+theme
+/θiːm/
+n. 主题
+Do you remember our favorite theme song?
+你还记得我们最喜欢的主题曲吗？
+Thai
+/taɪ/
+n. 泰文；泰国人 adj. 泰国（人）的；泰文的
+I am going to learn Thai next semester.
+我下学期要学泰文。
+afford
+/əˈfɔːrd/
+v. 负担得起
+I can't afford to go abroad this year.
+今年我无法负担得起出国。
+bump
+/bʌmp/
+v. 小碰撞
+Be careful not to bump your head.
+小心别撞到头。
+crack
+/kræk/
+v. 破裂；崩溃 n. 裂缝；爆裂声
+My lips easily get dry and cracked in the winter.
+我的嘴唇很冬天时容易干裂。
+elegant
+/ˈɛlɪɡənt/
+adj. 优雅的；简练的
+She's always chic and elegant.
+她总是时髦而优雅。
+gaze
+/ɡeɪz/
+v. 凝视，盯着 n. 凝视，目光
+She gazed at me in awe.
+她惊讶地看着我。
+investor
+/ɪnˈvɛstər/
+n. 投资者，投资人
+The investors believe that the investment will pay off.
+投资者相信这项投资会回本。
+moisture
+/ˈmɔɪstʃər/
+n. 水气
+The sun dries the moisture on the ground.
+太阳晒干了地上的水气。
+popularity
+/ˌpɒpjʊˈlærɪti/
+n. 受欢迎；流行
+The film deserves its popularity.
+那部电影爆红真是当之无愧。
+sake
+/seɪk/
+n. 利益
+I stopped smoking for the sake of my health.
+我为了健康而戒烟了。
+biology
+/baɪˈɒlədʒi/
+n. 生物学
+Biology was my favorite subject back in school.
+生物学是我在学校期间最爱的科目。
+consist
+/kənˈsɪst/
+v. 由...组成，由...构成
+The team consists of six members.
+团队由六个成员组成。
+dose
+/doʊs/
+n. 一剂，（药物）一剂
+The nurse told me to take one dose three times a day.
+护理师跟我说一天吃三次药。
+flesh
+/flɛʃ/
+n. 肉，肉体；果肉
+The flesh of the apple is sweet and juicy.
+苹果果肉又甜又多汁。
+incoming
+/ˈɪnkʌmɪŋ/
+adj. 到来的；正来临的；新任的
+Incoming calls will be recorded.
+来电将会被录音。
+mend
+/mɛnd/
+v. 修补，修理
+Can you mend the hold in my shirt?
+你可以帮我修补我衣服的破洞吗？
+percentage
+/pərˈsɛntɪdʒ/
+n. 百分比，百分率
+The percentage has increased by 10 to 30.
+百分比从 10 升至 30。
+responsibility
+/rɪˌspɒnsəˈbɪlɪti/
+n. 责任，职责
+He has no sense of responsibility.
+他毫无责任感。
+substance
+/ˈsʌbstəns/
+n. 物质；实质
+Rubber is a flexible substance.
+橡胶是一种有弹性的物质。
+yawn
+/jɔːn/
+v. 打哈欠 n. 哈欠
+Why are you yawning? Did you sleep okay last night?
+你为什么打哈欠？你昨晚睡得好吗？
+apron
+/ˈeɪprən/
+n. 围裙，工作裙
+She wiped her greasy hands on her apron.
+她用围裙擦了擦油腻的手。
+championship
+/ˈtʃæmpiənʃɪp/
+n. 冠军赛；冠军地位
+She won the championship two times in a row.
+她连两次赢得了冠军赛。
+database
+/ˈdeɪtəbeɪs/
+n. 资料库
+The database is updated every other day.
+资料库每隔一天会更新。
+examine
+/ɪɡˈzæmɪn/
+v. 检查；调查；测试
+The doctor carefully examined the patient.
+医生详细地检查了患者。
+greeting
+/ˈɡriːtɪŋ/
+n. 问候语，迎接，招呼
+Please give my greeting to your family.
+请帮我跟你家人问好。
+lean
+/liːn/
+v. 倾斜，倚，靠
+If you feel dizzy, you can lean on me.
+如果你觉得头晕，可以靠在我身上。
+noble
+/ˈnoʊbəl/
+adj. 高尚的，崇高的；贵族的 n. 贵族
+It's very noble of you to help them.
+你帮助他们是非常高尚的。
+publisher
+/ˈpʌblɪʃər/
+n. 出版商；发行机构
+You can order the book directly from the publisher.
+您可以直接从出版商那里订购这本书。
+shrink
+/ʃrɪŋk/
+v. 缩小；缩水
+Will this tee shirt shrink in the wash?
+这件T恤洗后会缩水吗？
+understanding
+/ˌʌndərˈstændɪŋ/
+adj. 善解人意的，通情达理的 n. 理解；谅解；非正式协定
+Thank you for being understanding.
+谢谢你的善解人意。
