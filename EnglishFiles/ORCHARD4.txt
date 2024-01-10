@@ -1998,3 +1998,503 @@ voyage
 n. 长途航行
 He sees life as a voyage of discovery.
 他把人生视为一趟发现之旅。
+appropriate
+/əˈproʊpriˌeɪt/
+adj. 适当的，恰当的
+Is now an appropriate time to address my question?
+现在是提出我问题的适当时机吗？
+chamber
+/ˈtʃeɪmbər/
+n. 室，（特定用途的）室或厅
+Most of the members left the council chamber.
+多数的成员们离开了议会大厅。
+darken
+/ˈdɑrkən/
+v. 变暗
+The sky started to darken as the storm came.
+随着暴风雨的到来，天空开始变暗。
+evident
+/ˈɛvɪdənt/
+adj. 明显的，明白的
+It's evident that you are not happy about me.
+很显然你对我不是很满意。
+grave
+/ɡreɪv/
+n. 墓穴，坟墓 adj. 重大的，严峻的
+She laid flowers on the grave and prayed.
+她把花放在坟墓上并祷告。
+lead
+/lɛd/
+n. 铅；铅笔芯
+Lead was found in the grape juice samples.
+葡萄汁的抽样中发现了铅。
+nevertheless
+/ˌnɛvərðəˈlɛs/
+adv. 然而，尽管如此，不过
+I was very tired, nevertheless, I worked extra hours.
+我非常累，尽管如此，我还是加了班。
+property
+/ˈprɑpərti/
+n. 资产，房地产；属性
+This car is my property.
+这辆车是我的资产。
+short-term
+/ˈʃɔrtˌtɜrm/
+adj. 短期的
+I'm looking for short-term apartment rentals.
+我在找短租公寓。
+unconscious
+/ʌnˈkɑnʃəs/
+adj. 无意识的，昏迷的
+Claire was found alive but unconscious.
+Claire 被发现还活着，但失去意识。
+barrier
+/ˈbæriər/
+n. 障碍，障碍物
+They fell in love despite the language barrier.
+尽管有语言障碍，他们依然坠入爱河。
+concentrate
+/ˈkɑnsənˌtreɪt/
+v. 专心；集中；浓缩
+You guys are so loud that I can't concentrate on my work.
+你们好吵，我无法专心工作。
+devote
+/dɪˈvoʊt/
+v. 奉献；用于
+He devoted himself to helping the poor.
+他将心力奉献给帮助穷人。
+ferry
+/ˈfɛri/
+n. 渡轮
+We missed the ferry. Now we're waiting for another one.
+我们错过了渡轮，现在我们在等另一班。
+hut
+/hʌt/
+n. 小屋
+We spent the night in a wooden but.
+我们在小木屋度过了一晚。
+manual
+/ˈmænjuəl/
+adj. 手动的，用手操作的，手工的；体力的 n. 手册，指南
+Leave the controls on manual.
+让控制器保持手动状态。
+paperwork
+/ˈpeɪpərwɜrk/
+n. 文书工作；资料，文档
+My job involves so much paperwork.
+我的工作包含很多文书工作。
+rely
+/rɪˈlaɪ/
+v. 依赖，依靠
+You can't rely on me every time you need help.
+你不能每次需要帮助时都依赖我。
+squid
+/skwɪd/
+n. 鱿鱼
+Would you like some squid?
+你要吃点鱿鱼吗？
+weep
+/wiːp/
+v. 哭泣，流泪
+Don't weep about her.
+别为了她而哭泣。
+Jew
+/dʒuː/
+n. 犹太人；犹太教徒
+Both my grandfathers are Jews.
+我两个祖父都是犹太人。
+amazement
+/əˈmeɪzmənt/
+n. 惊奇，诧异
+I gazed at her in amazement.
+我惊奇地看着她。
+campus
+/ˈkæmpəs/
+n. 校园
+Where are you? I'm on campus.
+你在哪？我在校园里。
+criminal
+/ˈkrɪmɪnəl/
+n. 罪犯 adj. 犯罪的
+It's a relief to hear that the criminal was arrested.
+听到那名罪犯被捕的消息让人松了一口气。
+enable
+/ɪˈneɪbəl/
+v. 使能够，使可能
+The app enables you to pay bills.
+这个 APP 能用来支付帐单。
+glance
+/ɡlæns/
+v. 一瞥，扫视 n. 一瞥，扫视
+He glanced up to see who had come in.
+他抬头瞄了一眼进来的是谁。
+mule
+/mjuːl/
+n. 骡；毒品走私犯
+He's as stubborn as a mule.
+他像骡子一样固执。
+poverty
+/ˈpɑvərti/
+n. 贫穷，贫困
+Poverty limits my imagination.
+贫穷限制了我的想像。
+scold
+/skoʊld/
+v. 骂；责备
+Did you scold her for breaking the glass?
+你有因打碎玻璃而骂她吗？
+tortoise
+/ˈtɔːr.təs/
+n. 陆龟
+Wow, what a giant tortoise!
+哇，好大的乌龟！
+ambition
+/æmˈbɪʃən/
+n. 雄心，抱负，野心
+My ambition knows no limits.
+我的雄心没有极限。
+cane
+/keɪn/
+n. 拐杖，手杖；藤条，竹竿
+He is injured, so he has to walk with a cane.
+他受伤了，所以得用拐杖走路。
+crop
+/krɑp/
+n. 农作物，收成，收获量 v. 剪裁照片
+Rice is the main crop grown in the area.
+水稻是这地区主要种植的农作物。
+engage
+/ɪnˈɡeɪdʒ/
+v. 使感兴趣
+The toy engaged the baby's interest.
+那个玩具引起了宝宝的兴趣。
+glorious
+/ˈɡlɔːriəs/
+adj. 辉煌的，荣耀的；壮丽的；令人愉悦的
+This country has a glorious past.
+这国家有个辉煌的过去。
+judge
+/dʒʌdʒ/
+v. 评判；裁判；评论
+Don't judge by appearance.
+别以貌取人。
+murder
+/ˈmɜrdər/
+v. 谋杀，凶杀 n. 谋杀，凶杀
+He denies murdering his girlfriend.
+他否认谋杀了女友。
+prevent
+/prɪˈvɛnt/
+v. 预防；阻止
+What can I do to prevent myself from getting old?
+我能做些什么来预防自己变老？
+screw
+/skruː/
+n. 螺丝钉 v. 旋紧；用螺丝钉固定
+The screw has come loose.
+那个螺丝钉松了。
+translate
+/trænsˈleɪt/
+v. 翻译
+Can you translate this e-mail for me?
+你能帮我翻译这封电子邮件吗？
+advise
+/ədˈvaɪz/
+v. 建议，劝告
+She advised that we seek marriage counseling.
+她建议我们找婚姻咨询。
+budget
+/ˈbʌdʒɪt/
+n. 预算；预算方案 v. 编预算 adj. 低廉的
+We are on a tight budget.
+我们的预算吃紧。
+courageous
+/kəˈreɪdʒəs/
+adj. 勇敢的
+Wow! That is a very courageous decision.
+哇！这是非常勇敢的决定。
+electricity
+/ɪˌlɛkˈtrɪsɪti/
+n. 电，电流
+What happens if there's not enough electricity supply?
+如果没有足够的电力供给会怎样？
+gamble
+/ˈɡæmbəl/
+v. 赌博，投机 n. 赌博，冒险
+He likes to gamble at cards.
+他喜欢赌牌。
+investigation
+/ɪnˌvɛstɪˈɡeɪʃən/
+n. 调查，侦查
+The investigation will take a few weeks.
+调查将需要几周的时间。
+mob
+/mɒb/
+n. 暴民；一伙 v. 包围；围攻
+The police kept the mob under control.
+警察控制住了暴民。
+pollution
+/pəˈluːʃən/
+n. 污染
+Air pollution has got worse in the past few years.
+空气污染在过去几年来恶化了。
+rust
+/rʌst/
+v. 生锈 n. 锈；铁锈
+The metal has begun to rust.
+金属已经开始生锈了。
+territory
+/ˈtɛrɪtɔːri/
+n. 领土，版图
+That island is our territory.
+那座岛是我们的领土。
+aquarium
+/əˈkwɛəriəm/
+n. 水族箱，水族馆
+I think we need a larger aquarium.
+我觉得我们需要一个更大的水族箱。
+characteristic
+/ˌkærɪktəˈrɪstɪk/
+n. 特征，特色 adj. 特有的，独特的
+Kindness is a characteristic you share with your mom.
+善良是你跟你妈的共同特点。
+daylight
+/ˈdeɪˌlaɪt/
+n. 日光；白天
+This town becomes so lively in daylight.
+这小镇白天变得好有活力呀。
+except
+/ɪkˈsɛpt/
+prep. 除外 conj. 除外
+I go swimming every day except Sunday.
+我每天去游泳，除了周日。
+grief
+/ɡriːf/
+n. 悲伤，悲痛
+No words can express my grief.
+任何文字都无法表达我的悲伤。
+leap
+/liːp/
+v. 跳跃；激增；快速提供 n. 跳，跳跃；激增
+A whale leaped out of the water.
+一只鲸鱼跃出水面。
+nonsense
+/ˈnɒnsəns/
+n. 胡说；废话
+It's nonsense to say they don't care.
+说他们不在乎是胡说八道。
+pump
+/pʌmp/
+n. 抽水机；打气机 v. 抽送；抽吸
+The pump sucked water from the basement.
+抽水机将地下室的水抽出。
+sightseeing
+/ˈsaɪtˌsiːɪŋ/
+n. 观光；浏览
+We did some sightseeing in South Korea.
+我们去韩国观光。
+underwater
+/ˌʌndərˈwɔːtər/
+adv. 在水下；在海面下 adj. 在水下的；在海面下的
+The duck disappeared underwater.
+鸭子消失在水面下。
+acceptance
+/əkˈsɛptəns/
+n. 接受，接纳
+Customer acceptance of the new product has been good.
+客户对新产品的接受度很高。
+blueberry
+/ˈbluːˌbɛri/
+n. 蓝莓
+I like to eat blueberries for breakfast.
+我早餐喜欢吃蓝莓。
+content
+/ˈkɒntɛnt/
+n. 内容；目录
+We should work on the content so that we can create more views.
+我们应该多在内容下功夫，才能创造更高的观看数。
+duck
+/dʌk/
+v. 低头躲
+I ducked down behind the wall so they wouldn't see me.
+我低头躲在墙后，以免他们看到我。
+forth
+/fɔːrθ/
+adv. 向前地
+My dog always springs forth when I go back home.
+每当我回家，我的狗总会向前扑过来。
+information
+/ˌɪnfərˈmeɪʃən/
+n. 资讯，情报
+For more information, please visit our website.
+如欲了解更多资讯，请上我们网站。
+mill
+/mɪl/
+n. 磨坊；碾磨机；制造厂 v. 碾碎，碾磨
+The farmer took his grain to the mill.
+农夫把他的谷物运到磨坊。
+physics
+/ˈfɪzɪks/
+n. 物理
+She majors in physics.
+她主修物理。
+reward
+/rɪˈwɔːrd/
+n. 奖赏；报答；报偿 v. 奖赏；报答；报偿
+There is no reward without risk.
+没有风险就没有报酬。
+supposed
+/səˈpoʊzd/
+adj. 所谓的，据说的，预期的
+These opinion were written by the supposed experts.
+这些意见是由所谓的专家撰写的。
+achievement
+/əˈtʃiːvmənt/
+n. 成就
+His family is very proud of his achievement.
+他家人非常以他的成就为荣。
+brass
+/bræs/
+n. 黄铜 adj. 铜管乐器的
+She polished the brass till it shone.
+她把黄铜擦得发亮。
+conversational
+/ˌkɒnvərˈseɪʃənl/
+adj. 交谈的；对话的
+She has a more direct conversational style.
+她讲话风格比较直接。
+eager
+/ˈiːɡər/
+adj. 热切的，渴望的
+Everyone in the class is eager to learn.
+班上的每个人都渴望学习。
+frighten
+/ˈfraɪtən/
+v. 使害怕，使惊吓
+I'm not easily firghtened.
+我不轻易害怕。
+inspector
+/ɪnˈspɛktər/
+n. 检查员，视察员
+The inspector reviewed the paper before signing it.
+审查人员在签署前检查了文件。
+miracle
+/ˈmɪrəkl/
+n. 奇迹；出奇的成就
+It was a miracle that we survived.
+我们能活下来真是个奇迹。
+plum
+/plʌm/
+n. 李子
+This plum is very sweet.
+这个李子非常甜。
+rot
+/rɒt/
+v. 腐烂；腐败 n. 腐烂；腐败
+Too much candy will rot your teeth.
+吃太多糖会让你的牙齿蛀掉。
+tame
+/teɪm/
+adj. 温顺的；驯服的 v. 驯服；制服
+Jenny is so tame that she agrees with everybody.
+Jenny 非常温顺，每个人说什么她都同意。
+attraction
+/əˈtrækʃən/
+n. 吸引力
+He doesn't see any attraction of going out for dinner.
+他不觉得出门吃饭有什么吸引力。
+civil
+/ˈsɪvəl/
+adj. 文明的；民事的，平民的
+It's very civil of you to do so!
+你这样做非常文明！
+demanding
+/dɪˈmændɪŋ/
+adj. 苛求的，吃力的
+This job is very demanding.
+这份工作非常费力。
+extend
+/ɪkˈstɛnd/
+v. 延长；延伸；伸出；扩展
+Can you help me extend my visa?
+你可以帮我延长签证吗？
+hatch
+/hætʃ/
+v. 孵化；策划 n. （墙，地板等）开口
+The eggs take a few days to hatch.
+鸡蛋要数天才会孵化。
+lipstick
+/ˈlɪpstɪk/
+n. 口红，唇膏
+She wiped her lipstick off with a tissue.
+她用面纸擦掉了口红。
+ongoing
+/ˈɒnˌɡoʊɪŋ/
+adj. 进行中的，不断发展的
+The problem is still ongoing.
+那问题仍然存续。
+recall
+/rɪˈkɔːl/
+v. 记起，回忆；使想起；召回 n. 记忆力；召回
+I don't recall what he said this morning.
+我记不起来他今早说了什么。
+slogan
+/ˈsloʊɡən/
+n. 标语；口号
+We need to come up with a slogan.
+我们需要想出一个标题。
+usage
+/ˈjuːsɪdʒ/
+n. （词语）用法；使用方式
+That word is no longer in common usage.
+这个词已经不常用了。
+assistance
+/əˈsɪstəns/
+n. 协助
+Can I be of any assistance to you?
+我可以提供您任何协助吗？
+chorus
+/ˈkɔːrəs/
+n. 副歌；合唱团
+I find the chorus very catchy.
+我觉得这副歌超洗脑。
+defense
+/dɪˈfɛns/
+n. 防御；辩护
+If we play good defense, we will win the game.
+如果我们能做好防守，这场比赛就会赢。
+experiment
+/ɪkˈspɛrɪmənt/
+n. 实验，试验 v. 进行实验，试验
+The idea of experiments on animals doesn't seem right.
+动物实验的想法似乎不太对。
+handwriting
+/ˈhændˌraɪtɪŋ/
+n. 书写；笔迹
+Your handwriting is very good.
+你写字非常好看。
+liberty
+/ˈlɪbərti/
+n. 自由，自由权；放肆，失礼
+They give their kids a great deal of liberty.
+他们给小孩很大自由。
+observation
+/ˌɒbzərˈveɪʃən/
+n. 观察；评论
+Observation is the best teacher.
+观察是最好的老师。
+rage
+/reɪdʒ/
+v. 发怒；肆虐 n. 狂怒，暴怒
+She felt like crying with rage.
+她气到想哭。
+site
+/saɪt/
+n. 地点；现场；建筑工地 v. 设置；使坐落于
+The status was moved to another site.
+雕像被移到另一个地点。
+unity
+/ˈjuːnɪti/
+n. 团结，联合
+The president is calling for national unity.
+总统号召全民团结。
