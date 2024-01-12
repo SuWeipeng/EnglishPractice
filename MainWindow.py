@@ -20,7 +20,7 @@ class EnglishPractice:
     06. 与 TTS 相关以               tts_ 开头
     '''
     practiceModeList = ['new','review','ebbinghaus']
-    vocabulary_list  = ['IELTS1000','ORCHARD7','ORCHARD6','ORCHARD5','ORCHARD4']
+    vocabulary_list  = ['IELTS1000','ORCHARD7','ORCHARD6','ORCHARD5','ORCHARD4','ORCHARD3']
     listening_list   = ['Coversation01','SentenceStructure01','EnglishNews001','Medium01',
                         'SimonReading_P1_01', 'SimonReading_P1_02']
     verb_tense_01    = ['The rabbit eats carrots.'            ,'The rabbit ate a carrot.'            ,'The rabbit will eat a carrot.'             ,'I said the rabbit would eat a carrot.',
