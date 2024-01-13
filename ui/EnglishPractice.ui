@@ -1491,7 +1491,7 @@
                              <widget class="QTextEdit" name="textEdit_35">
                               <property name="maximumSize">
                                <size>
-                                <width>120</width>
+                                <width>300</width>
                                 <height>39</height>
                                </size>
                               </property>
