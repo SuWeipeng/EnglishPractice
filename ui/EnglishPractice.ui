@@ -1243,7 +1243,7 @@
                      <item>
                       <widget class="QGroupBox" name="groupBox_6">
                        <property name="title">
-                        <string>构成2 （定句从句）</string>
+                        <string>构成2 （定语从句）</string>
                        </property>
                        <layout class="QVBoxLayout" name="verticalLayout_20">
                         <item>
