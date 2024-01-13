@@ -1541,9 +1541,15 @@
                            <layout class="QHBoxLayout" name="horizontalLayout_28">
                             <item>
                              <widget class="QTextEdit" name="textEdit_31">
+                              <property name="minimumSize">
+                               <size>
+                                <width>350</width>
+                                <height>0</height>
+                               </size>
+                              </property>
                               <property name="maximumSize">
                                <size>
-                                <width>500</width>
+                                <width>550</width>
                                 <height>39</height>
                                </size>
                               </property>
@@ -1561,6 +1567,12 @@
                             </item>
                             <item>
                              <widget class="QTextEdit" name="textEdit_32">
+                              <property name="minimumSize">
+                               <size>
+                                <width>350</width>
+                                <height>0</height>
+                               </size>
+                              </property>
                               <property name="maximumSize">
                                <size>
                                 <width>500</width>
@@ -1866,7 +1878,7 @@
                            </size>
                           </property>
                           <property name="placeholderText">
-                           <string>I would bit him.</string>
+                           <string>I would bite him.</string>
                           </property>
                          </widget>
                         </item>
