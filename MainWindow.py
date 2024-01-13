@@ -1067,76 +1067,106 @@ class EnglishPractice:
         sentence = EnglishPractice.verb_tense[0]
         input_sentence = who.toPlainText()
         self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_7)
     def ui_verbTense02Changed(self):
         who      = self.ui.textEdit_7
         sentence = EnglishPractice.verb_tense[1]
         input_sentence = who.toPlainText()
         self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_8)
     def ui_verbTense03Changed(self):
         who      = self.ui.textEdit_8
         sentence = EnglishPractice.verb_tense[2]
         input_sentence = who.toPlainText()
         self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_9)
     def ui_verbTense04Changed(self):
         who      = self.ui.textEdit_9
         sentence = EnglishPractice.verb_tense[3]
         input_sentence = who.toPlainText()
         self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_10)
     def ui_verbTense05Changed(self):
         who      = self.ui.textEdit_10
         sentence = EnglishPractice.verb_tense[4]
         input_sentence = who.toPlainText()
         self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_11)
     def ui_verbTense06Changed(self):
         who      = self.ui.textEdit_11
         sentence = EnglishPractice.verb_tense[5]
         input_sentence = who.toPlainText()
         self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_12)
     def ui_verbTense07Changed(self):
         who      = self.ui.textEdit_12
         sentence = EnglishPractice.verb_tense[6]
         input_sentence = who.toPlainText()
         self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_13)
     def ui_verbTense08Changed(self):
         who      = self.ui.textEdit_13
         sentence = EnglishPractice.verb_tense[7]
         input_sentence = who.toPlainText()
         self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_14)
     def ui_verbTense09Changed(self):
         who      = self.ui.textEdit_14
         sentence = EnglishPractice.verb_tense[8]
         input_sentence = who.toPlainText()
         self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_15)
     def ui_verbTense10Changed(self):
         who      = self.ui.textEdit_15
         sentence = EnglishPractice.verb_tense[9]
         input_sentence = who.toPlainText()
         self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_16)
     def ui_verbTense11Changed(self):
         who      = self.ui.textEdit_16
         sentence = EnglishPractice.verb_tense[10]
         input_sentence = who.toPlainText()
         self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_17)
     def ui_verbTense12Changed(self):
         who      = self.ui.textEdit_17
         sentence = EnglishPractice.verb_tense[11]
         input_sentence = who.toPlainText()
         self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_18)
     def ui_verbTense13Changed(self):
         who      = self.ui.textEdit_18
         sentence = EnglishPractice.verb_tense[12]
         input_sentence = who.toPlainText()
         self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_19)
     def ui_verbTense14Changed(self):
         who      = self.ui.textEdit_19
         sentence = EnglishPractice.verb_tense[13]
         input_sentence = who.toPlainText()
         self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_20)
     def ui_verbTense15Changed(self):
         who      = self.ui.textEdit_20
         sentence = EnglishPractice.verb_tense[14]
         input_sentence = who.toPlainText()
         self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_21)
     def ui_verbTense16Changed(self):
         who      = self.ui.textEdit_21
         sentence = EnglishPractice.verb_tense[15]
