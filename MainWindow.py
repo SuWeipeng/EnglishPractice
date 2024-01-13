@@ -6,6 +6,7 @@ from modules.WriteEbbinghausDB import WriteEbbinghausDB
 from modules.ReadEbbinghausDB import ReadEbbinghausDB
 from modules.Ebbinghaus import Ebbinghaus
 from modules.Youtube import Youtube
+import modules.MoodText as MoodText
 import json
 import pyttsx3
 import threading
@@ -193,6 +194,15 @@ class EnglishPractice:
         self.ui.pushButton_18.clicked.connect(self.ui_page3)
         self.ui.pushButton_19.clicked.connect(self.ui_page4)
         self.ui.pushButton_20.clicked.connect(self.ui_page5)
+        self.ui.textEdit_22.textChanged.connect(self.ui_mood22)
+        self.ui.textEdit_23.textChanged.connect(self.ui_mood23)
+        self.ui.textEdit_24.textChanged.connect(self.ui_mood24)
+        self.ui.textEdit_25.textChanged.connect(self.ui_mood25)
+        self.ui.textEdit_26.textChanged.connect(self.ui_mood26)
+        self.ui.textEdit_27.textChanged.connect(self.ui_mood27)
+        self.ui.textEdit_28.textChanged.connect(self.ui_mood28)
+        self.ui.textEdit_29.textChanged.connect(self.ui_mood29)
+        self.ui.textEdit_30.textChanged.connect(self.ui_mood30)
     def ui_clearStackedWidget(self):
         self.ui.textEdit_22.clear()
         self.ui.textEdit_23.clear()
@@ -261,6 +271,71 @@ class EnglishPractice:
     def ui_page5(self):
         self.ui.stackedWidget.setCurrentWidget(self.ui.page_5)
         self.ui_clearStackedWidget()
+    def ui_focusNextEdit(self,nextEdit):
+        nextEdit.setFocus()
+    def ui_mood22(self):
+        who      = self.ui.textEdit_22
+        sentence = MoodText.Text22
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(self.ui.textEdit_23)
+    def ui_mood23(self):
+        who      = self.ui.textEdit_23
+        sentence = MoodText.Text23
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(self.ui.textEdit_24)
+    def ui_mood24(self):
+        who      = self.ui.textEdit_24
+        sentence = MoodText.Text24
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(self.ui.textEdit_25)
+    def ui_mood25(self):
+        who      = self.ui.textEdit_25
+        sentence = MoodText.Text25
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(self.ui.textEdit_26)
+    def ui_mood26(self):
+        who      = self.ui.textEdit_26
+        sentence = MoodText.Text26
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(self.ui.textEdit_27)
+    def ui_mood27(self):
+        who      = self.ui.textEdit_27
+        sentence = MoodText.Text27
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(self.ui.textEdit_28)
+    def ui_mood28(self):
+        who      = self.ui.textEdit_28
+        sentence = MoodText.Text28
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(self.ui.textEdit_29)
+    def ui_mood29(self):
+        who      = self.ui.textEdit_29
+        sentence = MoodText.Text29
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(self.ui.textEdit_30)
+    def ui_mood30(self):
+        who      = self.ui.textEdit_30
+        sentence = MoodText.Text30
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(self.ui.textEdit_30)
     def ui_loadConfig(self):
         # 读取配置文件
         self.noConfigFile = False
