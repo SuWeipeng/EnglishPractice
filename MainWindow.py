@@ -218,6 +218,29 @@ class EnglishPractice:
         self.ui.textEdit_43.textChanged.connect(self.ui_mood43)
         self.ui.textEdit_44.textChanged.connect(self.ui_mood44)
         self.ui.textEdit_45.textChanged.connect(self.ui_mood45)
+        self.ui.textEdit_46.textChanged.connect(self.ui_mood46)
+        self.ui.textEdit_47.textChanged.connect(self.ui_mood47)
+        self.ui.textEdit_48.textChanged.connect(self.ui_mood48)
+        self.ui.textEdit_49.textChanged.connect(self.ui_mood49)
+        self.ui.textEdit_50.textChanged.connect(self.ui_mood50)
+        self.ui.textEdit_51.textChanged.connect(self.ui_mood51)
+        self.ui.textEdit_52.textChanged.connect(self.ui_mood52)
+        self.ui.textEdit_53.textChanged.connect(self.ui_mood53)
+        self.ui.textEdit_54.textChanged.connect(self.ui_mood54)
+        self.ui.textEdit_55.textChanged.connect(self.ui_mood55)
+        self.ui.textEdit_56.textChanged.connect(self.ui_mood56)
+        self.ui.textEdit_57.textChanged.connect(self.ui_mood57)
+        self.ui.textEdit_58.textChanged.connect(self.ui_mood58)
+        self.ui.textEdit_59.textChanged.connect(self.ui_mood59)
+        self.ui.textEdit_60.textChanged.connect(self.ui_mood60)
+        self.ui.textEdit_61.textChanged.connect(self.ui_mood61)
+        self.ui.textEdit_62.textChanged.connect(self.ui_mood62)
+        self.ui.textEdit_63.textChanged.connect(self.ui_mood63)
+        self.ui.textEdit_64.textChanged.connect(self.ui_mood64)
+        self.ui.textEdit_65.textChanged.connect(self.ui_mood65)
+        self.ui.textEdit_66.textChanged.connect(self.ui_mood66)
+        self.ui.textEdit_67.textChanged.connect(self.ui_mood67)
+        self.ui.textEdit_69.textChanged.connect(self.ui_mood69)
     def ui_clearStackedWidget(self):
         self.ui.textEdit_22.clear()
         self.ui.textEdit_23.clear()
@@ -457,6 +480,183 @@ class EnglishPractice:
         self.ui_verbTenseDiff(who, input_sentence, sentence)
         if '\t' in input_sentence:
             self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_45)
+    def ui_mood46(self):
+        who      = self.ui.textEdit_46
+        sentence = MoodText.Text46
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_47)
+    def ui_mood47(self):
+        who      = self.ui.textEdit_47
+        sentence = MoodText.Text47
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_48)
+    def ui_mood48(self):
+        who      = self.ui.textEdit_48
+        sentence = MoodText.Text48
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_49)
+    def ui_mood49(self):
+        who      = self.ui.textEdit_49
+        sentence = MoodText.Text49
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_50)
+    def ui_mood50(self):
+        who      = self.ui.textEdit_50
+        sentence = MoodText.Text50
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_51)
+    def ui_mood51(self):
+        who      = self.ui.textEdit_51
+        sentence = MoodText.Text51
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_51)
+    def ui_mood52(self):
+        who      = self.ui.textEdit_52
+        sentence = MoodText.Text52
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_58)
+    def ui_mood58(self):
+        who      = self.ui.textEdit_58
+        sentence = MoodText.Text58
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_53)
+    def ui_mood53(self):
+        who      = self.ui.textEdit_53
+        sentence = MoodText.Text53
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_54)
+    def ui_mood54(self):
+        who      = self.ui.textEdit_54
+        sentence = MoodText.Text54
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_55)
+    def ui_mood55(self):
+        who      = self.ui.textEdit_55
+        sentence = MoodText.Text55_a
+        input_sentence = who.toPlainText()
+        if not self.ui_verbTenseDiff(who, input_sentence, sentence):
+            sentence = MoodText.Text55_b
+            self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_56)
+    def ui_mood56(self):
+        who      = self.ui.textEdit_56
+        sentence = MoodText.Text56
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_56)
+    def ui_mood57(self):
+        who      = self.ui.textEdit_57
+        sentence = MoodText.Text57
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_60)
+    def ui_mood60(self):
+        who      = self.ui.textEdit_60
+        sentence = MoodText.Text60
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_61)
+    def ui_mood61(self):
+        who      = self.ui.textEdit_61
+        sentence = MoodText.Text61
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_62)
+    def ui_mood62(self):
+        who      = self.ui.textEdit_62
+        sentence = MoodText.Text62_a
+        input_sentence = who.toPlainText()
+        if not self.ui_verbTenseDiff(who, input_sentence, sentence):
+            sentence = MoodText.Text62_b
+            self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_62)
+    def ui_mood59(self):
+        who      = self.ui.textEdit_59
+        sentence = MoodText.Text59
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_64)
+    def ui_mood64(self):
+        who      = self.ui.textEdit_64
+        sentence = MoodText.Text64
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_63)
+    def ui_mood63(self):
+        who      = self.ui.textEdit_63
+        sentence = MoodText.Text63_a
+        input_sentence = who.toPlainText()
+        if not self.ui_verbTenseDiff(who, input_sentence, sentence):
+            sentence = MoodText.Text63_b
+            if not self.ui_verbTenseDiff(who, input_sentence, sentence):
+                sentence = MoodText.Text63_c
+                if not self.ui_verbTenseDiff(who, input_sentence, sentence):
+                    sentence = MoodText.Text63_d
+                    self.ui_verbTenseDiff(who, input_sentence, sentence)        
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_65)
+    def ui_mood65(self):
+        who      = self.ui.textEdit_65
+        sentence = MoodText.Text65_a
+        input_sentence = who.toPlainText()
+        if not self.ui_verbTenseDiff(who, input_sentence, sentence):
+            sentence = MoodText.Text65_b
+            if not self.ui_verbTenseDiff(who, input_sentence, sentence):
+                sentence = MoodText.Text65_c
+                if not self.ui_verbTenseDiff(who, input_sentence, sentence):
+                    sentence = MoodText.Text65_d
+                    self.ui_verbTenseDiff(who, input_sentence, sentence)        
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_66)
+    def ui_mood66(self):
+        who      = self.ui.textEdit_66
+        sentence = MoodText.Text66
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_67)
+    def ui_mood67(self):
+        who      = self.ui.textEdit_67
+        sentence = MoodText.Text67
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_69)
+    def ui_mood69(self):
+        who      = self.ui.textEdit_69
+        sentence = MoodText.Text69
+        input_sentence = who.toPlainText()
+        self.ui_verbTenseDiff(who, input_sentence, sentence)
+        if '\t' in input_sentence:
+            self.ui_focusNextEdit(who,input_sentence.strip(),self.ui.textEdit_69)
     def ui_loadConfig(self):
         # 读取配置文件
         self.noConfigFile = False
@@ -792,14 +992,19 @@ class EnglishPractice:
                 self.ui_onSentenceNextClicked()
 
     def ui_verbTenseDiff(self,who,input_sentence, sentence):
+        res = False
         import difflib
         scoreVerbTense = difflib.SequenceMatcher(None, input_sentence.strip(), sentence.strip()).quick_ratio()
         if len(input_sentence) == 0:
             who.setStyleSheet("background:white")
+            res = False
         elif int(scoreVerbTense) == 1:
             who.setStyleSheet("background:palegreen")
+            res = True
         else:
             who.setStyleSheet("background:lavenderblush")
+            res = False
+        return res
     def ui_clearVerbTense(self):
         self.ui.textEdit_6.clear()
         self.ui.textEdit_7.clear()
