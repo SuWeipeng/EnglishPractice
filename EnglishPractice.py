@@ -34,9 +34,12 @@ class EnglishPractice:
                         'I have been doing yoga.','I had been doing yoga.','I will have been doing yoga.','I said I would have been doing yoga.']
     verb_tense       = verb_tense_02
     tts_mode         = ['en','cn']
+    FORCE_SINGLE_M   = True
     SINGLE_MEAN      = False
     def __init__(self):
         self.generateAllWords = False
+        if EnglishPractice.FORCE_SINGLE_M:
+            EnglishPractice.SINGLE_MEAN = True
         # 打开单词数据库
         self.db               = ReadWordFromDB("English.db",EnglishPractice.vocabulary_list[0],EnglishPractice.listening_list[0])
         self.dbTables         = self.db.getTables()
@@ -721,14 +724,16 @@ class EnglishPractice:
         self.ui.label_23.setVisible(False)
         self.ui.comboBox_3.setVisible(False)
         self.ttsMode = EnglishPractice.tts_mode[1]
-        EnglishPractice.SINGLE_MEAN = True
+        if not EnglishPractice.FORCE_SINGLE_M:
+            EnglishPractice.SINGLE_MEAN = True
     def ui_ttsEnglishSelected(self):
         self.ui.label_23.setVisible(True)
         self.ui.comboBox_3.setVisible(True)
         self.ttsMode = EnglishPractice.tts_mode[0]
-        EnglishPractice.SINGLE_MEAN = False
         self.tts_SpeedChange()
         self.tts_AccentChange()
+        if not EnglishPractice.FORCE_SINGLE_M:
+            EnglishPractice.SINGLE_MEAN = False
     def tts_SpeedChange(self):
         self.ttsSpeed = int(self.ui.lineEdit_4.text().strip()) if len(self.ui.lineEdit_4.text().strip()) > 0 else 120
         self.engine.setProperty('rate', self.ttsSpeed)

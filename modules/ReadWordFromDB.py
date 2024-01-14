@@ -142,7 +142,6 @@ class ReadWordFromDB:
             cn = l[p+1]
             cn_1 = self.split_by_cn(cn)
             m = l[p] + ' ' + cn_1
-            print(m)
             res = m
         return res
     def mean_cn(self,word,single_mode=False,mean=None):
