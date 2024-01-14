@@ -878,7 +878,8 @@ class EnglishPractice:
                                 "Accent":self.ui.comboBox_3.currentText(),
                                 "OneMean":self.ui.checkBox_5.isChecked()
                                 }
-            json.dump(self.configDict,file)
+            #json.dump(self.configDict,file)
+            file.write(json.dumps(self.configDict,ensure_ascii=False,indent=2))
 
     def fun_updateMarked(self):
         # Marked 的钩选状态
