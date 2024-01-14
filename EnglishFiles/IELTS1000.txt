@@ -1095,7 +1095,7 @@ History has an inbuilt tendency to repeat itself.
 历史本身就有一种会重演的趋势。
 attribute
 /ˈæt.rɪ.bjuːt/
-v. 归因于，归 咎于; n. 属性
+v. 归因于，归咎于; n. 属性
 The power failure last night was attributed to the typhoon.
 昨晚停电是因为台风的关系。
 consumption
