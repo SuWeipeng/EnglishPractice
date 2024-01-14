@@ -1,2 +1,2 @@
 @echo off
-cmd /k C:\ProgramData\anaconda3\python.exe MainWindow.py
+cmd /k C:/Users/Sugar/anaconda3/python.exe MainWindow.py
