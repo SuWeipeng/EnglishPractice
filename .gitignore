@@ -5,4 +5,4 @@ EnglishFiles/words_p.txt
 database/Ebbinghaus.db
 dist/*
 build/*
-MainWindow.spec
+EnglishPractice.spec
