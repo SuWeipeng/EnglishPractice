@@ -38,8 +38,6 @@ class EnglishPractice:
     SINGLE_MEAN      = False
     def __init__(self):
         self.generateAllWords = False
-        if EnglishPractice.FORCE_SINGLE_M:
-            EnglishPractice.SINGLE_MEAN = True
         # 打开单词数据库
         self.db               = ReadWordFromDB("English.db",EnglishPractice.vocabulary_list[0],EnglishPractice.listening_list[0])
         self.dbTables         = self.db.getTables()
@@ -104,6 +102,7 @@ class EnglishPractice:
         self.wordsNumChanged = False
         self.ui.lineEdit.returnPressed.connect(self.ui_wordsNumEnterPressed)
         self.ui.pushButton_4.clicked.connect(self.ui_onGoClicked)
+        self.ui.checkBox_5.toggled.connect(self.ui_oneMean)
         # Marked Only
         self.ui.checkBox_4.toggled.connect(self.fun_markedOnly)
         # TTS
@@ -250,6 +249,17 @@ class EnglishPractice:
         self.ui.textEdit_72.textChanged.connect(self.ui_mood72)
         self.ui.textEdit_73.textChanged.connect(self.ui_mood73)
         self.ui.textEdit_74.textChanged.connect(self.ui_mood74)
+    def ui_oneMean(self):
+        EnglishPractice.FORCE_SINGLE_M = self.ui.checkBox_5.isChecked()
+        if EnglishPractice.FORCE_SINGLE_M:
+            EnglishPractice.SINGLE_MEAN = True
+        else:
+            EnglishPractice.SINGLE_MEAN = False
+        self.wordIndex = 0
+        self.p_list    = []
+        self.f_generateWords()
+        self.ui_renewUI()
+        self.f_writeConfigFile()
     def ui_clearStackedWidget(self):
         self.ui.textEdit_22.clear()
         self.ui.textEdit_23.clear()
@@ -835,6 +845,7 @@ class EnglishPractice:
         self.ui.lineEdit.setText(str(self.wordsNum))
         self.ui.comboBox.setCurrentText(self.configDict.get("Source"))
         self.ui_wordSourceChanged()
+        self.ui.checkBox_5.setChecked(self.configDict.get("OneMean"))
         # 听力设置恢复
         self.listeningTable = self.configDict.get("Source2")
         self.listenCount    = self.db.getListenContent(self.listeningTable)
@@ -864,7 +875,8 @@ class EnglishPractice:
                                 "From":int(self.ui.lineEdit_2.text().strip()) if len(self.ui.lineEdit_2.text().strip()) > 0 else 1,
                                 "To":int(self.ui.lineEdit_3.text().strip()) if len(self.ui.lineEdit_3.text().strip()) > 0 else 2,
                                 "Speed":int(self.ui.lineEdit_4.text().strip()) if len(self.ui.lineEdit_4.text().strip()) > 0 else 120,
-                                "Accent":self.ui.comboBox_3.currentText()
+                                "Accent":self.ui.comboBox_3.currentText(),
+                                "OneMean":self.ui.checkBox_5.isChecked()
                                 }
             json.dump(self.configDict,file)
 

@@ -3759,6 +3759,13 @@
                   </widget>
                  </item>
                  <item>
+                  <widget class="QCheckBox" name="checkBox_5">
+                   <property name="text">
+                    <string>OneMean</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
                   <widget class="QLabel" name="label_13">
                    <property name="text">
                     <string/>
