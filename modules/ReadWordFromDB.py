@@ -1,4 +1,6 @@
 import sqlite3
+import random
+import re
 
 class ReadWordFromDB:
     def __init__(self,db_name,tableName,listenTable):
@@ -117,8 +119,51 @@ class ReadWordFromDB:
         return res
     def pronun(self,word):
         return self.pronunciations.get(word)
-    def mean(self,word):
-        return self.meanings.get(word)
+    def split_by_cn(self,cn):
+        res = ''
+        # 移除括号及其内部的内容
+        t = re.sub(r'（[^）]*）', '', cn)
+        # 使用正则表达式按中文逗号和分号分割
+        l = re.split(r'[，；]', t)
+        num_l = len(l)
+        r = random.randint(0, num_l-1)
+        res = l[r]
+        return res
+    def split_by_space(self, word, mean):
+        res = ''
+        l = mean.replace(';', ' ')
+        l = l.split()
+        if len(l) % 2 != 0 or len(l) == 0:
+            print("There is something wrong of the word '%s''s meaning."%(word))
+        else:
+            num_l = int(len(l) / 2)
+            r = random.randint(0, num_l-1)
+            p = r * 2
+            cn = l[p+1]
+            cn_1 = self.split_by_cn(cn)
+            m = l[p] + ' ' + cn_1
+            print(m)
+            res = m
+        return res
+    def mean_cn(self,word,single_mode=False,mean=None):
+        if mean is not None:
+            l = mean.split()
+            if len(l) % 2 != 0 or len(l) == 0:
+                print("There is something wrong of the word '%s''s meaning."%(word))
+            else:
+                res = l[1]
+                res = self.split_by_cn(res)
+        else:
+            res = self.mean(word,single_mode)
+        return res
+
+    def mean(self,word,single_mode=False):
+        res = self.meanings.get(word)
+        if res is not None:
+            res = res.strip()
+            if single_mode:
+                res = self.split_by_space(word, res)
+        return res
     def sentence(self,word):
         return self.sentences.get(word)
     def trans(self,word):

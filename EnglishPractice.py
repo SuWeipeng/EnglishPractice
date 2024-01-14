@@ -34,6 +34,7 @@ class EnglishPractice:
                         'I have been doing yoga.','I had been doing yoga.','I will have been doing yoga.','I said I would have been doing yoga.']
     verb_tense       = verb_tense_02
     tts_mode         = ['en','cn']
+    SINGLE_MEAN      = False
     def __init__(self):
         self.generateAllWords = False
         # 打开单词数据库
@@ -720,10 +721,12 @@ class EnglishPractice:
         self.ui.label_23.setVisible(False)
         self.ui.comboBox_3.setVisible(False)
         self.ttsMode = EnglishPractice.tts_mode[1]
+        EnglishPractice.SINGLE_MEAN = True
     def ui_ttsEnglishSelected(self):
         self.ui.label_23.setVisible(True)
         self.ui.comboBox_3.setVisible(True)
         self.ttsMode = EnglishPractice.tts_mode[0]
+        EnglishPractice.SINGLE_MEAN = False
         self.tts_SpeedChange()
         self.tts_AccentChange()
     def tts_SpeedChange(self):
@@ -1451,7 +1454,9 @@ class EnglishPractice:
             if self.ttsMode == 'en':
                 self.speak(self.currentWord)
             elif self.ttsMode == 'cn':
-                self.speak_cn(self.db.mean(self.currentWord))
+                cn_str = self.meanings.get(self.currentWord)
+                cn_str = self.db.mean_cn(self.currentWord,EnglishPractice.SINGLE_MEAN,cn_str)
+                self.speak_cn(cn_str)
         else:
             self.typeCnt += 1
         if self.wordModeLast != self.wordMode:
@@ -1697,11 +1702,12 @@ class EnglishPractice:
         self.ui.textBrowser.setText(self.translations.get(self.currentWord))
 
     def db_getWords(self):
-        for word in self.words:
-            self.pronunciations[word] = self.db.pronun(word)
-            self.meanings      [word] = self.db.mean(word)
-            self.sentences     [word] = self.db.sentence(word)
-            self.translations  [word] = self.db.trans(word)
+        if self.practiceMode != EnglishPractice.practiceModeList[1]:
+            for word in self.words:
+                self.pronunciations[word] = self.db.pronun(word)
+                self.meanings      [word] = self.db.mean(word,EnglishPractice.SINGLE_MEAN)
+                self.sentences     [word] = self.db.sentence(word)
+                self.translations  [word] = self.db.trans(word)
 
     def f_getWords(self):
         self.p_list = []
@@ -1721,6 +1727,8 @@ class EnglishPractice:
                         self.p_list.append(content)
                         self.p_list.append('\n')
                     if i % 5 == 2:
+                        if EnglishPractice.SINGLE_MEAN:
+                            content = self.db.split_by_space(word, content)
                         self.meanings[word] = content
                         self.p_list.append(content)
                         self.p_list.append('\n')
