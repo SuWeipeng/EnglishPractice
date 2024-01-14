@@ -1809,7 +1809,7 @@ class EnglishPractice:
             file.write(self.words_p_lines.rstrip())
     def f_generateWords(self):
         self.words_p_lines = ''
-        if len(self.words) == 0:
+        if len(self.words) == 0 or self.words[0] == "All done":
             return
         with open("EnglishFiles/words.txt","w",encoding='utf-8') as file:
             for word in self.words:
