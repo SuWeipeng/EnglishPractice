@@ -1085,7 +1085,7 @@ New timber should be treated with a preservative.
 新木材应该用防腐剂处理。
 retail
 /ˈriː.teɪl/
-n. v. 零售
+n. 零售 v. 零售
 The retail dealer buys at wholesale and sells at retail.
 零售经销商以批发方式购买，再以零售方式销售。
 tendency
