@@ -746,7 +746,7 @@
             </font>
            </property>
            <property name="placeholderText">
-            <string>用于从句，对于过去来将的未来某时已经完成</string>
+            <string>用于从句，对于过去来讲的未来某时已经完成</string>
            </property>
           </widget>
          </item>
