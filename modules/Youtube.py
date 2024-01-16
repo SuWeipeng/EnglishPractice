@@ -7,6 +7,7 @@ import time
 from threading import Thread
 
 class Youtube:
+    SKIP_STR = "//div[@class='ytp-ad-text ytp-ad-skip-button-text-centered ytp-ad-skip-button-text']"
     def __init__(self):
         self.browser_type = 'MicrosoftEdge'
         self.video        = None
@@ -26,7 +27,7 @@ class Youtube:
         self.driver.get("https://www.youtube.com/")
         while True:
             try:
-                skip_ad_button = self.driver.find_element(by=By.XPATH, value="//div[@class='ytp-ad-text ytp-ad-skip-button-text']")
+                skip_ad_button = self.driver.find_element(by=By.XPATH, value=Youtube.SKIP_STR)
                 skip_ad_button.click()
             except Exception as e: 
                 if 'target window already closed' in repr(e):
@@ -78,7 +79,10 @@ class Youtube:
         while True:
             try:
                 if self.skipTrigger:
-                    skip_ad_button = self.driver.find_element(by=By.XPATH, value="//div[@class='ytp-ad-text ytp-ad-skip-button-text']")
+                    skip_ad_button = self.driver.find_element(by=By.XPATH, value=Youtube.SKIP_STR)
+                    print()
+                    print('Find skip button')
+                    print()
                     skip_ad_button.click()
                     self.skipTrigger = False
                 else:
