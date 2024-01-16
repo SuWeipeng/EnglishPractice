@@ -80,9 +80,6 @@ class Youtube:
             try:
                 if self.skipTrigger:
                     skip_ad_button = self.driver.find_element(by=By.XPATH, value=Youtube.SKIP_STR)
-                    print()
-                    print('Find skip button')
-                    print()
                     skip_ad_button.click()
                     self.skipTrigger = False
                 else:
