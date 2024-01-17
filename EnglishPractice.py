@@ -1500,7 +1500,7 @@ class EnglishPractice:
             self.ignoreTTS = False
             self.tts_SpeedChange()
             self.tts_AccentChange()
-            if self.wordMode == 2:
+            if self.wordMode == 2 or (self.wordMode == 1 and self.ui.checkBox_2.isChecked()) or (self.wordMode == 0 and self.ui.checkBox_2.isChecked()):
                 if self.typeCnt > len(self.currentWord) + 1:
                     self.ui.checkBox_3.setChecked(True)
                 else:
