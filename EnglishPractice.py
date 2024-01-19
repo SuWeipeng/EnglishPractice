@@ -1373,14 +1373,17 @@ class EnglishPractice:
             if res == True:
                 if self.ui.checkBox_4.isChecked() == False:
                     selectedWords.append(word)
+                    cnt += 1
+                    if cnt >= self.wordsNum:
+                        break
                 else:
                     if self.ebdb.getMarked(word) == '1':
                         selectedWords.append(word)
+                        cnt += 1
+                        if cnt >= self.wordsNum:
+                            break
                     else:
                         continue
-                cnt += 1
-                if cnt >= self.wordsNum:
-                    break
         selectedList = selectedWords[:min(cnt,self.wordsNum)]
 
         if self.ui.checkBox_4.isChecked() == False:
