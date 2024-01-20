@@ -1377,7 +1377,7 @@ class EnglishPractice:
                     if cnt >= self.wordsNum:
                         break
                 else:
-                    if self.ebdb.getMarked(word) == '1':
+                    if int(self.ebdb.getMarked(word)) == 1:
                         selectedWords.append(word)
                         cnt += 1
                         if cnt >= self.wordsNum:
