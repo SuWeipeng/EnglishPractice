@@ -909,6 +909,7 @@ class EnglishPractice:
         self.fun_updateMarked()
 
     def ui_selectEbbinghaus(self):
+        self.ui.checkBox.setVisible(True)
         self.ui.checkBox.setEnabled(True)
         self.ui.checkBox_3.setVisible(True)
         self.ui.checkBox_4.setVisible(True)
@@ -1195,16 +1196,9 @@ class EnglishPractice:
         self.ui_verbTenseDiff(who, input_sentence, sentence)
 
     def ui_selectReview(self):
-        self.ui.checkBox_2.setVisible(True)
+        self.ui.checkBox.setVisible(False)
+        self.ui.checkBox_2.setVisible(False)
         self.ui.checkBox_4.setVisible(False)
-        if self.ui.checkBox_2.isChecked():
-            if self.ui.checkBox.isChecked() == False:
-                self.ui.checkBox.setChecked(False)
-            else:
-                self.ui.checkBox.setEnabled(True)
-        else:
-            self.ui.checkBox.setChecked(False)
-            self.ui.checkBox.setEnabled(False)
         self.wordMode = 1
         self.practiceMode = EnglishPractice.practiceModeList[self.wordMode]
         if self.updateInReview:
@@ -1222,6 +1216,7 @@ class EnglishPractice:
             self.f_writeConfigFile()
 
     def ui_selectNew(self):
+        self.ui.checkBox.setVisible(True)
         self.ui.checkBox_2.setVisible(True)
         self.ui.checkBox_4.setVisible(False)
         if self.ui.checkBox_2.isChecked():
