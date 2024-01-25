@@ -24,7 +24,10 @@ class Youtube:
         self.set_driver()
         self.driver.maximize_window()
         self.driver.implicitly_wait(20)
-        self.driver.get("https://www.youtube.com/")
+        if self.youtubeLink == None or self.youtubeLink == '':
+            self.driver.get("https://www.youtube.com/")
+        else:
+            self.driver.get(self.youtubeLink)
         while True:
             try:
                 skip_ad_button = self.driver.find_element(by=By.XPATH, value=Youtube.SKIP_STR)
@@ -49,7 +52,8 @@ class Youtube:
         self.skipTrigger = True
         t3 = Thread(target=Youtube.skipAdProcess, args=(self,))
         t3.start()
-    def open_youtube(self):
+    def open_youtube(self,link):
+        self.youtubeLink = link
         t4 = Thread(target=Youtube.youtube_skip_adds, args=(self,))
         t4.start()
     def back5s(self):

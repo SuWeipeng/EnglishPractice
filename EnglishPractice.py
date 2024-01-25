@@ -1686,7 +1686,7 @@ class EnglishPractice:
         self.ytb.skipAd()
 
     def ui_openYoutube(self):
-        self.ytb.open_youtube()
+        self.ytb.open_youtube(self.ui.lineEdit_5.text().strip())
 
     def ui_againClicked(self):
         self.ytb.again()
