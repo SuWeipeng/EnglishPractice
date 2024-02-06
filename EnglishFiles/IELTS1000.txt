@@ -2,7 +2,7 @@ athlete
 /ˈæθ.liːt/
 n. 运动员，体育家
 She became a professional athlete at the age of 18.
-她 18 岁时成为职业动动员。
+她 18 岁时成为职业运动员。
 consistent
 /kənˈsɪs.tənt/
 adj. 始终如一的，一贯的
@@ -356,8 +356,8 @@ The mayoral candidate was accused of plagiarising.
 capacity
 /kəˈpæs.ə.t̬i/
 n. 容纳量；能力
-The national stadium has a seating capacity of 30,000.
-那间国家体育馆坐等下 30,000 人。
+The national stadium has a seating capacity of 30000.
+那间国家体育馆坐等下 30000 人。
 costly
 /ˈkɒst.li/
 adj. 代价高昂的；昂贵的
@@ -906,7 +906,7 @@ Their present crisis is analogous to the previous one.
 deliver
 /dɪˈlɪv.ər/
 v. 递送；发表演说；分娩
-Ho got  his food delivered from his favourite restaurant.
+He got  his food delivered from his favourite restaurant.
 他从最喜欢的餐厅叫外送。
 entity
 /ˈen.tɪ.ti/
@@ -2456,7 +2456,7 @@ The witness chose to accompany her to the police station.
 budget
 /ˈbʌdʒ.ɪt/
 n. 预算；预算方案; v. 编预算
-The defence budget had been trimmed by $100,000
+The defence budget had been trimmed by $100000
 国防预算削减了十万美元。
 correlation
 /ˌkɔːr.əˈleɪ.ʃən/
@@ -4881,7 +4881,7 @@ Lobsters can reproduce a lost limb.
 overall
 /ˌoʊ.vɚˈɑːl/
 adj. 整体的，全部的; adv. 整体而言，大体上
-The overall cost of the exhibition was $300,000
+The overall cost of the exhibition was $300000
 展览的总费用为 30 万美元。
 pupil
 /ˈpjuː.pəl/
