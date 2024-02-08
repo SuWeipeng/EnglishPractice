@@ -6,3 +6,4 @@ database/Ebbinghaus.db
 dist/*
 build/*
 EnglishPractice.spec
+wav/*
