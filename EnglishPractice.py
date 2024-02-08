@@ -1264,11 +1264,13 @@ class EnglishPractice:
             self.checkBoxInitiated = True
         self.useSentenceScore = self.ui.checkBox.isChecked()
         if self.useSentenceScore:
+            self.ui.checkBox_3.setVisible(False)
             self.ui.label_3.setStyleSheet("color:red;")
             font = self.ui.label_3.font()
             font.setPointSize(15)
             self.ui.label_3.setFont(font)
         else:
+            self.ui.checkBox_3.setVisible(True)
             self.ui.label_3.setStyleSheet("color:black;")
             font = self.ui.label_3.font()
             font.setPointSize(9)
@@ -1478,35 +1480,39 @@ class EnglishPractice:
         self.sentenceCursor.insertText(lineContent, self.sentenceFormat)
 
     def fun_play_wav(self,wav_path):
-        import pyaudio
-        import wave
+        def run_fun_play_wav():
+            import pyaudio
+            import wave
 
-        # 打开WAV音频文件
-        wf = wave.open(wav_path, 'rb')
+            # 打开WAV音频文件
+            wf = wave.open(wav_path, 'rb')
 
-        # 创建PyAudio对象
-        p = pyaudio.PyAudio()
+            # 创建PyAudio对象
+            p = pyaudio.PyAudio()
 
-        # 打开一个流
-        stream = p.open(format=p.get_format_from_width(wf.getsampwidth()),
-                        channels=wf.getnchannels(),
-                        rate=wf.getframerate(),
-                        output=True)
+            # 打开一个流
+            stream = p.open(format=p.get_format_from_width(wf.getsampwidth()),
+                            channels=wf.getnchannels(),
+                            rate=wf.getframerate(),
+                            output=True)
 
-        # 读取数据
-        data = wf.readframes(1024)
-
-        # 播放
-        while data:
-            stream.write(data)
+            # 读取数据
             data = wf.readframes(1024)
 
-        # 停止流
-        stream.stop_stream()
-        stream.close()
+            # 播放
+            while data:
+                stream.write(data)
+                data = wf.readframes(1024)
 
-        # 关闭PyAudio
-        p.terminate()
+            # 停止流
+            stream.stop_stream()
+            stream.close()
+
+            # 关闭PyAudio
+            p.terminate()
+        # Create and start the thread
+        wav_thread = threading.Thread(target=run_fun_play_wav)
+        wav_thread.start()
     def ui_wordUKClicked(self):
         wav_file = "wav/"+self.EbbinghausTable+"/words_uk/"+self.currentWord+".wav"
         self.fun_play_wav(wav_file)
@@ -1603,7 +1609,7 @@ class EnglishPractice:
             self.ignoreTTS = False
             self.tts_SpeedChange()
             self.tts_AccentChange()
-            if self.wordMode == 2 or (self.wordMode == 1 and self.ui.checkBox_2.isChecked()) or (self.wordMode == 0 and self.ui.checkBox_2.isChecked()):
+            if (self.wordMode == 2 and not self.useSentenceScore) or (self.wordMode == 1 and self.ui.checkBox_2.isChecked()) or (self.wordMode == 0 and self.ui.checkBox_2.isChecked()):
                 if self.typeCnt > len(self.currentWord) + 1:
                     self.ui.checkBox_3.setChecked(True)
                 else:
