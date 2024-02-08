@@ -807,12 +807,15 @@ class EnglishPractice:
         # Create and start the thread
         speak_thread = threading.Thread(target=run_speak)
         speak_thread.start()        
-    def speak(self, content):
+    def speak(self, content, cn_str=""):
         def run_speak():
             # Say the word
             try:
                 self.engine.say(content)
                 self.engine.runAndWait()
+                wav_file = "wav/"+self.EbbinghausTable+"/words_cn/"+cn_str+".wav"
+                if self.f_check_file(wav_file):
+                    self.fun_play_wav(wav_file)
             except (RuntimeError) as e:
                 pass
         # Create and start the thread
@@ -1569,11 +1572,11 @@ class EnglishPractice:
             self.lastCurrent = self.currentWord
             self.typeCnt     = 0
             self.ui_ttsVisible()
+            cn_str = self.meanings.get(self.currentWord)
+            cn_str = self.db.mean_cn(self.currentWord,EnglishPractice.SINGLE_MEAN,cn_str)
             if self.ttsMode == 'en':
-                self.speak(self.currentWord)
+                self.speak(self.currentWord, cn_str)
             elif self.ttsMode == 'cn':
-                cn_str = self.meanings.get(self.currentWord)
-                cn_str = self.db.mean_cn(self.currentWord,EnglishPractice.SINGLE_MEAN,cn_str)
                 self.speak_cn(cn_str)
         else:
             self.typeCnt += 1
