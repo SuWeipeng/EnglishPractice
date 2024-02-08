@@ -11,6 +11,8 @@ import json
 import pyttsx3
 import threading
 import os
+import pyaudio
+import wave
 
 class EnglishPractice:
     '''
@@ -1481,9 +1483,6 @@ class EnglishPractice:
 
     def fun_play_wav(self,wav_path):
         def run_fun_play_wav():
-            import pyaudio
-            import wave
-
             # 打开WAV音频文件
             wf = wave.open(wav_path, 'rb')
 
