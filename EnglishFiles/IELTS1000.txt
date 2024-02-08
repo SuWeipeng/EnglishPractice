@@ -357,7 +357,7 @@ capacity
 /kəˈpæs.ə.t̬i/
 n. 容纳量；能力
 The national stadium has a seating capacity of 30000.
-那间国家体育馆坐等下 30000 人。
+那间国家体育馆坐得下 3 万人。
 costly
 /ˈkɒst.li/
 adj. 代价高昂的；昂贵的

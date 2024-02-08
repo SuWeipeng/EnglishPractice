@@ -10,6 +10,7 @@ import modules.MoodText as MoodText
 import json
 import pyttsx3
 import threading
+import os
 
 class EnglishPractice:
     '''
@@ -82,6 +83,11 @@ class EnglishPractice:
         self.ui.pushButton_8.setVisible(False)
         self.ui.checkBox_3.setVisible(False)
         self.ui.checkBox_4.setVisible(False)
+        self.ui.pushButton_21.setVisible(False)
+        self.ui.pushButton_22.setVisible(False)
+        self.ui.pushButton_23.setVisible(False)
+        self.ui.pushButton_24.setVisible(False)
+        self.ui.pushButton_25.setVisible(False)
         # 听力设置相关
         self.ui.label_10.setText(str(self.listenCount))
         # Settings 中的 Word 数据源选择
@@ -115,6 +121,11 @@ class EnglishPractice:
         self.ignoreTTS = True
         self.tts_SpeedChange()
         self.tts_AccentChange()
+        self.ui.pushButton_21.clicked.connect(self.ui_wordUKClicked)
+        self.ui.pushButton_22.clicked.connect(self.ui_wordUSClicked)
+        self.ui.pushButton_23.clicked.connect(self.ui_translationClicked)
+        self.ui.pushButton_24.clicked.connect(self.ui_sentenceUSClicked)
+        self.ui.pushButton_25.clicked.connect(self.ui_sentenceUKClicked)
         # 听力页面相关
         self.ui.pushButton_5.clicked.connect(self.ui_onSentencePrevClicked)
         self.ui.pushButton_6.clicked.connect(self.ui_onSentenceNextClicked)
@@ -1338,6 +1349,8 @@ class EnglishPractice:
             res              = self.eb_getEbbinghausWords()
         if len(self.words) > 0:
             self.currentWord = self.words[self.wordIndex]
+            if self.practiceMode == EnglishPractice.practiceModeList[1]:
+                self.ui_ttsVisible()
         return res
 
     def fun_markedOnly(self):
@@ -1460,7 +1473,94 @@ class EnglishPractice:
         self.ui_setWordFont()
         # 还原输入内容
         self.sentenceCursor.insertText(lineContent, self.sentenceFormat)
-        
+
+    def fun_play_wav(self,wav_path):
+        import pyaudio
+        import wave
+
+        # 打开WAV音频文件
+        wf = wave.open(wav_path, 'rb')
+
+        # 创建PyAudio对象
+        p = pyaudio.PyAudio()
+
+        # 打开一个流
+        stream = p.open(format=p.get_format_from_width(wf.getsampwidth()),
+                        channels=wf.getnchannels(),
+                        rate=wf.getframerate(),
+                        output=True)
+
+        # 读取数据
+        data = wf.readframes(1024)
+
+        # 播放
+        while data:
+            stream.write(data)
+            data = wf.readframes(1024)
+
+        # 停止流
+        stream.stop_stream()
+        stream.close()
+
+        # 关闭PyAudio
+        p.terminate()
+    def ui_wordUKClicked(self):
+        wav_file = "wav/"+self.EbbinghausTable+"/words_uk/"+self.currentWord+".wav"
+        self.fun_play_wav(wav_file)
+    def ui_wordUSClicked(self):
+        wav_file = "wav/"+self.EbbinghausTable+"/words_us/"+self.currentWord+".wav"
+        self.fun_play_wav(wav_file)
+    def ui_sentenceUSClicked(self):
+        import re
+        def sanitize_filename(filename):
+            sanitized = re.sub(r'[\<\>:"/|?*]', '_', filename)
+            return sanitized
+        sentence_file = sanitize_filename(self.sentences.get(self.currentWord) if self.sentences.get(self.currentWord) is not None else "All done.")
+        wav_file = "wav/"+self.EbbinghausTable+"/sentences_us/"+sentence_file+".wav"
+        self.fun_play_wav(wav_file)
+    def ui_sentenceUKClicked(self):
+        import re
+        def sanitize_filename(filename):
+            sanitized = re.sub(r'[\<\>:"/|?*]', '_', filename)
+            return sanitized
+        sentence_file = sanitize_filename(self.sentences.get(self.currentWord) if self.sentences.get(self.currentWord) is not None else "All done.")
+        wav_file = "wav/"+self.EbbinghausTable+"/sentences_uk/"+sentence_file+".wav"
+        self.fun_play_wav(wav_file)
+    def ui_translationClicked(self):
+        import re
+        def sanitize_filename(filename):
+            sanitized = re.sub(r'[\<\>:"/|?*]', '_', filename)
+            return sanitized
+        translation_file = sanitize_filename(self.translations.get(self.currentWord) if self.translations.get(self.currentWord) is not None else "All done.")
+        wav_file = "wav/"+self.EbbinghausTable+"/translations/"+translation_file+".wav"
+        self.fun_play_wav(wav_file)
+    def f_check_file(self,file_path):
+        if os.path.exists(file_path):
+            return True
+        else:
+            return False
+    def ui_ttsVisible(self):
+        import re
+        def sanitize_filename(filename):
+            sanitized = re.sub(r'[\<\>:"/|?*]', '_', filename)
+            return sanitized
+        self.ui.pushButton_21.setVisible(False)
+        self.ui.pushButton_22.setVisible(False)
+        self.ui.pushButton_23.setVisible(False)
+        self.ui.pushButton_24.setVisible(False)
+        self.ui.pushButton_25.setVisible(False)
+        if self.f_check_file("wav/"+self.EbbinghausTable+"/words_us/"+self.currentWord+".wav"):
+            self.ui.pushButton_22.setVisible(True)
+        if self.f_check_file("wav/"+self.EbbinghausTable+"/words_uk/"+self.currentWord+".wav"):
+            self.ui.pushButton_21.setVisible(True)
+        sentence_file = sanitize_filename(self.sentences.get(self.currentWord) if self.sentences.get(self.currentWord) is not None else "All done.")
+        if self.f_check_file("wav/"+self.EbbinghausTable+"/sentences_us/"+sentence_file+".wav"):
+            self.ui.pushButton_24.setVisible(True)
+        if self.f_check_file("wav/"+self.EbbinghausTable+"/sentences_uk/"+sentence_file+".wav"):
+            self.ui.pushButton_25.setVisible(True)
+        translation_file = sanitize_filename(self.translations.get(self.currentWord) if self.translations.get(self.currentWord) is not None else "All done.")
+        if self.f_check_file("wav/"+self.EbbinghausTable+"/translations/"+translation_file+".wav"):
+            self.ui.pushButton_23.setVisible(True)
     def ui_onTextEditChanged(self):
         '''
         输入单词发生变化时的回调函数。
@@ -1468,6 +1568,7 @@ class EnglishPractice:
         if self.lastCurrent != self.currentWord:
             self.lastCurrent = self.currentWord
             self.typeCnt     = 0
+            self.ui_ttsVisible()
             if self.ttsMode == 'en':
                 self.speak(self.currentWord)
             elif self.ttsMode == 'cn':
