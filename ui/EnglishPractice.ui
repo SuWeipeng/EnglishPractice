@@ -165,6 +165,9 @@
              <property name="text">
               <string>US</string>
              </property>
+             <property name="shortcut">
+              <string>F1</string>
+             </property>
             </widget>
            </item>
            <item>
@@ -177,6 +180,9 @@
              </property>
              <property name="text">
               <string>UK</string>
+             </property>
+             <property name="shortcut">
+              <string>F2</string>
              </property>
             </widget>
            </item>
@@ -270,6 +276,9 @@
              <property name="text">
               <string>US</string>
              </property>
+             <property name="shortcut">
+              <string>F3</string>
+             </property>
             </widget>
            </item>
            <item>
@@ -282,6 +291,9 @@
              </property>
              <property name="text">
               <string>UK</string>
+             </property>
+             <property name="shortcut">
+              <string>F4</string>
              </property>
             </widget>
            </item>
@@ -319,6 +331,9 @@
            </property>
            <property name="text">
             <string>CN</string>
+           </property>
+           <property name="shortcut">
+            <string>F5</string>
            </property>
           </widget>
          </item>
