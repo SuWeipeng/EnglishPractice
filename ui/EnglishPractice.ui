@@ -405,7 +405,10 @@
                 </sizepolicy>
                </property>
                <property name="text">
-                <string>US</string>
+                <string>[F9] US</string>
+               </property>
+               <property name="shortcut">
+                <string>F9</string>
                </property>
               </widget>
              </item>
@@ -418,7 +421,10 @@
                 </sizepolicy>
                </property>
                <property name="text">
-                <string>UK</string>
+                <string>[F10] UK</string>
+               </property>
+               <property name="shortcut">
+                <string>F10</string>
                </property>
               </widget>
              </item>
@@ -477,7 +483,10 @@
                 </sizepolicy>
                </property>
                <property name="text">
-                <string>CN</string>
+                <string>[F11] CN</string>
+               </property>
+               <property name="shortcut">
+                <string>F11</string>
                </property>
               </widget>
              </item>
