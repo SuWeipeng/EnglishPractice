@@ -7,3 +7,5 @@ dist/*
 build/*
 EnglishPractice.spec
 wav/*
+problem/*
+repair/*
