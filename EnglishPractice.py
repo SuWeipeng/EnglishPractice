@@ -129,6 +129,12 @@ class EnglishPractice:
         self.ui.pushButton_24.clicked.connect(self.ui_sentenceUSClicked)
         self.ui.pushButton_25.clicked.connect(self.ui_sentenceUKClicked)
         # 听力页面相关
+        self.ui.pushButton_26.setVisible(False)
+        self.ui.pushButton_27.setVisible(False)
+        self.ui.pushButton_28.setVisible(False)
+        self.ui.pushButton_26.clicked.connect(self.ui_listenUSClicked)
+        self.ui.pushButton_27.clicked.connect(self.ui_listenUKClicked)
+        self.ui.pushButton_28.clicked.connect(self.ui_listenTranslationClicked)
         self.ui.pushButton_5.clicked.connect(self.ui_onSentencePrevClicked)
         self.ui.pushButton_6.clicked.connect(self.ui_onSentenceNextClicked)
         self.ui.lineEdit_2.textChanged.connect(self.fun_initListening)
@@ -966,6 +972,48 @@ class EnglishPractice:
         # Yutube 视频相关
         self.ytb.open_link(self.db.getListenLink(self.idxListen))
 
+    def ui_listenTTSVisible(self):
+        import re
+        def sanitize_filename(filename):
+            sanitized = re.sub(r'[\<\>:"/|?*]', '_', filename)
+            return sanitized
+        self.ui.pushButton_26.setVisible(False)
+        self.ui.pushButton_27.setVisible(False)
+        self.ui.pushButton_28.setVisible(False)
+        sentence_file = sanitize_filename(self.currentListening)
+        if self.f_check_file("wav/"+self.listeningTable+"/listen_us/"+sentence_file+".wav"):
+            self.ui.pushButton_26.setVisible(True)
+        if self.f_check_file("wav/"+self.listeningTable+"/listen_uk/"+sentence_file+".wav"):
+            self.ui.pushButton_27.setVisible(True)
+        translation_file = sanitize_filename(self.db.getListenTranslation(self.idxListen))
+        if self.f_check_file("wav/"+self.listeningTable+"/translations/"+translation_file+".wav"):
+            self.ui.pushButton_28.setVisible(True)
+
+    def ui_listenUSClicked(self):
+        import re
+        def sanitize_filename(filename):
+            sanitized = re.sub(r'[\<\>:"/|?*]', '_', filename)
+            return sanitized
+        sentence_file = sanitize_filename(self.currentListening)
+        wav_file = "wav/"+self.listeningTable+"/listen_us/"+sentence_file+".wav"
+        self.fun_play_wav(wav_file)
+    def ui_listenUKClicked(self):
+        import re
+        def sanitize_filename(filename):
+            sanitized = re.sub(r'[\<\>:"/|?*]', '_', filename)
+            return sanitized
+        sentence_file = sanitize_filename(self.currentListening)
+        wav_file = "wav/"+self.listeningTable+"/listen_uk/"+sentence_file+".wav"
+        self.fun_play_wav(wav_file)
+    def ui_listenTranslationClicked(self):
+        import re
+        def sanitize_filename(filename):
+            sanitized = re.sub(r'[\<\>:"/|?*]', '_', filename)
+            return sanitized
+        sentence_file = sanitize_filename(self.db.getListenTranslation(self.idxListen))
+        wav_file = "wav/"+self.listeningTable+"/translations/"+sentence_file+".wav"
+        self.fun_play_wav(wav_file)
+
     def ui_onSentencePrevClicked(self):
         if self.listenIndex > 0:
             self.listenIndex -= 1
@@ -974,6 +1022,7 @@ class EnglishPractice:
         self.ui.progressBar_2.setValue(self.idxListen+1)
         self.ui.textBrowser_2.setText(self.db.getListenTranslation(self.idxListen))
         self.ui.textEdit_4.clear()
+        self.ui_listenTTSVisible()
         if len(self.user_inputs[self.idxListen]) > 0:
             self.ui.textEdit_4.textCursor().insertText(self.user_inputs[self.idxListen])
 
@@ -989,6 +1038,7 @@ class EnglishPractice:
                     self.ui.textEdit_4.textCursor().insertText(self.user_inputs[self.idxListen])
         self.ui.progressBar_2.setValue(self.idxListen+1)
         self.ui.textBrowser_2.setText(self.db.getListenTranslation(self.idxListen))
+        self.ui_listenTTSVisible()
 
     def fun_initListening(self):
         if len(self.ui.lineEdit_2.text().strip()) > 0:
@@ -996,6 +1046,7 @@ class EnglishPractice:
             self.currentListening = self.db.getListenSentence(self.idxListen)
             self.ui.textBrowser_2.setText(self.db.getListenTranslation(self.idxListen))
             self.user_inputs = {}
+            self.ui_listenTTSVisible()
             for i in range(self.listenPracticeCnt+1):
                 self.user_inputs[i+self.idxListen] = ''
 
@@ -1435,6 +1486,7 @@ class EnglishPractice:
         self.ui.label_10.setText(str(self.listenCount))
         self.ui.lineEdit_2.setText("1")
         self.ui.lineEdit_3.setText(str(self.listenCount))
+        self.ui_listenTTSVisible()
 
     def ui_setWordFont(self):
         '''
