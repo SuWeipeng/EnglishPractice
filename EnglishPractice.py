@@ -1,5 +1,6 @@
 from PyQt5.QtWidgets import QApplication
 from PyQt5.QtGui import QFont, QTextCursor, QColor, QIcon
+from PyQt5.QtCore import QTimer
 from PyQt5 import uic
 from modules.ReadWordFromDB import ReadWordFromDB
 from modules.WriteEbbinghausDB import WriteEbbinghausDB
@@ -156,6 +157,8 @@ class EnglishPractice:
         self.ui.groupBox_23.setVisible(False)
         if WAV.VALID:
             self.autoSpeak             = False
+            self.autoPlay              = False
+            self.repeat                = 0
             self.start_idx = int(self.ui.lineEdit_6.text()) - 1
             self.end_idx   = int(self.ui.lineEdit_7.text()) - 1
             self.autoSpeakIndex        = 0
@@ -165,7 +168,9 @@ class EnglishPractice:
             self.ui.lineEdit_6.textChanged.connect(self.ui_fromIndexChanged)
             self.ui.lineEdit_7.textChanged.connect(self.ui_toIndexChanged)
             self.ui.pushButton_29.clicked.connect(self.ui_dictationGoClicked)
+            self.ui.pushButton_30.clicked.connect(self.ui_autoPlayClicked)
             self.ui.comboBox_4.addItems(EnglishPractice.auto_list)
+            self.ui.lineEdit_8.textChanged.connect(self.ui_calcExerciseDuration)
             self.fun_initAuto()
         # Settings 模式选择
         self.ui.radioButton.clicked.connect(self.ui_selectEbbinghaus)
@@ -337,6 +342,7 @@ class EnglishPractice:
         self.ui.textEdit_72.textChanged.connect(self.ui_mood72)
         self.ui.textEdit_73.textChanged.connect(self.ui_mood73)
         self.ui.textEdit_74.textChanged.connect(self.ui_mood74)
+
     def ui_oneMean(self):
         EnglishPractice.FORCE_SINGLE_M = self.ui.checkBox_5.isChecked()
         if EnglishPractice.FORCE_SINGLE_M:
@@ -1030,6 +1036,7 @@ class EnglishPractice:
             self.f_writeConfigFile()
 
     def ui_onGoClicked(self):
+        self.ui_setAutoPlayVisible(True)
         self.autoSpeak = False
         self.user_inputs = {}
         self.listenIndex = 0
@@ -1067,12 +1074,21 @@ class EnglishPractice:
                 file_path = self.auto_file_path + "/listen_uk"
             wav_file = file_path+"/"+sentence_file+".wav"
             if self.f_check_file(wav_file):
-                self.ui.pushButton_26.setVisible(True)
+                if not self.autoPlay:
+                    self.ui.pushButton_26.setVisible(True)
+                else:
+                    self.ui.pushButton_26.setVisible(False)
             if self.f_check_file(wav_file):
-                self.ui.pushButton_27.setVisible(True)
+                if not self.autoPlay:
+                    self.ui.pushButton_27.setVisible(True)
+                else:
+                    self.ui.pushButton_27.setVisible(False)
             translation_file = sanitize_filename(self.autoSpeakTranslations[self.autoSpeakIndex])
             if self.f_check_file(self.auto_file_path+"/translations/"+translation_file+".wav"):
-                self.ui.pushButton_28.setVisible(True)
+                if not self.autoPlay:
+                    self.ui.pushButton_28.setVisible(True)
+                else:
+                    self.ui.pushButton_28.setVisible(False)
         else:
             if self.f_check_file("wav/"+self.listeningTable+"/listen_us/"+sentence_file+".wav"):
                 self.ui.pushButton_26.setVisible(True)
@@ -1138,19 +1154,20 @@ class EnglishPractice:
                     if len(self.user_inputs[self.autoSpeakIndex]) > 0:
                         self.ui.textEdit_4.textCursor().insertText(self.user_inputs[self.autoSpeakIndex])
                 self.ui.progressBar_2.setValue(self.autoSpeakIndex)
-                self.ui.textBrowser_2.setText(self.autoSpeakTranslations[self.autoSpeakIndex])
-                def sanitize_filename(filename):
-                    import re
-                    sanitized = re.sub(r'[\<\>:"/|?*]', '_', filename)
-                    return sanitized
-                sentence_file = sanitize_filename(self.autoSpeakSentences[self.autoSpeakIndex])
-                folder_selector = self.ui.comboBox_3.currentText().strip().lower()
-                if folder_selector == 'american':
-                    file_path = self.auto_file_path + "/listen_us"
-                elif folder_selector == 'british':
-                    file_path = self.auto_file_path + "/listen_uk"
-                wav_file = file_path+"/"+sentence_file+".wav"
-                self.fun_play_wav(wav_file)
+                if not self.autoPlay:
+                    self.ui.textBrowser_2.setText(self.autoSpeakTranslations[self.autoSpeakIndex])
+                    def sanitize_filename(filename):
+                        import re
+                        sanitized = re.sub(r'[\<\>:"/|?*]', '_', filename)
+                        return sanitized
+                    sentence_file = sanitize_filename(self.autoSpeakSentences[self.autoSpeakIndex])
+                    folder_selector = self.ui.comboBox_3.currentText().strip().lower()
+                    if folder_selector == 'american':
+                        file_path = self.auto_file_path + "/listen_us"
+                    elif folder_selector == 'british':
+                        file_path = self.auto_file_path + "/listen_uk"
+                    wav_file = file_path+"/"+sentence_file+".wav"
+                    self.fun_play_wav(wav_file)
         else:
             self.user_inputs[self.idxListen] = self.input_listening.strip()
             if self.listenIndex < self.listenPracticeCnt:
@@ -1165,9 +1182,75 @@ class EnglishPractice:
         self.ui.textEdit_4.clear()
         self.ui_listenTTSVisible()
 
-    def ui_dictationGoClicked(self):
-        self.autoSpeak = True
+    def on_Timer(self):
+        def sanitize_filename(filename):
+            import re
+            sanitized = re.sub(r'[\<\>:"/|?*]', '_', filename)
+            return sanitized
+        def play_en(sentence_en):
+            sentence_file = sanitize_filename(sentence_en)
+            folder_selector = self.ui.comboBox_3.currentText().strip().lower()
+            if folder_selector == 'american':
+                file_path = self.auto_file_path + "/listen_us"
+            elif folder_selector == 'british':
+                file_path = self.auto_file_path + "/listen_uk"
+            wav_file = file_path+"/"+sentence_file+".wav"
+            delay_ms = int(self.wav.duration(wav_file) * 1000) * 2
+            repeat_count = int(self.ui.lineEdit_8.text())
+            self.repeat += 1
+            if self.repeat < repeat_count+1:
+                self.fun_play_wav(wav_file)
+            else:
+                delay_ms = 10
+            if self.repeat == repeat_count+1:
+                self.repeat = 0
+                self.autoSpeakIndex += 1
+                self.ui_onSentenceNextClicked()
+                self.ui.textBrowser_2.clear()
+            if self.autoPlay:
+                QTimer.singleShot(delay_ms, self.on_Timer)
+        play_en(self.autoSpeakSentences[self.autoSpeakIndex])
 
+        show_en_idx  = int(self.ui.lineEdit_9.text())
+        show_cn_idx  = int(self.ui.lineEdit_10.text())
+
+        if self.repeat == show_en_idx:
+            self.ui.textEdit_4.textCursor().insertText(self.autoSpeakSentences[self.autoSpeakIndex])
+        if self.repeat == show_cn_idx:
+            self.ui.textBrowser_2.setText(self.autoSpeakTranslations[self.autoSpeakIndex])        
+
+    def ui_setAutoPlayVisible(self, visible):
+        self.ui.pushButton_5.setVisible(visible)
+        self.ui.pushButton_6.setVisible(visible)
+        self.ui.pushButton_9.setVisible(visible)
+        self.ui.pushButton_10.setVisible(visible)
+        self.ui.pushButton_12.setVisible(visible)
+        self.ui.pushButton_14.setVisible(visible)
+        self.ui.textEdit_5.setVisible(visible)
+
+    def ui_autoPlayClicked(self):
+        self.ui_setAutoPlayVisible(False)
+        self.autoSpeak = True
+        self.autoPlay  = True
+        QTimer.singleShot(1000, self.on_Timer)
+        self.user_inputs = {}
+        self.idxListen   = int(self.ui.lineEdit_6.text().strip()) - 1
+        self.ui.progressBar_2.setMinimum(0)
+        self.ui.progressBar_2.setMaximum(int(self.ui.lineEdit_7.text().strip())-int(self.ui.lineEdit_6.text().strip()))
+        self.listenPracticeCnt = int(self.ui.lineEdit_7.text().strip()) - int(self.ui.lineEdit_6.text().strip())
+        self.ui.progressBar_2.setValue(self.autoSpeakIndex)
+        self.ui.textBrowser_2.clear()
+        self.ui.textEdit_4.clear()
+        self.ui.tabWidget.setCurrentIndex(1)
+        self.ui.textEdit_4.setFocus()
+        self.currentListening = self.autoSpeakSentences[self.autoSpeakIndex]
+        self.ui_onListeningPageChanged()
+        self.ui_listenTTSVisible()
+
+    def ui_dictationGoClicked(self):
+        self.ui_setAutoPlayVisible(True)
+        self.autoSpeak = True
+        self.autoPlay  = False
         self.user_inputs = {}
         self.idxListen   = int(self.ui.lineEdit_6.text().strip()) - 1
         self.ui.progressBar_2.setMinimum(0)
@@ -1212,8 +1295,8 @@ class EnglishPractice:
         elif folder_selector == 'british':
             file_path = self.auto_file_path + "/listen_uk"
         
-        self.start_idx = int(self.ui.lineEdit_6.text()) - 1
-        self.end_idx   = int(self.ui.lineEdit_7.text()) - 1
+        self.start_idx = int(self.ui.lineEdit_6.text() if len(self.ui.lineEdit_6.text()) > 0 else 1) - 1
+        self.end_idx   = int(self.ui.lineEdit_7.text() if len(self.ui.lineEdit_7.text()) > 0 else 1) - 1
         if self.start_idx >=0 and self.start_idx <= self.end_idx:
             self.db.getListenContent(self.ui.comboBox_4.currentText())
             self.autoSpeakIndex        = 0
@@ -1225,6 +1308,9 @@ class EnglishPractice:
                 file_name = sanitize_filename(self.db.getListenSentence(idx))+".wav"
                 duration_s += self.wav.duration(file_path+"/"+file_name)
             self.ui.label_106.setText(self.wav.seconds_to_hms(duration_s))
+            self.ui.label_112.setText(self.wav.seconds_to_hms((duration_s * 2) * int(self.ui.lineEdit_8.text() if len(self.ui.lineEdit_8.text()) > 0 else 1) + 0.01 * (self.end_idx - self.start_idx + 1)))
+    def ui_calcExerciseDuration(self):
+        self.fun_calcDuration()
     def ui_autoSentenceSourceChanged(self):
         self.fun_initAuto()
     def fun_initAuto(self):
