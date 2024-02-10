@@ -155,6 +155,8 @@ class EnglishPractice:
         # Settings 中 Auto 相关
         self.wav = WAV("wav")
         self.ui.groupBox_23.setVisible(False)
+        self.autoSpeak             = False
+        self.autoPlay              = False
         if WAV.VALID:
             self.autoSpeak             = False
             self.autoPlay              = False
