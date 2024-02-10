@@ -1106,7 +1106,10 @@ class EnglishPractice:
             sanitized = re.sub(r'[\<\>:"/|?*]', '_', filename)
             return sanitized
         sentence_file = sanitize_filename(self.currentListening)
-        wav_file = "wav/"+self.listeningTable+"/listen_us/"+sentence_file+".wav"
+        if self.autoSpeak:
+            wav_file = self.auto_file_path+"/listen_us/"+sentence_file+".wav"
+        else:
+            wav_file = "wav/"+self.listeningTable+"/listen_us/"+sentence_file+".wav"
         self.fun_play_wav(wav_file)
     def ui_listenUKClicked(self):
         import re
@@ -1114,15 +1117,22 @@ class EnglishPractice:
             sanitized = re.sub(r'[\<\>:"/|?*]', '_', filename)
             return sanitized
         sentence_file = sanitize_filename(self.currentListening)
-        wav_file = "wav/"+self.listeningTable+"/listen_uk/"+sentence_file+".wav"
+        if self.autoSpeak:
+            wav_file = self.auto_file_path+"/listen_uk/"+sentence_file+".wav"
+        else:
+            wav_file = "wav/"+self.listeningTable+"/listen_uk/"+sentence_file+".wav"
         self.fun_play_wav(wav_file)
     def ui_listenTranslationClicked(self):
         import re
         def sanitize_filename(filename):
             sanitized = re.sub(r'[\<\>:"/|?*]', '_', filename)
             return sanitized
-        sentence_file = sanitize_filename(self.db.getListenTranslation(self.idxListen))
-        wav_file = "wav/"+self.listeningTable+"/translations/"+sentence_file+".wav"
+        if self.autoSpeak:
+            sentence_file = sanitize_filename(self.autoSpeakTranslations[self.autoSpeakIndex])
+            wav_file = self.auto_file_path+"/translations/"+sentence_file+".wav"
+        else:
+            sentence_file = sanitize_filename(self.db.getListenTranslation(self.idxListen))
+            wav_file = "wav/"+self.listeningTable+"/translations/"+sentence_file+".wav"
         self.fun_play_wav(wav_file)
 
     def ui_onSentencePrevClicked(self):
