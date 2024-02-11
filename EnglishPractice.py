@@ -1740,9 +1740,10 @@ class EnglishPractice:
                 if len_sim > 0 and valid:
                     self.ui.label_114.setVisible(True)
                     string = "%d words meeting the similarity criteria."%(len_sim)
+                    self.ui.label_114.setText(string)
                 else:
                     self.ui.label_114.setVisible(False)
-                self.ui.label_114.setText(string)
+                    self.ui.label_114.setText("")                
             else:
                 self.wordsNum = int(self.ui.lineEdit.text())
                 self.ui.label_114.setVisible(False)
