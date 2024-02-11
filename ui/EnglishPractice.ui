@@ -3931,6 +3931,41 @@
                   </widget>
                  </item>
                  <item>
+                  <layout class="QVBoxLayout" name="verticalLayout_51">
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_68">
+                     <item>
+                      <widget class="QLabel" name="label_113">
+                       <property name="text">
+                        <string>Similarity</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="lineEdit_11"/>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="label_115">
+                     <property name="text">
+                      <string>(This value should be between 0 and 1)</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="label_114">
+                     <property name="styleSheet">
+                      <string notr="true">background-color: Cyan</string>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
                   <widget class="QLabel" name="label_13">
                    <property name="text">
                     <string/>

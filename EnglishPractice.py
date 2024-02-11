@@ -187,6 +187,11 @@ class EnglishPractice:
         self.ui.lineEdit.returnPressed.connect(self.ui_wordsNumEnterPressed)
         self.ui.pushButton_4.clicked.connect(self.ui_onGoClicked)
         self.ui.checkBox_5.toggled.connect(self.ui_oneMean)
+        self.ui.lineEdit_11.textChanged.connect(self.ui_similarityChanged)
+        self.ui.label_113.setVisible(False)
+        self.ui.label_114.setVisible(False)
+        self.ui.label_115.setVisible(False)
+        self.ui.lineEdit_11.setVisible(False)
         # Marked Only
         self.ui.checkBox_4.toggled.connect(self.fun_markedOnly)
         # TTS
@@ -1013,6 +1018,10 @@ class EnglishPractice:
         self.fun_updateMarked()
 
     def ui_selectEbbinghaus(self):
+        self.ui.label_113.setVisible(False)
+        self.ui.label_114.setVisible(False)
+        self.ui.label_115.setVisible(False)
+        self.ui.lineEdit_11.setVisible(False)
         self.ui.checkBox.setVisible(True)
         self.ui.checkBox.setEnabled(True)
         self.ui.checkBox_3.setVisible(True)
@@ -1559,6 +1568,10 @@ class EnglishPractice:
         self.ui_verbTenseDiff(who, input_sentence, sentence)
 
     def ui_selectReview(self):
+        self.ui.label_113.setVisible(False)
+        self.ui.label_114.setVisible(False)
+        self.ui.label_115.setVisible(False)
+        self.ui.lineEdit_11.setVisible(False)
         self.ui.checkBox.setVisible(False)
         self.ui.checkBox_2.setVisible(False)
         self.ui.checkBox_4.setVisible(False)
@@ -1579,6 +1592,9 @@ class EnglishPractice:
             self.f_writeConfigFile()
 
     def ui_selectNew(self):
+        self.ui.label_113.setVisible(True)
+        self.ui.label_115.setVisible(True)
+        self.ui.lineEdit_11.setVisible(True)
         self.ui.checkBox.setVisible(True)
         self.ui.checkBox_2.setVisible(True)
         self.ui.checkBox_4.setVisible(False)
@@ -1678,11 +1694,23 @@ class EnglishPractice:
         self.f_writeConfigFile()
         self.ui_onGoClicked()
 
+    def ui_similarityChanged(self):
+        self.ui_selectNew()
+
     def fun_getNewWords(self):
         # 获取新词汇
         res = self.fun_initWords()
 
     def fun_initWords(self):
+        def is_between_0_and_1(value):
+            try:
+                # 尝试将输入转换为浮点数
+                num = float(value)
+                # 检查数字是否在0到1之间（包括0和1）
+                return 0 < num < 1, num
+            except ValueError:
+                # 如果转换失败（即输入不是数字），返回False
+                return False, None
         res = False
         for table in EnglishPractice.vocabulary_list:
             if self.ebdb.tableExist(table) == False:
@@ -1690,9 +1718,40 @@ class EnglishPractice:
         if self.practiceMode == EnglishPractice.practiceModeList[0]:
             res = True
             # 从数据库中取数据
-            self.words       = self.db.get_randomly(self.wordsNum)
+            valid, similarity = is_between_0_and_1(self.ui.lineEdit_11.text())
+            if valid:
+                sim_words = []
+                all_words = self.db.getAllWords()
+                all_words.sort(key=str.lower)
+                word_index = 0
+                while word_index < len(all_words) - 1:
+                    in1 = all_words[word_index]
+                    in2 = all_words[word_index+1]
+                    sim = self.fun_wordSimilarity(in1, in2)
+                    if sim > similarity and sim < 1:
+                        if in1 not in sim_words:
+                            sim_words.append(in1)
+                        if in2 not in sim_words:
+                            sim_words.append(in2)
+                    word_index += 1
+                self.words = sim_words
+                len_sim = len(self.words)
+                self.wordsNum = min(self.wordsNum,len_sim)
+                if len_sim > 0 and valid:
+                    self.ui.label_114.setVisible(True)
+                    string = "%d words meeting the similarity criteria."%(len_sim)
+                else:
+                    self.ui.label_114.setVisible(False)
+                self.ui.label_114.setText(string)
+            else:
+                self.wordsNum = int(self.ui.lineEdit.text())
+                self.ui.label_114.setVisible(False)
+                self.words = self.db.get_randomly(self.wordsNum)
+            # 进度条初始化
+            self.ui.progressBar.setMinimum(1)
+            self.ui.progressBar.setMaximum(self.wordsNum)
             if self.generateAllWords:
-                self.words   = self.db.getAllWords()
+                self.words = self.db.getAllWords()
             # 生成单词文件
             self.db_getWords()
             self.f_generateWords()
@@ -2051,6 +2110,11 @@ class EnglishPractice:
                 insert_positions.append([j1, j2, i1])
 
         return replace_positions, delete_positions, insert_positions
+    
+    def fun_wordSimilarity(self, in1, in2):
+        import difflib
+        similarity = difflib.SequenceMatcher(None, in1.strip(), in2.strip()).quick_ratio()
+        return similarity
 
     def fun_diffSentence(self, input_sentence, sentence):
         import difflib
