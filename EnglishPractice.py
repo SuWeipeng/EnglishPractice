@@ -1170,6 +1170,7 @@ class EnglishPractice:
             self.user_inputs[self.autoSpeakIndex] = self.input_listening.strip()
             if self.autoSpeakIndex < self.end_idx-self.start_idx:
                 self.autoSpeakIndex += 1
+                self.ui.progressBar_2.setValue(self.autoSpeakIndex)
                 self.currentListening = self.autoSpeakSentences[self.autoSpeakIndex]
                 if self.user_inputs.get(self.autoSpeakIndex) is not None:
                     if len(self.user_inputs[self.autoSpeakIndex]) > 0:
@@ -1227,9 +1228,6 @@ class EnglishPractice:
                     self.autoPlay = False
             if self.repeat == repeat_count+1:
                 self.repeat = 0
-                if self.autoSpeakIndex < self.end_idx-self.start_idx:
-                    self.autoSpeakIndex += 1
-                    self.ui.progressBar_2.setValue(self.autoSpeakIndex)
                 self.ui_onSentenceNextClicked()
                 self.ui.textBrowser_2.clear()
             if self.autoPlay:
@@ -1253,6 +1251,12 @@ class EnglishPractice:
         self.ui.pushButton_14.setVisible(visible)
         self.ui.textEdit_5.setVisible(visible)
 
+    def ui_setDictationVisible(self, visible):
+        self.ui.pushButton_9.setVisible(visible)
+        self.ui.pushButton_10.setVisible(visible)
+        self.ui.pushButton_12.setVisible(visible)
+        self.ui.pushButton_14.setVisible(visible)
+
     def ui_autoPlayClicked(self):
         self.ui_setAutoPlayVisible(False)
         self.autoSpeak = True
@@ -1263,6 +1267,7 @@ class EnglishPractice:
         self.ui.progressBar_2.setMinimum(0)
         self.ui.progressBar_2.setMaximum(int(self.ui.lineEdit_7.text().strip())-int(self.ui.lineEdit_6.text().strip()))
         self.listenPracticeCnt = int(self.ui.lineEdit_7.text().strip()) - int(self.ui.lineEdit_6.text().strip())
+        self.fun_calcDuration()
         self.ui.progressBar_2.setValue(self.autoSpeakIndex)
         self.ui.textBrowser_2.clear()
         self.ui.textEdit_4.clear()
@@ -1274,6 +1279,7 @@ class EnglishPractice:
 
     def ui_dictationGoClicked(self):
         self.ui_setAutoPlayVisible(True)
+        self.ui_setDictationVisible(False)
         self.autoSpeak = True
         self.autoPlay  = False
         self.user_inputs = {}
@@ -1281,6 +1287,7 @@ class EnglishPractice:
         self.ui.progressBar_2.setMinimum(0)
         self.ui.progressBar_2.setMaximum(int(self.ui.lineEdit_7.text().strip())-int(self.ui.lineEdit_6.text().strip()))
         self.listenPracticeCnt = int(self.ui.lineEdit_7.text().strip()) - int(self.ui.lineEdit_6.text().strip())
+        self.fun_calcDuration()
         self.ui.progressBar_2.setValue(self.autoSpeakIndex)
         self.ui.textBrowser_2.setText(self.autoSpeakTranslations[self.autoSpeakIndex])
         self.ui.textEdit_4.clear()
@@ -1313,6 +1320,7 @@ class EnglishPractice:
             sanitized = re.sub(r'[\<\>:"/|?*]', '_', filename)
             return sanitized
         duration_s = 0
+        exercise_s = 0
         folder_selector = self.ui.comboBox_3.currentText().strip().lower()
         if folder_selector == 'american':
             file_path = self.auto_file_path + "/listen_us"
@@ -1330,9 +1338,11 @@ class EnglishPractice:
                 self.autoSpeakSentences.append(self.db.getListenSentence(idx))
                 self.autoSpeakTranslations.append(self.db.getListenTranslation(idx))
                 file_name = sanitize_filename(self.db.getListenSentence(idx))+".wav"
-                duration_s += self.wav.duration(file_path+"/"+file_name)
+                file_s = self.wav.duration(file_path+"/"+file_name)
+                duration_s += file_s
+                exercise_s += (file_s * 2 * int(self.ui.lineEdit_8.text() if len(self.ui.lineEdit_8.text()) > 0 else 1) + 0.01)
             self.ui.label_106.setText(self.wav.seconds_to_hms(duration_s))
-            self.ui.label_112.setText(self.wav.seconds_to_hms((duration_s * 2) * int(self.ui.lineEdit_8.text() if len(self.ui.lineEdit_8.text()) > 0 else 1) + 0.01 * (self.end_idx - self.start_idx + 1)))
+            self.ui.label_112.setText(self.wav.seconds_to_hms(exercise_s))
     def ui_calcExerciseDuration(self):
         self.fun_calcDuration()
     def ui_autoSentenceSourceChanged(self):
