@@ -1223,9 +1223,13 @@ class EnglishPractice:
                 self.fun_play_wav(wav_file)
             else:
                 delay_ms = 10
+                if self.autoSpeakIndex == self.end_idx-self.start_idx:
+                    self.autoPlay = False
             if self.repeat == repeat_count+1:
                 self.repeat = 0
-                self.autoSpeakIndex += 1
+                if self.autoSpeakIndex < self.end_idx-self.start_idx:
+                    self.autoSpeakIndex += 1
+                    self.ui.progressBar_2.setValue(self.autoSpeakIndex)
                 self.ui_onSentenceNextClicked()
                 self.ui.textBrowser_2.clear()
             if self.autoPlay:
@@ -1298,7 +1302,6 @@ class EnglishPractice:
             file_path = self.auto_file_path + "/listen_uk"
         wav_file = file_path+"/"+sentence_file+".wav"
         self.fun_play_wav(wav_file)
-
 
     def ui_fromIndexChanged(self):
         self.fun_calcDuration()

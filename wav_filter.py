@@ -81,9 +81,9 @@ for file in files:
     fun_play_wav(full_path)
 """
 
-# 在 filter 文件夹中创建 repair_wav.py 文件
-repair_script_path = os.path.join(filter_folder, 'wav_filter.py')
+# 在 filter 文件夹中创建 wav_repair.py 文件
+repair_script_path = os.path.join(filter_folder, 'wav_repair.py')
 with open(repair_script_path, 'w', encoding='utf-8') as script_file:
     script_file.write(repair_script_content)
 
-print(f"'repair_wav.py' script has been created in {filter_folder}")
+print(f"'wav_repair.py' script has been created in {filter_folder}")
