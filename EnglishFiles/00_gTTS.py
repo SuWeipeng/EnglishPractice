@@ -97,6 +97,7 @@ if UK_FILTER:
         for line in file:
             # 移除每行末尾的换行符并添加到列表中
             words_uk.append(line.strip())
+
 with open(wordFile,"r",encoding='utf-8') as file:
     wordCount       = 0
     create_folder(FileName+'/words_us')
@@ -109,16 +110,18 @@ with open(wordFile,"r",encoding='utf-8') as file:
         if i % 5 == 0 and not CHECK_FILE:
             filename = line.strip()
             clean_filename = sanitize_filename(filename)
-            file_path=FileName+'/words_us/'+clean_filename
-            if WORD_US and not check_file(file_path):
-                if US_FILTER and filename not in words_us:
-                    continue
-                gtts_wav(filename,file_path,'en-us')
-            file_path=FileName+'/words_uk/'+clean_filename
-            if WORD_UK and not check_file(file_path):
-                if UK_FILTER and filename not in words_uk:
-                    continue
-                gtts_wav(filename,file_path,'en-uk')
+            file_us_path=FileName+'/words_us/'+clean_filename
+            file_uk_path=FileName+'/words_uk/'+clean_filename
+            if WORD_US and not check_file(file_us_path):
+                if US_FILTER and filename in words_us:
+                    gtts_wav(filename,file_us_path,'en-us')
+                elif not US_FILTER:
+                    gtts_wav(filename,file_us_path,'en-us')
+            if WORD_UK and not check_file(file_uk_path):
+                if UK_FILTER and filename in words_uk:
+                    gtts_wav(filename,file_uk_path,'en-uk')
+                elif not US_FILTER:
+                    gtts_wav(filename,file_uk_path,'en-uk')
         elif i % 5 == 1:
             continue
         elif i % 5 == 2:
