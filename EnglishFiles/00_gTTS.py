@@ -14,7 +14,8 @@ TRANSLATION = False
 
 CHECK_FILE  = False
 
-EN_FILTER   = True
+US_FILTER   = True
+UK_FILTER   = True
 
 def sanitize_filename(filename):
     sanitized = re.sub(r'[\<\>:"/|?*]', '_', filename)
@@ -80,15 +81,22 @@ def gtts_wav(text,out_path,lang='en'):
     os.remove(mp3_fp)
 
 # 创建一个空列表来存储单词
-words = []
-if EN_FILTER:
+words_us = []
+words_uk = []
+if US_FILTER:
     # 使用with语句打开文件，确保文件最后会被正确关闭
-    with open('filter.txt', 'r') as file:
+    with open('filter_us.txt', 'r') as file:
         # 逐行读取文件
         for line in file:
             # 移除每行末尾的换行符并添加到列表中
-            words.append(line.strip())
-
+            words_us.append(line.strip())
+if UK_FILTER:
+    # 使用with语句打开文件，确保文件最后会被正确关闭
+    with open('filter_uk.txt', 'r') as file:
+        # 逐行读取文件
+        for line in file:
+            # 移除每行末尾的换行符并添加到列表中
+            words_uk.append(line.strip())
 with open(wordFile,"r",encoding='utf-8') as file:
     wordCount       = 0
     create_folder(FileName+'/words_us')
@@ -102,12 +110,14 @@ with open(wordFile,"r",encoding='utf-8') as file:
             filename = line.strip()
             clean_filename = sanitize_filename(filename)
             file_path=FileName+'/words_us/'+clean_filename
-            if EN_FILTER and filename not in words:
-                continue
             if WORD_US and not check_file(file_path):
+                if US_FILTER and filename not in words_us:
+                    continue
                 gtts_wav(filename,file_path,'en-us')
             file_path=FileName+'/words_uk/'+clean_filename
             if WORD_UK and not check_file(file_path):
+                if UK_FILTER and filename not in words_uk:
+                    continue
                 gtts_wav(filename,file_path,'en-uk')
         elif i % 5 == 1:
             continue
