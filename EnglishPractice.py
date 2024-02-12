@@ -79,8 +79,8 @@ class EnglishPractice:
     practiceModeList = ['new','review','ebbinghaus']
     vocabulary_list  = ['IELTS1000','ORCHARD7','ORCHARD6','ORCHARD5','ORCHARD4','ORCHARD3','PHRASE']
     listening_list   = ['Conversation01','SentenceStructure01','EnglishNews001','Medium01',
-                        'SimonReading_P1_01', 'SimonReading_P1_02']
-    auto_list        = ['Conversation01','SentenceStructure01','Medium01']
+                        'SimonReading_P1_01', 'SimonReading_P1_02','Medium02']
+    auto_list        = ['Conversation01','SentenceStructure01','Medium01','Medium02']
     verb_tense_01    = ['The rabbit eats carrots.'            ,'The rabbit ate a carrot.'            ,'The rabbit will eat a carrot.'             ,'I said the rabbit would eat a carrot.',
                         'The rabbit is eating a carrot.'      ,'The rabbit was eating a carrot.'     ,'The rabbit will be eating a carrot.'       ,'I said the rabbit would be eating a carrot.',
                         'The rabbit has eaten a carrot.'      ,'The rabbit had eaten a carrot.'      ,'The rabbit will have eaten a carrot.'      ,'I said the rabbit would have eaten a carrot.',

@@ -4,7 +4,7 @@ fileName       = 'PHRASE'
 from modules.FileRead import FileRead
 
 vocabulary = ['IELTS1000','ORCHARD7','ORCHARD6','ORCHARD5','ORCHARD4','ORCHARD3','PHRASE']
-listening  = ['Conversation01','SentenceStructure01','EnglishNews001','Medium01',
+listening  = ['Conversation01','SentenceStructure01','EnglishNews001','Medium01','Medium02',
               'SimonReading_P1_01','SimonReading_P1_02']
 def main():
     file_type = None
