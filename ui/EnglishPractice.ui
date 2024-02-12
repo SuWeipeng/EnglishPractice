@@ -513,6 +513,19 @@
           </widget>
          </item>
          <item>
+          <widget class="QPushButton" name="pushButton_31">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="text">
+            <string>[F1] Pause</string>
+           </property>
+           <property name="shortcut">
+            <string>F1</string>
+           </property>
+          </widget>
+         </item>
+         <item>
           <widget class="QPushButton" name="pushButton_14">
            <property name="text">
             <string>[F4] Back 5s</string>

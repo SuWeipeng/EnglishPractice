@@ -1,4 +1,4 @@
-from PyQt5.QtWidgets import QApplication
+from PyQt5.QtWidgets import QApplication, QWidget
 from PyQt5.QtGui import QFont, QTextCursor, QColor, QIcon
 from PyQt5.QtCore import QTimer
 from PyQt5 import uic
@@ -67,7 +67,7 @@ class WAV:
             res = '{:02}sec'.format(seconds)
         return res
 
-class EnglishPractice:
+class EnglishPractice(QWidget):
     '''
     01. 与 ui 相关的函数名以         ui_ 开头
     02. 与数据库相关的函数名以       db_  开头
@@ -94,6 +94,7 @@ class EnglishPractice:
     FORCE_SINGLE_M   = True
     SINGLE_MEAN      = False
     def __init__(self):
+        super().__init__()
         self.generateAllWords = False
         # 打开单词数据库
         self.db               = ReadWordFromDB("English.db",EnglishPractice.vocabulary_list[0],EnglishPractice.listening_list[0])
@@ -158,6 +159,10 @@ class EnglishPractice:
         self.autoSpeak             = False
         self.autoPlay              = False
         if WAV.VALID:
+            self.autoTimer             = QTimer(self)
+            self.autoTimerState        = False
+            self.autoTimer.setSingleShot(True)
+            self.autoTimer.timeout.connect(self.on_Timer)
             self.autoSpeak             = False
             self.autoPlay              = False
             self.repeat                = 0
@@ -171,6 +176,7 @@ class EnglishPractice:
             self.ui.lineEdit_7.textChanged.connect(self.ui_toIndexChanged)
             self.ui.pushButton_29.clicked.connect(self.ui_dictationGoClicked)
             self.ui.pushButton_30.clicked.connect(self.ui_autoPlayClicked)
+            self.ui.pushButton_31.clicked.connect(self.ui_autoPauseClicked)
             self.ui.comboBox_4.addItems(EnglishPractice.auto_list)
             self.ui.lineEdit_8.textChanged.connect(self.ui_calcExerciseDuration)
             self.fun_initAuto()
@@ -1047,6 +1053,7 @@ class EnglishPractice:
             self.f_writeConfigFile()
 
     def ui_onGoClicked(self):
+        self.ui.pushButton_31.setVisible(False)
         self.ui_setAutoPlayVisible(True)
         self.autoSpeak = False
         self.user_inputs = {}
@@ -1231,7 +1238,9 @@ class EnglishPractice:
                 self.ui_onSentenceNextClicked()
                 self.ui.textBrowser_2.clear()
             if self.autoPlay:
-                QTimer.singleShot(delay_ms, self.on_Timer)
+                self.autoTimer.start(delay_ms)
+                self.autoTimerState = True
+                #QTimer.singleShot(delay_ms, self.on_Timer)
         play_en(self.autoSpeakSentences[self.autoSpeakIndex])
 
         show_en_idx  = int(self.ui.lineEdit_9.text())
@@ -1257,11 +1266,22 @@ class EnglishPractice:
         self.ui.pushButton_12.setVisible(visible)
         self.ui.pushButton_14.setVisible(visible)
 
+    def ui_autoPauseClicked(self):
+        if self.autoTimerState:
+            self.autoTimer.stop()
+            self.ui.pushButton_31.setStyleSheet("QPushButton { background-color: red; }")
+            self.autoTimerState = False
+        else:
+            self.autoTimer.start(1000)
+            self.ui.pushButton_31.setStyleSheet("")
+        
     def ui_autoPlayClicked(self):
+        self.ui.pushButton_31.setVisible(True)
         self.ui_setAutoPlayVisible(False)
         self.autoSpeak = True
         self.autoPlay  = True
-        QTimer.singleShot(1000, self.on_Timer)
+        self.autoTimer.start(1000)
+        self.autoTimerState = True
         self.user_inputs = {}
         self.idxListen   = int(self.ui.lineEdit_6.text().strip()) - 1
         self.ui.progressBar_2.setMinimum(0)
@@ -1278,6 +1298,7 @@ class EnglishPractice:
         self.ui_listenTTSVisible()
 
     def ui_dictationGoClicked(self):
+        self.ui.pushButton_31.setVisible(False)
         self.ui_setAutoPlayVisible(True)
         self.ui_setDictationVisible(False)
         self.autoSpeak = True
@@ -2221,6 +2242,7 @@ class EnglishPractice:
         self.ytb.skipAd()
 
     def ui_openYoutube(self):
+        self.ui.pushButton_31.setVisible(False)
         self.ytb.open_youtube(self.ui.lineEdit_5.text().strip())
 
     def ui_againClicked(self):
