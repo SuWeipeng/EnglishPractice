@@ -1053,6 +1053,9 @@ class EnglishPractice(QWidget):
             self.f_writeConfigFile()
 
     def ui_onGoClicked(self):
+        if WAV.VALID:
+            self.autoTimer.stop()
+            self.autoTimerState = False
         self.ui.pushButton_31.setVisible(False)
         self.ui_setAutoPlayVisible(True)
         self.autoSpeak = False
@@ -1240,7 +1243,6 @@ class EnglishPractice(QWidget):
             if self.autoPlay:
                 self.autoTimer.start(delay_ms)
                 self.autoTimerState = True
-                #QTimer.singleShot(delay_ms, self.on_Timer)
         play_en(self.autoSpeakSentences[self.autoSpeakIndex])
 
         show_en_idx  = int(self.ui.lineEdit_9.text())
@@ -1269,10 +1271,11 @@ class EnglishPractice(QWidget):
     def ui_autoPauseClicked(self):
         if self.autoTimerState:
             self.autoTimer.stop()
-            self.ui.pushButton_31.setStyleSheet("QPushButton { background-color: red; }")
             self.autoTimerState = False
+            self.ui.pushButton_31.setStyleSheet("QPushButton { background-color: red; }")
         else:
             self.autoTimer.start(1000)
+            self.autoTimerState = True
             self.ui.pushButton_31.setStyleSheet("")
         
     def ui_autoPlayClicked(self):
@@ -1280,12 +1283,12 @@ class EnglishPractice(QWidget):
         self.ui_setAutoPlayVisible(False)
         self.autoSpeak = True
         self.autoPlay  = True
-        self.autoTimer.start(1000)
-        self.autoTimerState = True
+        self.repeat    = 0
         self.user_inputs = {}
         self.idxListen   = int(self.ui.lineEdit_6.text().strip()) - 1
         self.ui.progressBar_2.setMinimum(0)
         self.ui.progressBar_2.setMaximum(int(self.ui.lineEdit_7.text().strip())-int(self.ui.lineEdit_6.text().strip()))
+        self.ui.progressBar_2.setValue(0)
         self.listenPracticeCnt = int(self.ui.lineEdit_7.text().strip()) - int(self.ui.lineEdit_6.text().strip())
         self.fun_calcDuration()
         self.ui.progressBar_2.setValue(self.autoSpeakIndex)
@@ -1296,8 +1299,12 @@ class EnglishPractice(QWidget):
         self.currentListening = self.autoSpeakSentences[self.autoSpeakIndex]
         self.ui_onListeningPageChanged()
         self.ui_listenTTSVisible()
+        self.autoTimer.start(1000)
+        self.autoTimerState = True
 
     def ui_dictationGoClicked(self):
+        self.autoTimer.stop()
+        self.autoTimerState = False
         self.ui.pushButton_31.setVisible(False)
         self.ui_setAutoPlayVisible(True)
         self.ui_setDictationVisible(False)
@@ -1307,6 +1314,7 @@ class EnglishPractice(QWidget):
         self.idxListen   = int(self.ui.lineEdit_6.text().strip()) - 1
         self.ui.progressBar_2.setMinimum(0)
         self.ui.progressBar_2.setMaximum(int(self.ui.lineEdit_7.text().strip())-int(self.ui.lineEdit_6.text().strip()))
+        self.ui.progressBar_2.setValue(0)
         self.listenPracticeCnt = int(self.ui.lineEdit_7.text().strip()) - int(self.ui.lineEdit_6.text().strip())
         self.fun_calcDuration()
         self.ui.progressBar_2.setValue(self.autoSpeakIndex)
@@ -1352,7 +1360,8 @@ class EnglishPractice(QWidget):
         self.end_idx   = int(self.ui.lineEdit_7.text() if len(self.ui.lineEdit_7.text()) > 0 else 1) - 1
         if self.start_idx >=0 and self.start_idx <= self.end_idx:
             self.db.getListenContent(self.ui.comboBox_4.currentText())
-            self.autoSpeakIndex        = 0
+            if self.ui.progressBar_2.value() == 0:
+                self.autoSpeakIndex    = 0
             self.autoSpeakSentences    = []
             self.autoSpeakTranslations = []
             for idx in range(self.start_idx, self.end_idx + 1):
@@ -2242,6 +2251,9 @@ class EnglishPractice(QWidget):
         self.ytb.skipAd()
 
     def ui_openYoutube(self):
+        if WAV.VALID:
+            self.autoTimer.stop()
+            self.autoTimerState = False
         self.ui.pushButton_31.setVisible(False)
         self.ytb.open_youtube(self.ui.lineEdit_5.text().strip())
 
