@@ -2253,6 +2253,8 @@ class EnglishPractice(QWidget):
             self.wordCursor.insertText(self.p_list[8*self.wordIndex].strip())
             self.ui.textEdit_2.clear()
             self.sentenceCursor.insertText(self.p_list[8*self.wordIndex+5].strip())
+            if self.netOK:
+                self.ui.textBrowser_3.clear()
 
     def ui_onNextClicked(self):
         # 在 p_list 中保存输入内容
