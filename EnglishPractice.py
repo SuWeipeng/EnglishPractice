@@ -1721,13 +1721,11 @@ class EnglishPractice(QWidget):
             self.checkBoxInitiated = True
         self.useSentenceScore = self.ui.checkBox.isChecked()
         if self.useSentenceScore:
-            self.ui.checkBox_3.setVisible(False)
             self.ui.label_3.setStyleSheet("color:red;")
             font = self.ui.label_3.font()
             font.setPointSize(15)
             self.ui.label_3.setFont(font)
         else:
-            self.ui.checkBox_3.setVisible(True)
             self.ui.label_3.setStyleSheet("color:black;")
             font = self.ui.label_3.font()
             font.setPointSize(9)
@@ -2094,8 +2092,10 @@ class EnglishPractice(QWidget):
         '''
         输入单词发生变化时的回调函数。
         '''
+        self.input_word = self.ui.textEdit.toPlainText()
         if self.lastCurrent != self.currentWord:
             self.lastCurrent = self.currentWord
+            self.lastInput   = ""
             self.typeCnt     = 0
             self.ui_ttsVisible()
             cn_str = self.meanings.get(self.currentWord)
@@ -2105,19 +2105,24 @@ class EnglishPractice(QWidget):
             elif self.ttsMode == 'cn':
                 self.speak_cn(cn_str)
             if self.netOK:
+                self.ui.textBrowser_3.clear()
                 en_dict = threading.Thread(target=self.fun_online_dictionary,args=(self.currentWord,))
                 en_dict.start()
                 cn_dict = threading.Thread(target=self.fun_online_translate,args=(self.currentWord,))
                 cn_dict.start()
         else:
-            self.typeCnt += 1
+            if self.lastInput.strip() != self.input_word.strip():
+                if len(self.lastInput.strip()) == 0:
+                    self.typeCnt = len(self.input_word.strip())
+                self.lastInput = self.input_word.strip()
+                if not len(self.input_word.strip()) == len(self.currentWord) or not len(self.lastInput.strip()) == 0:
+                    self.typeCnt += 1
         if self.wordModeLast != self.wordMode:
             self.wordModeLast = self.wordMode
             self.ignore_once = True
         else:
             self.ignore_once = False
         self.ui_setWordFont() 
-        self.input_word = self.ui.textEdit.toPlainText()
         if len(self.input_word) == 0 and self.ignore_once:
             self.typeCnt = 0
         replace_pos, delete_pos, insert_pos = self.fun_diffWord(self.input_word, self.currentWord)
@@ -2134,7 +2139,7 @@ class EnglishPractice(QWidget):
             self.ignoreTTS = False
             self.tts_SpeedChange()
             self.tts_AccentChange()
-            if (self.wordMode == 2 and not self.useSentenceScore) or (self.wordMode == 1 and self.ui.checkBox_2.isChecked()) or (self.wordMode == 0 and self.ui.checkBox_2.isChecked()):
+            if self.wordMode == 2 or (self.wordMode == 1 and self.ui.checkBox_2.isChecked()) or (self.wordMode == 0 and self.ui.checkBox_2.isChecked()):
                 if self.typeCnt > len(self.currentWord) + 1:
                     self.ui.checkBox_3.setChecked(True)
                 else:
@@ -2253,12 +2258,9 @@ class EnglishPractice(QWidget):
             self.wordCursor.insertText(self.p_list[8*self.wordIndex].strip())
             self.ui.textEdit_2.clear()
             self.sentenceCursor.insertText(self.p_list[8*self.wordIndex+5].strip())
-            if self.netOK:
-                self.ui.textBrowser_3.clear()
 
     def ui_onNextClicked(self):
         # 在 p_list 中保存输入内容
-        self.ui.textBrowser_3.clear()
         if self.input_word is not None:
             self.p_list[self.wordIndex*8] = self.input_word.rstrip()+'\n'
         if self.input_sentence is not None:
