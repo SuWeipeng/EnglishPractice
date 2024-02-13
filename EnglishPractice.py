@@ -1,11 +1,13 @@
 from PyQt5.QtWidgets import QApplication, QWidget
 from PyQt5.QtGui import QFont, QTextCursor, QColor, QIcon
 from PyQt5.QtCore import QTimer
+from PyQt5.QtCore import pyqtSignal
 from PyQt5 import uic
 from modules.ReadWordFromDB import ReadWordFromDB
 from modules.WriteEbbinghausDB import WriteEbbinghausDB
 from modules.ReadEbbinghausDB import ReadEbbinghausDB
 from modules.Ebbinghaus import Ebbinghaus
+from modules.AutoTranslator import AutoTranslator
 from modules.Youtube import Youtube
 import modules.MoodText as MoodText
 import json
@@ -14,6 +16,8 @@ import threading
 import os, glob, contextlib
 import pyaudio
 import wave
+import requests
+from PyDictionary import PyDictionary
 
 class WAV:
     VALID = False
@@ -93,9 +97,16 @@ class EnglishPractice(QWidget):
     tts_mode         = ['en','cn']
     FORCE_SINGLE_M   = True
     SINGLE_MEAN      = False
+    update_text_signal = pyqtSignal(str)  # 定义信号
     def __init__(self):
         super().__init__()
         self.generateAllWords = False
+        self.netOK = False
+        check_net = threading.Thread(target=self.fun_check_net)
+        check_net.start()
+        self.dictionary = PyDictionary()
+        self.update_text_signal.connect(self.ui_update_text)
+        self.translator = AutoTranslator(who='googletrans',src_lang='en',to_lang='zh-cn')
         # 打开单词数据库
         self.db               = ReadWordFromDB("English.db",EnglishPractice.vocabulary_list[0],EnglishPractice.listening_list[0])
         self.dbTables         = self.db.getTables()
@@ -355,7 +366,43 @@ class EnglishPractice(QWidget):
         self.ui.textEdit_72.textChanged.connect(self.ui_mood72)
         self.ui.textEdit_73.textChanged.connect(self.ui_mood73)
         self.ui.textEdit_74.textChanged.connect(self.ui_mood74)
-
+    def fun_check_net(self):
+        if self.fun_connect_to_youtube():
+            self.netOK = True
+        else:
+            self.netOK = False
+        if self.netOK:
+            self.ui.textBrowser_3.setVisible(True)
+            en_dict = threading.Thread(target=self.fun_online_dictionary,args=(self.currentWord,))
+            en_dict.start()
+            cn_dict = threading.Thread(target=self.fun_online_translate,args=(self.currentWord,))
+            cn_dict.start()
+        else:
+            self.ui.textBrowser_3.setVisible(False)
+                
+    def fun_safe_translate(self,translator, sentence, max_attempts=3):
+        attempt = 0
+        while attempt < max_attempts:
+            try:
+                # 尝试执行翻译操作
+                translation = translator.trans(sentence)
+                return translation  # 如果成功，返回翻译结果
+            except Exception as e:  # 捕获所有异常
+                print(f"Attempt {attempt + 1} failed with error: {e}")
+                attempt += 1  # 增加尝试次数
+        return None
+    def fun_connect_to_youtube(self):
+        try:
+            # 尝试请求YouTube的主页
+            response = requests.get('https://www.youtube.com', timeout=3)
+            # 如果响应状态码为200，返回True
+            if response.status_code == 200:
+                return True
+            else:
+                return False
+        except requests.RequestException:
+            # 如果请求过程中发生异常（如连接错误、超时等），返回False
+            return False
     def ui_oneMean(self):
         EnglishPractice.FORCE_SINGLE_M = self.ui.checkBox_5.isChecked()
         if EnglishPractice.FORCE_SINGLE_M:
@@ -2019,7 +2066,28 @@ class EnglishPractice(QWidget):
             self.ui.pushButton_25.setVisible(True)
         translation_file = sanitize_filename(self.translations.get(self.currentWord) if self.translations.get(self.currentWord) is not None else "All done.")
         if self.f_check_file("wav/"+self.EbbinghausTable+"/translations/"+translation_file+".wav"):
-            self.ui.pushButton_23.setVisible(True)
+            self.ui.pushButton_23.setVisible(True) 
+    def ui_update_text(self, text):
+        """这个方法在主线程中被调用来更新UI"""
+        string = self.ui.textBrowser_3.toPlainText()
+        text = string + text
+        self.ui.textBrowser_3.setText(text)
+    def fun_online_translate(self, text):
+        cn_mean = self.fun_safe_translate(self.translator,text)
+        if cn_mean is not None:
+            self.update_text_signal.emit('中文直译：'+cn_mean+'\n\n')
+    def fun_online_dictionary(self,word):
+        en_mean = ""
+        res= self.dictionary.meaning(word)
+        if res is not None:
+            for i in res:
+                cnt = 0
+                en_mean += i + ":\n"
+                for j in res[i]:
+                    cnt += 1
+                    en_mean += str(cnt) + '. ' + j + '; ' + '\n'
+                en_mean += '\n'
+            self.update_text_signal.emit(en_mean)
     def ui_onTextEditChanged(self):
         '''
         输入单词发生变化时的回调函数。
@@ -2034,6 +2102,11 @@ class EnglishPractice(QWidget):
                 self.speak(self.currentWord, cn_str)
             elif self.ttsMode == 'cn':
                 self.speak_cn(cn_str)
+            if self.netOK:
+                en_dict = threading.Thread(target=self.fun_online_dictionary,args=(self.currentWord,))
+                en_dict.start()
+                cn_dict = threading.Thread(target=self.fun_online_translate,args=(self.currentWord,))
+                cn_dict.start()
         else:
             self.typeCnt += 1
         if self.wordModeLast != self.wordMode:
@@ -2181,6 +2254,7 @@ class EnglishPractice(QWidget):
 
     def ui_onNextClicked(self):
         # 在 p_list 中保存输入内容
+        self.ui.textBrowser_3.clear()
         if self.input_word is not None:
             self.p_list[self.wordIndex*8] = self.input_word.rstrip()+'\n'
         if self.input_sentence is not None:
