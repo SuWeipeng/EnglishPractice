@@ -1063,6 +1063,8 @@ class EnglishPractice(QWidget):
         self.ui.textEdit.clear()
         self.ui.textEdit_2.clear()
         self.ui.textEdit_3.clear()
+        if self.netOK:
+            self.ui.textBrowser_3.clear()
         # 是否显示 Once more
         if self.practiceMode == EnglishPractice.practiceModeList[1]:
             self.ui.pushButton_13.setVisible(True)
