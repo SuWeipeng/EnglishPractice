@@ -2097,6 +2097,7 @@ class EnglishPractice(QWidget):
             self.lastCurrent = self.currentWord
             self.lastInput   = ""
             self.typeCnt     = 0
+            self.ui.checkBox_3.setChecked(False)
             self.ui_ttsVisible()
             cn_str = self.meanings.get(self.currentWord)
             cn_str = self.db.mean_cn(self.currentWord,EnglishPractice.SINGLE_MEAN,cn_str)
