@@ -1226,7 +1226,12 @@ class EnglishPractice(QWidget):
         self.fun_play_wav(wav_file)
 
     def ui_onSentencePrevClicked(self):
-        self.ui.textEdit_4.clear()
+        if self.autoSpeak:
+            if self.autoSpeakIndex > 0:
+                self.ui.textEdit_4.clear()
+        else:
+            if self.listenIndex > 0:
+                self.ui.textEdit_4.clear()
         self.ui_listenTTSVisible()
         if self.autoSpeak:
             if self.autoSpeakIndex > 0:
@@ -1249,6 +1254,16 @@ class EnglishPractice(QWidget):
     def ui_onSentenceNextClicked(self):
         if self.autoSpeak:
             self.user_inputs[self.autoSpeakIndex] = self.input_listening.strip()
+        else:
+            self.user_inputs[self.idxListen] = self.input_listening.strip()
+        if self.autoSpeak:
+            if self.autoSpeakIndex < self.end_idx-self.start_idx:
+                self.ui.textEdit_4.clear()
+        else:
+            if self.listenIndex < self.listenPracticeCnt:
+                self.ui.textEdit_4.clear()
+        self.ui_listenTTSVisible()
+        if self.autoSpeak:
             if self.autoSpeakIndex < self.end_idx-self.start_idx:
                 self.autoSpeakIndex += 1
                 self.ui.progressBar_2.setValue(self.autoSpeakIndex)
@@ -1272,7 +1287,6 @@ class EnglishPractice(QWidget):
                     wav_file = file_path+"/"+sentence_file+".wav"
                     self.fun_play_wav(wav_file)
         else:
-            self.user_inputs[self.idxListen] = self.input_listening.strip()
             if self.listenIndex < self.listenPracticeCnt:
                 self.listenIndex += 1
                 self.idxListen   += 1
@@ -1282,8 +1296,7 @@ class EnglishPractice(QWidget):
                         self.ui.textEdit_4.textCursor().insertText(self.user_inputs[self.idxListen])
             self.ui.progressBar_2.setValue(self.idxListen+1)
             self.ui.textBrowser_2.setText(self.db.getListenTranslation(self.idxListen))
-        self.ui.textEdit_4.clear()
-        self.ui_listenTTSVisible()
+
 
     def on_Timer(self):
         def sanitize_filename(filename):
