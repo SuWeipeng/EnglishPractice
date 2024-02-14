@@ -2,10 +2,32 @@
 fileName       = 'PHRASE'
 
 from modules.FileRead import FileRead
+import os, json
 
-vocabulary = ['IELTS1000','ORCHARD7','ORCHARD6','ORCHARD5','ORCHARD4','ORCHARD3','PHRASE']
-listening  = ['Conversation01','SentenceStructure01','EnglishNews001','Medium01','Medium02',
-              'SimonReading_P1_01','SimonReading_P1_02']
+VocabularyList = []
+ListeningList  = []
+def loadMaterials():
+    global VocabularyList
+    global ListeningList
+    global AutoList
+    try:
+        with open("config/materials.json","r",encoding='utf-8') as file:
+            configDict = json.load(file)
+            if len(configDict) > 0:
+                VocabularyList = configDict.get("vocabulary")
+                ListeningList  = configDict.get("listening")
+    except (RuntimeError, IOError) as e:
+        print(e)
+        #out, err = self._proc.communicate()
+        #raise IOError('Error saving animation to file (cause: {0}) '
+        #          'Stdout: {1} StdError: {2}. It may help to re-run '
+        #          'with --verbose-debug.'.format(e, out, err))
+
+if os.path.exists("config/materials.json"):
+    loadMaterials()
+
+vocabulary = VocabularyList
+listening  = ListeningList
 def main():
     file_type = None
     if fileName in vocabulary:

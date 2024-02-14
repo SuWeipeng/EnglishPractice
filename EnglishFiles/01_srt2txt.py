@@ -4,11 +4,11 @@ from pydub import AudioSegment
 from datetime import datetime
 from AutoTranslator import AutoTranslator
 
-FileName = "Medium02"
+FileName = "US_Beginner01"
 input_f  = FileName + ".srt"
 output_f = FileName + ".txt"
 
-link_base  = 'https://youtu.be/fJTsTmNDsiA?t='
+link_base  = 'https://youtu.be/aWcCqmpY3V8?t='
 src_lang   = 'en'
 to_lang    = 'zh-cn'
 translator = AutoTranslator(who='googletrans',src_lang=src_lang,to_lang=to_lang)

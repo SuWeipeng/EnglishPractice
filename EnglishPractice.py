@@ -19,6 +19,30 @@ import wave
 import requests
 from PyDictionary import PyDictionary
 
+VocabularyList = []
+ListeningList  = []
+AutoList       = []
+def loadMaterials():
+    global VocabularyList
+    global ListeningList
+    global AutoList
+    try:
+        with open("config/materials.json","r",encoding='utf-8') as file:
+            configDict = json.load(file)
+            if len(configDict) > 0:
+                VocabularyList = configDict.get("vocabulary")
+                ListeningList  = configDict.get("listening")
+                AutoList       = configDict.get("auto")
+    except (RuntimeError, IOError) as e:
+        print(e)
+        #out, err = self._proc.communicate()
+        #raise IOError('Error saving animation to file (cause: {0}) '
+        #          'Stdout: {1} StdError: {2}. It may help to re-run '
+        #          'with --verbose-debug.'.format(e, out, err))
+
+if os.path.exists("config/materials.json"):
+    loadMaterials()
+
 class WAV:
     VALID = False
     def __init__(self,wav_folder):
@@ -81,10 +105,9 @@ class EnglishPractice(QWidget):
     06. 与 TTS 相关以               tts_ 开头
     '''
     practiceModeList = ['new','review','ebbinghaus']
-    vocabulary_list  = ['IELTS1000','ORCHARD7','ORCHARD6','ORCHARD5','ORCHARD4','ORCHARD3','PHRASE']
-    listening_list   = ['Conversation01','SentenceStructure01','EnglishNews001','Medium01','Medium02',
-                        'SimonReading_P1_01', 'SimonReading_P1_02']
-    auto_list        = ['Conversation01','SentenceStructure01','Medium01','Medium02']
+    vocabulary_list  = VocabularyList
+    listening_list   = ListeningList
+    auto_list        = AutoList
     verb_tense_01    = ['The rabbit eats carrots.'            ,'The rabbit ate a carrot.'            ,'The rabbit will eat a carrot.'             ,'I said the rabbit would eat a carrot.',
                         'The rabbit is eating a carrot.'      ,'The rabbit was eating a carrot.'     ,'The rabbit will be eating a carrot.'       ,'I said the rabbit would be eating a carrot.',
                         'The rabbit has eaten a carrot.'      ,'The rabbit had eaten a carrot.'      ,'The rabbit will have eaten a carrot.'      ,'I said the rabbit would have eaten a carrot.',
@@ -283,7 +306,6 @@ class EnglishPractice(QWidget):
         self.ui_setWordFromIndex(self.wordIndex)
         # 读取配置文件
         self.noConfigFile = True
-        import os
         if os.path.exists("config/Settings.json"):
             self.ui_loadConfig()
         else:
