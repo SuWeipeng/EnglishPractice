@@ -505,10 +505,10 @@
                 </sizepolicy>
                </property>
                <property name="text">
-                <string>[F9] US</string>
+                <string>[F3] US</string>
                </property>
                <property name="shortcut">
-                <string>F9</string>
+                <string>F3</string>
                </property>
               </widget>
              </item>
@@ -521,10 +521,10 @@
                 </sizepolicy>
                </property>
                <property name="text">
-                <string>[F10] UK</string>
+                <string>[F4] UK</string>
                </property>
                <property name="shortcut">
-                <string>F10</string>
+                <string>F4</string>
                </property>
               </widget>
              </item>
@@ -583,10 +583,10 @@
                 </sizepolicy>
                </property>
                <property name="text">
-                <string>[F11] CN</string>
+                <string>[F5] CN</string>
                </property>
                <property name="shortcut">
-                <string>F11</string>
+                <string>F5</string>
                </property>
               </widget>
              </item>
