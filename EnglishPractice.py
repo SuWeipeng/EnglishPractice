@@ -1440,7 +1440,7 @@ class EnglishPractice(QWidget):
         elif folder_selector == 'british':
             file_path = self.auto_file_path + "/listen_uk"
         
-        self.start_idx = int(self.ui.lineEdit_6.text() if len(self.ui.lineEdit_6.text()) > 0 else 1) - 1
+        self.start_idx = max(int(self.ui.lineEdit_6.text() if len(self.ui.lineEdit_6.text()) > 0 else 1) - 1, 0)
         self.end_idx   = min(int(self.ui.lineEdit_7.text() if len(self.ui.lineEdit_7.text()) > 0 else 1), self.db.getListenContent(self.ui.comboBox_4.currentText())) - 1
         if self.start_idx >=0 and self.start_idx <= self.end_idx:
             self.db.getListenContent(self.ui.comboBox_4.currentText())
