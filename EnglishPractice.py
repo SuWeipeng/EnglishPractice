@@ -1441,7 +1441,7 @@ class EnglishPractice(QWidget):
             file_path = self.auto_file_path + "/listen_uk"
         
         self.start_idx = int(self.ui.lineEdit_6.text() if len(self.ui.lineEdit_6.text()) > 0 else 1) - 1
-        self.end_idx   = int(self.ui.lineEdit_7.text() if len(self.ui.lineEdit_7.text()) > 0 else 1) - 1
+        self.end_idx   = min(int(self.ui.lineEdit_7.text() if len(self.ui.lineEdit_7.text()) > 0 else 1), self.db.getListenContent(self.ui.comboBox_4.currentText())) - 1
         if self.start_idx >=0 and self.start_idx <= self.end_idx:
             self.db.getListenContent(self.ui.comboBox_4.currentText())
             if self.ui.progressBar_2.value() == 0:
@@ -1466,9 +1466,8 @@ class EnglishPractice(QWidget):
             self.ui.groupBox_23.setVisible(True)
             self.auto_file_path = "wav/" + self.ui.comboBox_4.currentText()
             file_path = self.auto_file_path + "/translations"
-            self.countNum = self.wav.count_wav_files(file_path)
-            self.ui.label_101.setText(str(self.countNum))
-            self.ui.lineEdit_7.setText(str(self.countNum))
+            self.ui.label_101.setText(str(self.db.getListenContent(self.ui.comboBox_4.currentText())))
+            self.ui.lineEdit_7.setText(str(self.db.getListenContent(self.ui.comboBox_4.currentText())))
         else:
             self.ui.groupBox_23.setVisible(False)
     
