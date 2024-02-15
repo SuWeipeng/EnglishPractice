@@ -606,6 +606,13 @@
           </widget>
          </item>
          <item>
+          <widget class="QLabel" name="label_117">
+           <property name="text">
+            <string>1</string>
+           </property>
+          </widget>
+         </item>
+         <item>
           <widget class="QProgressBar" name="progressBar_2">
            <property name="value">
             <number>24</number>

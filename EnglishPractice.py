@@ -1137,6 +1137,7 @@ class EnglishPractice(QWidget):
         self.ui.progressBar_2.setMaximum(int(self.ui.lineEdit_3.text().strip()))
         self.listenPracticeCnt = int(self.ui.lineEdit_3.text().strip()) - int(self.ui.lineEdit_2.text().strip())
         self.ui.progressBar_2.setValue(self.idxListen+1)
+        self.ui.label_117.setText(str(self.idxListen+1))
         self.ui.textBrowser_2.setText(self.db.getListenTranslation(self.idxListen))
         self.ui.textEdit_4.clear()
         self.ui.tabWidget.setCurrentIndex(1)
@@ -1240,6 +1241,7 @@ class EnglishPractice(QWidget):
                 if len(self.user_inputs[self.autoSpeakIndex]) > 0:
                     self.ui.textEdit_4.textCursor().insertText(self.user_inputs[self.autoSpeakIndex])
                 self.ui.progressBar_2.setValue(self.autoSpeakIndex)
+                self.ui.label_117.setText(str(int(self.ui.lineEdit_6.text().strip()) + self.autoSpeakIndex))
                 self.ui.textBrowser_2.setText(self.autoSpeakTranslations[self.autoSpeakIndex])
         else:
             if self.listenIndex > 0:
@@ -1249,6 +1251,7 @@ class EnglishPractice(QWidget):
             if len(self.user_inputs[self.idxListen]) > 0:
                 self.ui.textEdit_4.textCursor().insertText(self.user_inputs[self.idxListen])
             self.ui.progressBar_2.setValue(self.idxListen+1)
+            self.ui.label_117.setText(str(self.idxListen+1))
             self.ui.textBrowser_2.setText(self.db.getListenTranslation(self.idxListen))
 
     def ui_onSentenceNextClicked(self):
@@ -1267,11 +1270,11 @@ class EnglishPractice(QWidget):
             if self.autoSpeakIndex < self.end_idx-self.start_idx:
                 self.autoSpeakIndex += 1
                 self.ui.progressBar_2.setValue(self.autoSpeakIndex)
+                self.ui.label_117.setText(str(int(self.ui.lineEdit_6.text().strip()) + self.autoSpeakIndex))
                 self.currentListening = self.autoSpeakSentences[self.autoSpeakIndex]
                 if self.user_inputs.get(self.autoSpeakIndex) is not None:
                     if len(self.user_inputs[self.autoSpeakIndex]) > 0:
                         self.ui.textEdit_4.textCursor().insertText(self.user_inputs[self.autoSpeakIndex])
-                self.ui.progressBar_2.setValue(self.autoSpeakIndex)
                 if not self.autoPlay:
                     self.ui.textBrowser_2.setText(self.autoSpeakTranslations[self.autoSpeakIndex])
                     def sanitize_filename(filename):
@@ -1295,6 +1298,7 @@ class EnglishPractice(QWidget):
                     if len(self.user_inputs[self.idxListen]) > 0:
                         self.ui.textEdit_4.textCursor().insertText(self.user_inputs[self.idxListen])
             self.ui.progressBar_2.setValue(self.idxListen+1)
+            self.ui.label_117.setText(str(self.idxListen+1))
             self.ui.textBrowser_2.setText(self.db.getListenTranslation(self.idxListen))
 
 
@@ -1376,6 +1380,7 @@ class EnglishPractice(QWidget):
         self.listenPracticeCnt = int(self.ui.lineEdit_7.text().strip()) - int(self.ui.lineEdit_6.text().strip())
         self.fun_calcDuration()
         self.ui.progressBar_2.setValue(self.autoSpeakIndex)
+        self.ui.label_117.setText(str(int(self.ui.lineEdit_6.text().strip()) + self.autoSpeakIndex))
         self.ui.textBrowser_2.clear()
         self.ui.textEdit_4.clear()
         self.ui.tabWidget.setCurrentIndex(1)
@@ -1402,6 +1407,7 @@ class EnglishPractice(QWidget):
         self.listenPracticeCnt = int(self.ui.lineEdit_7.text().strip()) - int(self.ui.lineEdit_6.text().strip())
         self.fun_calcDuration()
         self.ui.progressBar_2.setValue(self.autoSpeakIndex)
+        self.ui.label_117.setText(str(int(self.ui.lineEdit_6.text().strip()) + self.autoSpeakIndex))
         self.ui.textBrowser_2.setText(self.autoSpeakTranslations[self.autoSpeakIndex])
         self.ui.textEdit_4.clear()
         self.ui.tabWidget.setCurrentIndex(1)
