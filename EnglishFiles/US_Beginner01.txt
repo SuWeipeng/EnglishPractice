@@ -1112,7 +1112,7 @@ https://youtu.be/aWcCqmpY3V8?t=3413
 Do you have any fresh basil?
 你有新鲜的罗勒吗？
 https://youtu.be/aWcCqmpY3V8?t=3417
-Yes, it's in the herbs section.
+Yes, it's in the herb section.
 是的，它在草药区。
 https://youtu.be/aWcCqmpY3V8?t=3437
 Can I get a rain check for the sold out item?
@@ -1157,7 +1157,7 @@ https://youtu.be/aWcCqmpY3V8?t=3635
 Do you have any fresh mint?
 你有新鲜薄荷吗？
 https://youtu.be/aWcCqmpY3V8?t=3635
-Yes, it's in the herbs section.
+Yes, it's in the herb section.
 是的，它在草药区。
 https://youtu.be/aWcCqmpY3V8?t=3659
 Can I get a rain check for this discontinued item?
@@ -1201,6 +1201,9 @@ Yes, it's grass-fed beef.
 https://youtu.be/aWcCqmpY3V8?t=3852
 Do you have any fresh parsley?
 你有新鲜的欧芹吗？
+https://youtu.be/aWcCqmpY3V8?t=3852
+Yes, it's in the herb section.
+是的，它在草药区。
 https://youtu.be/aWcCqmpY3V8?t=3878
 Can I get a rain check for this out-of-stock item?
 我可以为这款缺货商品申请延期付款吗？
