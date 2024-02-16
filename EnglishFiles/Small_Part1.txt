@@ -1,0 +1,93 @@
+191
+There's a small chicken on the floor.
+地板上有一只小鸡
+192
+There's a little chicken on the floor.
+地板上有一只小鸡
+226
+There's a little cat on the floor.
+地板上有一只小猫
+227
+There's a small cat on my desk.
+我桌上有只小猫
+280
+I have a small problem with that policy.
+我对那个政策有个小小的意见
+344
+I have a little problem with that policy.
+我对那个方案有个小小的意见
+420
+I watched TV when I was little.
+我小时候看电视
+459
+My sister watched TV all the time when she was little.
+我姐姐小时候一直看电视
+477
+My sister watched TV sometimes when she was little.
+我姐姐小时候有时会看电视
+496
+My sister watched TV all the time when she was a kid.
+我姐姐小时候一直看电视
+545
+My sister watched TV all the time in her childhood.
+我姐姐小时候一直看电视
+608
+That ant is tiny.
+那只蚂蚁很小
+631
+That grain of sand is tiny.
+那粒沙子好小
+660
+He's got a tiny car.
+（天啊）他（怎么）有那么小的车子。
+739
+tiny little
+（加重小的语气）
+743
+He's got a tiny little car.
+他有一辆小汽车
+761
+He's got a tiny little brain.
+他有一个小小的大脑
+772
+Can I ask you a tiny little favor?
+我可以请你帮个小忙吗
+776
+Can I ask you a favor?
+可以请你帮个忙吗
+816
+Can you do me a tiny little favor?
+你能帮我一个小忙吗
+828
+Can you do me a favor?
+你可以帮我个忙吗
+902
+I'll see you in three minutes.
+三分钟后见
+904
+Can I take a minute?
+我可以花一分钟吗
+907
+How long will that take?
+多久才能做到
+909
+Five minutes.
+5分钟
+936
+I can see a minute speck of dust there.
+我可以看到那里有一粒微小的灰尘
+975
+There's a tiny speck of dust here.
+这里有一粒小小的灰尘
+1003
+He explained quantum mechanics in minute detail.
+他非常详细地解释了量子力学
+1185
+The animal had minuscule hairs covering its body.
+这种动物有细小的毛发覆盖它的身体
+1213
+The change in the economy over the past three years is minuscule.
+近三年的经济变化微乎其微
+1249
+The change in my body weight over the past two months has been minuscule.
+过去两个月我的体重变化微乎其微

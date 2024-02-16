@@ -3,12 +3,13 @@ import os, re
 from pydub import AudioSegment
 from datetime import datetime
 from AutoTranslator import AutoTranslator
+import string
 
-FileName = "US_Beginner01"
+FileName = "Small_Part2"
 input_f  = FileName + ".srt"
 output_f = FileName + ".txt"
 
-link_base  = 'https://youtu.be/aWcCqmpY3V8?t='
+link_base  = ''
 src_lang   = 'en'
 to_lang    = 'zh-cn'
 translator = AutoTranslator(who='googletrans',src_lang=src_lang,to_lang=to_lang)
@@ -17,6 +18,13 @@ sentences    = []
 translations = []
 links        = []
 valid_links  = []
+
+def is_english_line(line):
+    # 定义允许的英文字符和一些基本标点符号
+    allowed_chars = string.ascii_letters + string.digits + string.whitespace + ".!?,'\"-"
+
+    # 检查每个字符是否都在允许的字符集中
+    return all(char in allowed_chars for char in line)
 
 def safe_translate(translator, sentence, max_attempts=3):
     attempt = 0
@@ -30,7 +38,8 @@ def safe_translate(translator, sentence, max_attempts=3):
             attempt += 1  # 增加尝试次数
 
     # 如果所有尝试都失败了，可以选择抛出异常或返回一个错误信息
-    raise Exception(f"Failed to translate after {max_attempts} attempts")
+    #raise Exception(f"Failed to translate after {max_attempts} attempts")
+    print("!!!!!!! " + sentence + " !!!!!!! " + " traslate faild.")
 
 def get_start_time_s(text):
     res = 0
@@ -53,7 +62,7 @@ with open(input_f,"r",encoding='utf-8') as file:
             print(link)
         if (i-2)%4 == 0 and i >= 2:
             sentence = line.strip()
-            if sentence not in sentences and len(sentence) > 0:
+            if sentence not in sentences and len(sentence) > 0 and is_english_line(sentence):
                 sentences.append(sentence)
                 trans = safe_translate(translator, sentence)
                 translations.append(trans)
