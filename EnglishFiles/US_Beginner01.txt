@@ -406,6 +406,9 @@ What's wrong?
 https://youtu.be/aWcCqmpY3V8?t=1526
 I'm feeling a bit down.
 我心情有点低落。
+https://youtu.be/aWcCqmpY3V8?t=1534
+What are you doing?
+你在干什么？
 https://youtu.be/aWcCqmpY3V8?t=1538
 I'm reading a book.
 我在读一本书。
@@ -1135,6 +1138,9 @@ Yes, it's one of our best sellers.
 https://youtu.be/aWcCqmpY3V8?t=3524
 Do you sell lactose-free milk?
 你们卖无乳糖牛奶吗？
+https://youtu.be/aWcCqmpY3V8?t=3524
+Yes, it's in the dairy alternatives section.
+是的，它在乳制品替代品部分。
 https://youtu.be/aWcCqmpY3V8?t=3552
 Where can I find the potato chips?
 哪里可以找到薯片？
@@ -1180,6 +1186,9 @@ Yes, it's quite popular among customers.
 https://youtu.be/aWcCqmpY3V8?t=3747
 Do you sell lactose-free yogurt?
 你们卖无乳糖酸奶吗？
+https://youtu.be/aWcCqmpY3V8?t=3750
+Yes, it's in the dairy alternatives section.
+是的，它在乳制品替代品部分。
 https://youtu.be/aWcCqmpY3V8?t=3776
 Where can I find the ice pops?
 我在哪里可以找到冰棒？
