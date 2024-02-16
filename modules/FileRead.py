@@ -107,6 +107,10 @@ class FileRead:
                                             self.translation,
                                             replace)
         self.db.to_disk()
+    def createTable(self,tableName):
+        self.db.createTableListening(tableName)
+    def deleteTable(self,tableName):
+        self.db.deleteTable(tableName)
     def dbg(self):
         '''
         打印一些用于 Debug 信息。
