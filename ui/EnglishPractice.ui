@@ -620,6 +620,16 @@
           </widget>
          </item>
          <item>
+          <widget class="QPushButton" name="pushButton_32">
+           <property name="text">
+            <string>[F1] Save</string>
+           </property>
+           <property name="shortcut">
+            <string>F1</string>
+           </property>
+          </widget>
+         </item>
+         <item>
           <widget class="QPushButton" name="pushButton_31">
            <property name="enabled">
             <bool>true</bool>

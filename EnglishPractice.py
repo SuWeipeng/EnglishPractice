@@ -211,6 +211,7 @@ class EnglishPractice(QWidget):
             self.ui.pushButton_29.clicked.connect(self.ui_dictationGoClicked)
             self.ui.pushButton_30.clicked.connect(self.ui_autoPlayClicked)
             self.ui.pushButton_31.clicked.connect(self.ui_autoPauseClicked)
+            self.ui.pushButton_32.clicked.connect(self.ui_saveAutoClicked)
             self.ui.comboBox_4.addItems(EnglishPractice.auto_list)
             self.ui.lineEdit_8.textChanged.connect(self.ui_calcExerciseDuration)
             self.fun_initAuto()
@@ -1128,6 +1129,7 @@ class EnglishPractice(QWidget):
             self.autoTimer.stop()
             self.autoTimerState = False
         self.ui.pushButton_31.setVisible(False)
+        self.ui.pushButton_32.setVisible(False)
         self.ui_setAutoPlayVisible(True)
         self.autoSpeak = False
         self.user_inputs = {}
@@ -1356,6 +1358,15 @@ class EnglishPractice(QWidget):
         self.ui.pushButton_12.setVisible(visible)
         self.ui.pushButton_14.setVisible(visible)
 
+    def ui_saveAutoClicked(self):
+        def NL(text):
+            return text + '\n'
+        with open('EnglishFiles/sentences.txt', 'a', encoding='utf-8') as file:
+            # 向文件中追加内容
+            file.write(NL(self.db.getListenTable()))
+            file.write(NL(self.currentListening))
+            file.write(NL(self.autoSpeakTranslations[self.autoSpeakIndex]))
+
     def ui_autoPauseClicked(self):
         if self.autoTimerState:
             self.autoTimer.stop()
@@ -1368,6 +1379,7 @@ class EnglishPractice(QWidget):
         
     def ui_autoPlayClicked(self):
         self.ui.pushButton_31.setVisible(True)
+        self.ui.pushButton_32.setVisible(False)
         self.ui_setAutoPlayVisible(False)
         self.autoSpeak = True
         self.autoPlay  = True
@@ -1395,6 +1407,7 @@ class EnglishPractice(QWidget):
         self.autoTimer.stop()
         self.autoTimerState = False
         self.ui.pushButton_31.setVisible(False)
+        self.ui.pushButton_32.setVisible(True)
         self.ui_setAutoPlayVisible(True)
         self.ui_setDictationVisible(False)
         self.autoSpeak = True
@@ -2376,6 +2389,7 @@ class EnglishPractice(QWidget):
             self.autoTimer.stop()
             self.autoTimerState = False
         self.ui.pushButton_31.setVisible(False)
+        self.ui.pushButton_32.setVisible(False)
         self.ytb.open_youtube(self.ui.lineEdit_5.text().strip())
 
     def ui_againClicked(self):

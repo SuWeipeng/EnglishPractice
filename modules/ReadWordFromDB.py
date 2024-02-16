@@ -189,6 +189,8 @@ class ReadWordFromDB:
         return self.id_translation[id]
     def getAllWords(self):
         return self.words
+    def getListenTable(self):
+        return self.listenTable
 
 def main():
     wordTable = 'IELTS1000'

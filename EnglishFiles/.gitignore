@@ -3,6 +3,7 @@ __pycache__/*
 *_Repeat_p.txt
 filter_us.txt
 filter_uk.txt
+sentences.txt
 *.srt
 IELTS1000/*
 ORCHARD3/*
