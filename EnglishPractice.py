@@ -1302,7 +1302,7 @@ class EnglishPractice(QWidget):
             self.ui.progressBar_2.setValue(self.idxListen+1)
             self.ui.label_117.setText(str(self.idxListen+1))
             self.ui.textBrowser_2.setText(self.db.getListenTranslation(self.idxListen))
-
+        self.ui_onListeningPageChanged()
 
     def on_Timer(self):
         def sanitize_filename(filename):
