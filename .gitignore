@@ -1,4 +1,5 @@
 *.prc
+.vscode/*
 __pycache__/*
 modules/__pycache__/*
 EnglishFiles/words.txt
