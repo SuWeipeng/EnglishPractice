@@ -1291,6 +1291,7 @@ class EnglishPractice(QWidget):
                         file_path = self.auto_file_path + "/listen_uk"
                     wav_file = file_path+"/"+sentence_file+".wav"
                     self.fun_play_wav(wav_file)
+                self.ui_onListeningPageChanged()
         else:
             if self.listenIndex < self.listenPracticeCnt:
                 self.listenIndex += 1
@@ -1299,10 +1300,11 @@ class EnglishPractice(QWidget):
                 if self.user_inputs.get(self.idxListen) is not None:
                     if len(self.user_inputs[self.idxListen]) > 0:
                         self.ui.textEdit_4.textCursor().insertText(self.user_inputs[self.idxListen])
+                self.ui_onListeningPageChanged()
             self.ui.progressBar_2.setValue(self.idxListen+1)
             self.ui.label_117.setText(str(self.idxListen+1))
             self.ui.textBrowser_2.setText(self.db.getListenTranslation(self.idxListen))
-        self.ui_onListeningPageChanged()
+        
 
     def on_Timer(self):
         def sanitize_filename(filename):
@@ -1505,6 +1507,7 @@ class EnglishPractice(QWidget):
         输入听到的句子发生变化时的回调函数。
         '''
         self.input_listening = self.ui.textEdit_4.toPlainText()
+        
         replace_pos, delete_pos, insert_pos = self.fun_diffWord(self.input_listening, self.currentListening)
 
         # 修改窗口的提示
