@@ -14,7 +14,7 @@ def create_folder(folder_path):
         print(f"Folder '{folder_path}' already exists.")
 
 def check_file(file_path):
-    if os.path.exists(file_path) and not CHECK_FILE:
+    if os.path.exists(file_path):
         print(f"File '{file_path}' already exists. Skipping...")
         return True
     else:

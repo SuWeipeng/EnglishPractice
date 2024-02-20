@@ -1409,7 +1409,10 @@ class EnglishPractice(QWidget):
         self.autoTimer.stop()
         self.autoTimerState = False
         self.ui.pushButton_31.setVisible(False)
-        self.ui.pushButton_32.setVisible(True)
+        if self.db.getListenTable() != 'sentences':
+            self.ui.pushButton_32.setVisible(True)
+        else:
+            self.ui.pushButton_32.setVisible(False)
         self.ui_setAutoPlayVisible(True)
         self.ui_setDictationVisible(False)
         self.autoSpeak = True
