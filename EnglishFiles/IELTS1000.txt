@@ -1955,7 +1955,7 @@ Famine and war still afflict a large number of people.
 饥荒和战争仍折磨着许多人。
 clone
 /kloʊn/
-v. 复制; n. 制制品
+v. 复制; n. 复制品
 It's been a debate if it's right to clone an individual.
 复制人类是对是错，一直存在争议。
 data
@@ -2290,7 +2290,7 @@ A proton has a positive charge.
 质子带正电荷。
 replicate
 /ˈrep.lɪ.keɪt/
-v. 制制，重复；自我复制
+v. 复制，重复；自我复制
 The study tried to replicate real-life situations.
 这项研究试图复制现实生活中的情况。
 survive
