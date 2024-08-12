@@ -526,7 +526,7 @@ I'd like to propose a toast to the groom.
 lecturer
 /ˈlek.tʃər.ər/
 n. （大学）讲师
-He's a lecture in English at Harvard.
+He's a lecturer in English at Harvard.
 他是哈佛的英文讲师。
 nuclear
 /ˈnjuː.kli.ər/
@@ -1151,7 +1151,7 @@ We are not sure what your underlying motives are.
 bartender
 /ˈbɑːr.ten.dər/
 n. 调酒师，酒保
-I work as a part-time barthender.
+I work as a part-time bartender.
 我兼职做调酒师。
 concentration
 /ˌkɒn.senˈtreɪ.ʃən/
@@ -2701,7 +2701,7 @@ How dare you threaten me?
 bear
 /bɛər/
 v. 承受
-He can't bare criticism.
+He can't bear criticism.
 他无法承受批评。
 conference
 /ˈkɒnfərəns/
@@ -3091,7 +3091,7 @@ You are paid your portion not later than a week.
 satisfaction
 /ˌsætɪsˈfækʃən/
 n. 满意，满足
-This meal gave me a feeling of satisfaciton.
+This meal gave me a feeling of satisfaction.
 这顿饭让我有种满足的感觉。
 theme
 /θiːm/
@@ -3456,7 +3456,7 @@ I plan to work in agriculture after graduation.
 butt
 /bʌt/
 n. 屁股；烟蒂；（来福枪）枪托 v. 用头（或角）顶
-Loot at my butt. Can you tell I've been working out?
+Look at my butt. Can you tell I've been working out?
 看看我的屁股，看得出来我有在健身吗？
 crawl
 /krɔːl/
