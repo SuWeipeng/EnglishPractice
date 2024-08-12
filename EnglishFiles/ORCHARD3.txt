@@ -468,8 +468,8 @@ discover
 v. 发现
 Christopher Columbus discovered America in 1492.
 哥伦布在 1492 年发现了美洲。
-follwer
-/ˈfɒləʊər/
+follower
+/ˈfɒl.əʊ.ər/
 n. 追随者，支持者，信徒
 The singer has over one million followers on Instagram.
 这位歌手在 Instagram 上有超过一百万名追随者。
@@ -899,7 +899,7 @@ v. 吼叫；叫喊 n. 吼叫；叫喊
 The woman yelled at her children.
 那个女人对她的孩子大吼。
 bless
-/jɛl/
+/bles/
 v. 祝福；保佑
 May God bless you with a long life!
 愿上帝保佑您长寿！
@@ -2068,7 +2068,7 @@ gap
 n. 缺口，间距；差距，隔阂
 Please mind the gap between the train and the platform.
 请小心火车与月台间的间隙。
-ivitation
+invitation
 /ˌɪnvɪˈteɪʃən/
 n. 邀请；征求；招致；邀请函
 She accepted his invitation to the ball.
@@ -2085,7 +2085,7 @@ He takes great pleasure in playing golf.
 打高尔夫球对他而言是一大乐事。
 sensitive
 /ˈsɛnsɪtɪv/
-adj. 敏感的；录敏的
+adj. 敏感的；灵敏的
 Joanne is sensitive to other people's emotions.
 Joanne 对别人的情绪很敏感。
 survive
@@ -2203,8 +2203,8 @@ belly
 n. 肚子；腹部
 Stop eating so much, or you will have a big belly.
 别再吃那么多了，不然你会长出大肚子。
-conert
-/ˈkɒnsət/
+concert
+/ˈkɒn.sərt/
 n. 演唱会，音乐会
 Do you want to go to the concert with me?
 你想和我一起去看演唱会吗？
@@ -3390,7 +3390,7 @@ The unemployment rate rose a lot last month.
 上个月的失业率上升很多。
 southwest
 /ˌsaʊθˈwɛst/
-n. 丁南方 adj. 在西南的；向西南的 adv. 向西南
+n. 东南方 adj. 在西南的；向西南的 adv. 向西南
 Spain lies to the southwest of France.
 西班牙位于法国的西南方。
 throughout
@@ -3478,7 +3478,7 @@ mostly
 adv. 大多
 She mostly eats out.
 她大多都在外面用餐。
-pricipal
+principal
 /ˈprɪnsəpəl/
 n. 中小学校长；本金 adj. 首要的；最重要的
 Tommy has worked as a principal for 30 years.
@@ -3758,7 +3758,7 @@ chilly
 adj. 寒冷的；冷淡的
 The bathroom gets chilly in the evening.
 浴室在晚上变得很冷。
-dscount
+discount
 /ˈdɪskaʊnt/
 n. 打折 v. 打折；忽略
 The restaurant offers a 10 percent discount for th elderly.
@@ -4860,9 +4860,9 @@ The delay of the products will be costly for the company.
 产品延迟将使公司付出昂贵的代价。
 energetic
 /ˌɛnərˈdʒɛtɪk/
-adj. 精力流沛的
+adj. 精力充沛的
 Kim is an energetic young girl.
-Kim 是个精力流沛的年轻女孩。
+Kim 是个精力充沛的年轻女孩。
 hammer
 /ˈhæmər/
 n. 锤子，锤 v. 敲打；击败；严厉批评
