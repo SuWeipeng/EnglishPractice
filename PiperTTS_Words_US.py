@@ -1,13 +1,12 @@
-import torch, re, os
-from TTS.api import TTS
+import re, os
 import requests
 
-FileName = "ORCHARD4"
+FileName = "ORCHARD3"
 wordFile = "EnglishFiles/" + FileName + ".txt"
 
 CHECK_FILE = False
 
-urlPiper = "http://localhost:5000"
+urlPiper = "http://192.168.5.3:5000"
 
 def sanitize_filename(filename):
     sanitized = re.sub(r'[\<\>:"/|?*]', '_', filename)
