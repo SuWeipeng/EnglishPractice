@@ -4,15 +4,20 @@ from cosyvoice.cli.cosyvoice import CosyVoice, CosyVoice2
 from cosyvoice.utils.file_utils import load_wav
 import torchaudio
 
-cosyvoice = CosyVoice('pretrained_models/CosyVoice-300M-SFT')
-
 FileName = "IELTS1000"
 wordFile = "EnglishFiles/" + FileName + ".txt"
+
+cosyvoice = CosyVoice('pretrained_models/CosyVoice-300M-SFT')
+cosyvoice2 = CosyVoice2('pretrained_models/CosyVoice2-0.5B', load_jit=False, load_trt=False, fp16=False)
+# NOTE if you want to reproduce the results on https://funaudiollm.github.io/cosyvoice2, please add text_frontend=False during inference
+# zero_shot usage
+prompt_speech_16k_en = load_wav('./asset/cross_lingual_prompt.wav', 16000)
+prompt_speech_16k_cn = load_wav('./asset/zero_shot_prompt.wav', 16000)
 
 WORD_UK = False
 WORD_US = False
 WORD_CN = True
-SENTENCE_UK = False
+SENTENCE_UK = True
 SENTENCE_US = True
 TRANSLATION = True
 
@@ -28,7 +33,6 @@ def replace_ellipsis(text):
     # 使用正则表达式将 ... 替换为 "什么什么"
     return re.sub(r'\.{3}', '"什么什么"', text)
 
-print(replace_ellipsis('证明...正常'))
 def sanitize_filename(filename):
     sanitized = re.sub(r'[\<\>:"/|?*]', '_', filename)
     return sanitized
@@ -58,6 +62,7 @@ def split_by_cn(cn):
     for r in range(num_l):
         res.append(l[r])
     return res
+
 def split_by_space(mean):
     res = []
     l = mean.replace(';', ' ')
@@ -77,15 +82,20 @@ def split_by_space(mean):
 
 def gtts_wav(text, out_path, lang='en-us'):
     output_path = out_path + ".wav"
-    if lang == 'en-us' or lang == 'en-uk':
+    if lang == 'en-us':
         for i, j in enumerate(cosyvoice.inference_sft(text, '英文女', stream=False, speed=0.95)):
+            torchaudio.save(output_path.format(i), j['tts_speech'], cosyvoice.sample_rate)
+    if lang == 'en-uk':
+        for i, j in enumerate(cosyvoice2.inference_cross_lingual(text, prompt_speech_16k_en, stream=False, speed=0.95)):
             torchaudio.save(output_path.format(i), j['tts_speech'], cosyvoice.sample_rate)
     elif lang == 'zh-cn':
         for i, j in enumerate(cosyvoice.inference_sft(replace_ellipsis(text), '中文女', stream=False, speed=1.0)):
             torchaudio.save(output_path.format(i), j['tts_speech'], cosyvoice.sample_rate)
     elif lang == 'zh-cn-sentence':
-        for i, j in enumerate(cosyvoice.inference_sft(remove_spaces(text), '英文男', stream=False, speed=1.25)):
+        for i, j in enumerate(cosyvoice2.inference_cross_lingual(remove_spaces(text), prompt_speech_16k_cn, stream=False, speed=1.25)):
             torchaudio.save(output_path.format(i), j['tts_speech'], cosyvoice.sample_rate)
+        #for i, j in enumerate(cosyvoice.inference_sft(remove_spaces(text), '英文男', stream=False, speed=1.25)):
+        #    torchaudio.save(output_path.format(i), j['tts_speech'], cosyvoice.sample_rate)
 
 # 创建一个空列表来存储单词
 words_us = []

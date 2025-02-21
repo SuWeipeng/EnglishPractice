@@ -837,7 +837,7 @@ pollutant
 /pəˈluː.tənt/
 n. 污染物，污染物质
 Sulphur dioxide is pollutant that causes acid rain.
-二氧化硫是导致致雨的污染物。
+二氧化硫是导致酸雨的污染物。
 remove
 /rɪˈmuːv/
 v. 去除；移开；免职
@@ -3255,7 +3255,7 @@ The team leader makes unpredictable and arbitrary decisions.
 这名团队领导人总是做一些难预测的武断决定。
 concern
 /kənˈsɝːn/
-v. 与...相关; n. 使但心，担心，关心的事
+v. 与...相关; n. 使担心，担心，关心的事
 Pay attention because this information concerns all of us.
 请注意，因为这项资讯跟我们所有人相关。
 detergent
